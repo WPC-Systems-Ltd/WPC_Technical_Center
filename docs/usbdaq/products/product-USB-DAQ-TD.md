@@ -1,7 +1,10 @@
 ---
 title: USB-DAQ-TD
-sidebar_position: 7
+sidebar_position: 5
 ---
+
+USB-DAQ-TD 專為溫度量測設計，提供 **4 通道熱電偶輸入**，支援 **K, J, N, R, S, T, E, B** 八種型號，量測範圍 **-210°C ~ 1800°C**，內建冷接點補償與50/60Hz雜訊濾波。
+
 # USB-DAQ-TD
 
 ### 產品特色

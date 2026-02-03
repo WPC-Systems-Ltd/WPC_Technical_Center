@@ -1,7 +1,10 @@
 ---
 title: USB-DAQ-D
-sidebar_position: 5
+sidebar_position: 3
 ---
+
+USB-DAQ-D 專為數位訊號處理設計，提供 **20 通道 3.3V 數位 I/O**（5V 耐壓），支援 **I2C/SPI/UART/PWM/計數器**，適合邏輯控制與感測器介接應用。
+
 # USB-DAQ-D
 
 ### 產品特色

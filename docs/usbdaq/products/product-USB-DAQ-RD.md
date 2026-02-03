@@ -2,6 +2,9 @@
 title: USB-DAQ-RD
 sidebar_position: 6
 ---
+
+USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-bit** 解析度，溫度解析度達 **0.03125°C**，總準確度 **0.05%**，適用於高精度溫度監控。
+
 # USB-DAQ-RD
 
 ### 產品特色

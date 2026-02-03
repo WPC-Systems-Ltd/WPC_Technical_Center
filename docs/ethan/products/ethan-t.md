@@ -1,7 +1,9 @@
 ---
 title: Ethan-T
-sidebar_position: 10
+sidebar_position: 7
 ---
+
+Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 **K, J, N, R, S, T, E, B** 八種熱電偶型號，量測範圍 **-210°C ~ 1800°C**，內建冷接點補償。
 
 ### 產品外觀
 

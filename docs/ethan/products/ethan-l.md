@@ -3,6 +3,8 @@ title: Ethan-L
 sidebar_position: 7
 ---
 
+Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form-C 轉換接點），額定電流 **2A**，最高切換電壓 **250VAC / 220VDC**，適用於高功率負載控制。
+
 ### 產品外觀
 
 ---

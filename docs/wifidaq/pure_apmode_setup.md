@@ -1,6 +1,7 @@
 ---
 title: 網路連線設定 (AP Mode)
 sidebar_position: 3
+description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置熱點 (192.168.4.1) → 選擇路由器 → 儲存重啟
 ---
 
 # 網路連線設定 (AP Mode)

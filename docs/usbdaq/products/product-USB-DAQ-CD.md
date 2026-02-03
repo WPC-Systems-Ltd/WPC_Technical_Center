@@ -1,7 +1,10 @@
 ---
 title: USB-DAQ-CD
-sidebar_position: 3
+sidebar_position: 7
 ---
+
+USB-DAQ-CD 提供 **CAN 2.0A/B 通訊介面**，支援最高 **1Mbps** 傳輸速率，整合 **20 通道數位 I/O**，適用於車載網路、工業自動化與設備間通訊應用。
+
 # USB-DAQ-CD
 
 ### 產品特色

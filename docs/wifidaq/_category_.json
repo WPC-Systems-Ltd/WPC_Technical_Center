@@ -1,11 +1,11 @@
 {
-    "label": "WIFI-DAQ 系列",
+    "label": "WIFI-DAQ 使用說明書",
     "position": 3,
     "collapsed": true,
     "link": {
         "type": "generated-index",
         "slug": "wifi-daq",
-        "title": "WIFI-DAQ 手冊總覽",
+        "title": "WIFI-DAQ 使用說明書",
         "description": "這裡是 WPC 所有無線數據採集卡的技術文件中心。"
     }
 }

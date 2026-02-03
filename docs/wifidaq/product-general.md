@@ -1,6 +1,7 @@
 ---
 title: 產品總覽
 sidebar_position: 1
+description: 4 款無線 DAQ 型號規格比較：E3-A/AH/AO (10kHz)、F4-A (20kHz)，部分整合 9DoF IMU 姿態感測
 ---
 
 

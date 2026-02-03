@@ -1,6 +1,7 @@
 ---
 title: 產品尺寸圖
 sidebar_position: 3
+description: 各型號 2D 工程圖：AD/AOD/RD/CD 系列、D/D-SNK 系列、TD 系列三種外觀尺寸規格
 ---
 
 ### 2D 產品尺寸圖

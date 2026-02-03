@@ -3,6 +3,8 @@ title: USB-DAQ-AD
 sidebar_position: 1
 ---
 
+USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 **16kHz**，整合 **20 通道數位 I/O** 與多種通訊協定（I2C/SPI/UART），USB 匯流排供電免外接電源。
+
 ### 產品特色
 ---
 

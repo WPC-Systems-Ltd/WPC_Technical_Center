@@ -2,6 +2,9 @@
 title: USB-DAQ-D-SNK
 sidebar_position: 4
 ---
+
+USB-DAQ-D-SNK 提供工業級 **24V 隔離數位 I/O**（8 DI + 8 DO），具備 **2.5kV 光電隔離**保護，輸出額定電流達 **300mA**（NPN汲入式），專為嚴苛工業環境設計。
+
 # USB-DAQ-D-SNK
 
 ### 產品特色

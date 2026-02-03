@@ -1,6 +1,7 @@
 ---
 title: 變更 Wi-Fi 設定 (使用 WDM)
 sidebar_position: 4
+description: 使用 WDM 工具切換路由器：啟用 AP 模式 → 自動開啟設定頁 → 選擇新 SSID → 重啟完成
 ---
 
 # 變更 Wi-Fi 設定 (使用 WDM)

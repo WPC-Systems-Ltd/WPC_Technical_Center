@@ -1,6 +1,7 @@
 ---
 title: 外觀及 LED 狀態
 sidebar_position: 4
+description: 硬體介面說明（電源、網路、按鈕、OLED）與 LED 指示燈診斷（系統/網路狀態判讀）
 ---
 
 

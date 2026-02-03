@@ -1,6 +1,7 @@
 ---
 title: 產品介紹
 sidebar_position: 2
+description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數位、類比、溫度、通訊四大應用類別
 ---
 ## WPC 的產品命名代表了介面與功能的組合。
 

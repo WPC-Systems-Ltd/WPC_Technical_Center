@@ -1,9 +1,11 @@
 {
-    "label": "Ethernet-DAQ 系列",
+    "label": "Ethernet-DAQ 使用說明書",
     "position": 1,
     "collapsed": true,
     "link": {
         "type": "generated-index",
+        "slug": "ethan",
+        "title": "Ethernet-DAQ 使用說明書",
         "description": "工業級乙太網路採集卡，支援長距離穩定傳輸。"
     }
 }

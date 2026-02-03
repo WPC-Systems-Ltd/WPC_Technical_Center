@@ -3,6 +3,8 @@ title: Ethan-EX-D
 sidebar_position: 4
 ---
 
+Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通道 DO**、**2 通道 PWM** 與 **2 通道計數器**，滿足複雜的工業控制需求。
+
 ### 產品外觀
 
 ---

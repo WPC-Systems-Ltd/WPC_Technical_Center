@@ -1,6 +1,7 @@
 ---
 title: 產品介紹
 sidebar_position: 2
+description: 快速選型指南：依應用分類（類比輸入/輸出、數位 I/O、溫度量測）查找適合的 Ethan 型號
 ---
 
 

@@ -2,6 +2,9 @@
 title: USB-DAQ-AOD
 sidebar_position: 2
 ---
+
+USB-DAQ-AOD 整合 **8 通道 16-bit 類比輸入**（16kHz）與 **8 通道 16-bit 類比輸出**（1kHz），支援同步 AI/AO 操作，適用於閉迴路控制與訊號產生應用。
+
 # USB-DAQ-AOD
 
 ### 產品特色
