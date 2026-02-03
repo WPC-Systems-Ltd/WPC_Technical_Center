@@ -12,4 +12,4 @@ npm install notion-to-md @notionhq/client
 
 node convert.js
 
-cd D:\Synology\github\my-website
+cd D:\Synology\github\WPC_Technical_Center
