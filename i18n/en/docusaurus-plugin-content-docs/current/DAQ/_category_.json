@@ -1,0 +1,10 @@
+{
+    "label": "Data Acquisition (DAQ)",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "slug": "daq",
+        "title": "DAQ Product Overview",
+        "description": "Explore all data acquisition solutions (WIFI, USB, Ethernet)."
+    }
+}
