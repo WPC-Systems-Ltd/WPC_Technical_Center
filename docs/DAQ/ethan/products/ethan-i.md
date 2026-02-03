@@ -7,7 +7,7 @@ sidebar_position: 5
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan/ethan-i-appearance.jpg" alt="Ethan-I 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-i.png" alt="Ethan-I 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -24,4 +24,4 @@ sidebar_position: 5
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan/ethan-i-pinout.jpg" alt="Ethan-I 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-i-pinout.png" alt="Ethan-I 腳位圖" width="60%" /></div>

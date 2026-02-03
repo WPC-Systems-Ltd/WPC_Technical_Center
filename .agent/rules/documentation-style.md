@@ -54,3 +54,12 @@ trigger: always_on
 
 
 
+
+## 5. 標題格式 (Header Style)
+嚴禁在標題中使用 Emoji 或特殊符號圖示 (如 🌐, 💡, 0️⃣ 等)，以保持目錄與連結的整潔。
+
+**✅ 正確範例 (Correct):**
+`## LabVIEW`
+
+**❌ 錯誤範例 (Incorrect):**
+`## 🌐 LabVIEW`

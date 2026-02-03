@@ -7,7 +7,7 @@ sidebar_position: 8
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan/ethan-o-appearance.jpg" alt="Ethan-O 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-o.png" alt="Ethan-O 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -25,4 +25,4 @@ sidebar_position: 8
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan/ethan-o-pinout.jpg" alt="Ethan-O 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-o-pinout.png" alt="Ethan-O 腳位圖" width="60%" /></div>
