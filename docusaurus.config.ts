@@ -93,43 +93,42 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '產品手冊',
           items: [
             {
-              label: 'DAQ',
-              to: '/docs/DAQ/wifidaq/intro',
+              label: 'Ethernet-DAQ',
+              to: '/docs/ethan/intro',
+            },
+            {
+              label: 'USB-DAQ',
+              to: '/docs/usbdaq/intro',
+            },
+            {
+              label: 'WIFI-DAQ',
+              to: '/docs/wifidaq/product-general',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '聯絡我們',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '星協科技有限公司 (WPC Systems Ltd.)',
+              href: 'https://www.wpc.com.tw',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              html: '<span class="footer__link-item">236 新北市土城區青雲路55號</span>',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              html: '<span class="footer__link-item">No. 55, Qingyun Rd., Tucheng Dist., New Taipei City 236, Taiwan (R.O.C.)</span>',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'TEL: 02-82624431',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2022-${new Date().getFullYear()} 星協科技有限公司 (WPC Systems Ltd.)`,
     },
     prism: {
       theme: prismThemes.github,
