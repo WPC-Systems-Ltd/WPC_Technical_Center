@@ -1,0 +1,22 @@
+{
+    "version.label": {
+        "message": "Next",
+        "description": "The label for the latest version"
+    },
+    "sidebar.tutorialSidebar.category.產品型號": {
+        "message": "Product Models",
+        "description": "The label for category Product Models in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.Ethernet-DAQ 系列": {
+        "message": "Ethernet-DAQ Series",
+        "description": "The label for category Ethernet-DAQ Series in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.USB-DAQ 系列": {
+        "message": "USB-DAQ Series",
+        "description": "The label for category USB-DAQ Series in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.WIFI-DAQ 系列": {
+        "message": "WIFI-DAQ Series",
+        "description": "The label for category WIFI-DAQ Series in sidebar tutorialSidebar"
+    }
+}

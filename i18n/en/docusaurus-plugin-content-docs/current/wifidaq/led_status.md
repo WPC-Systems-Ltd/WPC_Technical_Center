@@ -1,11 +1,12 @@
 ---
-title: Hardware & LED Status
+title: Appearance & LED Status
 sidebar_position: 2
 ---
 
-# Hardware & LED Status
+# Appearance & LED Status
 
 The WPC WIFI-DAQ series is an industrial-grade module designed for wireless data acquisition.
+
 
 ## Hardware Appearance
 
@@ -24,7 +25,7 @@ The WPC WIFI-DAQ series is an industrial-grade module designed for wireless data
 You can quickly determine the device's current status via the LED lights on the unit:
 
 | LED Color | Status Description                                      |
-| :------- | :------------------------------------------------------|
-| **Red** | Solid red indicates AP mode. You need to access the Web interface to configure Wi-Fi. |
-| **Green** | Solid green indicates the device is ready to connect (Idle mode).              |
-| **Blue** | Solid blue indicates the device has successfully connected.                            |
+| :-------- | :------------------------------------------------------ |
+| **Red**   | Solid red indicates AP Mode. Setup Wi-Fi via Web interface is required. |
+| **Green** | Solid green indicates the device is ready to connect (Standby Mode).    |
+| **Blue**  | Solid blue indicates the device is successfully connected.              |

@@ -1,0 +1,10 @@
+{
+    "item.label.DAQ": {
+        "message": "DAQ",
+        "description": "Navbar item with label DAQ"
+    },
+    "item.label.GitHub": {
+        "message": "GitHub",
+        "description": "Navbar item with label GitHub"
+    }
+}

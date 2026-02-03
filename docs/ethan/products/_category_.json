@@ -1,6 +1,7 @@
 {
     "label": "產品型號",
     "position": 1,
+    "key": "ethan-products",
     "link": {
         "type": "generated-index",
         "description": "Ethan-DAQ 全系列產品詳細規格與介紹"

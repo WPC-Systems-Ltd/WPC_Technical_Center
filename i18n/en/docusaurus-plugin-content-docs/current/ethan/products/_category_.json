@@ -1,0 +1,9 @@
+{
+    "label": "Product Models",
+    "position": 1,
+    "key": "ethan-products",
+    "link": {
+        "type": "generated-index",
+        "description": "Ethan-DAQ Series Product Specifications and Introduction"
+    }
+}
