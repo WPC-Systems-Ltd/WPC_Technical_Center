@@ -68,8 +68,8 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'Home Logo',
-        src: 'img/logo.svg',
+        alt: 'WPC Logo',
+        src: 'img/WPC_Logo.jpg',
       },
       items: [
         {
@@ -83,7 +83,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/WPC-Systems-Ltd',
           label: 'GitHub',
           position: 'right',
         },
@@ -123,7 +123,7 @@ const config: Config = {
               html: '<span class="footer__link-item">No. 55, Qingyun Rd., Tucheng Dist., New Taipei City 236, Taiwan (R.O.C.)</span>',
             },
             {
-              label: 'TEL: 02-82624431',
+              html: '<span class="footer__link-item">TEL: 02-82624431</span>',
             },
           ],
         },
