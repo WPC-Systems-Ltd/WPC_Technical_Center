@@ -79,6 +79,12 @@ const config: Config = {
           label: 'DAQ',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'softwareSidebar',
+          position: 'left',
+          label: '軟體',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -97,15 +103,15 @@ const config: Config = {
           items: [
             {
               label: 'Ethernet-DAQ',
-              to: '/docs/ethan/intro',
+              to: '/docs/daq/ethan/intro',
             },
             {
               label: 'USB-DAQ',
-              to: '/docs/usbdaq/intro',
+              to: '/docs/daq/usbdaq/intro',
             },
             {
               label: 'WIFI-DAQ',
-              to: '/docs/wifidaq/product-general',
+              to: '/docs/daq/wifidaq/product-general',
             },
           ],
         },

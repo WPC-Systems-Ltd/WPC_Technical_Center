@@ -1,0 +1,11 @@
+{
+    "label": "軟體",
+    "position": 1,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "software",
+        "title": "軟體",
+        "description": "WPC 數據採集系統配套軟體與開發工具。"
+    }
+}
