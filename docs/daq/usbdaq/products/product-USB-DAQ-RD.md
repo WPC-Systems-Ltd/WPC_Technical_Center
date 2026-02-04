@@ -36,3 +36,9 @@ USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 - 使用兩線式（2-wire）溫度感測器時，須分別將 RTD+與 EX+ 短路以及 RTD- 與 EX- 短路。
 
 <div style={{textAlign: 'center'}}><img src="/img/daq/usb-daq/rtd-wiring.png" alt="RTD 接線圖" width="60%" /></div>
+
+### 四線式接法
+
+<div style={{textAlign: 'center'}}><img src="/img/daq/usb-daq/usb-daq-rd-4wire.png" alt="RTD 四線式接法" width="30%" /></div>
+
+---

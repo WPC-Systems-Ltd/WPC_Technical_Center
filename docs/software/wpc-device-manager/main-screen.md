@@ -2,6 +2,7 @@
 title: 主畫面介紹
 sidebar_label: 主畫面介紹
 sidebar_position: 2
+description: "裝置列表、測試面板與產品資訊介面說明"
 ---
 
 ## 主畫面功能說明

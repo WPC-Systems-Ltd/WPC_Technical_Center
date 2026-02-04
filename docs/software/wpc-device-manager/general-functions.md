@@ -2,16 +2,17 @@
 title: 通用功能
 sidebar_label: 通用功能
 sidebar_position: 3
+description: "裝置搜尋、模擬裝置新增與LED識別功能"
 ---
 
-## 搜尋與重整
+## 搜尋與重新整理
 
 WDM 提供自動搜尋功能，可掃描網域內的 WPC 裝置。若需手動更新列表，請依據裝置類型執行以下操作：
 
 *   **USB 裝置**：將滑鼠游標移至 **"My Computer"** 區域，按右鍵選擇 **"Refresh My Computer"**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/refresh-my-computer.png" alt="重整 USB 裝置" width="60%" />
+      <img src="/img/wpc_device_manager/refresh-my-computer.png" alt="重新整理 USB 裝置" width="60%" />
     </div>
 
 *   **網路裝置**：將滑鼠游標移至 **"Network"** 區域，按右鍵選擇 **"Refresh Network"**。

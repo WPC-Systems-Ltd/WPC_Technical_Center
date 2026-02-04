@@ -2,6 +2,7 @@
 title: 簡介與安裝
 sidebar_label: 簡介與安裝
 sidebar_position: 1
+description: "軟體簡介與安裝下載指南"
 ---
 
 ## 簡介

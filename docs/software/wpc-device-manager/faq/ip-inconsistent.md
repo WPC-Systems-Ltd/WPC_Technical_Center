@@ -2,6 +2,7 @@
 title: 狀態列為 IP Inconsistent
 sidebar_label: 狀態列為 IP Inconsistent
 sidebar_position: 4
+description: "解決電腦網卡與 WPC 裝置位於不同網域導致的 IP Inconsistent 問題"
 ---
 
 ## 問題描述

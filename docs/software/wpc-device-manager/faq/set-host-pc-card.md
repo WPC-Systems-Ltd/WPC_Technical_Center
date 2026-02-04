@@ -2,6 +2,7 @@
 title: 設定 Host PC 端網卡
 sidebar_label: 設定 Host PC 端網卡
 sidebar_position: 6
+description: "確認電腦端與 WPC 裝置連線的網卡是否在相同網域"
 ---
 
 > 💡 請先確認電腦端與 WPC 裝置連線的網卡是否在相同網域？

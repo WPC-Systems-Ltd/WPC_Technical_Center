@@ -2,14 +2,15 @@
 title: WIFI 裝置功能
 sidebar_label: WIFI 裝置功能
 sidebar_position: 6
+description: "Wi-Fi參數配置、AP模式設定、訊號監控與韌體更新"
 ---
 
-## 重整
+## 重新整理
 
 點擊 **"Refresh"** 按鈕可重新讀取並更新 WIFI 裝置資訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-refresh.png" alt="重整 WIFI 裝置" width="60%" />
+  <img src="/img/wpc_device_manager/wifi/choose-refresh.png" alt="重新整理 WIFI 裝置" width="60%" />
 </div>
 
 ---

@@ -2,6 +2,7 @@
 title: WDM 閃退
 sidebar_label: WDM 閃退
 sidebar_position: 2
+description: "解決因顯卡驅動或節能設定導致的 WDM 閃退問題"
 ---
 
 ## 問題描述
@@ -9,10 +10,6 @@ sidebar_position: 2
 在特定電腦環境下，執行包含 **3D Picture Control** 元件的 LabVIEW 應用程式（或編譯後的 EXE）時，可能會發生以下異常：
 *   應用程式圖示在工作列出現後立即消失。
 *   程式無法啟動，且無任何錯誤訊息提示。
-
-<div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/faq/labview-crash.png" alt="LabVIEW Crash 示意圖" width="60%" />
-</div>
 
 :::note
 WDM 工具在 **v1.2.1.29 以前的版本**，在特定環境中可能會遭遇此問題。

@@ -2,6 +2,7 @@
 title: WDM 無法開啟
 sidebar_label: WDM 無法開啟
 sidebar_position: 1
+description: "解決開啟 WDM 時出現 Generic file I/O error 的路徑長度問題"
 ---
 
 ## 問題描述

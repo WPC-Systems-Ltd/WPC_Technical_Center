@@ -2,14 +2,15 @@
 title: USB 裝置功能
 sidebar_label: USB 裝置功能
 sidebar_position: 4
+description: "查詢腳位圖與更新韌體"
 ---
 
-## 重整
+## 重新整理
 
 點擊 **"Refresh"** 按鈕可重新讀取並更新裝置資訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/usb/refresh.png" alt="重整 USB 裝置" width="60%" />
+  <img src="/img/wpc_device_manager/usb/refresh.png" alt="重新整理 USB 裝置" width="60%" />
 </div>
 
 ---

@@ -2,14 +2,15 @@
 title: Ethernet 裝置功能
 sidebar_label: Ethernet 裝置功能
 sidebar_position: 5
+description: "網路參數設定、腳位圖、別名設定與韌體更新"
 ---
 
-## 重整
+## 重新整理
 
 點擊 **"Refresh"** 按鈕可重新讀取並更新 Ethernet 裝置資訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/ethernet/choose-refresh.png" alt="重整 Ethernet 裝置" width="60%" />
+  <img src="/img/wpc_device_manager/ethernet/choose-refresh.png" alt="重新整理 Ethernet 裝置" width="60%" />
 </div>
 
 ---

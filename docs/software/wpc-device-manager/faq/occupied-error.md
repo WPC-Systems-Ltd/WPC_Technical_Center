@@ -2,6 +2,7 @@
 title: 狀態列為 IP Occupied
 sidebar_label: 狀態列為 IP Occupied
 sidebar_position: 3
+description: "解決因 IP 位址衝突或路由混淆導致的 Occupied 連線錯誤"
 ---
 
 ## 問題描述
