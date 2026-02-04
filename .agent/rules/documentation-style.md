@@ -63,3 +63,22 @@ trigger: always_on
 
 **❌ 錯誤範例 (Incorrect):**
 `## 🌐 LabVIEW`
+
+## 6. 警示語塊 (Admonitions)
+由於本網站的 Docusaurus 設定無法正確渲染 GitHub 風格的 Alert 語法 (如 `> [!IMPORTANT]`)，因此**必須**使用 Docusaurus 專用的 Admonition 語法 (`:::`)。
+
+**❌ 錯誤範例 (Incorrect):**
+> [!IMPORTANT]
+> 這是重要的訊息，但圖示無法顯示。
+
+**✅ 正確範例 (Correct):**
+:::caution
+這是重要的訊息，且圖示能正確顯示。
+:::
+
+**風格對應表 (Mapping):**
+請依據語氣強弱選擇對應的標籤：
+- `> [!NOTE]` ➝ `:::note` (一般備註，藍色)
+- `> [!TIP]` ➝ `:::tip` (提示技巧，綠色)
+- `> [!IMPORTANT]` ➝ `:::caution` (重要注意，黃色)
+- `> [!WARNING]` ➝ `:::danger` (嚴重警告，紅色)

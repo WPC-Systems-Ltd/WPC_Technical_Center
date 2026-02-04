@@ -1,0 +1,123 @@
+
+## 1. 確認電腦端與 WPC 裝置連線的網卡是否在相同網域
+
+
+---
+
+
+> 💡 請先確認電腦端與 WPC 裝置連線的網卡是否在相同網域？
+
+- 例如：192.168.1.110 與 192.168.1.xxx 屬於相同的網域。
+- 例如：192.168.1.xxx 與 192.168.0.xxx 及 192.168.2.xxx 屬於不同的網域。
+
+> 💡 建議先關閉 DHCP 盡量使用 Static IP，並且設定正確 IP address 及 submask
+
+- WPC 裝置：192.168.1.110 遮罩 255.255.255.0
+- 用戶端電腦：192.168.1.20 遮罩 255.255.255.0
+
+正確的網域設定對於與 WPC 網路裝置的正常通訊至關重要。請按照以下步驟進行網域設定的變更：
+
+
+## 2. **開啟 Windows 設定**
+
+
+---
+
+
+點擊「開始」按鈕，選擇「設定」圖標進入設定頁面。
+
+
+    ![在windows下搜尋”設定”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/e905082a-6cf8-471b-81cf-fa1f1a186805/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDSL66V5%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQDH95on%2Fu8SXAeor4x4BMsaaYQ2SPPHl6hMUvBanbL%2FcgIhALB35eghha1uZQdL%2F8n5UCcQxwG%2Fui4NsDalNT1to4l1Kv8DCBEQABoMNjM3NDIzMTgzODA1IgyJK8%2Bo%2BU3wdcGm2TAq3ANUofyx8zxpcwd9iQk6NOmLysfPKEbFTfWTsTXhQrCx3uAMshGe2hi%2FyedKCNQ8Mijnb7pIda3bdoWex1%2FpyvkpwENGqleUfGtV5QzwHTdL76U1hCqNxneirlZxX2dcGb4%2B%2FE8TggoIOhC2ey6O2CF%2F6Ryb%2BjIW8R4mJFcGPDyDjGd0hezgCP6eHMfgbw3erq7ROyX0FWet9B0fzEbE918E3hYjgfwyn996mc1evVoEYG34OLiNCQPP0aZTJwC4yJBB3PGzHb23RJVFi%2FLdacrf5IuQMTvmQHgBg1btn0%2FOKuEhnfh4BdOIYKjOdJFISSnGN1ViEs9ZBZzs0WKuz9PfnpMZiSAdEG280IchgmvNlF0HaCFrWqBWSRzJgR3qWcnP1a3zZMpcU6vgaiDtOHcdWY%2FqsZiTPD9A7vRRsiZjJhn7CHfMF4MHB4sE7g%2FIpCCO%2Fbos3A0VkhZi9ZRxFDwDUpcAB29TirQ%2FaP8ebPI2cGbw%2BQeNCVCY4DwdCazxxcgRWwu98QLqdpLWVzAa0UpeCJI%2BCPxmyDck%2FKwnPI4A5R5A4dn1NahBa5oxwC2chJL4YJuTB0KMpgmTcZsUP5N3yGGUT%2FRwxAd265mtu1bZX%2Bwm67%2BgArcJ5Bq%2BLjCv7YvMBjqkAeSvn%2BaNGPf125at78q4zmrJ0NZPpcxa1%2FdJKfdjhG45TGXMWnMLGDtgMefm5HAcYke1FnFLoESUy81mhskbPA98KkO1M4qem%2ByGPpbLvtQd9wxHDjeuy3BewcjIcIMn7LQV6S2TMaa6yDxktJBteHZEzZlFXZGg78xm%2FFak%2BikMfsQleW2EvV3QUpojEcFprWV67UDQlP%2B8fKvpx510aE%2BJ9C%2B3&X-Amz-Signature=d6c3d06d3d8a5c5b1dfd255d779c6e267e73fcf2f1ed8e80ced37326d0c72b9c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+## 3. **進入乙太網路設定頁面**
+
+
+---
+
+
+在「設定」頁面中，選擇「網路和網際網路」選項，然後在左側選擇「乙太網路」。
+
+
+![選擇”網路及網際網路”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/d6bee128-ad62-4a0e-93a3-279909fe836b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QPDF4OEQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075718Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCFKMjtu%2BukktR0wXFODgJ%2BGF2ca%2Fef3OOFjd1WICe3pwIhANXf671jpdSu8DGY81Gx%2Fz%2FRlQZRrGwN3NEL%2B%2FpLtYlhKv8DCBEQABoMNjM3NDIzMTgzODA1IgwGG8DLL8j6NdDvr04q3AOsOZzl2TbK1IvKTCdPOXTX0oNlOnDpumHy5g1TOAS2GVoHGcFqvO7aQUNSYAioXy9eTweSOw5%2F3%2Fprm0iW0oX2fZRuzn6vEGoREGGXZW2b%2F7x8Ev0lmgYmBSQMCCkWE2bDMKHV9tMCgcjUIRfi4GrnkHqoNpz5p8H96MB%2BfkKMdr72oN%2Bny8KJM95k%2BWt3GiMdf37lV1wxbBi4qWzhzeHoJm4s3X3ASxWA0IV2oh8b7zcKXzFE6v9hOoRRVhWvTDMONMO7TqnR4qkVWsX2If%2F0kfFTphX5uP7qxab%2FBQHn65NpoEjnBMxR7%2BGhz2vNoLW0ovG%2F6HMKBbe3w9pvgboVPHR8vuMS40J%2BhUoH7nXPogozRJBaxKu9Z7qYWWNiqcW2y%2FmaXcc%2BXoh4xy1ZTiGQM20KV7WGOoK1gz3%2BE3%2FE%2FAtk4pZBKkJZXyMe%2BGUYQgwuUj%2BGIUlBFRXry9ZFagQrH%2FIyDPbNcFEgnciPLt4Dx8KuJP3U6nBQ%2Bp0nsrCXfs0SgKsblkeFbV58iV%2B%2F%2FeZfJvr6Z2b8AznZ0Gz5Nh2W7MOjXdR5noQxaJ1%2BWwZ2aJFiOvCBKtB6cdogqqo1%2Fh5CDBFTPrAp9ydvJ33xALlpY6OQzxHqvov6WD1xrjDt64vMBjqkAeSrV2SBw6IaGZ8hk9N%2F2nbivdaiyubKol5nb3rW9z4W72FNnQpfypVfBNrt0H8A7dIPBarR03F7BhqmNpgXx4p4FI7bVv0keYwXq7A321S%2FCLZ3oZJwwD0sEAEhMe8jTJil8AcO7XWONakDb5sHDI2ouQ9QeRtjAHCCQp%2FV30L8M6JvOj35qNj502XIq0ggqydsGmmNv5WxtWSkNd5EboZBg5vY&X-Amz-Signature=5007e718e7741dd7b1e795d381f7f58e14073acb82b0064c2d59da411d9db7d7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+## 4. **變更介面卡選項**
+
+
+---
+
+
+在乙太網路設定頁面中，點擊「變更介面卡選項」。
+
+
+    ![選擇”變更介面卡選項”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/67110992-f772-41ed-8472-f693673f33a8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S2TBWVOD%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIDeDtn5HaOqu1JNi64YykkkqbetIBxPsueFkhx4yHlNhAiBBuitzI992%2F5mV6fPZdYcEArc8s2x2Mhdo%2FJyVTjO0bCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMC8aMsqZ9PR9UxFrMKtwDF6dLyPCk9bXhQ7c2bTHcp%2BmmsI8cbdKIDRzUBCSRBCiAdBuMi8tG%2Fq%2FvqahPsze1de1jhmPPJ2ByEc%2F6nGscXwVm0hGLjQapbLWvEWuQRHxOyyF5j%2FHMSkKLRY%2B4G%2FK9VnpzD1GCUjpJPc1GNQGPf8lbMqAUukWF3XHdEIh3eew6EAFZyMevysS72DW2sOo20vAkc3c%2FJbsbQMEpz%2FdqlsjIQkKeJyzWClPI8ziZe5omfvbzkzrViMljrIeiU527XsbK8aA8BShNOZNa5cbXeMkwDnOkbxgaH8kfI2u9y1KHYXAc0VSD6nBYF7csawZz7rqlubTmIoBMZ%2BxmqtiY410QDs58qoaicoob7MiuPsc2v8KG3%2BFI0bHXPks51AZvolYSkUknAMTa%2FbvasyK0iyk3vzEhXyfwjw7cVpwn2Re4o1Vtrp%2FSeuEwErr3eaMrxBv1n9V8wu9iEqSFe%2FvQiC6qkFazBxBDnWKZmhJIKYNKjK6f1hIHRBJ6Y7DeDsxJRPCkC%2Fs%2B2TEsdTa9cJZqIlq0rYPhFVmP83TrFVnMA5p%2F9rMF%2BRRUEOyBczxAQZo8T3ktY9O60OtX4DIxmXqnxZ6k7j7e0WmlmyDPG2ALsF9kNa0iH2ZqazXfi%2Bswl%2ByLzAY6pgHFMW5uNsO%2FS5IuTKL%2B4AQ%2FUl%2BDXU5IPZlwFqKKhfvNyAo7%2FzKNr%2F0mDVw4mTVo5dKBGMN5E3ve8I8OOiQKotcjRiXlp6MZHv1wYBBq6EbwZG5jR%2BtSs4Hxs%2Fqc3sSOuDiBqOnyTiA465tXJSWXJLXgSZP1lQZXlGn7YJbkBU8xT4HRvAomXql%2B%2BaXlrbrDgKb08PcUN%2FZJuSGcdTGgKAwqUlLXGhRc&X-Amz-Signature=4bcbde80d0aef798712aaa204c777f15eebd3cf3a6f4e5f3dd73338a1657486b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+## 5. **選擇網路連線**
+
+
+---
+
+1. **選擇網路連線**：
+
+    在「網路連線」窗口中，找到您正在使用的乙太網路連接，右鍵點擊並選擇「內容」。
+
+
+    ![選擇“內容”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/4ed90184-ac5a-4c57-baaa-e8e4770bb1b7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662FVGJ45A%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCICa7VdSDhJ0FVXKkeKy0uZh2bjFFJhEALj0jQNZeQsFyAiEA8fJPZ8tDU2dN%2BmaUKe2eI0OcB1RPuMm9IKZQO3sytH4q%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDCfpJG%2Fo4X5oLJSomircA2tRBNj1f1tRlOWoo0tjSBrTl9BY0fel5jr7A6anVxAco6bo3H3pDICCHYKCtc%2B6v3xKwIXiXzIiq2oh2N%2BiewNmga4u2dTJEeOuLWb2aKvEZ1%2Fjj9Wn2vI9%2BkiTcBqXQp9Q%2BrJnVRCcATpWzPf08BsU4OOY%2BWcj8JhJoZ%2FyYz1HzoA0%2BqypBQtZa9gmCyppQXXs5hO7dKy44%2F%2FxRmbFJ0UYVKA456xRip6YZLOBsGYupAT5ujCsOygOks5V%2F72E8HruEYOknb2EMhXd4aNPkZ98HT0mdywfarxAAPXYbbDvLq40L9IJ%2BZRc7H0ad3iEm2UdKLHXxqUXzs2QfXSdidNVK0soY9XCYFTdY%2FHHiTOpLXeFf9mP0ZLU27kEDbfMog8KSzGjuxkKBpcsxMiryh%2BMl72t1bfX3GOvyg41nq%2BsUyleI%2FcHXCxU0ZkRVHYywRtbdxsftPmTlIeOEL1JdbC93MaqbngB0A01FtmL7HcTIPms9wOVil6vjka%2BukXlzStrEIVArIw68W%2BZeA9LXbvHeTC9vuLyw7%2Fro5zgQmWhHfi5noRyaql9m8uOR1j3CebFn1cN%2FPxUmDaIqs5VjFuv2RYTbSOQ4WqjtLlmdwUzes%2FOpAfWkhgP0oWjMObsi8wGOqUB4ah9BnOJFZKg%2B4VJRdoDjl%2B1sl93kr86rcp80WkrTAY5tRKakRwPj0jumo34Ym2Kt4qfCmbGQlEmq0%2BkQEEVmZtNBg5AFCcFFdWkR3wj%2BqLPZ4B82fTTYMeKk3tI4i5Ng36GfWYQlS2%2FwtFIM2H5ts9%2BaxZHSKFSGCQ2uWQ7nKQWU5IAXaZCjH6VADr%2FOjurZniz%2FqZYYTF3RpmCjwjHKrQFsGsx&X-Amz-Signature=096e29e2c01b88c192a0880631d19ddb0908efec1637adf00a8f8f2e12bbf48a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+## 6. **配置 IPv4 設定**
+
+
+---
+
+
+在「內容」視窗中，雙擊「網際網路通訊協定第4版(TCP/IPv4)」，進入 IPv4 設定頁面。
+
+
+    ![選擇”網際網路通訊協定第4版(TCP/IPv4)”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/e3d58e66-9acc-40e2-bc51-7cc4ddead813/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665HGTTMAL%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDMsRQxwJhTbw285%2FLL%2BlHkUPhNOV9Wci4cmmQH%2BzxKRAIgM1OgfvL7ANhtGq9WDwS3wvkFTUULkUYyLCzKBgtltZUq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDJ06hZCNjn8NgqMdLCrcA8xNXhj%2FMGN1U9tYO0QWWrEGBjRsxt4NWE5kQrCFErWunT2wOthUrAPL%2BrCkrtIvSAcyp7w%2FLS0cP021ii1PsAf2xqxKjdTld9HwUEwpT0yfulgjK0z%2Bv7sSYcvQjU0T2eC7UMo9LIEBJRV1JjdtSq2l6V4glNUmvLawlZCjMkXyRSTqsP5ZGqV87XON9fB2mcYhgxFPEhiCL1XXmTeFaFPizY0GGFkqqjo2gV6ZtpbOs5kFkMyTOf6YYPLmWTt3g3zl7Z3jNEgrLcdD%2FVFT7lp2fkN8XfmThflcUjE084sSygKKq2lf6VnI5NOjGKSxUyTH%2BbX%2Fy0c45UkuDSnMBJSXYKcG2eh%2BAtvngGbKYOYvcsSF7tyCoToR%2BJTt2DW3nyHyDMqLu%2FSXQNEYVBbycxGRxk3isdKVSLlLkPMyIbENumLY5V%2BC7h%2B8yP20HombPt3ymsPqSHK8lCKjAQJw%2B8BXtQNSWQmcg92OxzyQ3KG%2FDUQmoY8is9nJEoVWAmeNjAjjs70uJrP%2FuiFVBlzlZHGfuIJMB9dp465ggA9LnbQS5SCUYXNPI9LdmUszWTqliMjsMGPDK0QFIMBfg2zMi%2BBfQEf4DrTnCP%2FNGYO%2BNzGJpnz87H8yeYg8wlgyMKvsi8wGOqUBvO1RFCZRSj%2Fh6Rd36b555QI9pGSkTXKkGzh2N2IX0i22qruxlmxAJn9mhKrasC3S7dJaqJM7ELzQ59e8jnc%2B7LtIIfFpr3n4rFoXODEDV69GBYk%2BMeaM8h%2FWdkL6fb8BlnH4mI7pGKcl0P%2BTSkRlUtAC%2BZf%2FE7MHDQRamtpNWfga61sdhBVj31RR3AbJINwZdhqCHgkAE4v1DUM8dqzAENUOGQAQ&X-Amz-Signature=4735f10d196a8936842ff92f304b74bf677aa78f4c8bddcb87d333da1f682712&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+## 7. **設定 IP 地址**
+
+
+---
+
+
+選擇「使用下列 IP 位址」並手動輸入 IP 地址、子網路遮罩和預設閘道。確保 IP 地址在同一網段內，但不與任何其他裝置的 IP 地址重複。
+
+
+![選擇”使用下列 IP 位址”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/c7eb37bd-4c05-4679-a92c-547334b37871/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QPDF4OEQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075718Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCFKMjtu%2BukktR0wXFODgJ%2BGF2ca%2Fef3OOFjd1WICe3pwIhANXf671jpdSu8DGY81Gx%2Fz%2FRlQZRrGwN3NEL%2B%2FpLtYlhKv8DCBEQABoMNjM3NDIzMTgzODA1IgwGG8DLL8j6NdDvr04q3AOsOZzl2TbK1IvKTCdPOXTX0oNlOnDpumHy5g1TOAS2GVoHGcFqvO7aQUNSYAioXy9eTweSOw5%2F3%2Fprm0iW0oX2fZRuzn6vEGoREGGXZW2b%2F7x8Ev0lmgYmBSQMCCkWE2bDMKHV9tMCgcjUIRfi4GrnkHqoNpz5p8H96MB%2BfkKMdr72oN%2Bny8KJM95k%2BWt3GiMdf37lV1wxbBi4qWzhzeHoJm4s3X3ASxWA0IV2oh8b7zcKXzFE6v9hOoRRVhWvTDMONMO7TqnR4qkVWsX2If%2F0kfFTphX5uP7qxab%2FBQHn65NpoEjnBMxR7%2BGhz2vNoLW0ovG%2F6HMKBbe3w9pvgboVPHR8vuMS40J%2BhUoH7nXPogozRJBaxKu9Z7qYWWNiqcW2y%2FmaXcc%2BXoh4xy1ZTiGQM20KV7WGOoK1gz3%2BE3%2FE%2FAtk4pZBKkJZXyMe%2BGUYQgwuUj%2BGIUlBFRXry9ZFagQrH%2FIyDPbNcFEgnciPLt4Dx8KuJP3U6nBQ%2Bp0nsrCXfs0SgKsblkeFbV58iV%2B%2F%2FeZfJvr6Z2b8AznZ0Gz5Nh2W7MOjXdR5noQxaJ1%2BWwZ2aJFiOvCBKtB6cdogqqo1%2Fh5CDBFTPrAp9ydvJ33xALlpY6OQzxHqvov6WD1xrjDt64vMBjqkAeSrV2SBw6IaGZ8hk9N%2F2nbivdaiyubKol5nb3rW9z4W72FNnQpfypVfBNrt0H8A7dIPBarR03F7BhqmNpgXx4p4FI7bVv0keYwXq7A321S%2FCLZ3oZJwwD0sEAEhMe8jTJil8AcO7XWONakDb5sHDI2ouQ9QeRtjAHCCQp%2FV30L8M6JvOj35qNj502XIq0ggqydsGmmNv5WxtWSkNd5EboZBg5vY&X-Amz-Signature=15764b0e2ad6a6c0ced3c64cbd728dea13cc017a685886a00feb1bb094537e13&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+| IP 位址 (I) | 192.168.1.38 (切勿跟WPC裝置同一個IP) |
+| --------- | ---------------------------- |
+| 子網路遮罩(U)  | 255.255.255.0                |
+
+
+完成設定後，點擊「確定」保存變更。然後再點擊「確定」以關閉視窗。
+
+
+## 8. 再次確認WPC裝置是否和電腦在同一個網域
+
+
+---
+
+
+打開命令提示字元
+
+
+![選擇”命令提示字元”](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/16cf7d3f-0fe8-41f8-8be3-476ba39cb4eb/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QPDF4OEQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075718Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCFKMjtu%2BukktR0wXFODgJ%2BGF2ca%2Fef3OOFjd1WICe3pwIhANXf671jpdSu8DGY81Gx%2Fz%2FRlQZRrGwN3NEL%2B%2FpLtYlhKv8DCBEQABoMNjM3NDIzMTgzODA1IgwGG8DLL8j6NdDvr04q3AOsOZzl2TbK1IvKTCdPOXTX0oNlOnDpumHy5g1TOAS2GVoHGcFqvO7aQUNSYAioXy9eTweSOw5%2F3%2Fprm0iW0oX2fZRuzn6vEGoREGGXZW2b%2F7x8Ev0lmgYmBSQMCCkWE2bDMKHV9tMCgcjUIRfi4GrnkHqoNpz5p8H96MB%2BfkKMdr72oN%2Bny8KJM95k%2BWt3GiMdf37lV1wxbBi4qWzhzeHoJm4s3X3ASxWA0IV2oh8b7zcKXzFE6v9hOoRRVhWvTDMONMO7TqnR4qkVWsX2If%2F0kfFTphX5uP7qxab%2FBQHn65NpoEjnBMxR7%2BGhz2vNoLW0ovG%2F6HMKBbe3w9pvgboVPHR8vuMS40J%2BhUoH7nXPogozRJBaxKu9Z7qYWWNiqcW2y%2FmaXcc%2BXoh4xy1ZTiGQM20KV7WGOoK1gz3%2BE3%2FE%2FAtk4pZBKkJZXyMe%2BGUYQgwuUj%2BGIUlBFRXry9ZFagQrH%2FIyDPbNcFEgnciPLt4Dx8KuJP3U6nBQ%2Bp0nsrCXfs0SgKsblkeFbV58iV%2B%2F%2FeZfJvr6Z2b8AznZ0Gz5Nh2W7MOjXdR5noQxaJ1%2BWwZ2aJFiOvCBKtB6cdogqqo1%2Fh5CDBFTPrAp9ydvJ33xALlpY6OQzxHqvov6WD1xrjDt64vMBjqkAeSrV2SBw6IaGZ8hk9N%2F2nbivdaiyubKol5nb3rW9z4W72FNnQpfypVfBNrt0H8A7dIPBarR03F7BhqmNpgXx4p4FI7bVv0keYwXq7A321S%2FCLZ3oZJwwD0sEAEhMe8jTJil8AcO7XWONakDb5sHDI2ouQ9QeRtjAHCCQp%2FV30L8M6JvOj35qNj502XIq0ggqydsGmmNv5WxtWSkNd5EboZBg5vY&X-Amz-Signature=a9c7528af7cbab534a33bc01dcaa3ec03a6031e5984e1c19b376603970473030&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+```python
+ping 192.168.1.110
+```
+
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7aaca47a-b987-4e1e-855f-f3f69dd5aee3/4f169cc7-380c-4e31-9de9-6fc6ffa7cea5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QPDF4OEQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T075718Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCFKMjtu%2BukktR0wXFODgJ%2BGF2ca%2Fef3OOFjd1WICe3pwIhANXf671jpdSu8DGY81Gx%2Fz%2FRlQZRrGwN3NEL%2B%2FpLtYlhKv8DCBEQABoMNjM3NDIzMTgzODA1IgwGG8DLL8j6NdDvr04q3AOsOZzl2TbK1IvKTCdPOXTX0oNlOnDpumHy5g1TOAS2GVoHGcFqvO7aQUNSYAioXy9eTweSOw5%2F3%2Fprm0iW0oX2fZRuzn6vEGoREGGXZW2b%2F7x8Ev0lmgYmBSQMCCkWE2bDMKHV9tMCgcjUIRfi4GrnkHqoNpz5p8H96MB%2BfkKMdr72oN%2Bny8KJM95k%2BWt3GiMdf37lV1wxbBi4qWzhzeHoJm4s3X3ASxWA0IV2oh8b7zcKXzFE6v9hOoRRVhWvTDMONMO7TqnR4qkVWsX2If%2F0kfFTphX5uP7qxab%2FBQHn65NpoEjnBMxR7%2BGhz2vNoLW0ovG%2F6HMKBbe3w9pvgboVPHR8vuMS40J%2BhUoH7nXPogozRJBaxKu9Z7qYWWNiqcW2y%2FmaXcc%2BXoh4xy1ZTiGQM20KV7WGOoK1gz3%2BE3%2FE%2FAtk4pZBKkJZXyMe%2BGUYQgwuUj%2BGIUlBFRXry9ZFagQrH%2FIyDPbNcFEgnciPLt4Dx8KuJP3U6nBQ%2Bp0nsrCXfs0SgKsblkeFbV58iV%2B%2F%2FeZfJvr6Z2b8AznZ0Gz5Nh2W7MOjXdR5noQxaJ1%2BWwZ2aJFiOvCBKtB6cdogqqo1%2Fh5CDBFTPrAp9ydvJ33xALlpY6OQzxHqvov6WD1xrjDt64vMBjqkAeSrV2SBw6IaGZ8hk9N%2F2nbivdaiyubKol5nb3rW9z4W72FNnQpfypVfBNrt0H8A7dIPBarR03F7BhqmNpgXx4p4FI7bVv0keYwXq7A321S%2FCLZ3oZJwwD0sEAEhMe8jTJil8AcO7XWONakDb5sHDI2ouQ9QeRtjAHCCQp%2FV30L8M6JvOj35qNj502XIq0ggqydsGmmNv5WxtWSkNd5EboZBg5vY&X-Amz-Signature=62ded8fbf2cf04104baca873ab66fd3998d69fdad664f70f8c36bbb97e7ce568&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+如果得到以上的回覆，即代表WPC裝置與電腦在同一個網域，完成以上步驟後，您的網域設定應已正確配置，並可與 WPC 網路裝置正常通訊。若仍遇到通訊問題，您可以嘗試換一條新的網路線或者是尋求WPC的技術支援。
+
