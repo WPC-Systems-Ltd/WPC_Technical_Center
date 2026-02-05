@@ -15,6 +15,11 @@ node convert.js
 cd D:\Synology\github\WPC_Technical_Center
 
 
+
+1. 請你生成的內容, 要遵守 .agent/rules/instructions.md, .agent/rules/documentation-style.md,.agent/rules/language-preference.md
+
+
+
 ##
 我理解了！您想在開發時也能即時切換中英文。
 
