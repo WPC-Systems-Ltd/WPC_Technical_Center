@@ -1,0 +1,9 @@
+{
+    "label": "子板接線",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "title": "運動控制模組子板",
+        "description": "運動控制模組需搭配「子板」使用，分為通用型子板與專用型子板。"
+    }
+}

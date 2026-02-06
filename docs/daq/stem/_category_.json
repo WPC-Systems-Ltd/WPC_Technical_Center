@@ -1,0 +1,11 @@
+{
+    "label": "STEM 使用說明書",
+    "position": 4,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "stem",
+        "title": "STEM 使用說明書",
+        "description": "具備 4 個插槽的遠端控制器，支援多種 IO 模組擴充。"
+    }
+}

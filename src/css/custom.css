@@ -1,0 +1,23 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability, we often set the max-width of the content */
+/*
+.markdown {
+  max-width: 800px;
+  margin: 0 auto;
+}
+*/
+
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
