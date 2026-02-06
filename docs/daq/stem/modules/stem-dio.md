@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-sidebar_label: '12ch DI / 12ch DO Module'
+sidebar_label: '12ch DI/12ch DO 模組'
 ---
 
-# 12ch DI / 12ch DO Module
+# 12ch DI / 12ch DO 模組
 
 本模組提供 12 通道數位輸入 (DI) 與 12 通道數位輸出 (DO) 功能，適用於 24V 工業控制轉接。
 
@@ -11,7 +11,6 @@ sidebar_label: '12ch DI / 12ch DO Module'
 
 | 項目              | 規格                                  |
 | :---------------- | :------------------------------------ |
-| **外部電源**      | 24 VDC                                |
 | **連接器**        | IDC 50P Connector                     |
 | **數位輸出 (DO)** | 12 ch，支援 NPN/PNP，光耦合隔離 (24V) |
 | **數位輸入 (DI)** | 12 ch，支援 NPN/PNP，光耦合隔離 (24V) |

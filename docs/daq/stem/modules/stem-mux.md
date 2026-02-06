@@ -1,17 +1,21 @@
 ---
 sidebar_position: 6
-sidebar_label: '24ch Multiplexer Module'
+sidebar_label: 'Multiplexer 模組'
 ---
 
-# 24ch 2-wire Multiplexer Module
+# 24ch 2-wire Multiplexer 模組
 
 本模組提供 24 通道多路復用功能，適用於多點訊號切換量測。
 
 ## 特色
 
-*   **外部電源**：24V DC
-*   **通道數**：24 ch (2-wire)
-*   **開關元件**：機械式繼電器 (Mechanical Relays)
+
+| 項目              | 規格              |
+| :---------------- | :--------------- |
+| **外部電源**      | 24 VDC            |
+| **連接器**        | IDC 50P Connector |
+| **通道數**        | 24 ch (2-wire)  |
+| **開關元件**      | 機械式繼電器       |
 
 ## 外觀
 

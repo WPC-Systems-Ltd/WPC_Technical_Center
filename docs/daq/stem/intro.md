@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: '介紹'
+sidebar_label: '產品介紹'
 ---
 
-# STEM Series
+# STEM 模組系列
 
 STEM 是一款支援 10/100 乙太網路介面，具備 4 個插槽的遠端控制器。透過 STEM 的 4 個插槽 (C1 ~ C4)，使用者可以選擇不同類型的模組，進行功能的擴充。
 

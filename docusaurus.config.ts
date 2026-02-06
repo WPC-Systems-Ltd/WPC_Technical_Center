@@ -85,6 +85,12 @@ const config: Config = {
           label: '軟體',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'embeddedSidebar',
+          position: 'left',
+          label: 'Embedded Systems',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },

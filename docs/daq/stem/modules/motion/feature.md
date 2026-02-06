@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: '簡介'
+sidebar_label: '特色與簡介'
 ---
 
 # 4軸運動控制模組

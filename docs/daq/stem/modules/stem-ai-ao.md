@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: '24ch AI / 8ch AO Module'
+sidebar_label: '24ch AI/8ch AO 模組'
 ---
 
-# 24ch AI / 8ch AO Module
+# 24ch AI / 8ch AO 模組
 
-本模組提供 24 通道類比輸入 (AI) 與 8 通道類比輸出 (AO) 功能。
+本模組提供 24 通道類比輸入與 8 通道類比輸出功能。
 
 ## 規格
 
@@ -13,7 +13,6 @@ sidebar_label: '24ch AI / 8ch AO Module'
 
 | 項目           | 規格                           |
 | :------------- | :----------------------------- |
-| **外部電源**   | 24 VDC                         |
 | **連接器**     | IDC 50P Connector              |
 | **通道數**     | 24 ch (同步取樣)               |
 | **解析度**     | 16 bit (單端輸入 Single-ended) |
@@ -23,7 +22,6 @@ sidebar_label: '24ch AI / 8ch AO Module'
 
 | 項目           | 規格                           |
 | :------------- | :----------------------------- |
-| **外部電源**   | 24 VDC                         |
 | **連接器**     | IDC 50P Connector              |
 | **通道數**     | 8 ch (同步輸出)                |
 | **解析度**     | 16 bit (單端輸出 Single-ended) |
