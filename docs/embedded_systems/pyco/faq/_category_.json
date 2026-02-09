@@ -1,0 +1,8 @@
+{
+    "label": "常見問題",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "PYCO 系列常見問題與排除指南"
+    }
+}
