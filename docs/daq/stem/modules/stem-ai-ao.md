@@ -16,6 +16,7 @@ sidebar_label: '24ch AI/8ch AO 模組'
 | **連接器**     | IDC 50P Connector              |
 | **通道數**     | 24 ch (同步取樣)               |
 | **解析度**     | 16 bit (單端輸入 Single-ended) |
+| **輸出範圍**   | -10 ~ 10 V                     |
 | **最大取樣率** | 12 kHz                         |
 
 ### 類比輸出 (AO)
@@ -25,7 +26,7 @@ sidebar_label: '24ch AI/8ch AO 模組'
 | **連接器**     | IDC 50P Connector              |
 | **通道數**     | 8 ch (同步輸出)                |
 | **解析度**     | 16 bit (單端輸出 Single-ended) |
-| **輸出範圍**   | 0 ~ 5 V                        |
+| **輸出範圍**   | 0 ~ 5 V                     |
 
 
 ## 外觀與腳位圖
