@@ -3,7 +3,7 @@ title: 快速入門
 sidebar_position: 2
 ---
 
-# 快速入門 (Getting Started)
+# 快速入門
 
 ## 歡迎使用！
 
