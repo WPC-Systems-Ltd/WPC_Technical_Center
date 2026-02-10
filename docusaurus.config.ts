@@ -74,6 +74,12 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'droneSidebar',
+          position: 'left',
+          label: '無人機',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'DAQ',
@@ -88,7 +94,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'embeddedSidebar',
           position: 'left',
-          label: 'Embedded Systems',
+          label: '嵌入式系統',
         },
         {
           type: 'localeDropdown',

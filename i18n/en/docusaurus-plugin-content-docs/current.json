@@ -1,22 +1,254 @@
 {
-    "version.label": {
-        "message": "Next",
-        "description": "The label for the latest version"
+    "sidebar.tutorialSidebar.category.ethan_manual_category": {
+        "message": "Ethernet-DAQ User Manual",
+        "description": "The label for category Ethernet-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.ethan_manual_category.link.title": {
+        "message": "Ethernet-DAQ User Manual",
+        "description": "The link title for category Ethernet-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.ethan_manual_category.link.description": {
+        "message": "Industrial-grade Ethernet Data Acquisition Cards, supporting long-distance stable transmission.",
+        "description": "The link description for category Ethernet-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.droneSidebar.category.常見問題": {
+        "message": "FAQ",
+        "description": "The label for category 'FAQ' in sidebar 'droneSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.usb_daq_manual_category": {
+        "message": "USB-DAQ User Manual",
+        "description": "The label for category USB-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.usb_daq_manual_category.link.title": {
+        "message": "USB-DAQ User Manual",
+        "description": "The link title for category USB-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.usb_daq_manual_category.link.description": {
+        "message": "Technical documentation center for all WPC USB Data Acquisition Cards.",
+        "description": "The link description for category USB-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.wifi_daq_manual_category": {
+        "message": "WIFI-DAQ User Manual",
+        "description": "The label for category WIFI-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.wifi_daq_manual_category.link.title": {
+        "message": "WIFI-DAQ User Manual",
+        "description": "The link title for category WIFI-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.wifi_daq_manual_category.link.description": {
+        "message": "Technical documentation center for all WPC Wireless Data Acquisition Cards.",
+        "description": "The link description for category WIFI-DAQ User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.stem_manual_category": {
+        "message": "STEM User Manual",
+        "description": "The label for category STEM User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.stem_manual_category.link.title": {
+        "message": "STEM User Manual",
+        "description": "The link title for category STEM User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.stem_manual_category.link.description": {
+        "message": "Remote controller with 4 slots, supporting various IO module expansions.",
+        "description": "The link description for category STEM User Manual in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.motion_manual_category": {
+        "message": "Motion Control",
+        "description": "The label for category Motion Control in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.motion_manual_category.link.title": {
+        "message": "Motion Control Solutions",
+        "description": "The link title for category Motion Control in sidebar tutorialSidebar"
+    },
+    "sidebar.tutorialSidebar.category.motion_manual_category.link.description": {
+        "message": "Manuals for EDriveST and EDriveSRV Series Motor Drivers.",
+        "description": "The link description for category Motion Control in sidebar tutorialSidebar"
     },
     "sidebar.tutorialSidebar.category.產品型號": {
         "message": "Product Models",
         "description": "The label for category Product Models in sidebar tutorialSidebar"
     },
-    "sidebar.tutorialSidebar.category.Ethernet-DAQ 系列": {
+    "sidebar.tutorialSidebar.category.產品型號.link.title": {
+        "message": "Product Models",
+        "description": "The link title for category Product Models in sidebar tutorialSidebar"
+    },
+    "Ethernet-DAQ 使用說明書": {
         "message": "Ethernet-DAQ Series",
-        "description": "The label for category Ethernet-DAQ Series in sidebar tutorialSidebar"
+        "description": "Sidebar label for Ethernet-DAQ"
     },
-    "sidebar.tutorialSidebar.category.USB-DAQ 系列": {
+    "USB-DAQ 使用說明書": {
         "message": "USB-DAQ Series",
-        "description": "The label for category USB-DAQ Series in sidebar tutorialSidebar"
+        "description": "Sidebar label for USB-DAQ"
     },
-    "sidebar.tutorialSidebar.category.WIFI-DAQ 系列": {
+    "WIFI-DAQ 使用說明書": {
         "message": "WIFI-DAQ Series",
-        "description": "The label for category WIFI-DAQ Series in sidebar tutorialSidebar"
+        "description": "Sidebar label for WIFI-DAQ"
+    },
+    "STEM 使用說明書": {
+        "message": "STEM User Manual",
+        "description": "Sidebar label for STEM"
+    },
+    "馬達驅動 (Motion)": {
+        "message": "Motion Control",
+        "description": "Sidebar label for Motion"
+    },
+    "產品型號": {
+        "message": "Product Models",
+        "description": "Sidebar label for Product Models"
+    },
+    "version.label": {
+        "message": "Next",
+        "description": "The label for version current"
+    },
+    "sidebar.tutorialSidebar.category.Ethernet-DAQ 使用說明書": {
+        "message": "Ethernet-DAQ Series",
+        "description": "The label for category 'Ethernet-DAQ Series' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.ethan-products": {
+        "message": "Product Models",
+        "description": "The label for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.Ethan 產品型號": {
+        "message": "Product Models",
+        "description": "The label for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.Ethan 產品型號.link.generated-index.description": {
+        "message": "Covering 10 models: AI (16/24-bit), AO (Waveform Output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial needs",
+        "description": "The generated-index page description for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.USB-DAQ 使用說明書": {
+        "message": "USB-DAQ Series",
+        "description": "The label for category 'USB-DAQ Series' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.usbdaq-products": {
+        "message": "Product Models",
+        "description": "The label for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.USB 產品型號": {
+        "message": "Product Models",
+        "description": "The label for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.USB 產品型號.link.generated-index.description": {
+        "message": "Covering 7 models: Digital I/O (TTL/24V Isolated), Analog I/O (16-bit), Temperature Measurement (TC/RTD), CAN Communication",
+        "description": "The generated-index page description for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.WIFI-DAQ 使用說明書": {
+        "message": "WIFI-DAQ Series",
+        "description": "The label for category 'WIFI-DAQ Series' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.STEM 使用說明書": {
+        "message": "STEM User Manual",
+        "description": "The label for category 'STEM User Manual' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.支援模組": {
+        "message": "Supported Modules",
+        "description": "The label for category 'Supported Modules' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.支援模組.link.generated-index.description": {
+        "message": "Expansion modules for STEM series",
+        "description": "The generated-index page description for category 'Supported Modules' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.4 軸運動控制模組": {
+        "message": "4-axis Motion Control Module",
+        "description": "The label for category '4-axis Motion Control Module' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.4 軸運動控制模組.link.generated-index.description": {
+        "message": "Detailed description of 4-axis motion control module",
+        "description": "The generated-index page description for category '4-axis Motion Control Module' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.子板接線": {
+        "message": "Breakout Board Wiring",
+        "description": "The label for category 'Breakout Board Wiring' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.子板接線.link.generated-index.title": {
+        "message": "Motion Control Module Breakout Board",
+        "description": "The generated-index page title for category 'Breakout Board Wiring' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.tutorialSidebar.category.子板接線.link.generated-index.description": {
+        "message": "Motion control module needs to be used with 'Breakout Board', divided into general breakout board and specific breakout board.",
+        "description": "The generated-index page description for category 'Breakout Board Wiring' in sidebar 'tutorialSidebar'"
+    },
+    "sidebar.softwareSidebar.category.WPC Device Manager": {
+        "message": "WPC Device Manager",
+        "description": "The label for category 'WPC Device Manager' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.WPC Device Manager.link.generated-index.description": {
+        "message": "WPC Device Manager (WDM) User Manual and Function Description.",
+        "description": "The generated-index page description for category 'WPC Device Manager' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.測試面板": {
+        "message": "Test Panel",
+        "description": "The label for category 'Test Panel' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.測試面板.link.generated-index.description": {
+        "message": "WPC Device Manager Test Panel and Function Description",
+        "description": "The generated-index page description for category 'Test Panel' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.常見問題": {
+        "message": "FAQ",
+        "description": "The label for category 'FAQ' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.常見問題.link.generated-index.description": {
+        "message": "WPC Device Manager FAQ and Troubleshooting Guide",
+        "description": "The generated-index page description for category 'FAQ' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.GECO Manager": {
+        "message": "GECO Manager",
+        "description": "The label for category 'GECO Manager' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.GECO Manager.link.generated-index.description": {
+        "message": "GECO Manager User Manual and Function Description",
+        "description": "The generated-index page description for category 'GECO Manager' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.Stand-Alone Python Editor": {
+        "message": "Stand-Alone Python Editor",
+        "description": "The label for category 'Stand-Alone Python Editor' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.softwareSidebar.category.Stand-Alone Python Editor.link.generated-index.description": {
+        "message": "WPC Stand-Alone Python Editor User Manual and Function Description",
+        "description": "The generated-index page description for category 'Stand-Alone Python Editor' in sidebar 'softwareSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.GECO": {
+        "message": "GECO",
+        "description": "The label for category 'GECO' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.GECO.link.generated-index.description": {
+        "message": "GECO Product Development Documentation",
+        "description": "The generated-index page description for category 'GECO' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.支援模組": {
+        "message": "Supported Modules",
+        "description": "The label for category 'Supported Modules' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.支援模組.link.generated-index.description": {
+        "message": "GECO Series Expansion Modules",
+        "description": "The generated-index page description for category 'Supported Modules' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.PYCO": {
+        "message": "PYCO",
+        "description": "The label for category 'PYCO' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.PYCO.link.generated-index.description": {
+        "message": "PYCO Product Development Documentation",
+        "description": "The generated-index page description for category 'PYCO' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.產品型號": {
+        "message": "Product Models",
+        "description": "The label for category 'Product Models' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.產品型號.link.generated-index.description": {
+        "message": "Detailed Introduction to PYCO Series Models",
+        "description": "The generated-index page description for category 'Product Models' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.常見問題": {
+        "message": "FAQ",
+        "description": "The label for category 'FAQ' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.embeddedSidebar.category.常見問題.link.generated-index.description": {
+        "message": "PYCO Series FAQ and Troubleshooting Guide",
+        "description": "The generated-index page description for category 'FAQ' in sidebar 'embeddedSidebar'"
+    },
+    "sidebar.droneSidebar.category.常見問題.link.generated-index.description": {
+        "message": "WPC Drone FAQ and Troubleshooting Guide",
+        "description": "The generated-index page description for category 'FAQ' in sidebar 'droneSidebar'"
     }
 }

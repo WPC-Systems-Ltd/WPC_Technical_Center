@@ -1,9 +1,9 @@
 {
-    "label": "馬達驅動 (Motion)",
+    "label": "Motion Control",
     "position": 2,
     "link": {
         "type": "generated-index",
-        "title": "運動控制解決方案",
-        "description": "包含 EDriveST 與 EDriveSRV 系列馬達驅動器手冊。"
+        "title": "Motion Control Solutions",
+        "description": "Manuals for EDriveST and EDriveSRV Series Motor Drivers."
     }
 }

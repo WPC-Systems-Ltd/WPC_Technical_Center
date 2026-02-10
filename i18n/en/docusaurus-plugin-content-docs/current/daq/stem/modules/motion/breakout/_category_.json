@@ -1,0 +1,9 @@
+{
+    "label": "Breakout Board Wiring",
+    "description": "Motion control module needs to be used with 'Breakout Board', divided into general breakout board and specific breakout board.",
+    "link": {
+        "type": "generated-index",
+        "title": "Motion Control Module Breakout Board",
+        "description": "Motion control module needs to be used with 'Breakout Board', divided into general breakout board and specific breakout board."
+    }
+}

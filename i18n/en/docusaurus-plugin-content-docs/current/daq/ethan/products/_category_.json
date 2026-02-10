@@ -1,0 +1,10 @@
+{
+    "label": "Product Models",
+    "position": 1,
+    "key": "ethan-products",
+    "link": {
+        "type": "generated-index",
+        "title": "Product Models",
+        "description": "Covering 10 models: AI (16/24-bit), AO (Waveform Output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial needs"
+    }
+}

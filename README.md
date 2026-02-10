@@ -50,3 +50,8 @@ powershell
 npm run build
 npm run serve
 建置完成後就能正常切換語言了！
+
+
+:::warning 注意事項
+xxxxx
+:::

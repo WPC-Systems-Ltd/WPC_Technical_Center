@@ -1,0 +1,10 @@
+{
+    "label": "Ethernet-DAQ Series",
+    "position": 1,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "Ethernet-DAQ Series",
+        "description": "Industrial-grade Ethernet Data Acquisition Cards, supporting long-distance stable transmission."
+    }
+}

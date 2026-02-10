@@ -1,9 +1,0 @@
-{
-    "label": "Product Models",
-    "position": 1,
-    "key": "usbdaq-products",
-    "link": {
-        "type": "generated-index",
-        "description": "USB-DAQ Series Product Specifications and Introduction"
-    }
-}
