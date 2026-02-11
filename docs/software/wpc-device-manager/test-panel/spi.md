@@ -8,7 +8,7 @@ sidebar_label: 'SPI'
 SPI (Serial Peripheral Interface) 面板提供使用者進行 SPI 串列通訊測試。您可以設定 SPI 模式與傳輸速率，與周邊裝置進行全雙工通訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/spi.png" alt="SPI Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/spi.png" alt="SPI Test Panel" width="60%" />
 </div>
 
 ## 支援產品與連接埠

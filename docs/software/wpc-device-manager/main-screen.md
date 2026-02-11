@@ -8,7 +8,7 @@ description: "裝置列表、測試面板與產品資訊介面說明"
 ## 主畫面功能說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/main-screen.png" alt="WPC Device Manager 主畫面介紹" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/main-screen.png" alt="WPC Device Manager 主畫面介紹" width="60%" />
 </div>
 
 1.  **裝置列表**

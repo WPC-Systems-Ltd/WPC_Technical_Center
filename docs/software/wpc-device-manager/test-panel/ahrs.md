@@ -21,11 +21,11 @@ AHRS (Attitude and Heading Reference System) 面板提供使用者讀取姿態�
 面板分為數據數值顯示與 3D 模型姿態顯示兩部分：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ahrs.png" alt="AHRS Data" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/ahrs.png" alt="AHRS Data" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ahrs-3dmodel.png" alt="AHRS 3D Model" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/ahrs-3dmodel.png" alt="AHRS 3D Model" width="60%" />
 </div>
 
 | 參數               | 說明              | 範圍          |

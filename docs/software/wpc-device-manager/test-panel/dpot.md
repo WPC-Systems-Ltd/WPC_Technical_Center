@@ -8,7 +8,7 @@ sidebar_label: 'DPOT'
 DPOT (Digital Potentiometer) 面板提供使用者控制數位可變電阻，可應用於類比電路參數調整或感測器模擬。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/dpot.png" alt="DPOT Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/dpot.png" alt="DPOT Test Panel" width="60%" />
 </div>
 
 ## 支援產品

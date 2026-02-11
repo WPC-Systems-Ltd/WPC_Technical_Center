@@ -8,7 +8,7 @@ sidebar_label: 'MUX'
 MUX (Multiplexer) 面板提供使用者控制多工器的通道切換。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/mux.png" alt="MUX Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/mux.png" alt="MUX Test Panel" width="60%" />
 </div>
 
 ## 操作說明

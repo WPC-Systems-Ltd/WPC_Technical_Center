@@ -9,7 +9,7 @@ Ethan-A2 提供 **8 通道 24-bit 高精度類比輸入**，取樣率達 **10kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-a2.png" alt="Ethan-A2 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-a2.png" alt="Ethan-A2 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +26,4 @@ Ethan-A2 提供 **8 通道 24-bit 高精度類比輸入**，取樣率達 **10kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-a2-pinout.png" alt="Ethan-A2 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-a2-pinout.png" alt="Ethan-A2 腳位圖" width="60%" /></div>

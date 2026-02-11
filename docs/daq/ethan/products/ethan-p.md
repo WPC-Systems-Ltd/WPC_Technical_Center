@@ -9,7 +9,7 @@ Ethan-P 提供 **4 通道 10-bit 數位電位器**，阻值範圍 **300Ω ~ 50k�
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-p.png" alt="Ethan-P 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-p.png" alt="Ethan-P 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +26,4 @@ Ethan-P 提供 **4 通道 10-bit 數位電位器**，阻值範圍 **300Ω ~ 50k�
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-p-pinout.png" alt="Ethan-P 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-p-pinout.png" alt="Ethan-P 腳位圖" width="60%" /></div>

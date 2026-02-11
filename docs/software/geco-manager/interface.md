@@ -10,7 +10,7 @@ description: "GECO Manager 主畫面介紹、裝置搜尋與模擬裝置新增"
 ## 主畫面介紹
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page7_X94.png" alt="GECO Manager 主畫面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page7_X94.png" alt="GECO Manager 主畫面" width="60%" />
 </div>
 
 1.  **Network Devices**: GECO 裝置將會列在網路裝置列表中。
@@ -25,7 +25,7 @@ description: "GECO Manager 主畫面介紹、裝置搜尋與模擬裝置新增"
 將游標移至 "Network"，點擊右鍵並選擇 **"Refresh Network"** 以搜尋 GECO 裝置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page8_X101.png" alt="重新整理網路" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page8_X101.png" alt="重新整理網路" width="60%" />
 </div>
 
 :::tip 故障排除
@@ -43,5 +43,5 @@ description: "GECO Manager 主畫面介紹、裝置搜尋與模擬裝置新增"
 這些步驟可協助您新增模擬裝置以檢視詳細資訊，無需實際連接硬體。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page9_X108.png" alt="新增模擬裝置" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page9_X108.png" alt="新增模擬裝置" width="60%" />
 </div>

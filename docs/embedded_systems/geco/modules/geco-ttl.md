@@ -21,5 +21,5 @@ description: 24ch 5V TTL 模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_16_X192.png" alt="TTL Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_16_X192.png" alt="TTL Module Appearance" width="60%" />
 </div>

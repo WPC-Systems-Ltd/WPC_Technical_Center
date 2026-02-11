@@ -20,5 +20,5 @@ sidebar_label: 'Matrix Switch 模組'
 ## 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_36_img_X344.png" alt="Matrix Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_36_img_X344.png" alt="Matrix Module Appearance" width="60%" />
 </div>

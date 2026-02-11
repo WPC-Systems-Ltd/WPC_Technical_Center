@@ -23,4 +23,4 @@ USB-DAQ-AOD 整合 **8 通道 16-bit 類比輸入**（16kHz）與 **8 通道 16-
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/usb-daq/usb-daq-aod-pinout.png" alt="USB-DAQ-AOD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/usb-daq-aod-pinout.png" alt="USB-DAQ-AOD 腳位圖" width="60%" /></div>

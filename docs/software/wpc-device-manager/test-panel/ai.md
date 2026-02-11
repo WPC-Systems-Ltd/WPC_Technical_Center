@@ -8,7 +8,7 @@ sidebar_label: 'AI'
 AI (Analog Input) 面板提供使用者進行電壓或電流的類比訊號量測。透過此介面，您可以設定擷取通道、採樣模式及取樣率，並即時檢視訊號波形。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ai.png" alt="AI Test Panel" width="80%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/ai.png" alt="AI Test Panel" width="80%" />
 </div>
 
 ## 操作流程

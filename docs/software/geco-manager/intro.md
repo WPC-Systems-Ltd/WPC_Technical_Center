@@ -29,13 +29,13 @@ description: "GECO Manager 軟體簡介、下載與安裝指南"
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page2_X50.png" alt="LabVIEW Runtime 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page2_X50.png" alt="LabVIEW Runtime 下載頁面" width="60%" />
 </div>
 
 ### 步驟 3: 下載並安裝 NI CompactRIO 15.5
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page3_X64.png" alt="NI CompactRIO 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page3_X64.png" alt="NI CompactRIO 下載頁面" width="60%" />
 </div>
 
 ## 開啟 GECO Manager
@@ -50,13 +50,13 @@ description: "GECO Manager 軟體簡介、下載與安裝指南"
 1.  請點擊 **「其他資訊」 (More info)**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-geco-manager/geco_manager_page4_X74.png" alt="Windows 保護警告" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page4_X74.png" alt="Windows 保護警告" width="60%" />
     </div>
 
 2.  點擊 **「仍要執行」 (Run anyway)**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-geco-manager/geco_manager_page4_X75.png" alt="仍要執行" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page4_X75.png" alt="仍要執行" width="60%" />
     </div>
 
 ### 防火牆設定
@@ -67,11 +67,11 @@ description: "GECO Manager 軟體簡介、下載與安裝指南"
 2.  點擊 **「允許存取」 (Allow access)**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page5_X82.png" alt="防火牆設定" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page5_X82.png" alt="防火牆設定" width="60%" />
 </div>
 
 開啟後，GECO Manager 將會自動搜尋網路上的裝置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-geco-manager/geco_manager_page6_X88.png" alt="GECO Manager 啟動畫面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page6_X88.png" alt="GECO Manager 啟動畫面" width="60%" />
 </div>

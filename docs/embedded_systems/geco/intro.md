@@ -47,7 +47,7 @@ GECO 上方設有 4 個擴充插槽，可用於安裝各類 GECO 模組。目前
     *   RS-232 / 422 / 485
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_2_X79.png" alt="GECO Composition" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_2_X79.png" alt="GECO Composition" width="60%" />
 </div>
 
 ---
@@ -57,7 +57,7 @@ GECO 上方設有 4 個擴充插槽，可用於安裝各類 GECO 模組。目前
 本節說明 GECO 控制器的外部介面與指示燈狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_3_X91.png" alt="GECO Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_3_X91.png" alt="GECO Appearance" width="60%" />
 </div>
 
 (由左至右依序說明)

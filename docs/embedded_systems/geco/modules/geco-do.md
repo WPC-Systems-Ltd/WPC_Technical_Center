@@ -20,13 +20,13 @@ description: 24ch 數位輸出模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_16_X192.jpg" alt="DO Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_16_X192.jpg" alt="DO Module Appearance" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_17_X199.png" alt="DO Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_17_X199.png" alt="DO Module Pinout" width="60%" />
 </div>
 
 #### Port A
@@ -97,13 +97,13 @@ description: 24ch 數位輸出模組規格與腳位定義
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_19_X210.png" alt="Sinking Output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_19_X210.png" alt="Sinking Output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_19_X213.png" alt="Sourcing Output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_19_X213.png" alt="Sourcing Output" width="60%" />
 </div>
 
 :::caution

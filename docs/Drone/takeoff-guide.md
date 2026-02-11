@@ -35,25 +35,25 @@ description: 無人機起飛飛行流程
 ## 4. 飛行方向確認
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/page_8_X107.png" alt="飛行方向" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/page_8_X107.png" alt="飛行方向" width="60%" />
 </div>
 
 ### 上升/下降
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/Drone_up_down.gif" alt="上升/下降" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/Drone_up_down.gif" alt="上升/下降" width="60%" />
 </div>
 
 ### 旋轉
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/Drone_rotate.gif" alt="旋轉" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/Drone_rotate.gif" alt="旋轉" width="60%" />
 </div>
 
 ### 移動
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/Drone_move.gif" alt="移動" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/Drone_move.gif" alt="移動" width="60%" />
 </div>
 
 

@@ -26,7 +26,7 @@ WDM 的核心功能包括：
 > [下載 WPC Device Manager (WDM)](https://www.wpc.com.tw/wpc-device-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/download-page.png" alt="WPC Device Manager 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/download-page.png" alt="WPC Device Manager 下載頁面" width="60%" />
 </div>
 
 :::caution
@@ -36,5 +36,5 @@ WDM 的核心功能包括：
 > [下載 LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/labview-runtime.png" alt="LabVIEW 2019 Run-time Engine 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/labview-runtime.png" alt="LabVIEW 2019 Run-time Engine 下載頁面" width="60%" />
 </div>

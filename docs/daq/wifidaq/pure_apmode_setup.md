@@ -12,14 +12,14 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 
 當 WIFI-DAQ 上電後若持續顯示 **紅色 LED 燈**，即代表裝置處於 AP 模式，等待設定。
 
-<img src="/img/daq/wifi-daq/wifi-daq-change-domain-ip.png" alt="AP Mode" width="600" />
+<img src="/WPC_Technical_Center/img/daq/wifi-daq/wifi-daq-change-domain-ip.png" alt="AP Mode" width="600" />
 
 ## 步驟 2：電腦連線至裝置
 
 1. 開啟電腦的 Wi-Fi 列表。
 2. 搜尋並連接名稱為 **`WPC_DAQ_xxxxxx`** 的網路 (xxxxxx 為裝置唯一識別碼，例如 `WPC_DAQ_62e814`)。
 
-<img src="/img/daq/wifi-daq/wifi-daq-ap-mode-pc-connect.png" alt="Connect to WIFI-DAQ" width="400" />
+<img src="/WPC_Technical_Center/img/daq/wifi-daq/wifi-daq-ap-mode-pc-connect.png" alt="Connect to WIFI-DAQ" width="400" />
 
 :::note
 此時電腦無法連上網際網路是正常現象，請維持連線以進入設定頁面。
@@ -32,7 +32,7 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 2. 在網址列輸入 **`192.168.4.1`** 並按 Enter。
 3. 您將看到 WIFI-DAQ 的設定介面。
 
-<img src="/img/daq/wifi-daq/wifi-daq-browser.png" alt="Web Config" width="600" />
+<img src="/WPC_Technical_Center/img/daq/wifi-daq/wifi-daq-browser.png" alt="Web Config" width="600" />
 
 ## 步驟 4：設定 Wi-Fi
 
@@ -40,7 +40,7 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 2. 輸入該 Wi-Fi 的密碼。
 3. 點擊 **Save** 儲存設定。
 
-<img src="/img/daq/wifi-daq/wifi-daq-ssid-list.png" alt="Wifi List" width="600" />
+<img src="/WPC_Technical_Center/img/daq/wifi-daq/wifi-daq-ssid-list.png" alt="Wifi List" width="600" />
 
 :::warning
 - 請確保輸入的 Wi-Fi 密碼正確。

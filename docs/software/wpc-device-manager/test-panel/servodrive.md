@@ -8,7 +8,7 @@ sidebar_label: 'Servo Drive'
 **WPC-EDrive-SRV** 是一款具備網路介面的單軸伺服馬達整合型驅動器。透過 Servo Drive 面板，使用者可以直觀地設定驅動器參數、執行馬達調機程序 (Auto-tuning) 以及進行運動控制測試。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-connect.png" alt="Servo Drive Connect" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-connect.png" alt="Servo Drive Connect" width="60%" />
 </div>
 
 ## 系統管理 (System Configuration)
@@ -16,7 +16,7 @@ sidebar_label: 'Servo Drive'
 提供驅動器設定檔管理與韌體更新功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-file-config.png" alt="System Configuration" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-file-config.png" alt="System Configuration" width="60%" />
 </div>
 
 | 按鈕功能          | 說明                                           |
@@ -37,7 +37,7 @@ sidebar_label: 'Servo Drive'
 ### Step 1. 選擇馬達型號
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-fill-motor.png" alt="Fill motor specification" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-fill-motor.png" alt="Fill motor specification" width="60%" />
 </div>
 
 請在 `Model No.` 下拉選單中選擇您的馬達型號。系統會自動填入對應的額定規格 (扭力、電流、頻率、轉速等)。
@@ -50,7 +50,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 2. 確認電氣參數
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-config-electric-param.png" alt="Configure electric parameter" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-config-electric-param.png" alt="Configure electric parameter" width="60%" />
 </div>
 
 顯示馬達的詳細電氣參數 (如相電阻、相電感)。若上一步驟已正確選擇型號，此處通常不需修改，點擊 **Next** 繼續。
@@ -58,7 +58,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 3. 解除煞車 (Release Brake)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-release-break.png" alt="Release brake" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-release-break.png" alt="Release brake" width="60%" />
 </div>
 
 若您的馬達配有煞車 (Brake) 機構，請依照指示解除煞車，以確保馬達軸心可自由轉動。詳細接線請參閱 **WPC-EDrive-SRV 硬體使用手冊**。
@@ -66,7 +66,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 4. 系統鑑別 - 電氣特性 (Electrical ID)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-system-identify.png" alt="System Identification Electrical" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-system-identify.png" alt="System Identification Electrical" width="60%" />
 </div>
 
 自動測量馬達的實際相電阻與電感值。
@@ -82,7 +82,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 5. 系統鑑別 - 機械特性說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-system-identify-mechnical.png" alt="System Identification Mechanical" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-system-identify-mechnical.png" alt="System Identification Mechanical" width="60%" />
 </div>
 
 此頁面為說明頁，請點擊 **Next** 繼續。
@@ -90,7 +90,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 6. 系統鑑別 - 執行機械識別 (Mechanical ID)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-perform-sustem.png" alt="Perform System Identification Mechanical" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-perform-sustem.png" alt="Perform System Identification Mechanical" width="60%" />
 </div>
 
 自動測量負載慣量、黏滯係數等機械參數。
@@ -104,7 +104,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 6. 馬達將在起始點與結束點之間往返測試，並自動調整輸出。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-fitting.png" alt="Fitting Result" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-fitting.png" alt="Fitting Result" width="60%" />
 </div>
 
 **結果判讀：**
@@ -114,7 +114,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### Step 7. 設定控制頻寬 (Controller Bandwidth)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-controller-bandwidth.png" alt="Configure Controller Bandwidth" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-controller-bandwidth.png" alt="Configure Controller Bandwidth" width="60%" />
 </div>
 
 調整馬達的響應頻寬 (Bandwidth)。
@@ -131,7 +131,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 針對短行程、高精度的移動需求，可開啟此功能以消除靜摩擦力造成的「黏滯滑動 (Stick-Slip)」現象 (即起步時的遲滯或轉折處的停頓)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-friction-compensation2.png" alt="Friction Compensation" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-friction-compensation2.png" alt="Friction Compensation" width="60%" />
 </div>
 
 **設定步驟：**
@@ -144,7 +144,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 用於抑制機構共振 (Resonance)。當馬達帶動皮帶或懸臂結構時，若產生特定頻率的嗡嗡聲，可使用此功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-notch-filter.png" alt="Adaptive Notch Filter" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-notch-filter.png" alt="Adaptive Notch Filter" width="60%" />
 </div>
 
 **操作步驟：**
@@ -159,7 +159,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### 電流保護 (Current Protection)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-current-protection.png" alt="Current Protection" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-current-protection.png" alt="Current Protection" width="60%" />
 </div>
 
 設定過電流保護機制，防止馬達因堵轉或撞機而燒毀。
@@ -173,7 +173,7 @@ Panasonic 系列馬達的型號通常標示於馬達側面的貼紙上。
 ### 到位判定 (In-Position)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/srv-inposition.png" alt="Inposition" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/srv-inposition.png" alt="Inposition" width="60%" />
 </div>
 
 定義「到位 (In-Position)」訊號的觸發條件。
