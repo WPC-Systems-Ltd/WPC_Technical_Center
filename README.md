@@ -1,57 +1,78 @@
-# 刪除 .docusaurus 資料夾
-rmdir /s /q .docusaurus
+# WPC Technical Center (星協技術中心)
 
-# 清除 Docusaurus 快取
-npm run clear
+歡迎來到 **WPC Technical Center** 官方文件網站。此專案基於 [Docusaurus](https://docusaurus.io/) 建置，提供 WPC Systems Ltd. 產品的詳細技術手冊與使用指南。
 
-# 重新啟動開發伺服器
-npm run start
+## 🌟 專案特色
 
+- **現代化文件架構**：使用 Docusaurus 3.x 提供快速、響應式的閱讀體驗。
+- **多語系支援 (i18n)**：預設繁體中文 (zh-Hant)，並支援英文 (en) 切換。
+- **自動化部署**：整合 GitHub Actions，推送到 `main` 分支即自動發佈至 GitHub Pages。
+- **全文搜索**：內建搜尋功能，快速查找技術資訊。
 
-npm install notion-to-md @notionhq/client
+## 🚀 快速開始 (Getting Started)
 
-node convert.js
+### 1. 安裝 (Installation)
 
-cd D:\Synology\github\WPC_Technical_Center
+在開始之前，請確保您的環境已安裝 [Node.js](https://nodejs.org/) (建議 v18 或以上)。
 
+```bash
+npm install
+```
 
+### 2. 啟動本地開發伺服器 (Development)
 
-1. 請你生成的內容, 要遵守 .agent/rules/instructions.md, .agent/rules/documentation-style.md,.agent/rules/language-preference.md
+啟動開發伺服器，即時預覽變更：
 
-2. 請你用專業寫規格書的風格來寫修改以下內容, 讓使用者能快速理解
+```bash
+npm start
+```
 
-##
-我理解了！您想在開發時也能即時切換中英文。
+- 網站將於 `http://localhost:3000` 開啟。
+- 預設顯示繁體中文版本。
 
-問題是： Docusaurus 的開發模式 (npm run start) 是技術限制，一次只能運行一個語系。這是官方設計，無法繞過。
+### 3. 建置專案 (Build)
 
-解決方案：使用 Production 模式進行測試
+若要產生靜態檔案 (用於部署)：
 
-執行以下指令來建置並啟動支援所有語系的伺服器：
+```bash
+npm run build
+```
 
-powershell
+檔案將輸出至 `build/` 目錄。
+
+## 🌐 多語系開發 (i18n)
+
+由於 Docusaurus 開發模式限制，`npm start` 預設僅載入繁體中文。若要預覽英文版：
+
+```bash
+# 啟動英文版開發伺服器
+npm run start -- --locale en
+```
+
+或建置後使用 `serve` 指令預覽完整多語系網站：
+
+```bash
 npm run build
 npm run serve
-這樣您就可以：
+```
 
-使用語言切換器自由切換中英文
-中文：http://localhost:3001/docs/...
-英文：http://localhost:3001/en/docs/...
-開發建議：
+## 📦 部署 (Deployment)
 
-日常開發：使用 npm run start (預設中文) 快速預覽修改
-測試多語系：定期執行 npm run build && npm run serve 驗證語言切換
-上線前：執行完整的 production build 測試
-注意： Production build 會比較慢（首次約 30 秒到 1 分鐘），但之後的修改可以用 npm run start 快速預覽中文版，需要時再 build 檢查英文版。
+本專案使用 **GitHub Actions** 進行自動化部署。
 
-現在請執行：
+- **觸發條件**：推送到 `main` 分支。
+- **目標分支**：`gh-pages` (由 Action 自動維護)。
+- **線上網址**：[https://WPC-Systems-Ltd.github.io/WPC_Technical_Center/](https://WPC-Systems-Ltd.github.io/WPC_Technical_Center/)
 
-powershell
-npm run build
-npm run serve
-建置完成後就能正常切換語言了！
+## 📁 專案結構
 
+- `/docs` - 文件原始碼 (Markdown/MDX)。
+- `/blog` - 部落格文章 (若有)。
+- `/src`  - React 頁面與客製化元件。
+- `/i18n` - 翻譯檔案 (英文版文件位於 `i18n/en/docusaurus-plugin-content-docs/current`)。
+- `docusaurus.config.ts` - 網站設定檔。
 
-:::warning 注意事項
-xxxxx
-:::
+## 🔗 相關連結
+
+- [WPC Systems Ltd. 官方網站](https://www.wpc.com.tw)
+- [GitHub 儲存庫](https://github.com/WPC-Systems-Ltd/WPC_Technical_Center)
