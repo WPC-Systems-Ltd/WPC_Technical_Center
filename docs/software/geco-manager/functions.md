@@ -1,0 +1,54 @@
+---
+title: 進階功能
+sidebar_label: 進階功能
+sidebar_position: 3
+description: "GECO Manager 進階功能：重新整理、腳位圖查看、重新啟動、更改 Personality"
+---
+
+# 進階功能
+
+## 重新整理
+
+點擊 **"Refresh"** 按鈕以重新載入產品資訊。
+
+## 查看腳位圖
+
+點擊 **"Pinout"** 按鈕以顯示腳位圖。視窗大小可根據使用者需求調整。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/wpc-geco-manager/geco_manager_page11_X121.png" alt="腳位圖視窗" width="60%" />
+</div>
+
+## 重新啟動
+
+點擊 **"Reboot"** 按鈕以重新啟動產品。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/wpc-geco-manager/geco_manager_page12_X127.png" alt="重新啟動" width="60%" />
+</div>
+
+## 更改 Personality
+
+點擊 **"Change"** 按鈕以更改 GECO 的 FPGA Personality。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/wpc-geco-manager/geco_manager_page13_X133.png" alt="更改 Personality" width="60%" />
+</div>
+
+### Personality 對照表
+
+下表列出不同 Personality 對應各插槽 (C1 - C4) 的模組配置：
+
+| Personality | C1 | C2 | C3 | C4 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Motion-4HX** | Motion | Motion | Motion | Motion |
+| **Motion-2HX** | DIO | Motion | Motion | DIO |
+| **Motion-1HX** | DIO | Motion | DIO | DIO |
+| **Motion-2HX** | DIO  | Motion | Motion | Serial |
+| **A2D** | Motion | AIO | DIO | DIO |
+| **AIO** | AIO | AIO | AIO | AIO |
+| **DIO** | DIO | DIO | DIO | DIO |
+| **Switch** | Switch | Switch | Switch | Switch |
+| **Thermo** | Thermo | Thermo | Thermo | Thermo |
+
+> **備註**: HX 代表 Motion 軸卡。

@@ -1,0 +1,8 @@
+{
+    "label": "DAQ",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Data Acquisition (DAQ) 產品系列"
+    }
+}

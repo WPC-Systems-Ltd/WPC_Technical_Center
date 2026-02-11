@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "WPC Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.無人機": {
+    "message": "Drone",
+    "description": "Navbar item with label 無人機"
+  },
+  "item.label.DAQ": {
+    "message": "DAQ",
+    "description": "Navbar item with label DAQ"
+  },
+  "item.label.軟體": {
+    "message": "Software",
+    "description": "Navbar item with label 軟體"
+  },
+  "item.label.嵌入式系統": {
+    "message": "Embedded Systems",
+    "description": "Navbar item with label 嵌入式系統"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "title": {
+    "message": "Home",
+    "description": "The title in the navbar"
+  }
+}

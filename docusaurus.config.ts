@@ -15,17 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  // Set the production url of your site here
+  url: 'https://WPC-Systems-Ltd.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/WPC_Technical_Center/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'WPC-Systems-Ltd', // Usually your GitHub org/user name.
+  projectName: 'WPC_Technical_Center', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'zh-Hant',
@@ -68,10 +69,16 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'Home Logo',
-        src: 'img/logo.svg',
+        alt: 'WPC Logo',
+        src: 'img/WPC_Logo.jpg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'droneSidebar',
+          position: 'left',
+          label: '無人機',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -79,11 +86,23 @@ const config: Config = {
           label: 'DAQ',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'softwareSidebar',
+          position: 'left',
+          label: '軟體',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'embeddedSidebar',
+          position: 'left',
+          label: '嵌入式系統',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/WPC-Systems-Ltd',
           label: 'GitHub',
           position: 'right',
         },
@@ -93,43 +112,42 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '產品手冊',
           items: [
             {
-              label: 'DAQ',
-              to: '/docs/DAQ/wifidaq/intro',
+              label: 'Ethernet-DAQ',
+              to: '/docs/daq/ethan/intro',
+            },
+            {
+              label: 'USB-DAQ',
+              to: '/docs/daq/usbdaq/intro',
+            },
+            {
+              label: 'WIFI-DAQ',
+              to: '/docs/daq/wifidaq/product-general',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '聯絡我們',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '星協科技有限公司 (WPC Systems Ltd.)',
+              href: 'https://www.wpc.com.tw',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              html: '<span class="footer__link-item">236 新北市土城區青雲路55號</span>',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              html: '<span class="footer__link-item">No. 55, Qingyun Rd., Tucheng Dist., New Taipei City 236, Taiwan (R.O.C.)</span>',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              html: '<span class="footer__link-item">TEL: 02-82624431</span>',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2022-${new Date().getFullYear()} 星協科技有限公司 (WPC Systems Ltd.)`,
     },
     prism: {
       theme: prismThemes.github,

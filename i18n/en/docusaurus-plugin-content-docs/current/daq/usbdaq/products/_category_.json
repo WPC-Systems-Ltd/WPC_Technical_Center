@@ -1,0 +1,10 @@
+{
+    "label": "Product Models",
+    "position": 1,
+    "key": "usbdaq-products",
+    "link": {
+        "type": "generated-index",
+        "title": "Product Models",
+        "description": "Covering 7 models: Digital I/O (TTL/24V Isolated), Analog I/O (16-bit), Temperature Measurement (TC/RTD), CAN Communication"
+    }
+}

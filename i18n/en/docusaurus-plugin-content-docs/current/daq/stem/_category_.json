@@ -1,0 +1,11 @@
+{
+    "label": "STEM User Manual",
+    "position": 4,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "stem",
+        "title": "STEM User Manual",
+        "description": "Remote controller with 4 slots, supporting various IO module expansions."
+    }
+}

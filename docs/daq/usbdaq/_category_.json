@@ -1,0 +1,11 @@
+{
+    "label": "USB-DAQ 使用說明書",
+    "position": 2,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "usb-daq",
+        "title": "USB-DAQ 使用說明書",
+        "description": "這裡是 WPC 所有 USB 數據採集卡的技術文件中心。"
+    }
+}
