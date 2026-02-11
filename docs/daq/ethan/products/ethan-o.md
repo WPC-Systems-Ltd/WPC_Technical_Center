@@ -21,7 +21,7 @@ Ethan-O 提供 **8 通道 16-bit 類比輸出**（±10V），更新率達 **1kHz
 4. 輸出範圍: ±10V
 5. 最大更新率: 1kHz
 6. 支援波形產生功能
-7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 

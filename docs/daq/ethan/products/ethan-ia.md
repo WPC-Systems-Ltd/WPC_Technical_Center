@@ -22,7 +22,7 @@ Ethan-IA 整合 **電壓與電流雙模式輸入**，提供 **8 通道 24-bit** 
 5. 最大更新率: 600Hz (單通道)
 6. 電流輸入範圍: ±20mA
 7. 電壓輸入範圍: ±10V
-8. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+8. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 

@@ -20,7 +20,7 @@ Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 *
 3. 7 通道熱電偶輸入
 4. 支援感測器類型: K, J, N, R, S, T, E, & B 型
 5. 穩定時間: 160ms (單通道)
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 

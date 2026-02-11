@@ -21,7 +21,7 @@ Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通
 4. 數位輸入 (DI): 16 通道 NPN, 24V 光耦合隔離
 5. 2 通道 PWM 輸出
 6. 2 通道計數器輸入
-7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 

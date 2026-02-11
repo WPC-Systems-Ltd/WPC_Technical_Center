@@ -14,7 +14,7 @@ USB-DAQ-CD 提供 **CAN 2.0A/B 通訊介面**，支援最高 **1Mbps** 傳輸速
 2. 20 通道 3.3V 數位 I/O (可承受 5V 輸入)
 3. 支援 I2C/SPI/UART/PWM/計數器
 4. CAN V2.0B 傳輸速率可達 1Mb/sec
-5. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+5. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位圖
 ---

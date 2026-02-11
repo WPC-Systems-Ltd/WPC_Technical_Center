@@ -20,7 +20,7 @@ Ethan-D 整合 **8 通道數位輸入** (DI) 與 **6 通道繼電器輸出** (NP
 3. 數位輸出 (DO): 6 通道 NPN, 24V 光耦合隔離
 4. 數位輸入 (DI): 8 通道 NPN, 24V 光耦合隔離
 5. 2 通道 PWM 輸出
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 

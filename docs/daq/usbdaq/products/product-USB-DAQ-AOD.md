@@ -18,7 +18,7 @@ USB-DAQ-AOD 整合 **8 通道 16-bit 類比輸入**（16kHz）與 **8 通道 16-
 6. 輸入範圍: +/-10V
 7. 類比輸出 (AO): 8 通道同步輸出 & 16-bit 單端解析度
 8. 輸出範圍: 0-5V
-9. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+9. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位圖
 ---

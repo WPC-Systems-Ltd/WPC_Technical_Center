@@ -15,7 +15,7 @@ USB-DAQ-D-SNK 提供工業級 **24V 隔離數位 I/O**（8 DI + 8 DO），具備
 3. 數位輸入 (DI): 14 通道 NPN, 光耦合隔離 24V
 4. PWM/計數器
 5. 需外接 24V 直流電源
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 > ⚠️ 需使用外部 24V 電源。
 

@@ -14,7 +14,7 @@ USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 
 4. 類比輸入 (AI): 8 通道同步取樣 & 16-bit 單端解析度
 5. 最大取樣率: 16kHz (單通道)
 6. 輸入範圍: +/-10V
-7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位圖
 ---

@@ -15,7 +15,7 @@ USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 3. 支援 I2C/SPI/UART/PWM/計數器
 4. 2 通道 RTD 輸入
 5. 支援 PT-100 或 PT-1000
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位圖
 ---

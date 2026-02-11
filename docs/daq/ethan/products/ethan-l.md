@@ -22,7 +22,7 @@ Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form
 5. 最大電流: 1A
 6. 動作時間: 2ms (不含彈跳)
 7. 釋放時間: 1ms (不含彈跳)
-8. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/ca1d9d570ec44097b4cdd0cebee0a77f)
+8. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
 
 ### 腳位定義
 
