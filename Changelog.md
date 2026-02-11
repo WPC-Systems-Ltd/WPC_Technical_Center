@@ -1,6 +1,13 @@
 WPC Technical Center Changelog
 ==================================
 
+
+v0.0.2 Date: 2026/02/11, Developer: Chunglee_people
+--------------------------------------------------
+
+### Changed
+- Updated CI to use Node.js 22 and enabled triggers on `deploy` branch.
+
 v0.0.1 Date: 2026/02/11, Developer: Chunglee_people
 ---------------------------------------------------
 
