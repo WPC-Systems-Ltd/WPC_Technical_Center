@@ -12,7 +12,7 @@ PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 **8 通道 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-eth.png" alt="PYCO ETH 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth.png" alt="PYCO ETH 外觀" width="60%" />
 </div>
 
 
@@ -37,7 +37,7 @@ PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 **8 通道 
 ## 各部名稱
 ---
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-eth-general.png" alt="PYCO ETH 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth-general.png" alt="PYCO ETH 外觀" width="60%" />
 </div>
 
 

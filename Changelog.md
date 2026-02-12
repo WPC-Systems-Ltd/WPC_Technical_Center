@@ -1,15 +1,18 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.3 Date: 2026/02/12, Developer: Chunglee_people
+---------------------------------------------------
+### Changed
+- Fixed broken image paths by including the repository base URL (/WPC_Technical_Center) in all image sources.
 
 v0.0.2 Date: 2026/02/11, Developer: Chunglee_people
---------------------------------------------------
+---------------------------------------------------
 ### Changed
 - Updated CI to use Node.js 22
 
 v0.0.1 Date: 2026/02/11, Developer: Chunglee_people
 ---------------------------------------------------
-
 ### Added
 - Software
   - Added documentation for WPC Device Manager (Device management tool).

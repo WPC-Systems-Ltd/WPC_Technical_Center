@@ -12,7 +12,7 @@ description: "SAPE 常用功能：檔案傳輸、執行與儲存腳本"
 您可以直接將 **Host PC** 上的檔案拖放到 **Target** (WPC 裝置) 上。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_drop_file.gif" alt="拖放檔案" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/pyco_drop_file.gif" alt="拖放檔案" width="60%" />
 </div>
 
 例如：將範例程式碼從電腦上的資料夾直接拖曳到目標裝置的列表中。
@@ -22,7 +22,7 @@ description: "SAPE 常用功能：檔案傳輸、執行與儲存腳本"
 在 **Editor** 中撰寫或開啟 `main.py` 程式碼。完成後，點擊 **"Run script"** 按鈕以執行程式碼，結果將顯示在 **Console** 中。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_run_script.gif" alt="執行腳本" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/pyco_run_script.gif" alt="執行腳本" width="60%" />
 </div>
 
 範例程式碼：
@@ -40,7 +40,7 @@ print("Hello from WPC Systems Ltd.")
 系統會彈出確認視窗，請選擇 **"Yes"** 以確認儲存。儲存後星號將自動消失。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_save_script.gif" alt="儲存腳本" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/pyco_save_script.gif" alt="儲存腳本" width="60%" />
 </div>
 
 ## 覆蓋 main.py
@@ -50,7 +50,7 @@ print("Hello from WPC Systems Ltd.")
 點擊 **"Override main.py"** 按鈕。系統會彈出確認視窗，請選擇 **"Yes"**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_override.gif" alt="覆蓋 main.py" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/pyco_override.gif" alt="覆蓋 main.py" width="60%" />
 </div>
 
 ## 關閉檔案
@@ -58,5 +58,5 @@ print("Hello from WPC Systems Ltd.")
 點擊紅色的關閉按鈕即可關閉檔案。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_close.gif" alt="關閉檔案" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/pyco_close.gif" alt="關閉檔案" width="60%" />
 </div>

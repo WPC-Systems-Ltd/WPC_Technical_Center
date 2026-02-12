@@ -8,7 +8,7 @@ sidebar_label: 'PWM'
 PWM (Pulse Width Modulation) 面板提供使用者產生脈衝寬度調變訊號的功能。您可以控制數位訊號的頻率與工作週期 (Duty Cycle)，適用於馬達控制、LED 調光等應用。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/pwm.png" alt="PWM Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/pwm.png" alt="PWM Test Panel" width="60%" />
 </div>
 
 ## 支援產品與通道

@@ -7,6 +7,6 @@ sidebar_position: 1
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/faq1.png" alt="faq1" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/faq1.png" alt="faq1" width="60%" />
 </div>
 

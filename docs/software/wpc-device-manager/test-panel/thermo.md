@@ -8,7 +8,7 @@ sidebar_label: 'Thermo'
 Thermo 面板專為溫度量測設計，支援熱電偶 (Thermocouple) 與熱電阻 (RTD) 感測器。提供多種感測器類型選擇與訊號濾波功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/thermo.png" alt="Thermo Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/thermo.png" alt="Thermo Test Panel" width="60%" />
 </div>
 
 ## 支援產品與連接埠

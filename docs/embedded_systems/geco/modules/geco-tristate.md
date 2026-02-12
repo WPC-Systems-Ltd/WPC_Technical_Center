@@ -18,5 +18,5 @@ description: 12ch 三態開關模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_47_X429.jpg" alt="Tri-state Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_47_X429.jpg" alt="Tri-state Module Appearance" width="60%" />
 </div>

@@ -33,9 +33,9 @@ description: 24ch AI / 8ch AO 模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_10_X146.jpg" alt="AI/AO Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_10_X146.jpg" alt="AI/AO Module Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/GECO_24ch_AI_8chAO_pinout.png" alt="AI/AO Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/GECO_24ch_AI_8chAO_pinout.png" alt="AI/AO Module Pinout" width="60%" />
 </div>

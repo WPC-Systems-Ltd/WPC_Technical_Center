@@ -8,7 +8,7 @@ sidebar_label: 'AO'
 AO (Analog Output) 面板提供使用者進行電壓或電流的類比訊號輸出控制。透過此介面，您可以手動設定各通道的輸出數值，或同步更新多個通道。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ao.png" alt="AO Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/ao.png" alt="AO Test Panel" width="60%" />
 </div>
 
 ## 支援產品

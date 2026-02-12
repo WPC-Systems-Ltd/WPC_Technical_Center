@@ -9,7 +9,7 @@ description: 針對不同 LabVIEW 版本環境的 myRIO 韌體與軟體更新指
 在開始更新程序前，請先確認您電腦中安裝的 LabVIEW 版本數量，並依據下列情境選擇合適的操作步驟。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/faq5.png" alt="faq5" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/faq5.png" alt="faq5" width="60%" />
 </div>
 
 ## 情境一：單一 LabVIEW 版本

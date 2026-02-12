@@ -11,7 +11,7 @@ description: WPC Drone 產品特色與技術規格
 採用自研高效飛控演算法，反應時間快達 2.5 ms，具備卓越的抗風性能，即使在 7 級陣風下仍能維持穩定飛行。透過高速姿態與航向參考系統（AHRS），整體控制更快速、抗震性佳，確保飛行任務的高穩定性與高可靠度。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/page_1_X5.png" alt="WPC Drone" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/page_1_X5.png" alt="WPC Drone" width="60%" />
 </div>
 
 ## 核心技術特色

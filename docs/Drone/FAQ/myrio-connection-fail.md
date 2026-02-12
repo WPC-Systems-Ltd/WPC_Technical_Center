@@ -6,7 +6,7 @@ sidebar_position: 4
 # 專案無法連上myRIO
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/faq4.png" alt="faq4" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/faq4.png" alt="faq4" width="60%" />
 </div>
 
 

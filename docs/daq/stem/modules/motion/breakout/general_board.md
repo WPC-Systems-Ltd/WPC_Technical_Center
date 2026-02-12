@@ -11,7 +11,7 @@ description: 適用於各類步進與伺服馬達的通用接線板
 本通用型子板專為運動控制模組設計，採用標準歐規端子台介面。其設計目的在於提供極高的配線彈性，將所有控制訊號拉出，使開發者能自由連接市面上絕大多數的步進馬達 (Stepper Motor) 與伺服馬達 (Servo Motor) 驅動器。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_15_img_X169.png" alt="General Breakout Board" width="80%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_15_img_X169.png" alt="General Breakout Board" width="80%" />
 </div>
 
 ## 2. 硬體與應用
@@ -25,7 +25,7 @@ description: 適用於各類步進與伺服馬達的通用接線板
 子板上配置了四組主要的歐規端子台，依據訊號特性進行分區：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_16_img_X179.png" alt="General Breakout Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_16_img_X179.png" alt="General Breakout Board" width="60%" />
 </div>
 
 *   **T1 / T3 端子台 (高速訊號區)**：

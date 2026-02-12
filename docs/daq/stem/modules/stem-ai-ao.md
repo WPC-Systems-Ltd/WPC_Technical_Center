@@ -32,5 +32,5 @@ sidebar_label: '24ch AI/8ch AO 模組'
 ## 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_6_img_X106.png" alt="AI/AO Module Pinout" width="50%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_6_img_X106.png" alt="AI/AO Module Pinout" width="50%" />
 </div>

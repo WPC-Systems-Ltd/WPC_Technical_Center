@@ -24,5 +24,5 @@ description: 16ch 熱電偶模組規格與腳位定義
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_16_X191.jpg" alt="Thermocouple Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_16_X191.jpg" alt="Thermocouple Module Appearance" width="60%" />
 </div>

@@ -18,13 +18,13 @@ sidebar_label: '12ch DI/12ch DO 模組'
 ## 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_8_img_X118.png" alt="DIO Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_8_img_X118.png" alt="DIO Module Appearance" width="60%" />
 </div>
 
 ## 腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_9_img_X126.png" alt="DIO Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_9_img_X126.png" alt="DIO Module Pinout" width="60%" />
 </div>
 
 ## 接線說明
@@ -39,13 +39,13 @@ sidebar_label: '12ch DI/12ch DO 模組'
 *   輸入 (Input) 必須為共陽極 (Common Anode, 24V)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_11_img_X141.png" alt="Sourcing Out + Sinking In" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_11_img_X141.png" alt="Sourcing Out + Sinking In" width="60%" />
 </div>
 
 ### Sourcing Out + Sinking In
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_12_img_X150.png" alt="Sourcing Out + Sinking In" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_12_img_X150.png" alt="Sourcing Out + Sinking In" width="60%" />
 </div>
 
 *   ⚠️ 安裝**下排**電阻

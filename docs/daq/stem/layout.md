@@ -8,7 +8,7 @@ sidebar_label: '外觀與硬體'
 ## 外觀說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_1_img_X5.png" alt="STEM Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_1_img_X5.png" alt="STEM Appearance" width="60%" />
 </div>
 
 由上到下依序為：
@@ -20,7 +20,7 @@ sidebar_label: '外觀與硬體'
 ## 介面說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_5_img_X94.png" alt="STEM Interface" width="80%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_5_img_X94.png" alt="STEM Interface" width="80%" />
 </div>
 
 由左到右依序為：

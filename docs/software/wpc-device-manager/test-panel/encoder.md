@@ -8,7 +8,7 @@ sidebar_label: 'Encoder'
 Encoder (編碼器) 面板提供使用者讀取正交編碼器 (Quadrature Encoder) 的位置與速度資訊。適用於馬達位置回授與轉速監控。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/encoder.png" alt="Encoder Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/encoder.png" alt="Encoder Test Panel" width="60%" />
 </div>
 
 ## 參數與數值顯示

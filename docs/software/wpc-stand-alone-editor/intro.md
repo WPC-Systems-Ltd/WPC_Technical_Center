@@ -18,7 +18,7 @@ description: "WPC Stand-alone Python Editor 軟體簡介、下載與安裝指南
 請從 WPC 官方網站下載最新版本的 Stand-Alone Python Editor。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page2_X51.png" alt="stand alone python editor" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page2_X51.png" alt="stand alone python editor" width="60%" />
 </div>
 
 
@@ -29,7 +29,7 @@ description: "WPC Stand-alone Python Editor 軟體簡介、下載與安裝指南
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page3_X64.png" alt="LabVIEW Runtime 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page3_X64.png" alt="LabVIEW Runtime 下載頁面" width="60%" />
 </div>
 
 ## 開啟 SAPE
@@ -38,7 +38,7 @@ description: "WPC Stand-alone Python Editor 軟體簡介、下載與安裝指南
 2.  點擊 `WPC Stand-Alone Python Editor.exe` 以啟動軟體。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page3_X67.png" alt="開啟SAPE" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page3_X67.png" alt="開啟SAPE" width="60%" />
 </div>
 
 ### Windows 安全性警告處理
@@ -48,13 +48,13 @@ description: "WPC Stand-alone Python Editor 軟體簡介、下載與安裝指南
 1.  請點擊 **「其他資訊」 (More info)**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-stand-alone-editor/editor_page4_X74.png" alt="Windows 保護警告" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page4_X74.png" alt="Windows 保護警告" width="60%" />
     </div>
 
 2.  點擊 **「仍要執行」 (Run anyway)**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-stand-alone-editor/editor_page5_X80.png" alt="仍要執行" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page5_X80.png" alt="仍要執行" width="60%" />
     </div>
 
 ### 防火牆設定
@@ -65,11 +65,11 @@ description: "WPC Stand-alone Python Editor 軟體簡介、下載與安裝指南
 2.  點擊 **「允許存取」 (Allow access)**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page6_X86.png" alt="防火牆設定" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page6_X86.png" alt="防火牆設定" width="60%" />
 </div>
 
 首次開啟 SAPE 時，它將會嘗試連接 COM Port。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page7_X92.png" alt="嘗試連接com port" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page7_X92.png" alt="嘗試連接com port" width="60%" />
 </div>

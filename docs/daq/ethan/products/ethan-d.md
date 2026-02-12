@@ -9,7 +9,7 @@ Ethan-D 整合 **8 通道數位輸入** (DI) 與 **6 通道繼電器輸出** (NP
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-d.png" alt="Ethan-D 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-d.png" alt="Ethan-D 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +26,4 @@ Ethan-D 整合 **8 通道數位輸入** (DI) 與 **6 通道繼電器輸出** (NP
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/ethan-d-pinout.png" alt="Ethan-D 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-d-pinout.png" alt="Ethan-D 腳位圖" width="60%" /></div>

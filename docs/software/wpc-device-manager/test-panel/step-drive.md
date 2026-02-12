@@ -8,7 +8,7 @@ sidebar_label: 'Step Drive'
 **WPC-EDrive-ST** 是一款網路介面的單軸步進馬達整合型驅動器。透過 Step Drive 面板，您可以設定驅動器電流、解析度、進行運動測試以及震動抑制功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/edrive-connect.png" alt="Step Drive Connect" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/edrive-connect.png" alt="Step Drive Connect" width="60%" />
 </div>
 
 ## 驅動器設定 (Driver Setup)
@@ -16,7 +16,7 @@ sidebar_label: 'Step Drive'
 設定步進馬達的運轉電流 (Run Current)、保持電流 (Hold Current) 以及微步進解析度 (Microstepping)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/driver-setup.png" alt="Driver Setup" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/driver-setup.png" alt="Driver Setup" width="60%" />
 </div>
 
 ### 1. 電流設定說明
@@ -79,7 +79,7 @@ sidebar_label: 'Step Drive'
 設定一個安全的來回移動區間。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/anti-vibration.png" alt="Set start and end position" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/anti-vibration.png" alt="Set start and end position" width="60%" />
 </div>
 
 1. 按下 **Servo on** 激磁。
@@ -89,7 +89,7 @@ sidebar_label: 'Step Drive'
 ### Step 2. 調整防震參數
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/anti-vibration2.png" alt="Tuning anti-vibration parameter" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/anti-vibration2.png" alt="Tuning anti-vibration parameter" width="60%" />
 </div>
 
 1. 開啟 **Enable** 啟用防震功能。
@@ -103,5 +103,5 @@ sidebar_label: 'Step Drive'
 EDrive-ST 支援設定檔匯出與匯入功能，方便將參數快速複製到其他機台，或進行備份。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/file-configure.png" alt="File Configuration" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/file-configure.png" alt="File Configuration" width="60%" />
 </div>

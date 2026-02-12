@@ -32,20 +32,20 @@ description: 各大廠牌伺服驅動器的位置控制模式接線圖集
 
 ### 2.1 Mitsubishi (三菱) MR-J4 / JE
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_31_img_X303.png" alt="Mitsubishi J4 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_31_img_X303.png" alt="Mitsubishi J4 Wiring" width="60%" />
 </div>
 
 ### 2.2 Delta (台達) ASDA-B2
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_32_img_X311.png" alt="Delta B2 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_32_img_X311.png" alt="Delta B2 Wiring" width="60%" />
 </div>
 
 ### 2.3 Panasonic (松下) Minas A4 / A5 / A6
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_33_img_X319.png" alt="Panasonic Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_33_img_X319.png" alt="Panasonic Wiring" width="60%" />
 </div>
 
 ### 2.4 Yaskawa (安川) SGDV / SGD7
 <div style={{textAlign: 'center'}}>
-  <img src="/img/daq/stem/stem_page_34_img_X327.png" alt="Yaskawa Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_34_img_X327.png" alt="Yaskawa Wiring" width="60%" />
 </div>
