@@ -1,7 +1,6 @@
 WPC Technical Center Changelog
 ==================================
 
-
 v0.0.3 Date: 2026/02/12, Developer: Chunglee_people
 ---------------------------------------------------
 ### Changed
@@ -14,7 +13,6 @@ v0.0.2 Date: 2026/02/11, Developer: Chunglee_people
 
 v0.0.1 Date: 2026/02/11, Developer: Chunglee_people
 ---------------------------------------------------
-
 ### Added
 - Software
   - Added documentation for WPC Device Manager (Device management tool).
