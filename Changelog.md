@@ -1,6 +1,31 @@
 WPC Technical Center Changelog
 ==================================
 
+### Added
+### Changed
+### Fixed
+### Removed
+
+
+v0.0.4 Date: 2026/02/13, Developer: Hok
+---------------------------------------------------
+### Added
+- **全新首頁 (Design System):** 導入 Bento Grid (網格) 佈局與現代化 Hero 區塊，採用漸層文字與動態光暈效果。
+- **深色模式優化 (Dark Mode Pro Max):** 以品牌藍 (#1A255C) 為基底的深色主題，搭配電光藍 (#3B82F6) 強調色。
+- **內容體驗升級:**
+  - 新增 Glassmorphism 風格表格 (Table)。
+  - 新增 Linear 風格提示框 (Admonitions)。
+  - 新增清單與引用區塊的現代化樣式。
+
+### Changed
+- **全域樣式 (Global CSS):**
+  - 將預設字體更新為 Inter 與 Noto Sans TC。
+  - 調整版面間距 (Padding & Margins)，移除多餘邊框，增加呼吸感。
+  - 優化側邊欄與導航列樣式，使其更輕量化。
+- **淺色模式適配 (Light Mode):**
+  - 修正淺色模式下的高對比度文字顏色與漸層標題。
+  - 移除淺色模式下的圖片陰影，呈現乾淨平面風格。
+
 v0.0.3 Date: 2026/02/12, Developer: Chunglee_people
 ---------------------------------------------------
 ### Changed

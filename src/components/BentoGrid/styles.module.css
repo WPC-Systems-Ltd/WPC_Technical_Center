@@ -1,0 +1,113 @@
+/* Bento Grid Styles */
+.bentoContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Mobile first */
+    gap: 1.5rem;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .bentoContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 996px) {
+    .bentoContainer {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        /* Allow flexible rows */
+    }
+}
+
+.bentoItem {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-border-color);
+    padding: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--card-shadow);
+}
+
+.bentoItem:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+    /* Softer shadow for general use */
+    border-color: var(--brand-electric-blue);
+}
+
+/* Size Variants */
+.span2 {
+    grid-column: span 1;
+}
+
+@media (min-width: 996px) {
+    .span2 {
+        grid-column: span 2;
+    }
+
+    .span3 {
+        grid-column: span 3;
+    }
+
+    .rowSpan2 {
+        grid-row: span 2;
+    }
+}
+
+/* Content Styling */
+.bentoIcon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--brand-electric-blue);
+    background: rgba(59, 130, 246, 0.1);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.bentoTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--ifm-font-color-base);
+}
+
+.bentoDesc {
+    font-size: 1rem;
+    color: var(--ifm-color-content-secondary);
+    line-height: 1.6;
+}
+
+/* Glow Effect for Bento Items on Hover */
+.bentoItem::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+            var(--bento-glow-color),
+            transparent 40%);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.bentoItem:hover::after {
+    opacity: 1;
+}

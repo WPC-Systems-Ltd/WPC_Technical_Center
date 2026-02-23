@@ -1,23 +1,140 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
+/* Homepage Hero Styles */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: var(--ifm-background-color);
+  /* Subtle mesh gradient background */
+  background-image:
+    radial-gradient(at 0% 0%, rgba(26, 37, 92, 0.3) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.heroContent {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+@media (min-width: 996px) {
+  .heroTitle {
+    font-size: 5rem;
   }
+}
+
+.gradientText {
+  background: var(--hero-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  /* Add a subtle drop shadow to text for depth against dark bg */
+  filter: drop-shadow(0 2px 10px rgba(59, 130, 246, 0.2));
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 3rem;
+  font-weight: 400;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
+  gap: 1.5rem;
   justify-content: center;
+}
+
+/* Custom Button Styles */
+.heroButton {
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.glowButton {
+  background: var(--brand-electric-blue);
+  color: white;
+  border: none;
+  box-shadow: var(--btn-glow-shadow);
+}
+
+.glowButton:hover {
+  background: var(--ifm-color-primary-dark);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: white;
+}
+
+.outlineButton {
+  background: transparent;
+  border: 1px solid var(--ifm-border-color);
+  color: var(--ifm-font-color-base);
+}
+
+.outlineButton:hover {
+  border-color: var(--ifm-font-color-base);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+/* Background Visuals */
+.heroVisual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.glowOrb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  filter: blur(60px);
+  animation: pulse 8s infinite alternate;
+}
+
+.gridOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 }
