@@ -55,41 +55,33 @@
   justify-content: center;
 }
 
-/* Custom Button Styles */
-.heroButton {
-  border-radius: 50px;
-  padding: 1rem 2rem;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
+.heroSearchContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
 }
 
-.glowButton {
-  background: var(--brand-electric-blue);
-  color: white;
-  border: none;
-  box-shadow: var(--btn-glow-shadow);
+.heroSearchContainer :global(.navbar__search) {
+  margin: 0 !important;
+  width: 100%;
 }
 
-.glowButton:hover {
-  background: var(--ifm-color-primary-dark);
-  box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
-  transform: translateY(-2px);
-  text-decoration: none;
-  color: white;
+.heroSearchContainer :global(.navbar__search input) {
+  width: 100% !important;
+  border-radius: 50px !important;
+  padding: 1rem 1.5rem 1rem 3.5rem !important;
+  font-size: 1.15rem !important;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15) !important;
+  background-position: 1.2rem center !important;
+  background-size: 1.2rem !important;
+  transition: all 0.3s ease !important;
 }
 
-.outlineButton {
-  background: transparent;
-  border: 1px solid var(--ifm-border-color);
-  color: var(--ifm-font-color-base);
-}
-
-.outlineButton:hover {
-  border-color: var(--ifm-font-color-base);
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--ifm-font-color-base);
-  text-decoration: none;
+.heroSearchContainer :global(.navbar__search input:focus) {
+  box-shadow: 0 10px 40px rgba(59, 130, 246, 0.3) !important;
+  border-color: var(--brand-electric-blue) !important;
 }
 
 /* Background Visuals */

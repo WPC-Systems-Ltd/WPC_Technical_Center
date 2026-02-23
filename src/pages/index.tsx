@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import BentoGrid from '@site/src/components/BentoGrid';
+import SearchBar from '@theme/SearchBar';
 
 import styles from './index.module.css';
 
@@ -22,16 +23,10 @@ function HomepageHeader() {
             精確測量 · 智慧控制 · 數據未來的驅動力
           </p>
           <div className={styles.buttons}>
-            <Link
-              className={clsx('button button--primary button--lg', styles.heroButton, styles.glowButton)}
-              to="/docs/intro">
-              開始探索 (Get Started)
-            </Link>
-            <Link
-              className={clsx('button button--secondary button--lg', styles.heroButton, styles.outlineButton)}
-              to="https://github.com/WPC-Systems-Ltd">
-              GitHub
-            </Link>
+            <div className={styles.heroSearchContainer}>
+              {/* @ts-ignore */}
+              <SearchBar isHero={true} />
+            </div>
           </div>
         </div>
 
@@ -45,7 +40,7 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
