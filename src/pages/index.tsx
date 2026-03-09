@@ -1,44 +1,48 @@
-import type { ReactNode } from 'react';
+import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import BentoGrid from '@site/src/components/BentoGrid';
+import ParticleNetwork from '@site/src/components/ParticleNetwork';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/daq/wifidaq/product-general">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+        <div className={styles.heroContent}>
+          <h1 className={clsx('hero__title', styles.heroTitle)}>
+            {/* Gradient Text */}
+            <span className={styles.gradientText}>WPC Technical Center</span>
+          </h1>
+          <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+            {/* Translatable Tagline */}
+            WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。
+          </p>
         </div>
       </div>
     </header>
   );
 }
 
-export default function Home(): ReactNode {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      title="首頁"
+      description="WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。">
+      {/* Abstract 3D/Tech Background Element */}
+      <div className={styles.heroVisual}>
+        <ParticleNetwork />
+      </div>
+      <div className={styles.pageWrapper}>
+        <HomepageHeader />
+        <main>
+          <BentoGrid />
+        </main>
+      </div>
     </Layout>
   );
 }

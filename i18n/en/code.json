@@ -328,5 +328,104 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Precision, Integration, Performance": {
+    "message": "Precision, Integration, Performance"
+  },
+  "首頁": {
+    "message": "首頁"
+  },
+  "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。": {
+    "message": "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。"
+  },
+  "DAQ (資料擷取)": {
+    "message": "DAQ (資料擷取)"
+  },
+  "各類型資料擷取裝置的技術文件與教學。": {
+    "message": "各類型資料擷取裝置的技術文件與教學。"
+  },
+  "入門指南": {
+    "message": "入門指南"
+  },
+  "軟體工具": {
+    "message": "軟體工具"
+  },
+  "搭配 WPC 硬體使用的軟體工具與管理平台。": {
+    "message": "搭配 WPC 硬體使用的軟體工具與管理平台。"
+  },
+  "嵌入式系統": {
+    "message": "嵌入式系統"
+  },
+  "嵌入式控制平台的開發文件與應用範例。": {
+    "message": "嵌入式控制平台的開發文件與應用範例。"
+  },
+  "無人機": {
+    "message": "無人機"
+  },
+  "WPC 無人機產品的規格、指南與常見問題。": {
+    "message": "WPC 無人機產品的規格、指南與常見問題。"
+  },
+  "規格": {
+    "message": "規格"
+  },
+  "起飛指南": {
+    "message": "起飛指南"
+  },
+  "選擇硬體": {
+    "message": "選擇硬體"
+  },
+  "DAQ 或 嵌入式系統": {
+    "message": "DAQ 或 嵌入式系統"
+  },
+  "安裝 SDK": {
+    "message": "安裝 SDK"
+  },
+  "執行範例": {
+    "message": "執行範例"
+  },
+  "連接設備並擷取數據": {
+    "message": "連接設備並擷取數據"
+  },
+  "快速起步指南": {
+    "message": "快速起步指南"
+  },
+  "只需三個步驟，立即開始您的精密測量專案": {
+    "message": "只需三個步驟，立即開始您的精密測量專案"
+  },
+  "前往完整入門指南": {
+    "message": "前往完整入門指南"
+  },
+  "最近更新文件 (Recent Updates)": {
+    "message": "最近更新文件 (Recent Updates)"
+  },
+  "WPC 技術文件庫最新編修紀錄": {
+    "message": "WPC 技術文件庫最新編修紀錄"
+  },
+  "by": {
+    "message": "by"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 個項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "Search...",
+    "description": "Placeholder shown in the searchbar"
+  },
+  "cmfcmf/d-s-l.searchBar.clearButtonTitle": {
+    "message": "Clear",
+    "description": "Title of the button to clear the current search input"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "Cancel",
+    "description": "Text of the button to close the detached search window"
+  },
+  "cmfcmf/d-s-l.searchBar.submitButtonTitle": {
+    "message": "Submit",
+    "description": "Title of the button to submit a new search"
+  },
+  "cmfcmf/d-s-l.searchBar.noResults": {
+    "message": "No results found.",
+    "description": "message shown if no results are found"
   }
 }

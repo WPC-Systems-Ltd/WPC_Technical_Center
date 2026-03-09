@@ -1,0 +1,78 @@
+---
+title: 無人機入門指南 (Drone Getting Started)
+sidebar_label: 無人機入門指南
+slug: /drone-intro
+---
+
+import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>歡迎探索 WPC 無人機方案</h1>
+  <p>我們提供從飛控系統、通訊到機架設計的完整開源無人機教學與開發平台，協助研究單位與開發者快速建立自己的無人機應用。</p>
+</div>
+
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 專案起步學習路徑
+
+<div className="gs-timeline">
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">1</div>
+    <div className="gs-timeline-content">
+      <h3>硬體組裝與配線</h3>
+      <p>依照規格進行飛控板、馬達、電調 (ESC) 與感測器的正確安裝，確保重心平穩。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">2</div>
+    <div className="gs-timeline-content">
+      <h3>軟體設置與校正</h3>
+      <p>透過地面站軟體更新韌體，並依序完成加速度計、羅盤及遙控器行程校準。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">3</div>
+    <div className="gs-timeline-content">
+      <h3>通訊與遙控對頻</h3>
+      <p>確認接收機與遙控器綁定 (Bind) 成功，並驗證 telemetry 數據可以回傳至地面站。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-content">
+      <h3>實際試飛與操作</h3>
+      <p>在安全的空曠場地帶上護具，進行首次起飛解鎖與基礎懸停測試。</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## <PlaneTakeoff size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 核心教學資源
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/Drone/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 基礎介紹與硬體規格</h2>
+    <p>**深入了解系統架構**</p>
+    <p>包含無人機各項零組件介紹、感測器原理，以及產品詳細的規格說明（Specification）。</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Drone/takeoff-guide" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><PlaneTakeoff size={24} color="var(--brand-electric-blue)"/> 起飛指南與操作手冊</h2>
+    <p>**從零到飛上天空**</p>
+    <p>提供詳細的起飛前檢查清單 (Pre-flight checklist)，以及安全操作與緊急處置的標準流程。</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Drone/remote-control-guide" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><RadioTower size={24} color="var(--brand-electric-blue)"/> 遙控器與通訊</h2>
+    <p>**掌控您的無人機**</p>
+    <p>遙控器各個舵角與撥桿功能的定義，以及教您如何配置飛行模式與失控保護 (Failsafe)。</p>
+  </a>
+</div>
+
+---
+
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/category/常見問題-2" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Drone </h2>
+    <p>**常見問題與排除指南**</p>
+  </a>
+</div>
