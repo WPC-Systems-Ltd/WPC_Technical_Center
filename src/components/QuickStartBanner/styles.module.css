@@ -1,0 +1,159 @@
+.qsSection {
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.qsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-border-color);
+    border-radius: 16px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.3s;
+}
+
+.qsContainer:hover {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+    border-color: var(--brand-electric-blue);
+}
+
+.qsHeader {
+    text-align: center;
+}
+
+.qsHeader h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--ifm-font-color-base);
+    letter-spacing: -0.02em;
+}
+
+.qsHeader p {
+    color: var(--ifm-color-content-secondary);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Steps Layout (Desktop) */
+.qsStepsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.qsStepCard {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    background: var(--ifm-background-color);
+    border: 1px solid var(--ifm-border-color);
+    border-radius: 12px;
+    transition: transform 0.2s, border-color 0.2s, background-color 0.3s;
+}
+
+.qsStepCard:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-electric-blue);
+    background: linear-gradient(135deg, var(--ifm-background-color) 0%, rgba(59, 130, 246, 0.05) 100%);
+}
+
+.qsIconBox {
+    background: linear-gradient(135deg, var(--brand-electric-blue) 0%, var(--brand-deep-blue) 100%);
+    color: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2);
+    flex-shrink: 0;
+}
+
+.qsStepInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.qsStepNumber {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--brand-electric-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.qsStepTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: var(--ifm-font-color-base);
+}
+
+.qsStepDesc {
+    font-size: 0.95rem;
+    color: var(--ifm-color-content-secondary);
+    line-height: 1.4;
+    margin: 0;
+}
+
+.qsArrow {
+    color: var(--ifm-border-color);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Call to Action */
+.qsAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.qsButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, var(--brand-electric-blue) 0%, var(--brand-deep-blue) 100%);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: var(--btn-glow-shadow);
+}
+
+.qsButton:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+/* Mobile Responsive */
+@media (max-width: 996px) {
+    .qsStepsWrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .qsArrow {
+        display: none;
+        /* Hide arrows on vertical stacking */
+    }
+}

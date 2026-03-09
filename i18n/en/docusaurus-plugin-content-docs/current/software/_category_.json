@@ -1,4 +1,11 @@
 {
-    "label": "Software",
-    "description": "WPC Data Acquisition System Companion Software and Development Tools."
+    "label": "軟體",
+    "position": 3,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "software",
+        "title": "軟體",
+        "description": "WPC 數據採集系統配套軟體與開發工具。"
+    }
 }

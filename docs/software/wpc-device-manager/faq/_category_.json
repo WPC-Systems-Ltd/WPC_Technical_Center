@@ -2,6 +2,7 @@
     "label": "常見問題",
     "position": 8,
     "link": {
+        "slug": "wdm-faq",
         "type": "generated-index",
         "description": "WPC Device Manager 常見問題與排除指南"
     }

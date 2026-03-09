@@ -1,0 +1,155 @@
+---
+title: DAQ Getting Started
+sidebar_label: DAQ Getting Started
+slug: /daq-intro
+---
+
+import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>Welcome to WPC Technical Center</h1>
+  <p>We provide complete solutions ranging from sensor data acquisition, various motor controls, to drone system integration. Simple choose your hardware and your preferred programming language, to quick start your precision project.</p>
+</div>
+
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Learning Path
+
+<div className="gs-timeline">
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">1</div>
+    <div className="gs-timeline-content">
+      <h3>Select Hardware</h3>
+      <p>Choose the appropriate DAQ devices based on your needs (distance, portability, wireless).</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">2</div>
+    <div className="gs-timeline-content">
+      <h3>Hardware Wiring</h3>
+      <p>Correctly connect sensors or control components to the device ports and ensure power supply.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">3</div>
+    <div className="gs-timeline-content">
+      <h3>Install WPC Device Manager</h3>
+      <p>Use our official hardware management tool to scan devices, check connection and firmware.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-content">
+      <h3>Install Software SDK</h3>
+      <p>Whether you use Python, C# or LabVIEW, download our libraries and setup environment.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">5</div>
+    <div className="gs-timeline-content">
+      <h3>Run Your First Example</h3>
+      <p>Open basic example code from SDK to read your first voltage or drive your first motor.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware
+
+<div className="gs-card-grid">
+  <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ</h2>
+    <p>**For Long-distance & Large Data**</p>
+    <p>Ideal for industrial sites requiring multi-node synchronized monitoring. RJ45 interface for high stability.</p>
+  </a>
+  <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB-DAQ</h2>
+    <p>**Plug & Play, High Precision**</p>
+    <p>Ideal for lab testing and portable measurement. Direct power supply via USB and high-speed data acquisition.</p>
+  </a>
+  <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
+    <p>**Wireless & IoT Applications**</p>
+    <p>Ideal for hard-to-wire or mobile data collection needs. Supports wireless networks for ubiquitous sensing.</p>
+  </a>
+  <a href="/docs/daq/stem/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> STEM</h2>
+    <p>**Education & IoT Applications**</p>
+    <p>Modular controller with 4 expansion slots. Supports Ethernet and flexible combination to meet diverse needs.</p>
+  </a>
+</div>
+
+:::tip[What Else?]
+Besides the standard data acquisition series, we also provide **[Embedded Systems intro](/docs/embedded_intro)** and a full **[Drone intro](/docs/drone_intro)**.
+:::
+
+---
+
+## <Settings2 size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Device Management Tool (WPC Device Manager)
+
+Before writing code, we strongly recommend installing **WPC Device Manager**. This cross-platform software designed specifically for WPC hardware helps you:
+
+<div className="gs-card-grid gs-card-grid-4">
+  <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
+    <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
+      <Search size={32} color="var(--brand-electric-blue)" />
+    </div>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Auto Scan</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Quickly find all WPC devices on your local network or USB.</p>
+  </div>
+  <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
+    <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
+      <Zap size={32} color="var(--brand-electric-blue)" />
+    </div>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Status Check</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>View IP, MAC, and connection status in real-time.</p>
+  </div>
+  <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
+    <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
+      <RefreshCw size={32} color="var(--brand-electric-blue)" />
+    </div>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Firmware Update</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>One-click check and upgrade to the latest firmware.</p>
+  </div>
+  <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
+    <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
+      <Wrench size={32} color="var(--brand-electric-blue)" />
+    </div>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Network Settings</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Easily modify network configuration for Ethernet/WIFI DAQ.</p>
+  </div>
+</div>
+
+:::note[Learn More]
+**[WPC Device Manager](/docs/software/wpc-device-manager/intro)**
+Download and install the tool to efficiently manage and configure WPC DAQ devices.
+:::
+
+---
+
+## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Software SDK Overview
+
+We provide SDKs for mainstream programming languages. All DAQ devices share the same API design logic. Click the links below for detailed tutorials:
+
+| Languages | Features | Teaching Links |
+| :------- | :------- | :----------- |
+| **Python** | Open-source and easy-to-use API with consistent interfaces and rich examples. Ideal for all developers. | [Python Getting Started](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
+| **C#** | Open-source driver optimized for .NET. Uses intuitive open/read/write/close logic to significantly lower the learning curve. | [C# Getting Started](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |
+| **LabVIEW** | Provides comprehensive VI packages and graphical panels to help engineers quickly integrate automated testing flows. | *Coming Soon* |
+
+:::note
+The SDK itself is **Open Source** and hosted on GitHub. It can be installed directly via package managers like Pypi and NuGet.
+:::
+
+---
+
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> FAQ
+
+<div className="gs-card-grid">
+  <a href="/docs/category/wdm-faq" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Device Manager</h2>
+    <p>**Common Questions and Troubleshooting**</p>
+  </a>
+</div>
+
+
+

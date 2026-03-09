@@ -1,5 +1,6 @@
 /* UI/UX Pro Max - Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+@import './nprogress.css';
 
 :root {
     /* Default to Dark Mode variables even in :root if we want forced dark, 
@@ -22,6 +23,18 @@
 
     --ifm-font-family-base: 'Inter', 'Noto Sans TC', system-ui, -apple-system, sans-serif;
     --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Smooth Theme Transition for Background and Text Colors */
+html,
+body,
+.navbar,
+.footer,
+.heroBanner,
+.theme-doc-sidebar-container,
+.theme-doc-card,
+.menu__link {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 [data-theme='light'] {
@@ -130,15 +143,71 @@ h6 {
     /* Tight tracking for modern feel */
 }
 
-/* Sidebar Styling */
+/* Sidebar Styling (Sticky & Independent Scroll) */
 .theme-doc-sidebar-container {
+    position: sticky !important;
+    top: var(--ifm-navbar-height) !important;
+    height: calc(100vh - var(--ifm-navbar-height)) !important;
+    overflow-y: auto !important;
     border-right: none !important;
     /* Remove harsh border */
-    padding-right: 1rem;
+    padding-right: 1.5rem !important;
+    /* Distance from main content */
+
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* hide by default */
+    transition: scrollbar-color 0.3s;
+}
+
+.theme-doc-sidebar-container:hover {
+    scrollbar-color: var(--ifm-border-color) transparent;
+    /* show on hover */
+}
+
+/* Custom Scrollbar for Sidebar (Hidden until hover, Floating Pill style) */
+.theme-doc-sidebar-container::-webkit-scrollbar,
+nav.menu::-webkit-scrollbar {
+    width: 14px !important;
+    /* Wider track to allow border trick for floating effect */
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-track,
+nav.menu::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-thumb,
+nav.menu::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    /* Hidden by default */
+    border-radius: 10px !important;
+    border: 4px solid transparent !important;
+    /* Creates margin around thumb */
+    background-clip: padding-box !important;
+}
+
+/* Show thumb when hovering over the sidebar */
+.theme-doc-sidebar-container:hover::-webkit-scrollbar-thumb,
+nav.menu:hover::-webkit-scrollbar-thumb {
+    background-color: var(--ifm-color-content-secondary) !important;
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-thumb:hover,
+nav.menu::-webkit-scrollbar-thumb:hover {
+    background-color: var(--ifm-font-color-base) !important;
+    /* Highlight on hover active */
 }
 
 .theme-doc-sidebar-item-category-level-1 {
     margin-bottom: 0.5rem;
+}
+
+/* Sidebar Menu Spacing (Breathing Room) */
+nav.menu {
+    padding: 0 1.75rem !important;
+    /* Move all links inward from the left and right */
 }
 
 .menu__link {
@@ -161,10 +230,26 @@ h6 {
 .navbar {
     border-bottom: 1px solid transparent;
     box-shadow: none;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
     padding: 1rem 2rem;
     height: auto;
+}
+
+@media (min-width: 997px) {
+    .navbar {
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+    }
+}
+
+@media (max-width: 996px) {
+    .navbar {
+        background-color: var(--ifm-background-color) !important;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-sidebar {
+        background-color: var(--ifm-background-color) !important;
+    }
 }
 
 /* Navbar Title Styling (Logo | Title) with Rounded Font */
@@ -233,10 +318,6 @@ h6 {
     /* Wider canvas */
     padding-left: 2rem;
     padding-right: 2rem;
-}
-
-.docLine {
-    /* Custom class if needed for separators, otherwise hide standard ones */
 }
 
 /* Bento Grid Utility */
@@ -379,23 +460,94 @@ article header h1 {
     text-decoration: none;
 }
 
-/* 4. Breadcrumbs */
+/* 4. Breadcrumbs Pro Max Style */
 .breadcrumbs {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .breadcrumbs__item {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Custom Separator (Chevron) instead of slash */
+.breadcrumbs__item:not(:first-child)::before {
+    content: ">" !important;
+    color: var(--ifm-color-content-secondary);
+    font-size: 0.9rem;
+    display: block;
+    margin: 0 !important;
+    background: none !important;
+    width: auto !important;
+    height: auto !important;
+    opacity: 0.6;
+}
+
+/* Hide default Docusaurus separators to prevent double separators */
+.breadcrumbs__item::after {
+    display: none !important;
 }
 
 .breadcrumbs__link {
     color: var(--ifm-color-content-secondary);
     background: transparent;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link:hover {
+    color: var(--brand-electric-blue);
+    background: rgba(59, 130, 246, 0.08);
+    text-decoration: none;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
-    color: var(--brand-electric-blue);
-    background: rgba(59, 130, 246, 0.1);
+    color: var(--ifm-font-color-base);
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-border-color);
+    font-weight: 500;
+}
+
+/* Replace Home Icon */
+.breadcrumbs__item:first-child .breadcrumbs__link {
+    padding: 0.4rem;
+    border-radius: 6px;
+}
+
+.breadcrumbs__item:first-child .breadcrumbs__link svg {
+    display: none;
+    /* Hide default icon */
+}
+
+.breadcrumbs__item:first-child .breadcrumbs__link::before {
+    content: '';
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    /* Custom lucide-home icon */
+    background-color: var(--ifm-color-content-secondary);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3Cpolyline points='9 22 9 12 15 12 15 22'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3Cpolyline points='9 22 9 12 15 12 15 22'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transition: background-color 0.2s;
+}
+
+.breadcrumbs__item:first-child .breadcrumbs__link:hover::before {
+    background-color: var(--brand-electric-blue);
 }
 
 /* 5. Pagination (Previous/Next) */
@@ -780,4 +932,278 @@ article header h1 {
     transform: translateY(-2px);
     border-color: rgba(255, 255, 255, 0.1) !important;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+/* --- Getting Started (docs/intro.mdx) Styles --- */
+
+/* Hero Banner */
+.gs-hero {
+    text-align: center;
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, var(--ifm-background-surface-color) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border-radius: 16px;
+    border: 1px solid var(--ifm-border-color);
+}
+
+.gs-hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    background: var(--h1-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gs-hero p {
+    font-size: 1.15rem;
+    color: var(--ifm-color-content-secondary);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Timeline */
+.gs-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0 3rem 0;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.gs-timeline::before {
+    content: "";
+    position: absolute;
+    left: 2.2rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--ifm-border-color);
+    z-index: 0;
+}
+
+.gs-timeline-item {
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.gs-timeline-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--brand-electric-blue) 0%, var(--brand-deep-blue) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 4px var(--ifm-background-color);
+}
+
+.gs-timeline-content {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-border-color);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    flex: 1;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gs-timeline-content:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--brand-electric-blue);
+}
+
+.gs-timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.gs-timeline-content p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: var(--ifm-color-content-secondary);
+}
+
+/* Card Grid for Hardware */
+.gs-card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .gs-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 996px) {
+    .gs-card-grid-4 {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+.gs-card {
+    padding: 1.5rem;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.gs-card h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+/* Ensure the first bold element looks distinct */
+.gs-card p:first-of-type strong {
+    color: var(--brand-electric-blue);
+}
+
+/* --- Unify Link Styles (no underline by default, underline on hover) --- */
+.markdown a:not(.gs-card):not(.button),
+.alert a {
+    text-decoration: none;
+    color: var(--brand-electric-blue);
+    font-weight: 500;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.markdown a:not(.gs-card):not(.button):hover,
+.alert a:hover {
+    text-decoration: underline;
+    color: var(--ifm-color-primary-dark);
+}
+
+/* --- Mobile Navbar Enhancements --- */
+.header-github-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--ifm-font-color-base);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.header-github-link:hover {
+    background-color: var(--brand-electric-blue);
+    transform: scale(1.1);
+}
+
+/* Adjust layout on mobile drawer */
+@media (max-width: 996px) {
+
+    /* Hide Footer on Mobile */
+    .footer {
+        display: none !important;
+    }
+
+    /* Hide these items from the top header on mobile */
+    .navbar__inner .mobile-only-item,
+    .navbar__inner .navbar__item:has(.mobile-only-item) {
+        display: none !important;
+    }
+
+    /* Mobile Social Links ONLY in Sidebar */
+    .navbar-sidebar .mobile-only-item {
+        display: block !important;
+        margin: 0 1rem;
+    }
+
+    .mobile-menu-divider {
+        border: none;
+        height: 1px;
+        background-color: var(--ifm-border-color);
+        margin: 1rem 0;
+        opacity: 0.5;
+    }
+
+    .mobile-social-links {
+        display: flex;
+        gap: 1.5rem;
+        padding: 0.5rem 0;
+        align-items: center;
+    }
+
+    .mobile-social-links a {
+        color: var(--ifm-color-content-secondary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.2s, transform 0.2s;
+    }
+
+    .mobile-social-links a:hover {
+        color: var(--brand-electric-blue);
+        transform: scale(1.1);
+    }
+
+    /* Push the Locale Dropdown to the bottom without breaking Docusaurus side-by-side slider */
+    .navbar-sidebar__items>div.menu {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navbar-sidebar__items>div.menu>ul.menu__list {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: max-content;
+    }
+
+    /* Target the language dropdown wrapper specifically */
+    .navbar-sidebar__items>.navbar-sidebar__item:last-child {
+        margin-top: auto;
+        padding-top: 1rem;
+    }
+
+    /* Move Dark Mode Toggle from top to bottom right */
+    .navbar-sidebar__brand .toggleButton_gllP,
+    .navbar-sidebar__brand .clean-btn:not(.navbar-sidebar__close) {
+        position: absolute;
+        bottom: 1.5rem;
+        /* Align with Language toggle */
+        right: 1.5rem;
+        z-index: 10;
+        background: var(--ifm-background-surface-color);
+        border: 1px solid var(--ifm-border-color);
+        border-radius: 50%;
+        padding: 0.4rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Hide these newly added mobile items on Desktop */
+@media (min-width: 997px) {
+
+    .navbar__item:has(.mobile-only-item),
+    .navbar__item.mobile-only-item,
+    .mobile-only-item,
+    .mobile-menu-divider,
+    .mobile-social-links {
+        display: none !important;
+    }
 }

@@ -1,4 +1,8 @@
 {
-    "label": "Drone",
-    "description": "WPC Drone Documentation"
+    "label": "無人機",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "WPC Drone 使用手冊與相關資源"
+    }
 }

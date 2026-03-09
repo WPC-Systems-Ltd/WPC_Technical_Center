@@ -1,4 +1,8 @@
 {
-    "label": "Embedded Systems",
-    "description": "Embedded Systems"
+    "label": "嵌入式系統",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "Embedded Systems"
+    }
 }

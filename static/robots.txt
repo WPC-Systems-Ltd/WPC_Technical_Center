@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://WPC-Systems-Ltd.github.io/WPC_Technical_Center/sitemap.xml

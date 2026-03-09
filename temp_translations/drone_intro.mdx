@@ -1,0 +1,78 @@
+---
+title: Drone Getting Started
+sidebar_label: Drone Getting Started
+slug: /drone-intro
+---
+
+import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>Welcome to WPC Drone Solutions</h1>
+  <p>We provide comprehensive open-source drone training and development platforms covering flight control systems, communications, and frame design to help researchers and developers build drone applications quickly.</p>
+</div>
+
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Learning Path
+
+<div className="gs-timeline">
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">1</div>
+    <div className="gs-timeline-content">
+      <h3>Hardware Assembly & Wiring</h3>
+      <p>Install the flight controller, motors, electronic speed controllers (ESC), and sensors correctly based on specs to ensure a stable center of gravity.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">2</div>
+    <div className="gs-timeline-content">
+      <h3>Software Setup & Calibration</h3>
+      <p>Update firmware via Ground Control Station (GCS) and perform calibration for accelerometer, compass, and RC transmitter.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">3</div>
+    <div className="gs-timeline-content">
+      <h3>Communication & Binding</h3>
+      <p>Ensure the receiver successfully binds with the RC transmitter and verify telemetry data is sent back to GCS.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-content">
+      <h3>Flight Test & Operation</h3>
+      <p>Perform initial arming and basic hover tests in a safe, open area wearing protective gear.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## <PlaneTakeoff size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Core Resources
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/Drone/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> Introduction & Specs</h2>
+    <p>**Deep dive into system architecture**</p>
+    <p>Includes introductions to drone components, sensor principles, and detailed product specifications.</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Drone/takeoff-guide" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><PlaneTakeoff size={24} color="var(--brand-electric-blue)"/> Take-off & Operation Guide</h2>
+    <p>**From zero to sky**</p>
+    <p>Provides detailed pre-flight checklists and standard procedures for safe operations and emergencies.</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Drone/remote-control-guide" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><RadioTower size={24} color="var(--brand-electric-blue)"/> Remote Control & Communication</h2>
+    <p>**Master your drone**</p>
+    <p>Learn RC channels, switch functions, and how to configure flight modes and failsafe mechanisms.</p>
+  </a>
+</div>
+
+---
+
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> FAQ
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/category/常見問題-2" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Drone </h2>
+    <p>**Common Questions and Troubleshooting**</p>
+  </a>
+</div>

@@ -2,6 +2,7 @@
     "label": "常見問題",
     "position": 6,
     "link": {
+        "slug": "drone-faq",
         "type": "generated-index",
         "description": "WPC Drone 常見問題與排除指南"
     }
