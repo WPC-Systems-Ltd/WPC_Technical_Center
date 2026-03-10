@@ -7,7 +7,7 @@ description: "SAPE 硬體連線與主畫面功能介紹"
 
 ## 主畫面介紹
 
-SAPE 的主畫面功能分區如下：
+Stand-Alone Python Editor 的主畫面功能分區如下：
 
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/editor_page11_X116.png" alt="SAPE 主畫面功能分區" width="60%" />

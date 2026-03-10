@@ -9,7 +9,7 @@ Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-ex-d.png" alt="Ethan-EX-D 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D.png" alt="Ethan-EX-D 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -27,4 +27,4 @@ Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-ex-d-pinout.png" alt="Ethan-EX-D 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D_pinout.png" alt="Ethan-EX-D 腳位圖" width="60%" /></div>

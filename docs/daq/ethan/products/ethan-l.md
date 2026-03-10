@@ -9,7 +9,7 @@ Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-l.png" alt="Ethan-L 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL.png" alt="Ethan-L 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -28,4 +28,4 @@ Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-l-pinout.png" alt="Ethan-L 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL_pinout.png" alt="Ethan-L 腳位圖" width="60%" /></div>

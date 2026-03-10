@@ -9,7 +9,7 @@ Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 *
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-t.png" alt="Ethan-T 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT.png" alt="Ethan-T 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +26,4 @@ Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 *
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-t-pinout.png" alt="Ethan-T 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT_pinout.png" alt="Ethan-T 腳位圖" width="60%" /></div>

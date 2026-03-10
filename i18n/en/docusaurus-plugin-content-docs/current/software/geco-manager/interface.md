@@ -35,7 +35,7 @@ If you cannot find the network device in GECO Manager, please first check if you
 If you want to add a simulated device to view its Pinout and supported test panels, please follow these steps:
 
 1.  Click **"View"** in the menu bar.
-2.  Select **"Add SimulatedDevice"**.
+2.  Select **"Add Simulated Device"**.
 3.  You can hold down the **Ctrl** key to select multiple devices, then click **"OK"** to confirm.
 
 These steps help you add simulated devices to view detailed information without actually connecting hardware.

@@ -9,7 +9,7 @@ Ethan-IA 整合 **電壓與電流雙模式輸入**，提供 **8 通道 24-bit** 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-ia.png" alt="Ethan-IA 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA.png" alt="Ethan-IA 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -28,4 +28,4 @@ Ethan-IA 整合 **電壓與電流雙模式輸入**，提供 **8 通道 24-bit** 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-ia-pinout.png" alt="Ethan-IA 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA_pinout.png" alt="Ethan-IA 腳位圖" width="60%" /></div>

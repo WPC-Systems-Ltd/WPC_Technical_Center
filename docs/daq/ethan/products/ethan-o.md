@@ -9,7 +9,7 @@ Ethan-O 提供 **8 通道 16-bit 類比輸出**（±10V），更新率達 **1kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-o.png" alt="Ethan-O 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO.png" alt="Ethan-O 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -27,4 +27,4 @@ Ethan-O 提供 **8 通道 16-bit 類比輸出**（±10V），更新率達 **1kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-o-pinout.png" alt="Ethan-O 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO_pinout.png" alt="Ethan-O 腳位圖" width="60%" /></div>

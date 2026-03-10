@@ -17,7 +17,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 
 ## 腳位圖
 
-點擊 **"Pinout"** 按鈕可開啟腳位定義視窗。
+點擊 **"Pinout"** 按鈕以顯示腳位圖。視窗大小可根據使用者需求調整
 
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/choose-pinout.png" alt="腳位圖按鈕" width="60%" />

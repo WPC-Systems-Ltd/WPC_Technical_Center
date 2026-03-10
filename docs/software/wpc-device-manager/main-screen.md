@@ -13,7 +13,7 @@ description: "裝置列表、測試面板與產品資訊介面說明"
 
 1.  **裝置列表**
     DAQ 裝置依據連線介面分為 **Network Devices (網路裝置)** 與 **My Computer (本機裝置)** 兩大類。
-    *   **Network Devices**：列出 Ethan 系列與 WIFI 系列產品。
+    *   **Network Devices**：列出 Ethan DAQ、 WIFI DAQ 、STEM 及 EMotion 產品。
     *   **My Computer**：列出 USB 系列產品。
 
 2.  **測試面板**
