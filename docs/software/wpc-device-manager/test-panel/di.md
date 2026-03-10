@@ -8,7 +8,7 @@ sidebar_label: 'DI'
 DI (Digital Input) 面板提供使用者讀取數位輸入訊號的狀態。透過此介面，您可以即時監控各連接埠的數位訊號變化，確認外部裝置的輸入狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/di.png" alt="DI Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_di.png" alt="WDM_testPanel_di" width="60%" />
 </div>
 
 ## 支援產品與連接埠

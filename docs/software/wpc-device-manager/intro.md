@@ -28,7 +28,7 @@ WDM 的核心功能包括：
 > [下載 WPC Device Manager (WDM)](https://www.wpc.com.tw/wpc-device-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/download-page.png" alt="WPC Device Manager 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_download_page.png" alt="WDM_download_page" width="60%" />
 </div>
 
 :::caution
@@ -40,7 +40,7 @@ WDM 的核心功能包括：
 > [下載 LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/labview-runtime.png" alt="LabVIEW 2019 Run-time Engine 下載頁面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/runtime2019_download_page.png" alt="runtime2019_download_page" width="60%" />
 </div>
 
 ## 開啟 WPC Device Manager
@@ -55,13 +55,13 @@ WDM 的核心功能包括：
 1.  請點擊 **「其他資訊」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page4_X75.png" alt="Windows 保護警告" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect.png" alt="windows_protect" width="60%" />
     </div>
 
 2.  點擊 **「仍要執行」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page5_X82.png" alt="仍要執行" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect1.png" alt="windows_protect" width="60%" />
     </div>
 
 ### 防火牆設定
@@ -72,11 +72,11 @@ WDM 的核心功能包括：
 2.  點擊 **「允許存取」**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page6_X88.png" alt="防火牆設定" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_firework.png" alt="windows_firework" width="60%" />
 </div>
 
 開啟後，WPC Device Manager 將會自動搜尋 WPC 裝置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/searchs.png" alt="GECO Manager 啟動畫面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_search.png" alt="WDM_search" width="60%" />
 </div>

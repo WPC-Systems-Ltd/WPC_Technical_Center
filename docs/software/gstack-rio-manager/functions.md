@@ -18,7 +18,7 @@ description: "gStack-RIO Manager 通用功能：腳位圖查看、設定插槽"
 
 ## 腳位圖
 
-點擊 **"Pinout"** 按鈕以顯示腳位圖。視窗大小可根據使用者需求調整。
+點擊 **"Pinout"** 按鈕以顯示腳位圖，視窗大小可根據使用者需求調整。
 
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/pinout_button.png" alt="腳位圖視窗" width="60%" />

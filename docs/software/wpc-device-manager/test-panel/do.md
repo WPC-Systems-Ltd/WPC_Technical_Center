@@ -8,7 +8,7 @@ sidebar_label: 'DO'
 DO (Digital Output) 面板提供使用者控制數位輸出訊號的狀態。透過此介面，您可以手動切換各通道的高低電位輸出，並設定上電初始狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/do.png" alt="DO Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_do.png" alt="WDM_testPanel_do" width="60%" />
 </div>
 
 ## 支援產品與連接埠
@@ -42,7 +42,7 @@ DO (Digital Output) 面板提供使用者控制數位輸出訊號的狀態。透
 此功能允許您設定裝置在上電啟動或重新啟動時，各 DO 通道的預設初始狀態（High 或 Low）。此設定會寫入裝置的非揮發性記憶體中。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/do-power-state.png" alt="DO Power-Up State" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_do_power_state.png" alt="WDM_testPanel_do_power_state" width="60%" />
 </div>
 
 1. 點擊 **Power-Up state** 按鈕開啟設定視窗。

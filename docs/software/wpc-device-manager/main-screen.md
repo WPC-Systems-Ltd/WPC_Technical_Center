@@ -8,7 +8,7 @@ description: "裝置列表、測試面板與產品資訊介面說明"
 ## 主畫面功能說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/main-screen.png" alt="WPC Device Manager 主畫面介紹" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_main_screen.png" alt="WDM_main_screen" width="60%" />
 </div>
 
 1.  **裝置列表**
@@ -21,8 +21,11 @@ description: "裝置列表、測試面板與產品資訊介面說明"
 
 3.  **產品資訊**
     顯示裝置的詳細規格資訊，包含序號、IP 位址、MAC 位址及韌體版本等。使用者亦可在此區域進行參數配置或檢視腳位定義圖 (Pinout)。
-    *   **⚠️ 圖示**：表示目前韌體並非最新版本，建議進行更新。
-    *   **✅ 圖示**：表示目前韌體已是最新版本。
+
+:::info
+- ⚠️ 圖示：表示目前韌體版本較舊。
+- ✅ 圖示：表示目前韌體已是最新版本。
+:::
 
 4.  **規格與狀態**
     顯示裝置的硬體規格與即時連線狀態。

@@ -8,7 +8,7 @@ sidebar_label: 'I2C'
 I2C (Inter-Integrated Circuit) 面板提供使用者進行 I2C 通訊協定測試。您可以設定時脈速率，對從屬裝置 (Slave) 進行讀寫與查詢操作。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/i2c.png" alt="I2C Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.png" alt="WDM_testPanel_i2c" width="60%" />
 </div>
 
 ## 支援產品與連接埠
