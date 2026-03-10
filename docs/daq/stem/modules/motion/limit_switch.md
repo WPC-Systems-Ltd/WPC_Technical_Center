@@ -9,7 +9,7 @@ description: 常見的光電式極限開關接線原理與安全建議
 本章節以業界常用的光電開關 (如 OMRON EE-SX67x 系列) 為範例，說明極限開關的接線模式與安全配置建議。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_29_img_X286.png" alt="Omron EE-SX67x Series" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/limit_switch_connection.png" alt="Omron EE-SX67x Series" width="60%" />
 </div>
 
 ## 1. 接線模式說明
@@ -36,7 +36,7 @@ description: 常見的光電式極限開關接線原理與安全建議
 此模式構成了一種 **「失效安全 (Fail-Safe)」** 機制。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_30_img_X295.png" alt="Wiring Configuration" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/suggest_connection.png" alt="Wiring Configuration" width="60%" />
 </div>
 
 ### 安全配置建議
