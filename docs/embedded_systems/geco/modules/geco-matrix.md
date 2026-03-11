@@ -19,5 +19,5 @@ description: 4x6 矩陣開關模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_46_X422.jpg" alt="Matrix Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_4x6_matrix.png" alt="geco_module_4x6_matrix" width="60%" />
 </div>

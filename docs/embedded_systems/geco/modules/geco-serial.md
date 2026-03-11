@@ -20,11 +20,11 @@ description: 序列通訊模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_48_X436.jpg" alt="Serial Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232.png" alt="geco_module_RS232" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_48_X437.png" alt="Serial Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232_pinout.png" alt="geco_module_RS232_pinout" width="60%" />
 </div>
