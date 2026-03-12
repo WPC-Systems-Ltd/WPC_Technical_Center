@@ -23,44 +23,44 @@ GECO Driver 提供了各種裝置控制與資料擷取相關的 API：
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview.png" alt="geco_driver_overview" width="60%" />
 </div>
 
-### GECO Driver - OverView
+### GECO Driver
 
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview1.png" alt="geco_driver_overview1" width="60%" />
 </div>
 
-### GECO Driver - OverView - DAQ
+### GECO Driver - DAQ
 
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview-DAQ.png" alt="geco_driver_overview-DAQ" width="60%" />
 </div>
 
-### GECO Driver - OverView - DAQ - DIO
+### GECO Driver - DAQ - DIO
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_DAQ_DIO.png" alt="geco_driver_overview-DAQ-DIO" width="60%" />
 </div>
 
-### GECO Driver - OverView - DAQ - AIO
+### GECO Driver - DAQ - AIO
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_DAQ_AIO.png" alt="geco_driver_overview-DAQ-AIO" width="60%" />
 </div>
 
-### GECO Driver - OverView - Motion
+### GECO Driver - Motion
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_Motion.png" alt="geco_driver_overview-Motion" width="60%" />
 </div>
 
-### GECO Driver - OverView - Switch
+### GECO Driver - Switch
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_Switch.png" alt="geco_driver_overview_Switch" width="60%" />
 </div>
 
-### GECO Driver - OverView - Thermo
+### GECO Driver - Thermo
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_Thermo.png" alt="geco_driver_overview_Thermo" width="60%" />
 </div>
 
-### GECO Driver - OverView - Communication - UART
+### GECO Driver - Communication - UART
 <div style={{textAlign: 'center'}}>
   <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_overview_UART.png" alt="geco_driver_overview_UART" width="60%" />
 </div>
