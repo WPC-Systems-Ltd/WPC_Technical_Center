@@ -13,7 +13,7 @@ description: 無人機起飛飛行流程
 5. 確認隨身碟容量足以儲存本次飛行數據。
     - 隨身碟必須插在飛控電腦上。
 
-:::warning 注意事項
+:::warning
 若未插入隨身碟，無人機將無法運作。
 :::
 
@@ -25,7 +25,7 @@ description: 無人機起飛飛行流程
 將緊急斷電開關切至 **ON**（通電）位置，啟動飛控電源。
 
 
-:::caution
+:::warning
 若緊急斷電開關未切至 ON，無人機將無法啟動。
 :::
 
@@ -35,25 +35,25 @@ description: 無人機起飛飛行流程
 ## 4. 飛行方向確認
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_8_X107.png" alt="飛行方向" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_flight_direction.png" alt="drone_flight_direction" width="60%" />
 </div>
 
 ### 上升/下降
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/Drone_up_down.gif" alt="上升/下降" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_flight_up_down.gif" alt="drone_flight_up_down" width="60%" />
 </div>
 
 ### 旋轉
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/Drone_rotate.gif" alt="旋轉" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_flight_rotate.gif" alt="drone_flight_rotate" width="60%" />
 </div>
 
 ### 移動
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/Drone_move.gif" alt="移動" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_flight_move.gif" alt="drone_flight_move" width="60%" />
 </div>
 
 

@@ -11,7 +11,7 @@ description: WPC Drone 產品特色與技術規格
 採用自研高效飛控演算法，反應時間快達 2.5 ms，具備卓越的抗風性能，即使在 7 級陣風下仍能維持穩定飛行。透過高速姿態與航向參考系統（AHRS），整體控制更快速、抗震性佳，確保飛行任務的高穩定性與高可靠度。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_1_X5.png" alt="WPC Drone" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone.png" alt="drone" width="60%" />
 </div>
 
 ## 核心技術特色
@@ -24,7 +24,7 @@ description: WPC Drone 產品特色與技術規格
 - **邊緣運算整合**：支援 NVIDIA Jetson Nano 任務電腦，輕鬆導入 AI 視覺辨識與邊緣運算應用。
 - **API 支援**：提供完整的 **LabVIEW** 與 **Python** API，並開放 UART 通訊協定，讓開發者能快速進行自主導航控制、路徑規劃或客製化酬載整合。
 
-## 專業服務與支援 (Services)
+## 專業服務與支援
 
 WPC Systems 不僅提供硬體平台，更致力於成為您最強大的技術後盾：
 

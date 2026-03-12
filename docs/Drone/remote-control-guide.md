@@ -15,7 +15,7 @@ description: 無人機遙控器操作與飛行流程
 ## 遙控器按鍵說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_4_X75.png" alt="遙控器按鍵配置" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_main.png" alt="remote_controller_main" width="60%" />
 </div>
 
 | 位置               | 功能         | 說明                                                                 |
@@ -30,7 +30,7 @@ description: 無人機遙控器操作與飛行流程
 ## 起飛操作說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_5_X86.png" alt="搖桿控制 - 左側" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_takeoff.png" alt="remote_controller_takeoff" width="60%" />
 </div>
 
 
@@ -45,14 +45,14 @@ description: 無人機遙控器操作與飛行流程
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_6_X91.png" alt="搖桿控制 - 右側" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_landing.png" alt="remote_controller_landing" width="60%" />
 </div>
 
 把左手搖桿 (Z 軸控制桿) ( ↕ ) 移至最低位置。無人機接近地面後，會自動解除飛行模式。
 
 ## 緊急關閉
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/page_6_X93.png" alt="搖桿控制 - 方向" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_emergency.png" alt="remote_controller_emergency" width="60%" />
 </div>
 
 **緊急關閉：**
