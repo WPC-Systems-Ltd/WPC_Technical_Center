@@ -109,15 +109,21 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'embedded_intro',
+          position: 'left',
+          label: '嵌入式系統',
+        },
+        {
+          type: 'doc',
           docId: 'software/intro',
           position: 'left',
           label: '軟體',
         },
         {
           type: 'doc',
-          docId: 'embedded_intro',
+          docId: 'driver/driver_intro',
           position: 'left',
-          label: '嵌入式系統',
+          label: '驅動程式',
         },
         {
           to: '/sitemap',
