@@ -17,15 +17,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 *   **Yaskawa (安川)**: SGDV / SGD7
 *   **Mitsubishi (三菱)**: MR-J4 / JE / MR-J2S
 
-<div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_with_controller.png" alt="專用型子版" width="60%" />
-</div>
-
 ## 2. 支援型號列表
-
-:::info 客製化服務
-若您的驅動器型號未列於下表，WPC 提供付費客製化子板設計服務，歡迎洽詢。
-:::
 
 | 廠牌       | 型號           | 專用子板標示 | 備註                  |
 | :--------- | :------------- | :----------- | :-------------------- |
@@ -35,6 +27,10 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 | Panasonic  | Minas A4/A5/A6 | A5           | A4/A5/A6 腳位相同     |
 | Delta      | ASDA-B2        | B2           | 與 A2 腳位不同        |
 | Delta      | ASDA-A2        | A2           | 與 B2 腳位不同        |
+
+:::info 客製化服務
+若您的驅動器型號未列於下表，WPC 提供付費客製化子板設計服務，歡迎洽詢。
+:::
 
 ## 3. 功能配置與接線
 

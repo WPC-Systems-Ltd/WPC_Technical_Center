@@ -109,6 +109,12 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'motion_intro',
+          position: 'left',
+          label: '馬達驅動',
+        },
+        {
+          type: 'doc',
           docId: 'embedded_intro',
           position: 'left',
           label: '嵌入式系統',
