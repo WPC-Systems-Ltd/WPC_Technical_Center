@@ -10,13 +10,11 @@ WPC 提供多種軟體工具與開發資源,協助您快速整合與應用數據
 
 ## 快速驗證程式
 
-| 名稱                                          | 說明                                 |
-|:-------------------------------------------- | :----------------------------------- |
-[WPC Device Manager](wpc-device-manager/intro) | DAQ 網路設定與管理工具                 |
+| 名稱                                          | 適用 WPC 產品                                                      |
+|:-------------------------------------------- | :----------------------------------------------------------------- |
+[WPC Device Manager](wpc-device-manager/intro) | Ethan-DAQ、USB-DAQ、WIFI-DAQ、STEM、EMotion、EDrive-ST、EDrive-SRV  |
+[GECO Manager](geco-manager/intro)             | GECO                                                               |
+[gStackRIO Manager](gstack-rio-manager/intro)  | gStack-RIO                                                         |
+[WPC Stand-Alone editor](wpc-stand-alone-editor/intro) | PYCO                                                       |
 
-## Driver
- 名稱                                                                               | 說明                                 |
-|:-------------------------------------------------------------------------------- | :----------------------------------- |
-[WPC Device Driver](https://www.wpc.com.tw/wpc-device-driver.html)                 | LabVIEW 開發套件                      |
-[WPC Python Driver](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release)  | Python 開發套件                       |
-[WPC C# Driver](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release)      | C# 開發套件                           |
+
