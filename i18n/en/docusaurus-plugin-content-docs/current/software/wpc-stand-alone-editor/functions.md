@@ -1,26 +1,28 @@
 ---
-title: Common Functions
-sidebar_label: Common Functions
+title: General Functions
+sidebar_label: General Functions
 sidebar_position: 3
-description: "SAPE common functions: file transfer, run and save scripts"
+description: "SAPE general functions: File transfer, execute and save scripts"
 ---
+
+# General Functions
 
 ## File Transfer
 
-You can directly drag and drop files from **Host PC** to **Target** (WPC device).
+You can directly drag and drop files from the **Host PC** to the **Target** (WPC device).
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_drop_file.gif" alt="Drag and Drop File" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_drop_file.gif" alt="stand_alone_editor_drop_file" width="60%" />
 </div>
 
-For example: Drag the sample code from a folder on your computer directly to the list of target devices.
+For example: Drag example code from a folder on your computer directly into the list on the target device.
 
 ## Run Script
 
-Write or open `main.py` code in **Editor**. When finished, click the **"Run script"** button to execute the code, and the result will be displayed in **Console**.
+Write or open `main.py` code in the **Editor**. Once completed, click the **"Run script"** button to execute the code; the results will be displayed in the **Console**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_run_script.gif" alt="Run Script" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_run_script.gif" alt="stand_alone_editor_run_script" width="60%" />
 </div>
 
 Example code:
@@ -32,23 +34,23 @@ print("Hello from WPC Systems Ltd.")
 
 ## Save Script
 
-Edit code in **Editor**. If the file is not saved, an asterisk (*) will appear next to the filename.
+Edit the code in the **Editor**. If the file has not been saved, an asterisk (*) will appear next to the filename.
 
 After editing, click the **"Save script"** button.
-The system will pop up a confirmation window, please select **"Yes"** to confirm saving. The asterisk will disappear automatically after saving.
+A confirmation window will pop up; please select **"Yes"** to confirm saving. After saving, the asterisk will automatically disappear.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_save_script.gif" alt="Save Script" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_save_script.gif" alt="stand_alone_editor_save_script" width="60%" />
 </div>
 
 ## Override main.py
 
-This function allows you to overwrite `main.py` with the currently edited code (e.g., `test.py`).
+This function allows you to override `main.py` with the code currently being edited (e.g., `test.py`).
 
-Click the **"Override main.py"** button. The system will pop up a confirmation window, please select **"Yes"**.
+Click the **"Override main.py"** button. A confirmation window will pop up; please select **"Yes"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_override.gif" alt="Override main.py" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_override.gif" alt="stand_alone_editor_override" width="60%" />
 </div>
 
 ## Close File
@@ -56,5 +58,5 @@ Click the **"Override main.py"** button. The system will pop up a confirmation w
 Click the red close button to close the file.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/pyco_close.gif" alt="Close File" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_close.gif" alt="stand_alone_editor_close" width="60%" />
 </div>

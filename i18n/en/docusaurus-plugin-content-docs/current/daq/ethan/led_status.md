@@ -1,50 +1,49 @@
 ---
-title: Appearance & LED Status
+title: Appearance and LED Status
 sidebar_position: 4
+description: Hardware interface description (Power, Network, Buttons, OLED) and LED indicator diagnosis (System/Network status interpretation)
 ---
-
-
 
 ## Hardware Appearance
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/appearance-of-ethan.png" alt="Ethan Appearance" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_appearance.png" alt="Ethan Appearance" width="40%" /></div>
 
 ## Interface Description by Number
 
-The table below corresponds to the numbers in the image above, explaining the hardware interface functions of the Ethan series:
+The following table corresponds to the numbers in the figure above, describing the hardware interface functions of the Ethan series products:
 
-| No.  | Component Name       | Description                                                                 |
-| :--: | :------------------- | :-------------------------------------------------------------------------- |
-| **0**| **Reset Button**     | 1. **Reboot**: Press once to reboot the device.<br/> 2. **Bootloader Mode**: Hold the **FUNC** button and press the Reset button simultaneously to reboot into Bootloader mode. |
-| **1**| **LED1 System Status**| Indicates the system main program status (see details below).               |
-| **2**| **LED2 OS Status**   | Indicates the operating system and network connection status (see details below). |
-| **3**| **FUNC Button**      | 1. **Reset IP**: Long press for about 3 seconds to reset IP to default `192.168.1.110`.<br/> 2. **Switch Display**: Short press to switch OLED pages. |
-| **4**| **OLED Panel**       | Displays network settings, firmware version, serial number, and other system status. |
-| **5**| **24V DC Input**     | Power input interface, 24V DC.                                              |
-| **6**| **Protective Earth (PE)**| Ground terminal for safety and noise immunity.                           |
-| **7**| **Ethernet Port**    | 10/100M Ethernet interface for data transmission and communication.         |
+| No.  | Component Name       | Function Description                                                                 |
+| :--: | :------------------- | :----------------------------------------------------------------------- |
+| **0**| **Reset Button**     | 1. **Restart**: Press directly to restart the device.<br/> 2. **Bootloader Mode**: Press and hold the **FUNC** button and the reset button at the same time, the device will restart and enter Bootloader mode. |
+| **1**| **LED1 Status Indicator**| Displays the operating status of the system main program (see next section for details). |
+| **2**| **LED2 OS Indicator**| Displays the operating system and network connection status (see next section for details). |
+| **3**| **FUNC Button**      | 1. **Reset IP**: Long press for about 3 seconds to reset the IP to the default `192.168.1.110`.<br/> 2. **Switch Display**: Short press to switch OLED panel display pages. |
+| **4**| **OLED Panel**       | Displays network settings information, firmware version, serial number, and other system statuses. |
+| **5**| **24V DC Power Input**| Power supply interface, input voltage is 24V DC. |
+| **6**| **Protective Earth (PE)**| Ground terminal to ensure equipment safety and noise immunity. |
+| **7**| **Ethernet Port**    | 10/100M Ethernet interface for data transfer and communication. |
 
 ---
 
-## LED Status Indicators
+## LED Indicator Status
 
 ### LED1: System Status
 
-| Behavior        | Status Description |
-| :-------------- | :----------------- |
-| **Blinks at Startup** | Main program initialization normal (blinks twice) |
-| **Steady On**   | System running normally |
-| **Periodic Blink** | Error occurred |
+| LED Behavior      | Status Description           |
+| :---------------- | :----------------- |
+| **Blinks on startup**| Main program initialization normal (blinks twice) |
+| **Solid on**      | System operation normal       |
+| **Periodic blinking**| Error occurred           |
 
 ### LED2: OS Status
 
-| Behavior        | Status Description |
-| :-------------- | :----------------- |
-| **Blinks at Startup** | Bootloader initialization normal (blinks twice) |
-| **Steady On**   | Bootloader running  |
-| **Periodic Blink** | OS running normally |
-| **Freq 4 Hz**   | Ethernet cable connected   |
-| **Freq 2 Hz**   | Ethernet cable disconnected   |
-| **Off**         | OS stopped   |
+| LED Behavior      | Status Description           |
+| :---------------- | :----------------- |
+| **Blinks on startup**| Bootloader initialization normal (blinks twice) |
+| **Solid on**      | Bootloader running  |
+| **Periodic blinking**| OS operating normally   |
+| **Frequency 4 Hz**| Ethernet cable connected   |
+| **Frequency 2 Hz**| Ethernet cable not connected   |
+| **Off**           | OS stopped   |
 
 ---

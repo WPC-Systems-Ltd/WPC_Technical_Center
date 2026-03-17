@@ -1,11 +1,11 @@
 {
-    "label": "WIFI-DAQ Series",
+    "label": "WIFI-DAQ User Manual",
     "position": 3,
     "collapsed": true,
     "link": {
         "type": "generated-index",
         "slug": "wifi-daq",
-        "title": "WIFI-DAQ Manual Overview",
-        "description": "Technical documentation center for all WPC Wireless Data Acquisition Cards."
+        "title": "WIFI-DAQ User Manual",
+        "description": "Technical documentation center for all WPC wireless data acquisition cards."
     }
 }

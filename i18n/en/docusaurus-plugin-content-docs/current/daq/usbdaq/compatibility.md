@@ -1,6 +1,7 @@
 ---
 title: Product Compatibility
 sidebar_position: 3
+description: Overview of functions and channel counts with hardware resource exclusion table, clearly indicating collision limits for I2C/SPI/UART/PWM/AI/AO, etc.
 ---
 
 
@@ -16,20 +17,20 @@ sidebar_position: 3
 | USB-DAQ-RD    | DIO+RTD   |    21    |        |        |       |       |       |   2   |       |
 | USB-DAQ-CD    | DIO+CAN   |    20    |        |        |       |       |       |       |   1   |
 
-## Compatibility Description
+## Compatibility Notes
 
 ---
 
-The WPC-USB-DAQ series adopts a highly integrated microcontroller architecture. Some functional modules (such as PWM, Encoder, SPI, etc.) share critical internal hardware resources (including Timers, Interrupts, or physical DMA channels). Therefore, certain functional combinations are mutually exclusive at the hardware level and cannot operate simultaneously.
+WPC-USB-DAQ series products use a highly integrated microcontroller architecture. Some functional modules (such as PWM, Encoder, SPI, etc.) share key internal hardware resources (including Timers, Interrupts, or physical DMA channels). Therefore, certain combinations of functions are mutually exclusive at the hardware level and cannot operate simultaneously.
 
-This chapter provides a **Resource Conflict Matrix** to help users evaluate the feasibility of functions during the system design and software development stages.
+This section provides a "Resource Mutual Exclusion Table" to assist users in evaluating functional feasibility during the system design and software development phases.
 
-> 💡 **Note**: Please refer to the table below before purchasing products or writing programs. If your application scenario requires enabling multiple functions simultaneously, please ensure they are **NOT** marked as resource conflicts in the comparison table.
+> 💡 **Note**: Please refer to the table below before purchasing products or writing programs. If your application scenario requires multiple functions to be enabled simultaneously, please confirm that they are **not** marked as resource conflicts in the table.
 
-### How to Read the Resource Conflict Matrix
+### How to Read the Resource Mutual Exclusion Table
 
 The table below lists the compatibility status between functional modules.
-- **Row and Column**: Represent the two functions to be enabled.
+- **Rows and Columns**: Represent the two functions to be enabled.
 - **Marked "X"**: Indicates a resource conflict between the two functions; they **cannot be enabled simultaneously**.
 - **Blank**: Indicates that the two functions use independent hardware resources and can be enabled simultaneously.
 
@@ -43,9 +44,9 @@ The table below lists the compatibility status between functional modules.
 | CTR1 |      |  X   |      |      |  X  |
 | Enc  |      |  X   |      |  X   |     |
 
-> 💡 X indicates that Function A and Function B cannot be enabled simultaneously.
+> 💡 X indicates that Function A and Function B cannot be enabled at the same time.
 
-### Models other than USB-DAQ-D-SNK
+### Other Models (Except USB-DAQ-D-SNK)
 
 ---
 
@@ -57,15 +58,15 @@ The table below lists the compatibility status between functional modules.
 | SPI2  |      |  X   |      |      |       |       |      |      |      |      |     |       |   X   |       |       |       |
 | UART1 |      |      |      |      |       |       |      |      |      |      |     |       |       |       |       |       |
 | UART2 |      |      |      |      |       |       |      |      |      |      |     |       |       |       |       |       |
-| PWM0  |      |      |      |      |       |       |      |      |      |  X   |      |     |       |       |       |       |
-| PWM1  |      |      |      |      |       |       |      |      |      |      |  X   |  X  |       |       |       |       |
-| CTR0  |      |      |      |      |       |       |  X   |      |      |      |      |     |       |       |       |       |
-| CTR1  |      |      |      |      |       |       |      |  X   |      |      |      |  X  |       |       |       |       |
-| Enc   |      |      |      |      |       |       |      |  X   |      |  X   |     |       |       |       |       |       |
-| AI    |  X   |      |  X   |      |       |       |      |      |      |      |      |     |       |       |       |       |
-| AO    |      |  X   |      |  X   |       |       |      |      |      |      |      |     |       |       |       |       |
-| TC    |  X   |      |  X   |      |       |       |      |      |      |      |      |     |       |       |       |       |
-| RTD   |  X   |      |  X   |      |       |       |      |      |      |      |      |     |       |       |       |       |
-| CAN   |  X   |      |  X   |      |       |       |      |      |      |      |      |     |       |       |       |       |
+| PWM0  |      |      |      |      |       |       |      |      |  X   |      |     |       |       |       |       |       |
+| PWM1  |      |      |      |      |       |       |      |      |      |  X   |  X  |       |       |       |       |       |
+| CTR0  |      |      |      |      |       |       |  X   |      |      |      |     |       |       |       |       |       |
+| CTR1  |      |  X   |      |      |       |       |      |  X   |      |      |  X  |       |       |       |       |       |
+| Enc   |      |  X   |      |      |       |       |      |  X   |      |  X   |     |       |       |       |       |       |
+| AI    |  X   |      |  X   |      |       |       |      |      |      |      |     |       |       |       |       |       |
+| AO    |      |  X   |      |  X   |       |       |      |      |      |      |     |       |       |       |       |       |
+| TC    |  X   |      |  X   |      |       |       |      |      |      |      |     |       |       |       |       |       |
+| RTD   |  X   |      |  X   |      |       |       |      |      |      |      |     |       |       |       |       |       |
+| CAN   |  X   |      |  X   |      |       |       |      |      |      |      |     |       |       |       |       |       |
 
-> 💡 X indicates that Function A and Function B cannot be enabled simultaneously.
+> 💡 X indicates that Function A and Function B cannot be enabled at the same time.

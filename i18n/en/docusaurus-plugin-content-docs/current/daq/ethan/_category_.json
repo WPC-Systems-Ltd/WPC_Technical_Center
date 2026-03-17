@@ -1,10 +1,11 @@
 {
-    "label": "Ethernet-DAQ Series",
+    "label": "Ethernet-DAQ User Manual",
     "position": 1,
     "collapsed": true,
     "link": {
         "type": "generated-index",
-        "title": "Ethernet-DAQ Series",
-        "description": "Industrial-grade Ethernet Data Acquisition Cards, supporting long-distance stable transmission."
+        "slug": "ethan",
+        "title": "Ethernet-DAQ User Manual",
+        "description": "Industrial-grade Ethernet data acquisition cards, supporting long-distance stable transmission."
     }
 }

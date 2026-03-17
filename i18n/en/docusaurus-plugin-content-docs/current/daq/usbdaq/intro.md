@@ -1,20 +1,21 @@
 ---
 title: Product Introduction
 sidebar_position: 2
+description: Product naming rule analysis (USB-DAQ-XX) and selection guide, covering Digital, Analog, Temperature, and Communication application categories
 ---
 
-## WPC product naming represents the combination of interface and function.
+## WPC product names represent combinations of interfaces and functions.
 
-| Code     | Full Name        | Description                             |
+| Code     | Full Name         | Function Description                    |
 | :------- | :--------------- | :-------------------------------------- |
 | **USB**  | USB Interface    | Uses USB transmission interface         |
-| **DAQ**  | Data Acquisition | Data Acquisition function               |
+| **DAQ**  | Data Acquisition | Data acquisition functions              |
 | **D**    | Digital I/O      | Digital Input/Output (DIO)              |
 | **AD**   | Analog In        | Analog Input (AI) + DIO                 |
 | **AOD**  | Analog In/Out    | Analog Input (AI) + Analog Output (AO) + DIO |
-| **TD**   | Thermocouple     | Thermocouple Temperature Acquisition + DIO |
-| **RD**   | RTD              | RTD Temperature Acquisition + DIO       |
-| **CD**   | CAN Bus          | CAN Bus Communication + DIO             |
+| **TD**   | Thermocouple     | Thermocouple temperature acquisition + DIO |
+| **RD**   | RTD              | RTD temperature sensor acquisition + DIO |
+| **CD**   | CAN Bus          | CAN Bus communication + DIO             |
 
 ## Product Features
 
@@ -22,14 +23,14 @@ sidebar_position: 2
 
 ### Product Selection Guide
 
-| Category         | Model             | Key Features                                  |
-| :--------------- | :---------------- | :-------------------------------------------- |
-| **Digital I/O**  | **USB-DAQ-D**     | 3.3V TTL (5V Tolerant)                        |
-|                  | **USB-DAQ-D-SNK** | 24V Industrial Isolated I/O (NPN Only)        |
-| **Analog I/O**   | **USB-DAQ-AD**    | ±10V Analog Voltage Input                     |
-|                  | **USB-DAQ-AOD**   | ±10V Analog Voltage Input and 0-5V Analog Output |
-| **Temp I/O**     | **USB-DAQ-TD**    | Thermocouple Input (Supports K, J, N, R, S, T, E, B types) |
-|                  | **USB-DAQ-RD**    | PT-100 and PT-1000 RTD Input                  |
-| **Comm I/O**     | **USB-DAQ-CD**    | Controller Area Network (CAN) Interface       |
+| Classification | Model             | Main Features                                      |
+| :----------- | :---------------- | :------------------------------------------------- |
+| **Digital I/O** | **USB-DAQ-D**     | 3.3V TTL (5V input tolerant)                       |
+|              | **USB-DAQ-D-SNK** | 24V industrial isolation I/O (NPN only)            |
+| **Analog I/O** | **USB-DAQ-AD**    | ±10V analog voltage input                          |
+|              | **USB-DAQ-AOD**   | ±10V analog input and 0-5V analog voltage output   |
+| **Temp. I/O**  | **USB-DAQ-TD**    | Thermocouple input (supports K, J, N, R, S, T, E, B type) |
+|              | **USB-DAQ-RD**    | PT-100 and PT-1000 RTD sensor input                |
+| **Comm. I/O**  | **USB-DAQ-CD**    | Controller Area Network (CAN) interface           |
 
-> 💡 USB-DAQ-RD supports only PT-100 or PT-1000 temperature sensors. Please confirm the specification and model with the distributor before purchasing.
+> 💡 USB-DAQ-RD only supports PT-100 or PT-1000 temperature sensors. Please confirm specifications and models with your distributor before purchasing.

@@ -5,27 +5,27 @@ sidebar_label: 'DPOT'
 
 # DPOT
 
-DPOT (Digital Potentiometer) panel provides users with the ability to control digital potentiometers, which can be applied to analog circuit parameter adjustment or sensor simulation.
+The DPOT (Digital Potentiometer) panel provides users with control over digital variable resistors, which can be applied to analog circuit parameter adjustment or sensor simulation.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/dpot.png" alt="DPOT Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_dpot.png" alt="WDM_testPanel_dpot" width="60%" />
 </div>
 
 ## Supported Products
 
-| Product Name | Description |
-| :--- | :--- |
-| [`Ethan-P`](../../../daq/ethan/products/ethan-p.md) | 4-channel Digital Potentiometer Output (Range: `300 ~ 50k Ω`) |
+| Product Name                                            | Description                                         |
+| :-------------------------------------------------- | :------------------------------------------- |
+| [`Ethan-P`](../../../daq/ethan/products/ethan-p.md) | 4-channel digital variable resistor output (Range: `300 ~ 50k Ω`) |
 
-## Operation Instructions
+## Operation Description
 
-You can directly set the resistance value through the input box in the interface, or use the slider for adjustment.
+You can set the resistance value directly through the input box in the interface or adjust it using the slider.
 
 ### Control Buttons
 
-| Button | Function |
-| :--- | :--- |
-| **Start** | Enable DPOT control function. |
-| **Stop** | Stop DPOT control function. |
-| **Update** | Write the set resistance value to the specified channel. |
-| **Set all to** | Set all channels to a unified value. |
+| Button           | Function                           |
+| :------------- | :----------------------------- |
+| **Start**      | Enable DPOT control function.           |
+| **Stop**       | Disable DPOT control function.           |
+| **Update**     | Write the set resistance value to the specified channel. |
+| **Set all to** | Set all channels to a unified value.     |

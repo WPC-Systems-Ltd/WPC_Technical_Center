@@ -2,7 +2,8 @@
     "label": "FAQ",
     "position": 6,
     "link": {
+        "slug": "drone-faq",
         "type": "generated-index",
-        "description": "WPC Drone FAQ and Troubleshooting Guide"
+        "description": "WPC Drone frequently asked questions and troubleshooting guide"
     }
 }

@@ -1,11 +1,11 @@
 ---
-title: "Motor Beeps After Power On"
+title: Drone Emitting Continuous Short Beeps After Powering On
 sidebar_position: 1
 ---
 
-# Why does the motor keep beeping after the drone is powered on?
+# Drone Emitting Continuous Short Beeps After Powering On
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/drone/faq1.png" alt="faq1" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_faq_beep.png" alt="drone_faq_beep" width="60%" />
 </div>

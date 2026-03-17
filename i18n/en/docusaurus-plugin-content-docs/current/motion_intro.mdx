@@ -1,0 +1,78 @@
+---
+title: Motion Getting Started Guide
+sidebar_label: Getting Started
+slug: /motion-intro
+displayed_sidebar: motionSidebar
+---
+
+import { Rocket, Cpu, Code, HelpCircle, Zap, Settings } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>Welcome to WPC Motion Solutions</h1>
+  <p>We provide stepper motor and servo motor drivers, as well as multi-axis motion control cards, covering complete solutions from single-axis drive to four-axis synchronous control. With just a computer and a network cable, you can quickly start your motor control project.</p>
+</div>
+
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Project Learning Path
+
+<div className="gs-timeline">
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">1</div>
+    <div className="gs-timeline-content">
+      <h3>Select the Appropriate Driver</h3>
+      <p>Choose based on motor type: EDriveST for stepper motors, EDriveSRV for servo motors, and Emotion for multi-axis control.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">2</div>
+    <div className="gs-timeline-content">
+      <h3>Hardware Wiring and Configuration</h3>
+      <p>Complete the wiring for the motor, encoder, and limit switches according to the pin descriptions, and ensure the power supply meets the specifications.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">3</div>
+    <div className="gs-timeline-content">
+      <h3>Install WPC Device Manager</h3>
+      <p>Scan and locate your devices through WPC Device Manager (WDM), and use the Motion Test Panel to directly control motors.</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-content">
+      <h3>Write Control Programs</h3>
+      <p>Choose a familiar programming language (Python, C#, or LabVIEW), download the WPC Device Driver, and begin development.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/Motion/edrivest/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Zap size={24} color="var(--brand-electric-blue)"/> EDriveST</h2>
+    <p>**Single-axis Stepper Motor Integrated Driver**</p>
+    <p>Equipped with a network interface, it directly connects to two-phase stepper motors, encoders, and limit switches, achieving position and speed control without an additional motion card.</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Motion/edrivesrv/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> EDriveSRV</h2>
+    <p>**Single-axis Servo Motor Integrated Driver**</p>
+    <p>Supports Panasonic A6 series servo motors, with up to 48V DC power and a maximum output power of 400W, suitable for high-precision motion control.</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/Motion/emotion/products" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Cpu size={24} color="var(--brand-electric-blue)"/> Emotion</h2>
+    <p>**Four-axis Motion Control Card**</p>
+    <p>Supports various renowned brands of servo drivers (Yaskawa, Mitsubishi, Delta, Panasonic), offering dedicated and universal daughter boards for rapid integration into existing systems.</p>
+  </a>
+</div>
+
+---
+
+## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Software SDK Support
+
+| Programming Language | Download Link |
+| :------------------- | :------------------------------------------------------------------------------------ |
+| Python               | [WPC Python Driver](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release)    |
+| C#                   | [WPC C# Driver](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release)        |
+| LabVIEW              | WPC Device Driver (WDD)                                                               |

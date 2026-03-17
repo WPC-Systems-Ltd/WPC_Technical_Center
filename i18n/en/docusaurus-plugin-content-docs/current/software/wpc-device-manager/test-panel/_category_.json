@@ -1,4 +1,8 @@
 {
     "label": "Test Panel",
-    "description": "WPC Device Manager Test Panel and Functional Description"
+    "position": 7,
+    "link": {
+        "type": "generated-index",
+        "description": "WPC Device Manager Test Panel and functional descriptions."
+    }
 }

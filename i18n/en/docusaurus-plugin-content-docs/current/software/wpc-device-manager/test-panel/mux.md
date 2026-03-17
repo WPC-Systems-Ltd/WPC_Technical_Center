@@ -5,16 +5,16 @@ sidebar_label: 'MUX'
 
 # MUX
 
-MUX (Multiplexer) panel provides users with control over multiplexer channel switching.
+The MUX (Multiplexer) panel allows users to control the channel switching of multiplexers.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/mux.png" alt="MUX Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_mux.png" alt="WDM_testPanel_mux" width="60%" />
 </div>
 
-## Operation Instructions
+## Operation Description
 
-| Button | Function |
-| :--- | :--- |
-| **Start** | Enable MUX control function. |
-| **Stop** | Stop control. |
+| Button             | Function                 |
+| :--------------- | :------------------- |
+| **Start**        | Enable the MUX control function.   |
+| **Stop**         | Stop control.           |
 | **Disconnect All** | Disconnect all channels. |

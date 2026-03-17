@@ -9,4 +9,4 @@ sidebar_position: 2
 When the PYCO development board is powered on, it will first execute `boot.py`, followed by `main.py`.
 
 -   `boot.py` is typically used for system or environment initialization.
--   `main.py` contains your main application logic and will be automatically executed after `boot.py`.
+-   `main.py` contains your primary application logic and will automatically execute after `boot.py`.

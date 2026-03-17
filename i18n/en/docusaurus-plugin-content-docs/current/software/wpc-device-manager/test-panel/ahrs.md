@@ -5,40 +5,40 @@ sidebar_label: 'AHRS'
 
 # AHRS
 
-AHRS (Attitude and Heading Reference System) panel provides users with the ability to read attitude and heading reference system data. Through the built-in accelerometer, gyroscope, and magnetometer, it calculates and displays the 3D attitude of the device in real-time.
+The AHRS (Attitude and Heading Reference System) panel allows users to read data from the attitude and heading reference system. Through built-in accelerometers, gyroscopes, and magnetometers, it calculates and displays the device's 3D attitude in real-time.
 
 ## Supported Products
 
-This feature supports devices equipped with AHRS modules:
+This function supports devices equipped with an AHRS module:
 
-| Product Name | Description |
-| :--- | :--- |
-| [`Wifi-DAQ-E3-AH`](../../../daq/wifidaq/product-general.md) | Built-in IMU Inertial Measurement Unit |
-| [`Wifi-DAQ-E3-AO`](../../../daq/wifidaq/product-general.md) | Built-in IMU Inertial Measurement Unit |
+| Product Name                                                 | Description               |
+| :----------------------------------------------------------- | :------------------------ |
+| [`Wifi-DAQ-E3-AH`](../../../daq/wifidaq/product-general.md) | Built-in IMU inertial measurement unit |
+| [`Wifi-DAQ-E3-AO`](../../../daq/wifidaq/product-general.md) | Built-in IMU inertial measurement unit |
 
 ## Data Display (Data & 3D Model)
 
-The panel is divided into numerical data display and 3D model attitude display:
+The panel is divided into two parts: numerical data display and 3D model attitude display:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ahrs.png" alt="AHRS Data" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.png" alt="WDM_testPanel_AHRS" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/testPanel/ahrs-3dmodel.png" alt="AHRS 3D Model" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.png" alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
 </div>
 
-| Parameter | Description | Range |
-| :--- | :--- | :--- |
-| **Roll** | Rotation angle around X axis | -180° ~ +180° |
-| **Pitch** | Rotation angle around Y axis | -90° ~ +90° |
-| **Yaw** | Rotation angle around Z axis | -180° ~ +180° |
+| Parameter          | Description                         | Range         |
+| :----------------- | :---------------------------------- | :------------ |
+| **Roll**       | Rotation angle around the X-axis | -180° ~ +180° |
+| **Pitch** | Rotation angle around the Y-axis | -90° ~ +90°   |
+| **Yaw**     | Rotation angle around the Z-axis | -180° ~ +180° |
 
-## Operation Instructions
+## Operation Description
 
-| Button/Parameter | Description |
-| :--- | :--- |
-| **Start** | Start reading and updating AHRS attitude data. |
-| **Stop** | Stop reading. |
-| **Unit** | Switch display unit:<br/>• **Degrees**<br/>• **Rad**: Radians |
-| **Mode** | Sampling mode, currently only **On Demand** (Single read update) mode is supported. |
+| Button/Parameter | Description                                                  |
+| :--------------- | :----------------------------------------------------------- |
+| **Start**        | Start reading and updating AHRS attitude data.               |
+| **Stop**         | Stop reading.                                                |
+| **Unit**         | Switch display units:<br/>• **Degrees**<br/>• **Rad** (Radians) |
+| **Mode**         | Sampling mode, currently only supports **On Demand** (single read update) mode. |

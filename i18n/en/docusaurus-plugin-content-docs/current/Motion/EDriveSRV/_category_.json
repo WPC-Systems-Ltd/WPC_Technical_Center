@@ -1,0 +1,7 @@
+{
+    "label": "EDrive-SRV",
+    "link": {
+        "type": "generated-index",
+        "description": "Servo motor driver solution."
+    }
+}

@@ -5,14 +5,14 @@ sidebar_position: 1
 
 # PYCO WIFI
 
-PYCO WIFI is a fully functional Python programmable controller that integrates **8-channel AI/AO/DI/DO**, built-in **Wi-Fi** and **OLED screen**, supports SD card expansion, suitable for independent operation and IoT applications.
+PYCO WIFI is a full-featured Python programmable controller, integrating **8-channel AI/AO/DI/DO**, with built-in **Wi-Fi** and an **OLED display**, and supporting SD card expansion, making it ideal for independent operation and IoT applications.
 
 ## Product Appearance
 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-wifi.png" alt="PYCO WIFI Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi.png" alt="PYCO WIFI Appearance" width="60%" />
 </div>
 
 
@@ -34,15 +34,15 @@ PYCO WIFI is a fully functional Python programmable controller that integrates *
 *   **Web-based Configurator**: Web-based configuration interface.
 *   **Wi-Fi**: 802.11 b/g/n (2.4 GHz to 2.5 GHz).
 
-## Parts Description
+## Component Names
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-wifi-general.png" alt="PYCO WIFI Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-general.png" alt="PYCO WIFI Components" width="60%" />
 </div>
 
-1.  **LCD Screen**: Displays network information, firmware details, serial number, and other functional information.
-2.  **24V DC Input**: Main power input.
+1.  **OLED Display**: Shows network information, firmware details, serial number, and other functional information.
+2.  **24V DC Input**: Primary power input.
 3.  **Secondary 24V DC Input**: Secondary power input.
 4.  **Protective Earth (PE)**.
 5.  **Analog Connector**.
@@ -50,17 +50,17 @@ PYCO WIFI is a fully functional Python programmable controller that integrates *
 7.  **Digital I/O Connector**.
 8.  **SD Card Slot**.
 9.  **Reset Button**:
-    - Short press: Reboot device.
-    - Hold FUNC and press Reset: Reboot and enter bootloader mode.
+    - Short press: Reboots the device.
+    - Press and hold FUNC while pressing Reset: Reboots and enters bootloader mode.
 10. **FUNC Button**:
     - User-customizable.
 
 ---
 
-## Pin Definition
+## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png" alt="PYCO WIFI Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png" alt="PYCO WIFI Pinout Diagram" width="60%" />
 </div>
 
 

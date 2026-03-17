@@ -1,30 +1,30 @@
 ---
 title: WIFI Device Functions
-sidebar_label: WIFI Device Functions
+sidebar_label: WIFI Device
 sidebar_position: 6
-description: "Wi-Fi parameter configuration, AP mode setting, signal monitoring and firmware update"
+description: "Wi-Fi parameter configuration, AP mode settings, signal monitoring, and firmware updates"
 ---
 
 ## Refresh
 
-Click the **"Refresh"** button to reload and update WIFI device information.
+Click the **"Refresh"** button to re-read and update WIFI device information.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-refresh.png" alt="Refresh WIFI Device" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_refresh.png" alt="WDM_WIFI_refresh" width="60%" />
 </div>
 
 ---
 
 ## Pinout
 
-Click the **"Pinout"** button to open the pin definition window.
+Click the **"Pinout"** button to open the pinout definition window. The window size can be adjusted based on the user's requirements.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-pinout.png" alt="Pinout Button" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_pinout.png" alt="WDM_WIFI_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/pinout.png" alt="WIFIDAQ Pinout Example" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_pinout1.png" alt="WDM_WIFI_pinout1" width="60%" />
 </div>
 
 ---
@@ -35,60 +35,61 @@ The steps to change the device IP address are as follows:
 
 1.  Enter the new IP address in the **IP Address** field (e.g., `192.168.5.37`).
 2.  Click the **"Set IP"** button.
-3.  Confirm the IP address is correct, then click **"OK"**.
-4.  The system will prompt you to restart the device to apply the settings, click **"OK"**.
+3.  After confirming the IP address is correct, click **"OK"**.
+4.  The system will prompt that the device needs to be rebooted to apply the settings; please click **"OK"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-set-ip.png" alt="Set IP" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_set_ip.png" alt="WDM_WIFI_set_ip" width="60%" />
 </div>
 
 ---
 
 ## Reboot
 
-If you need to restart the device via software, please click the **"Reboot"** button.
+To reboot the device via software, please click the **"Reboot"** button.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-reboot.png" alt="Reboot Device" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_reboot.png" alt="WDM_WIFI_reboot" width="60%" />
 </div>
 
 ---
 
 ## Update Firmware
 
-If you need to update the WIFI device firmware, please follow these steps:
+To update the WIFI device firmware, please follow these steps:
 
 1.  Click the **"Update Firmware"** button.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/choose-update-firmware.png" alt="Update Firmware Button" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_update_firmware.png" alt="WDM_WIFI_update_firmware" width="60%" />
     </div>
 
-    *   **⚠️ Icon**: Indicates that the current firmware version is old.
-    *   **✅ Icon**: Indicates that the current firmware is the latest version.
+:::info
+- ⚠️ Icon: Indicates that the current firmware version is outdated.
+- ✅ Icon: Indicates that the current firmware is up to date.
+:::
 
-2.  Select the corresponding firmware file (`.bin`) in the file browser.
+2.  Select the corresponding firmware file (`.bin`) from the file browser.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/choose-bin.png" alt="Select Firmware File" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_choose_bin.png" alt="WDM_WIFI_choose_bin" width="60%" />
     </div>
 
-3.  The system will pop up a confirmation window, click **"OK"** to start writing.
+3.  A confirmation window will pop up; click **"OK"** to start writing.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/confirm-bin.png" alt="Start Updating Firmware" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_confirm_bin.png" alt="WDM_WIFI_confirm_bin" width="60%" />
     </div>
 
 4.  Wait for the progress bar to complete.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/updating.png" alt="Firmware Updating" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_updating.png" alt="WDM_WIFI_updating" width="60%" />
     </div>
 
 :::danger
-**Do NOT turn off the power or interrupt the wireless connection** during the update process. If the update fails due to interruption, the device may not work and needs to be sent back to the factory for repair.
+**Do not turn off the power or disconnect the wireless connection** during the update process. If the update fails due to interruption, the device may malfunction and need to be returned to the factory for repair.
 :::
-
 
 ---
 
@@ -97,61 +98,61 @@ If you need to update the WIFI device firmware, please follow these steps:
 1.  Click the **"AP Mode"** button to enable the AP mode of the WIFI device.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/choose-apmode.png" alt="AP Mode Button" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_apmode.png" alt="WDM_WIFI_apmode" width="60%" />
     </div>
 
-2.  WDM will pop up a confirmation window, please click **"OK"** to continue.
+2.  WDM will pop up a confirmation window; please click **"OK"** to continue.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/apmode-confirm.png" alt="Confirm AP Mode" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_apmode_confirm.png" alt="WDM_WIFI_apmode_confirm" width="60%" />
     </div>
 
-3.  Please connect the computer to the specified AP device via Wi-Fi. After successful connection, click **"OK"**.
+3.  Please connect your computer to the specified AP device via Wi-Fi. After a successful connection, click **"OK"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/apmode-connect-pc.png" alt="Connect PC to AP" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_apmode_connect_pc.png" alt="WDM_WIFI_apmode_connect_pc" width="60%" />
     </div>
 
-4.  After clicking "OK", WDM will automatically open the web page.
+4.  After clicking "OK", WDM will automatically open the browser.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/apmode-browser.png" alt="Open Settings Page" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_apmode_browser.png" alt="WDM_WIFI_apmode_browser" width="60%" />
     </div>
 
-5.  Please configure the network via that web page.
+5.  Please perform network configuration through that webpage. After completing the settings, click **"Save"** on the configuration page.
+
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc_device_manager/wifi/apmode-config.png" alt="Network Configuration Page" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_apmode_config.png" alt="WDM_WIFI_apmode_config" width="60%" />
     </div>
 
-:::caution
-*   Please ensure the computer is successfully connected to the specified AP, otherwise you will not be able to enter the settings page.
-*   If you need to change the domain or other network parameters of the WIFI device, please click **"Save"** on the settings page after setting.
+:::info
+Please ensure the computer has successfully connected to the specified AP; otherwise, you will not be able to enter the configuration page.
 :::
 
 ---
 
 ## Set SSID/PW
 
-Click the **"SSID/PW"** button to set the Wi-Fi SSID and password the device wants to connect to, or set the device to AP mode.
+Click the **"SSID/PW"** button to set the Wi-Fi SSID and password that the device wishes to connect to, or to set the device to AP mode.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-ssid.png" alt="Choose SSID and PW" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_SSID.png" alt="WDM_WIFI_SSID" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/set-ssid.png" alt="Set SSID and PW" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_SSID_password.png" alt="WDM_WIFI_SSID_password" width="60%" />
 </div>
 ---
 
-## Signal Monitor
+## Signal Monitoring
 
-Click the **"Monitor"** button to view the device's current battery level and wireless signal strength (RSSI).
+Click the **"Monitor"** button to view the current battery level and Received Signal Strength Indicator (RSSI) of the device.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/choose-monitor.png" alt="Monitor Battery and RSSI" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_monitor.png" alt="WDM_WIFI_monitor" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/wifi/get-monitor.png" alt="Monitor Page Example" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/wifi/WDM_WIFI_battery_RSSI.png" alt="WDM_WIFI_battery_RSSI" width="60%" />
 </div>

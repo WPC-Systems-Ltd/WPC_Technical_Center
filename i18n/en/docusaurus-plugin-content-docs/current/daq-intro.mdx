@@ -1,155 +1,152 @@
 ---
-title: 資料擷取入門指南 (DAQ Getting Started)
-sidebar_label: 資料擷取入門指南
+title: DAQ Getting Started Guide
+sidebar_label: Getting Started
 slug: /daq-intro
 ---
 
 import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
-  <h1>歡迎來到 WPC Technical Center</h1>
-  <p>我們提供從感測器數據採集、各式馬達控制到無人機系統整合的完整解決方案。只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。</p>
+  <h1>Welcome to WPC Technical Center</h1>
+  <p>We provide complete solutions from sensor data acquisition and various motor controls to drone system integration. Just select the hardware device that suits your needs and your familiar programming language to quickly start your precision control project.</p>
 </div>
 
-## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 專案起步學習路徑
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Project Learning Path
 
 <div className="gs-timeline">
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>選擇硬體設備</h3>
-      <p>根據您的需求（網路距離、攜帶便利性、無線應用）選擇合適的 DAQ 設備或系統。</p>
+      <h3>Select Hardware</strong></h3>
+      <p>Choose the appropriate DAQ device or system based on your requirements (network distance, portability, wireless applications).</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
-      <h3>硬體接線配置</h3>
-      <p>將感測器或控制元件正確接入設備連接埠，並確保電源供應穩定。</p>
+      <h3>Hardware Wiring and Configuration</h3>
+      <p>Correctly connect sensors or control components to the device ports and ensure a stable power supply.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
-      <h3>安​裝 WPC Device Manager</h3>
-      <p>透過我們的官方硬體管理工具，快速掃描設備並確認連線狀態與韌體版本。</p>
+      <h3>Install WPC Device Manager</h3>
+      <p>Quickly scan devices and confirm connection status and firmware versions using our official hardware management tool.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
-      <h3>安裝軟體 SDK</h3>
-      <p>無論您使用 Python, C# 還是 LabVIEW，下載我們提供的函式庫並完成環境設定。</p>
+      <h3>Install Software SDK</h3>
+      <p>Download our provided libraries and complete the environment setup, whether you use Python, C#, or LabVIEW.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">5</div>
     <div className="gs-timeline-content">
-      <h3>執行第一個範例程式</h3>
-      <p>開啟 SDK 中提供的基礎範例檔案，嘗試讀取第一筆電壓數據或驅動第一顆馬達。</p>
+      <h3>Run Your First Example</h3>
+      <p>Open the basic example files provided in the SDK to try reading your first voltage data or driving your first motor.</p>
     </div>
   </div>
 </div>
 
 ---
 
-## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的硬體平台
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform
 
 <div className="gs-card-grid">
   <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ</h2>
-    <p>**主打遠端大數據量傳輸**</p>
-    <p>適合需長距離連接、多節點同步監控的工業現場。提供 RJ45 介面，具有高穩定度與高頻寬特性。</p>
+    <p>**High Volume Remote Data Transfer**</p>
+    <p>Ideal for industrial sites requiring long-distance connections and multi-node synchronous monitoring. Features an RJ45 interface with high stability and bandwidth.</p>
   </a>
   <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB-DAQ</h2>
-    <p>**主打隨插即用與高精準度**</p>
-    <p>適合實驗室測試、可攜式量測。免外加複雜電源，透過 USB 直接供電並進行高速資料擷取。</p>
+    <p>**Plug-and-Play with High Precision**</p>
+    <p>Suitable for laboratory testing and portable measurements. Powered directly via USB for high-speed data acquisition without complex external power supplies.</p>
   </a>
   <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
-    <p>**主打無線部署與 IoT 應用**</p>
-    <p>適合難以佈線或移動式載體的數據採集需求。支援無線網路傳輸，讓感測無所不在。</p>
+    <p>**Wireless Deployment and IoT Applications**</p>
+    <p>Designed for data acquisition needs in areas difficult to wire or for mobile carriers. Supports wireless network transmission for sensing everywhere.</p>
   </a>
   <a href="/docs/daq/stem/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> STEM</h2>
-    <p>**主打教育市場與物聯網應用**</p>
-    <p>具備 4 個擴充插槽的模組化控制器。支援乙太網路，可彈性組合不同功能模組以滿足多樣化開發需求。</p>
+    <p>**Education Market and IoT Applications**</p>
+    <p>A modular controller with 4 expansion slots. Supports Ethernet and offers flexible combinations of different functional modules to meet diverse development needs.</p>
   </a>
 </div>
 
-:::tip[除此之外還有什麼？]
-除了標準的資料擷取系列，我們還提供 **[嵌入式系統入門](/docs/embedded_intro)** 以及完整的 **[無人機控制入門](/docs/drone_intro)**。
+:::tip[What else is there?]
+In addition to the standard data acquisition series, we also provide **[Embedded Systems Introduction](/docs/embedded_intro)** and a complete **[Drone Control Introduction](/docs/drone_intro)**.
 :::
 
 ---
 
-## <Settings2 size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 設備管理工具 (WPC Device Manager)
+## <Settings2 size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> WPC Device Manager
 
-在開始撰寫程式碼之前，我們強烈建議您安裝 **WPC Device Manager**。這是一款專為 WPC 硬體設計的跨平台管理軟體，能夠協助您：
+Before you start writing code, we strongly recommend installing **WPC Device Manager**. This is a cross-platform management software specifically designed for WPC hardware that helps you:
 
 <div className="gs-card-grid gs-card-grid-4">
   <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
     <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
       <Search size={32} color="var(--brand-electric-blue)" />
     </div>
-    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>自動掃描</h3>
-    <p style={{fontSize: '0.9rem', marginBottom: 0}}>快速找到區網內或 USB 連接的所有 WPC 設備。</p>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Auto Scan</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Quickly find all WPC devices connected via the local network or USB.</p>
   </div>
   <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
     <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
       <Zap size={32} color="var(--brand-electric-blue)" />
     </div>
-    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>狀態確認</h3>
-    <p style={{fontSize: '0.9rem', marginBottom: 0}}>即時查看設備的 IP 位址、MAC 位址與當前連線狀態。</p>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Status Verification</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Instantly view the IP address, MAC address, and current connection status of your devices.</p>
   </div>
   <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
     <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
       <RefreshCw size={32} color="var(--brand-electric-blue)" />
     </div>
-    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>韌體更新</h3>
-    <p style={{fontSize: '0.9rem', marginBottom: 0}}>一鍵檢查並升級設備至最新版韌體。</p>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Firmware Updates</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Check and upgrade devices to the latest firmware with one click.</p>
   </div>
   <div className="theme-doc-card gs-card" style={{padding: '1.2rem', textAlign: 'center'}}>
     <div style={{marginBottom: '0.8rem', display: 'flex', justifyContent: 'center'}}>
       <Wrench size={32} color="var(--brand-electric-blue)" />
     </div>
-    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>網路設定</h3>
-    <p style={{fontSize: '0.9rem', marginBottom: 0}}>輕鬆修改 Ethernet/WIFI DAQ 的網路組態。</p>
+    <h3 style={{margin: '0 0 0.5rem 0', fontSize: '1.1rem'}}>Network Settings</h3>
+    <p style={{fontSize: '0.9rem', marginBottom: 0}}>Easily modify the network configuration of Ethernet/WIFI DAQs.</p>
   </div>
 </div>
 
-:::note[前往了解更多]
+:::note[Learn More]
 **[WPC Device Manager](/docs/software/wpc-device-manager/intro)**
-下載並安裝管理工具，幫助您更有效率地管理與設定 WPC DAQ 設備。
+Download and install the management tool to manage and configure your WPC DAQ devices more efficiently.
 :::
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 軟體 SDK 支援一覽表
+## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Software SDK Support Overview
 
-我們提供主流程式語言的 SDK 函式庫，所有 DAQ 裝置均可通用相同的 API 設計邏輯。您可以點擊下方語言連結前往詳細教學：
+We provide SDK libraries for major programming languages, and all DAQ devices share the same API design logic. You can click on the language links below for detailed tutorials:
 
-| 程式語言 | 特色簡介 | 詳細教學連結 |
-| :------- | :------- | :----------- |
-| **Python** | 開源且易於使用的 API，具備一致的介面與豐富範例，適合各階層開發者快速上手。 | [Python 入門](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
-| **C#** | 針對 .NET 環境優化的開源驅動，採用直觀的開啟/讀寫/關閉邏輯，大幅降低開發門檻。 | [C# 入門](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |
-| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。 | *即將推出* |
+| Programming Language | Feature Summary | Detailed Tutorial Link |
+| :------------------- | :-------------- | :--------------------- |
+| **Python** | Open-source and easy-to-use API with a consistent interface and rich examples, suitable for developers of all levels. | [Python Getting Started](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
+| **C#** | Open-source driver optimized for .NET environments, using intuitive Open/Read-Write/Close logic, significantly lowering the development threshold. | [C# Getting Started](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |
+| **LabVIEW** | Provides a complete VI package and ready-made graphical panels, enabling engineers to quickly integrate automated test and measurement processes. | *Coming Soon* |
 
 :::note
-SDK 本身**完全開源 (Open Source)** 並託管於 GitHub，可透過 Pypi, NuGet 等套件管理員直接安裝。
+The SDK itself is **fully open source (Open Source)** and hosted on GitHub, and can be directly installed via package managers such as PyPI and NuGet.
 :::
 
 ---
 
-## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ)
 
 <div className="gs-card-grid">
   <a href="/docs/category/wdm-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Device Manager</h2>
-    <p>**常見問題與排除指南**</p>
+    <p>**Frequently Asked Questions and Troubleshooting Guide**</p>
   </a>
 </div>
-
-
-

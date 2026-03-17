@@ -1,4 +1,9 @@
 {
     "label": "FAQ",
-    "description": "WPC Device Manager FAQ and Troubleshooting Guide"
+    "position": 8,
+    "link": {
+        "slug": "wdm-faq",
+        "type": "generated-index",
+        "description": "WPC Device Manager Frequently Asked Questions and troubleshooting guide."
+    }
 }

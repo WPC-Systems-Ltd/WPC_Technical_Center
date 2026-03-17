@@ -1,13 +1,15 @@
 ---
 title: Introduction and Installation
-sidebar_label: Introduction and Installation
+sidebar_label: Intro & Installation
 sidebar_position: 1
-description: "WPC Stand-alone Python Editor software introduction, download and installation guide"
+description: "WPC Stand-alone Python Editor software introduction, download, and installation guide"
 ---
+
+# Introduction and Installation
 
 ## Introduction
 
-**WPC Stand-alone Python Editor** (abbreviated as **SAPE**) is a LabVIEW-based independent Python IDE (Integrated Development Environment). It is designed specifically for WPC PYCO products, allowing users to easily write and execute Python programs.
+WPC Stand-alone Python Editor is a LabVIEW-based standalone Python IDE (Integrated Development Environment). It is specifically designed for WPC PYCO products, allowing users to easily write and execute Python programs.
 
 ## Download and Installation
 
@@ -15,58 +17,64 @@ description: "WPC Stand-alone Python Editor software introduction, download and 
 
 Please download the latest version of Stand-Alone Python Editor from the WPC official website.
 
-<div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page2_X51.png" alt="stand alone python editor" width="60%" />
-</div>
+> [Download Stand-Alone Python Editor](https://www.wpc.com.tw/stand-alone-python-editor.html)
 
-### Step 2: Download and Install LabVIEW Run-time Engine 2018
-
-:::caution Important
-To run this software, you must install **LabVIEW Run-Time Engine 2018** first.
+:::caution
+To run this software, you must first install the **LabVIEW Run-Time Engine 2018**.
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page3_X64.png" alt="LabVIEW Runtime Download Page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_download_page.png" alt="stand_alone_editor_download_page" width="60%" />
 </div>
 
-## Open SAPE
 
-1.  Unzip the downloaded file.
-2.  Click `WPC Stand-Alone Python Editor.exe` to launch the software.
+### Step 2: Download and Install LabVIEW Run-time Engine 2018
+
+> [Download LabVIEW 2018 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2018.html)
+
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page3_X67.png" alt="Open SAPE" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/runtime2018_download_page.png" alt="runtime2018_download_page" width="60%" />
 </div>
 
-### Windows Security Warning Handling
+## Open Stand-Alone Python Editor
+
+1.  Decompress the downloaded Stand-Alone Python Editor file.
+2.  Open `WPC Stand-Alone Python Editor.exe`.
+
+<div style={{textAlign: 'center'}}>
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_open.png" alt="stand_alone_editor_open" width="60%" />
+</div>
+
+### Handling Windows Security Warnings
 
 If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
 
-1.  Please click **"More info"**.
+1.  Click **"More info"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-stand-alone-editor/editor_page4_X74.png" alt="Windows Protect Warning" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/windows_protection_1.png" alt="windows_protection_1" width="60%" />
     </div>
 
 2.  Click **"Run anyway"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/img/wpc-stand-alone-editor/editor_page5_X80.png" alt="Run anyway" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/windows_protection_2.png" alt="windows_protection_2" width="60%" />
     </div>
 
 ### Firewall Settings
 
-When opening for the first time, Windows Firewall may block some features.
+Upon the first opening, the Windows Firewall might block some functions.
 
-1.  Please check **"Private networks"** and **"Public networks"**.
+1.  Check **"Private networks"** and **"Public networks"**.
 2.  Click **"Allow access"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page6_X86.png" alt="Firewall Settings" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/windows_firewall.png" alt="windows_firewall" width="60%" />
 </div>
 
-When SAPE is opened for the first time, it will try to connect to the COM Port.
+When opening the Stand-Alone Python Editor for the first time, it will attempt to connect to the COM Port.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc-stand-alone-editor/editor_page7_X92.png" alt="Try Connecting COM Port" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_connect_COM_port.png" alt="stand_alone_editor_connect_COM_port" width="60%" />
 </div>

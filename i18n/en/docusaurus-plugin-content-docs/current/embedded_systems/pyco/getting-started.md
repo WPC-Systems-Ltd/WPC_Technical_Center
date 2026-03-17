@@ -1,52 +1,52 @@
 ---
-title: 快速入門
+title: Getting Started
 sidebar_position: 2
 ---
 
-# 快速入門
+# Getting Started
 
-## 歡迎使用！
+## Welcome!
 
-感謝您選擇 PYCO。本指南將協助您快速建立開發環境，並在 PYCO 開發板上執行您的第一個程式。
+Thank you for choosing PYCO. This guide will help you quickly set up your development environment and run your first program on the PYCO development board.
 
-## 準備事項
+## Preparation
 
-**硬體:**
+**Hardware:**
 
-1.  PYCO 開發板
-2.  USB A 連接線
-3.  24V DC 電源供應器 (僅適用於 PYCO WIFI 與 PYCO ETH)
-4.  電腦 (Windows, Linux, or macOS)
+1.  PYCO development board
+2.  USB A cable
+3.  24V DC power supply (Applicable only to PYCO WIFI and PYCO ETH)
+4.  Computer (Windows, Linux, or macOS)
 
-**軟體:**
+**Software:**
 
-1.  WPC Stand-Alone Python Editor (推薦) 或任何 Python IDE
+1.  WPC Stand-Alone Python Editor (Recommended) or any Python IDE
 
-## 步驟 1: 安裝軟體
+## Step 1: Install Software
 
-1.  下載 [WPC Stand-Alone Python Editor](https://www.wpc.com.tw/stand-alone-python-editor.html)。
-2.  將下載的檔案解壓縮至您選擇的資料夾。
-3.  雙擊執行檔以開啟編輯器。
+1.  Download the [WPC Stand-Alone Python Editor](https://www.wpc.com.tw/stand-alone-python-editor.html).
+2.  Extract the downloaded file to a folder of your choice.
+3.  Double-click the executable file to open the editor.
 
-## 步驟 2: 連接硬體
+## Step 2: Connect Hardware
 
-1.  將 24V DC 電源供應器連接至您的 PYCO 開發板。(僅適用於 PYCO WIFI 與 PYCO ETH)
-2.  使用 USB A 連接線將 PYCO 開發板連接至您的電腦。
-3.  等待電腦辨識裝置 (驅動程式應會自動安裝)。
+1.  Connect the 24V DC power supply to your PYCO development board (Applicable only to PYCO WIFI and PYCO ETH).
+2.  Connect the PYCO development board to your computer using the USB A cable.
+3.  Wait for the computer to recognize the device (drivers should install automatically).
 
-## 步驟 3: 執行您的第一個範例
+## Step 3: Run Your First Example
 
-1.  開啟 WPC Stand-Alone Python Editor (或您偏好的 IDE)。
-2.  從 [官方範例頁面](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI/System/get_system_info.html) 下載範例程式碼。
-3.  在編輯器中開啟範例檔案。
-4.  確保您的 PYCO 開發板已選取為目標裝置 (檢查編輯器的裝置選單)。
-5.  點擊 "Run" 按鈕以在開發板上執行程式碼。
+1.  Open the WPC Stand-Alone Python Editor (or your preferred IDE).
+2.  Download the sample code from the [Official Examples Page](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI/System/get_system_info.html).
+3.  Open the sample file in the editor.
+4.  Ensure your PYCO development board is selected as the target device (check the device menu in the editor).
+5.  Click the "Run" button to execute the code on the development board.
 
-## 恭喜！
+## Congratulations!
 
-您已成功建立開發環境並在 PYCO 開發板上執行了第一個程式。探索更多範例並開始建立您自己的專案吧！
+You have successfully set up the development environment and executed your first program on the PYCO development board. Explore more examples and start building your own projects!
 
-## 極簡 AI 數據讀取範例：`AI on demand once`
+## Minimalistic AI Data Reading Example: `AI on demand once`
 
 ---
 
@@ -66,10 +66,10 @@ ai_data = pywpc.AI_readOnDemand()
 print(ai_data)
 ```
 
-此範例旨在展示使用 **pywpc** 函式庫讀取 **類比輸入 (AI)** 數據的 **極致簡單性**。
+This example is designed to demonstrate the **extreme simplicity** of reading **Analog Input (AI)** data using the **pywpc** library.
 
-**您不需要複雜的配置或通道設定。** 只需呼叫一個簡單的函式，即可立即取得數據。
+**You don't need complex configurations or channel settings.** Just call a simple function and get the data immediately.
 
-:::tip 更多範例
-👉 查看更多範例程式碼 [PYCO 系列範例程式碼](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples_PYCO_WIFI_MINI_AO.html)
+:::tip More Examples
+👉 Check out more sample code [PYCO Series Sample Code](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples_PYCO_WIFI_MINI_AO.html)
 :::
