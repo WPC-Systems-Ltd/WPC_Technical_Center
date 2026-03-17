@@ -24,9 +24,14 @@ import { Cpu, Activity, Zap, Settings } from 'lucide-react';
     <p>**高精準度電流感測**</p>
     <p>提供 ±50mA 雙向電流範圍的高精度電流感測放大器，支援高電壓共模輸入，並具備隔離設計。</p>
   </a>
-  <a href="/docs/signal_condition/8ch_current_to_voltage" className="theme-doc-card gs-card">
-    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter</h2>
-    <p>**工業標準訊號轉換**</p>
-    <p>將工業標準的 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道轉換模組，支援單端與差分輸出。</p>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_SE" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (單端)</h2>
+    <p>**工業標準訊號轉換 (單端輸出)**</p>
+    <p>將 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道轉換模組。此為單端輸出版本，適用於單點接地的 DAQ 平台。</p>
+  </a>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_Diff" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (差分)</h2>
+    <p>**工業標準訊號轉換 (差分輸出)**</p>
+    <p>將 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道轉換模組。此為差分輸出版本，能有效消除環境共模雜訊。</p>
   </a>
 </div>

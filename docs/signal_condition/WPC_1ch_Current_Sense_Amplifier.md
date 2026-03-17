@@ -1,10 +1,10 @@
 ---
-title: 電流感測放大器
+title: 1ch Current Sense Amplifier
 sidebar_position: 2
 description: WPC 1ch Current Sense Amplifier 產品簡介、特點與規格說明
 ---
 
-# 電流感測放大器
+# 1ch Current Sense Amplifier
 
 WPC 1ch Current Sense Amplifier 是一個專為將電流訊號轉換為**電壓訊號**的前端模組。確保測量系統在各種應用場景中皆能取得高解析度的數據
 

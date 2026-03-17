@@ -1,10 +1,10 @@
 ---
-title: Low Power Current Source (1ch)
+title: 1ch Low Power Current Source
 sidebar_position: 3
 description: WPC 1ch Low power current source (LPCS) 產品簡介、特點與規格說明
 ---
 
-# Low Power Current Source (1ch)
+# 1ch Low Power Current Source
 
 ## 產品簡介
 
