@@ -121,6 +121,12 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'signal_condition_intro',
+          position: 'left',
+          label: '訊號調節器',
+        },
+        {
+          type: 'doc',
           docId: 'software/intro',
           position: 'left',
           label: '軟體',
