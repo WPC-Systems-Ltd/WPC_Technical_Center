@@ -1,10 +1,10 @@
 ---
-title: 1ch Programmable Gain Amplifier (PGA)
+title: 1ch Programmable Gain Amplifier
 sidebar_position: 5
 description: WPC 1ch Programmable Gain Amplifier (PGA) 產品簡介、特點與規格說明
 ---
 
-# 1ch Programmable Gain Amplifier (PGA)
+# 1ch Programmable Gain Amplifier
 
 WPC 1ch Programmable Gain Amplifier (PGA) 是一個具備可程式化增益功能的訊號放大前端模組。本產品專為需要動態調整放大倍率的應用場景而設計，能有效處理不同幅度的輸入訊號，並將其轉換為高品質的差動輸出訊號。
 

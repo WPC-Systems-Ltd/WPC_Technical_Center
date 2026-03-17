@@ -1,10 +1,10 @@
 ---
-title: 1ch Strain Gauge Amplifier (SGA)
+title: 1ch Strain Gauge Amplifier
 sidebar_position: 10
 description: WPC 1ch Strain Gauge Amplifier (SGA) 產品簡介、特點與規格說明
 ---
 
-# 1ch Strain Gauge Amplifier (SGA)
+# 1ch Strain Gauge Amplifier
 
 WPC Strain Gauge Amplifier (SGA) 是一款專為應變計量測設計的高頻寬訊號放大前端模組。它能將應變計產生的微小電壓變化訊號精確放大為標準電壓輸出，讓使用者能夠透過一般的類比輸入通道輕鬆進行高頻應變與結構應力分析。
 

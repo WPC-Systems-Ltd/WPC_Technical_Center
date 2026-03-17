@@ -1,10 +1,10 @@
 ---
-title: 1ch Load Cell Amplifier (LCA)
+title: 1ch Load Cell Amplifier
 sidebar_position: 9
 description: WPC 1ch Load Cell Amplifier (LCA) 產品簡介、特點與規格說明
 ---
 
-# 1ch Load Cell Amplifier (LCA)
+# 1ch Load Cell Amplifier
 
 WPC Load Cell Amplifier (LCA) 是一款專為荷重元量測設計的信號處理前端模組。它能將 Load Cell 輸出的微小電壓訊號（通常為 mV 等級）精確放大為標準電壓訊號，使使用者能透過一般用途的類比輸入通道進行高品質的力學量測。
 
