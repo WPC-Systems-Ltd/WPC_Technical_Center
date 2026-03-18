@@ -56,7 +56,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '常見問題 (FAQ)', id: 'sitemap.category.drone.section.faq' }),
                 links: [
-                    { label: translate({ message: '常見問題', id: 'sitemap.category.drone.link.faq' }), href: '/docs/Drone/drone-faq', icon: <HelpCircle size={16} /> },
+                    { label: translate({ message: '常見問題', id: 'sitemap.category.drone.link.faq' }), href: '/docs/Drone/drone-faq/', icon: <HelpCircle size={16} /> },
                 ],
             },
         ],
@@ -82,7 +82,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '產品型號', id: 'sitemap.category.ethan.section.models' }),
                 links: [
-                    { label: translate({ message: '產品型號', id: 'sitemap.category.ethan.link.models' }), href: '/docs/daq/ethan/products', icon: <Boxes size={16} /> },
+                    { label: translate({ message: '產品型號', id: 'sitemap.category.ethan.link.models' }), href: '/docs/ethan/products/', icon: <Boxes size={16} /> },
                 ],
             },
         ],
@@ -110,7 +110,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '產品型號', id: 'sitemap.category.usb.section.models' }),
                 links: [
-                    { label: translate({ message: '產品型號', id: 'sitemap.category.usb.link.models' }), href: '/docs/daq/usbdaq/products', icon: <Boxes size={16} /> },
+                    { label: translate({ message: '產品型號', id: 'sitemap.category.usb.link.models' }), href: '/docs/usb-daq/products/', icon: <Boxes size={16} /> },
                 ],
             },
         ],
@@ -146,7 +146,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '支援模組', id: 'sitemap.category.stem.section.modules' }),
                 links: [
-                    { label: translate({ message: '支援模組', id: 'sitemap.category.stem.link.modules' }), href: '/docs/daq/stem/modules', icon: <Network size={16} /> },
+                    { label: translate({ message: '支援模組', id: 'sitemap.category.stem.link.modules' }), href: '/docs/stem/modules/', icon: <Network size={16} /> },
                 ],
             },
         ],
@@ -177,7 +177,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '支援模組', id: 'sitemap.category.geco.section.modules' }),
                 links: [
-                    { label: translate({ message: '支援模組', id: 'sitemap.category.geco.link.modules' }), href: '/docs/embedded_systems/geco/modules', icon: <Boxes size={16} /> },
+                    { label: translate({ message: '支援模組', id: 'sitemap.category.geco.link.modules' }), href: '/docs/embedded_systems/geco/modules/', icon: <Boxes size={16} /> },
                 ],
             },
         ],
@@ -197,13 +197,13 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '產品型號', id: 'sitemap.category.pyco.section.models' }),
                 links: [
-                    { label: translate({ message: '產品型號', id: 'sitemap.category.pyco.link.models' }), href: '/docs/embedded_systems/pyco/products', icon: <Boxes size={16} /> },
+                    { label: translate({ message: '產品型號', id: 'sitemap.category.pyco.link.models' }), href: '/docs/embedded_systems/pyco/products/', icon: <Boxes size={16} /> },
                 ],
             },
             {
                 heading: translate({ message: '常見問題 (FAQ)', id: 'sitemap.category.pyco.section.faq' }),
                 links: [
-                    { label: translate({ message: '常見問題', id: 'sitemap.category.pyco.link.faq' }), href: '/docs/embedded_systems/pyco/faq/pyco-faq', icon: <HelpCircle size={16} /> },
+                    { label: translate({ message: '常見問題', id: 'sitemap.category.pyco.link.faq' }), href: '/docs/embedded_systems/pyco/pyco-faq/', icon: <HelpCircle size={16} /> },
                 ],
             },
         ],
@@ -222,8 +222,8 @@ const categories: SitemapCategory[] = [
                     { label: translate({ message: 'Ethernet 裝置', id: 'sitemap.category.software.link.wdm_eth' }), href: '/docs/software/wpc-device-manager/ethernet-device', icon: <Network size={16} /> },
                     { label: translate({ message: 'USB 裝置', id: 'sitemap.category.software.link.wdm_usb' }), href: '/docs/software/wpc-device-manager/usb-device', icon: <Usb size={16} /> },
                     { label: translate({ message: 'WIFI 裝置', id: 'sitemap.category.software.link.wdm_wifi' }), href: '/docs/software/wpc-device-manager/wifi-device', icon: <Wifi size={16} /> },
-                    { label: translate({ message: '測試面板', id: 'sitemap.category.software.link.wdm_panels' }), href: '/docs/software/wpc-device-manager/test-panel', icon: <Settings2 size={16} /> },
-                    { label: translate({ message: '常見問題 (FAQ)', id: 'sitemap.category.software.link.wdm_faq' }), href: '/docs/software/wpc-device-manager/faq/wdm-faq', icon: <HelpCircle size={16} /> },
+                    { label: translate({ message: '測試面板', id: 'sitemap.category.software.link.wdm_panels' }), href: '/docs/software/wpc-device-manager/test-panel/', icon: <Settings2 size={16} /> },
+                    { label: translate({ message: '常見問題 (FAQ)', id: 'sitemap.category.software.link.wdm_faq' }), href: '/docs/software/wpc-device-manager/wdm-faq/', icon: <HelpCircle size={16} /> },
                 ],
             },
             {
