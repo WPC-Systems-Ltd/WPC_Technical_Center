@@ -1,6 +1,11 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.13 Date: 2026/03/18, Developer: Chunglee_people
+---------------------------------------------------
+### Fixed
+- Fix the deployment issue.
+
 v0.0.12 Date: 2026/03/18, Developer: Chunglee_people
 ---------------------------------------------------
 ### Added
