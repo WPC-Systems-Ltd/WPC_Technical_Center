@@ -23,8 +23,28 @@
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
-  "title": {
+  "item.label.首頁": {
     "message": "Home",
+    "description": "Navbar item with label 首頁"
+  },
+  "item.label.馬達驅動": {
+    "message": "Motion",
+    "description": "Navbar item with label 馬達驅動"
+  },
+  "item.label.訊號調節器": {
+    "message": "Signal Conditioners",
+    "description": "Navbar item with label 訊號調節器"
+  },
+  "item.label.驅動程式": {
+    "message": "Drivers",
+    "description": "Navbar item with label 驅動程式"
+  },
+  "item.label.網站導覽": {
+    "message": "Sitemap",
+    "description": "Navbar item with label 網站導覽"
+  },
+  "title": {
+    "message": "WPC Technical Center",
     "description": "The title in the navbar"
   }
 }

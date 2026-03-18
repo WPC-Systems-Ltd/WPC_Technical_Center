@@ -1,40 +1,82 @@
 ---
 title: Introduction and Installation
-sidebar_label: Introduction and Installation
+sidebar_label: Intro & Installation
 sidebar_position: 1
-description: "Software introduction and download installation guide"
+description: "Software introduction, download, and installation guide"
 ---
 
 ## Introduction
 
-WPC Device Manager (WDM) is a comprehensive management tool designed for WPC products, aiming to help users efficiently operate, configure, and maintain various devices. through an intuitive interface, users can easily complete device management tasks without programming background.
+WPC Device Manager (WDM) is a comprehensive management tool designed specifically for WPC products, aimed at assisting users in efficiently operating, configuring, and maintaining various devices. Through an intuitive operation interface, users can easily complete device management tasks without needing a programming background.
 
-Key features of WDM include:
+The core functions of WDM include:
 
-*   **Device Search**: Automatically scan and identify available WPC devices on the local area network.
-*   **Device Configuration**: Provide complete network parameter settings and Network Time Protocol (SNTP) timing functions.
-*   **Pin Status**: Real-time monitoring and display of digital I/O and digital pin status of the device.
-*   **Test Panel**: Built-in interactive test panel for users to verify functions and control conveniently.
-*   **Firmware Update**: Provide a fast and secure firmware update mechanism to ensure the device remains on the latest version.
+*   **Device Search**: Automatically scan and identify available WPC devices within the local area network.
+*   **Device Configuration**: Provide complete network parameter settings and Simple Network Time Protocol (SNTP) timing functions.
+*   **Pin Status**: Real-time monitoring and display of the device's digital I/O and digital pin status.
+*   **Test Panel**: Built-in interactive test panel for users to perform functional verification and control.
+*   **Firmware Update**: Provide a quick and secure firmware update mechanism to ensure the device maintains the latest version.
 
 ---
 
 ## Download and Installation
 
-Please visit the WPC official website to download the latest version of WPC Device Manager.
+### Step 1: Download WPC Device Manager
+
+Please visit the official WPC website to download the latest version of WPC Device Manager.
 
 > [Download WPC Device Manager (WDM)](https://www.wpc.com.tw/wpc-device-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/download-page.png" alt="WPC Device Manager Download Page" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_download_page.png').default} alt="WDM_download_page" width="60%" />
 </div>
 
 :::caution
-Before running this software, you must install **LabVIEW Run-Time Engine 19.0** environment.
+Before running this software, the **LabVIEW Run-Time Engine 19.0** environment must be installed.
 :::
+
+### Step 2: Download and Install LabVIEW Run-time Engine 2019
 
 > [Download LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/wpc_device_manager/labview-runtime.png" alt="LabVIEW 2019 Run-time Engine Download Page" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/runtime2019_download_page.png').default} alt="runtime2019_download_page" width="60%" />
+</div>
+
+## Open WPC Device Manager
+
+1.  Decompress the downloaded WPC Device Manager file.
+2.  Open `WPC Device Manager.exe`.
+
+### Handling Windows Security Warnings
+
+If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
+
+1.  Click **"More info"**.
+
+    <div style={{textAlign: 'center'}}>
+      <img src={require('@site/static/img/wpc_device_manager/windows_protect.png').default} alt="windows_protect" width="60%" />
+    </div>
+
+2.  Click **"Run anyway"**.
+
+    <div style={{textAlign: 'center'}}>
+      <img src={require('@site/static/img/wpc_device_manager/windows_protect1.png').default} alt="windows_protect" width="60%" />
+    </div>
+
+### Firewall Settings
+
+Upon the first opening, the Windows Firewall might block some functions.
+
+1.  Check **"Private networks"** and **"Public networks"**.
+2.  Click **"Allow access"**.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/wpc_device_manager/windows_firework.png').default} alt="windows_firework" width="60%" />
+</div>
+
+Once opened, WPC Device Manager will automatically search for WPC devices.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/wpc_device_manager/WDM_search.png').default} alt="WDM_search" width="60%" />
 </div>

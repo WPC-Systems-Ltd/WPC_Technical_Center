@@ -26,26 +26,26 @@ description: 各大廠牌伺服驅動器的位置控制模式接線圖集
 以下提供主流伺服驅動器的標準接線範例。
 圖中 **紅色框線** 標示處為必須連接至軸卡的重要 I/O 訊號點。
 
-:::tip 設定生效
+:::info 設定生效
 更改驅動器參數設定或接線後，務必將驅動器 **斷電重啟 (Power Cycle)** 以確保設定生效。
 :::
 
 ### 2.1 Mitsubishi (三菱) MR-J4 / JE
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_31_img_X303.png" alt="Mitsubishi J4 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Mitsubishi_MR_J4_JE.png" alt="Mitsubishi J4 Wiring" width="60%" />
 </div>
 
 ### 2.2 Delta (台達) ASDA-B2
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_32_img_X311.png" alt="Delta B2 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Delta_ASDA_B2.png" alt="Delta B2 Wiring" width="60%" />
 </div>
 
 ### 2.3 Panasonic (松下) Minas A4 / A5 / A6
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_33_img_X319.png" alt="Panasonic Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Panasonic_Minas_A4_A5_A6.png" alt="Panasonic Wiring" width="60%" />
 </div>
 
 ### 2.4 Yaskawa (安川) SGDV / SGD7
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_34_img_X327.png" alt="Yaskawa Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Yaskawa_SGDV_SGD7.png" alt="Yaskawa Wiring" width="60%" />
 </div>

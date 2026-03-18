@@ -1,4 +1,9 @@
 {
     "label": "Product Models",
-    "description": "Detailed Introduction to PYCO Series Models"
+    "position": 3,
+    "collapsed": false,
+    "link": {
+        "type": "generated-index",
+        "description": "Detailed introduction to each model in the PYCO series"
+    }
 }

@@ -1,0 +1,10 @@
+{
+    "label": "gStack-RIO Driver",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "slug": "gstack-rio-driver",
+        "title": "gStack-RIO Driver",
+        "description": "gStack-RIO Controller driver development documentation."
+    }
+}

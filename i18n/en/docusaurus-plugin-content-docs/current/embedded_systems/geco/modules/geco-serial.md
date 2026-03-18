@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 sidebar_label: 'RS-232 / 422 / 485'
-description: Serial Communication Module Specifications and Pinout
+description: Specifications and pinout definitions for the serial communication module
 ---
 
 # RS-232 / 422 / 485 Module
@@ -10,21 +10,21 @@ This module provides multi-channel serial communication interfaces, supporting R
 
 ## 1. Specifications
 
-| Item | Specification |
-| :--- | :--- |
-| **Power** | No external power required |
-| **RS-232** | 4 ch |
-| **RS-485/422** | 4 ch (Configurable) |
-| **Isolation** | Channel to channel isolation |
+| Item                   | Specification                           |
+| :--------------------- | :-------------------------------------- |
+| **Power**              | No external power required             |
+| **RS-232**             | 4 ch                                   |
+| **RS-485/422**         | 4 ch (Configurable)                    |
+| **Isolation**          | Channel to channel isolation           |
 
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_48_X436.jpg" alt="Serial Module Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_RS232.png').default} alt="RS-232/422/485 Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_page_48_X437.png" alt="Serial Module Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_RS232_pinout.png').default} alt="Serial Module Pinout" width="60%" />
 </div>

@@ -21,13 +21,13 @@ description: 12ch DI / 12ch DO 混合模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_24_X244.jpg" alt="DIO Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO.png" alt="geco_module_12ch_DIO" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_25_X250.png" alt="DIO Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_pinout.png" alt="geco_module_12ch_DIO_pinout" width="60%" />
 </div>
 
 ### Quick reference for GECO FPGA User
@@ -64,13 +64,13 @@ description: 12ch DI / 12ch DO 混合模組規格與腳位定義
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_19_X210.png" alt="Sinking Output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.png" alt="geco_module_12ch_DIO_sinking_output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_19_X213.png" alt="Sourcing Output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.png" alt="geco_module_12ch_DIO_sourcing_output" width="60%" />
 </div>
 
 :::caution

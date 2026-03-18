@@ -1,7 +1,7 @@
 ---
 title: Battery Charging Tutorial
 sidebar_position: 4
-description: WPC Drone Battery Charging Tutorial
+description: WPC Drone battery charging tutorial
 ---
 
 ## Battery Charging Tutorial

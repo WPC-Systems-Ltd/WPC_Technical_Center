@@ -8,7 +8,7 @@ sidebar_label: 'Counter'
 Counter (計數器) 面板提供使用者進行脈衝訊號的計數與頻率量測。您可以設定觸發邊緣與頻率量測的時間區間，以適應不同的訊號特性。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/counter.png" alt="Counter Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_counter.png" alt="WDM_testPanel_counter" width="60%" />
 </div>
 
 ## 參數設定與操作

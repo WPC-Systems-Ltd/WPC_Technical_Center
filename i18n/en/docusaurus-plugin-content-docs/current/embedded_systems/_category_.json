@@ -1,8 +1,9 @@
 {
-    "label": "嵌入式系統",
-    "position": 4,
+    "label": "Embedded Systems",
+    "position": 2,
     "link": {
         "type": "generated-index",
-        "description": "Embedded Systems"
+        "title": "Embedded System Solutions",
+        "description": "Introduces GECO (LabVIEW-based) and PYCO (Python-based) embedded controller solutions."
     }
 }

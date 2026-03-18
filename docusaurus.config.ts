@@ -109,15 +109,33 @@ const config: Config = {
         },
         {
           type: 'doc',
-          docId: 'software/intro',
+          docId: 'motion_intro',
           position: 'left',
-          label: '軟體',
+          label: '馬達驅動',
         },
         {
           type: 'doc',
           docId: 'embedded_intro',
           position: 'left',
           label: '嵌入式系統',
+        },
+        {
+          type: 'doc',
+          docId: 'signal_condition_intro',
+          position: 'left',
+          label: '訊號調節器',
+        },
+        {
+          type: 'doc',
+          docId: 'software/intro',
+          position: 'left',
+          label: '軟體',
+        },
+        {
+          type: 'doc',
+          docId: 'driver/driver_intro',
+          position: 'left',
+          label: '驅動程式',
         },
         {
           to: '/sitemap',

@@ -9,7 +9,7 @@ Ethan-A 是一款工業級乙太網路數據採集卡，提供 **8 通道同步 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-a.png" alt="Ethan-A 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA.png" alt="Ethan-A 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +26,4 @@ Ethan-A 是一款工業級乙太網路數據採集卡，提供 **8 通道同步 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/ethan-a-pinout.png" alt="Ethan-A 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA_pinout.png" alt="Ethan-A 腳位圖" width="60%" /></div>

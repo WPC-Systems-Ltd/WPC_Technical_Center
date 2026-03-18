@@ -252,11 +252,11 @@
     "description": "The generated-index page description for category '常見問題' in sidebar 'droneSidebar'"
   },
   "sidebar.tutorialSidebar.category.ethan-products.link.generated-index.description": {
-    "message": "涵蓋 10 款型號：AI (16/24-bit)、AO (波形輸出)、DI/O、繼電器、熱電偶、電位器，滿足多元工業應用需求",
+    "message": "Covers 10 models: AI (16/24-bit), AO (Waveform Output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial needs.",
     "description": "The generated-index page description for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.usbdaq-products.link.generated-index.description": {
-    "message": "涵蓋 7 款型號：數位 I/O (TTL/24V 隔離)、類比 I/O (16-bit)、溫度量測 (TC/RTD)、CAN 通訊",
+    "message": "Covers 7 models: Digital I/O (TTL/24V Isolated), Analog I/O (16-bit), Temperature Measurement (TC/RTD), CAN Communication.",
     "description": "The generated-index page description for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
   }
 }

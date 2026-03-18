@@ -1,0 +1,10 @@
+{
+    "label": "GECO Driver",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "slug": "geco-driver",
+        "title": "GECO Driver",
+        "description": "GECO Controller driver development documentation."
+    }
+}

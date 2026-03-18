@@ -1,22 +1,18 @@
 ---
-title: Software Introduction
+title: Software Intro
 sidebar_position: 1
-description: Overview of WPC Data Acquisition System Companion Software and Development Tools
+description: Overview of supporting software and development tools for WPC data acquisition systems
 ---
 
 ## Software Tools Overview
 
 WPC provides various software tools and development resources to help you quickly integrate and apply data acquisition systems.
 
-## Quick Verification Program
+## Quick Validation Programs
 
-| Name | Description |
-| :--- | :--- |
-| [WPC Device Manager](wpc-device-manager/intro) | DAQ Network Configuration and Management Tool |
-
-## Driver
-| Name | Description |
-| :--- | :--- |
-| [WPC Device Driver](https://www.wpc.com.tw/wpc-device-driver.html) | LabVIEW Development Suite |
-| [WPC Python Driver](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) | Python Development Suite |
-| [WPC C# Driver](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) | C# Development Suite |
+| Name                                          | Applicable WPC Products                                            |
+|:--------------------------------------------- | :----------------------------------------------------------------- |
+| [WPC Device Manager](wpc-device-manager/intro) | Ethan-DAQ, USB-DAQ, WIFI-DAQ, STEM, EMotion, EDrive-ST, EDrive-SRV  |
+| [GECO Manager](geco-manager/intro)             | GECO                                                               |
+| [gStackRIO Manager](gstack-rio-manager/intro)  | gStack-RIO                                                         |
+| [WPC Stand-Alone editor](wpc-stand-alone-editor/intro) | PYCO                                                       |

@@ -20,5 +20,5 @@ sidebar_label: 'Multiplexer 模組'
 ## 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/stem_page_35_img_X335.png" alt="Multiplexer Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_multiplexer.png" alt="Multiplexer Module Appearance" width="60%" />
 </div>

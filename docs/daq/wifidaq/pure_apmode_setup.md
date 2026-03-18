@@ -21,10 +21,10 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 
 <img src="/WPC_Technical_Center/img/daq/wifi-daq/wifi-daq-ap-mode-pc-connect.png" alt="Connect to WIFI-DAQ" width="400" />
 
-:::note
+:::tip
 此時電腦無法連上網際網路是正常現象，請維持連線以進入設定頁面。
 :::
-:::
+
 
 ## 步驟 3：進入設定頁面
 
@@ -46,7 +46,6 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 - 請確保輸入的 Wi-Fi 密碼正確。
 - WIFI-DAQ 僅支援 2.4GHz 頻段，請勿連接 5GHz 網路。
 :::
-:::
 
 ## 步驟 5：重啟裝置
 
@@ -55,4 +54,6 @@ description: 初次使用或更換環境時的 Wi-Fi 設定流程：連接裝置
 - 重新上電後，若設定成功，LED 將轉為 **綠色** (待機) 或 **藍色** (已連線)。
 - 若 LED 仍為紅色，請重複上述步驟檢查 Wi-Fi 密碼是否輸入錯誤。
 
-> 💡 關於詳細的 LED 燈號含義，請參考 **[LED 狀態說明](./led_status.md)**。
+:::info
+關於詳細的 LED 燈號含義，請參考 **[LED 狀態說明](./led_status.md)**。
+:::

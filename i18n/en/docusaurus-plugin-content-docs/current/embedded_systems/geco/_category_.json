@@ -1,8 +1,8 @@
 {
-    "label": "GECO",
+    "label": "GECO Series",
     "position": 1,
     "link": {
         "type": "generated-index",
-        "description": "GECO 產品開發文件"
+        "description": "Graphical Embedded Controller (GECO) product manuals and expansion modules."
     }
 }

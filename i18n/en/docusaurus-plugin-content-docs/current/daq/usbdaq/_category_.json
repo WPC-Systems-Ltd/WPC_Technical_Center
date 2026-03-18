@@ -1,11 +1,11 @@
 {
-    "label": "USB-DAQ Series",
+    "label": "USB-DAQ User Manual",
     "position": 2,
     "collapsed": true,
     "link": {
         "type": "generated-index",
         "slug": "usb-daq",
-        "title": "USB-DAQ Manual Overview",
-        "description": "Technical documentation center for all WPC USB Data Acquisition Cards."
+        "title": "USB-DAQ User Manual",
+        "description": "Technical documentation center for all WPC USB data acquisition cards."
     }
 }

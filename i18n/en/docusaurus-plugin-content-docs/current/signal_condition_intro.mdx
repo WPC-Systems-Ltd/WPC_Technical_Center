@@ -1,0 +1,37 @@
+---
+title: Signal Conditioner Getting Started
+sidebar_label: Getting Started
+slug: /signal-conditioner-intro
+---
+
+import { Cpu, Activity, Zap, Settings } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>Welcome to Explore WPC Signal Conditioners</h1>
+  <p>We provide high-precision, high-stability signal processing modules to help you convert various sensor signals into standard voltage or current formats, facilitating easier data acquisition by back-end equipment (DAQ) and industrial control systems.</p>
+</div>
+
+## <Activity size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Module Product Line
+
+<div className="gs-card-grid">
+  <a href="/docs/signal_condition/WPC_1ch_LPCS" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Zap size={24} color="var(--brand-electric-blue)"/> 1ch Low Power Current Source</h2>
+    <p>**High-Precision Minute Current Output**</p>
+    <p>A signal processing front-end module that converts voltage signals into high-precision, minute current output, specifically designed for precision current driving and measurement.</p>
+  </a>
+  <a href="/docs/signal_condition/WPC_1ch_Current_Sense_Amplifier" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Activity size={24} color="var(--brand-electric-blue)"/> 1ch Current Sense Amplifier</h2>
+    <p>**High-Precision Current Sensing**</p>
+    <p>A high-precision current sense amplifier providing a bidirectional current range, featuring high common-mode input voltage tolerance and isolated design.</p>
+  </a>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_SE" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (SE)</h2>
+    <p>**Industrial Standard Signal Conversion (Single-Ended)**</p>
+    <p>An 8-channel conversion module that converts 4-20mA current signals into 0-5V voltage signals. This is the single-ended output version, suitable for single-point grounded DAQ platforms.</p>
+  </a>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_Diff" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (Diff)</h2>
+    <p>**Industrial Standard Signal Conversion (Differential)**</p>
+    <p>An 8-channel conversion module that converts 4-20mA current signals into 0-5V voltage signals. This is the differential output version, effectively eliminating environmental common-mode noise.</p>
+  </a>
+</div>

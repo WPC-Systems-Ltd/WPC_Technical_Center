@@ -1,0 +1,8 @@
+{
+    "label": "EDriveSRV",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "EDriveSRV 伺服馬達驅動器產品文件"
+    }
+}

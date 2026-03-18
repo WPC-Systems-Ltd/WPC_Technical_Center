@@ -20,13 +20,13 @@ description: 24ch 數位輸入模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_20_X219.jpg" alt="DI Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI.png" alt="geco_module_24ch_DI" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_21_X225.png" alt="DI Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_pinout.png" alt="geco_module_24ch_DI_pinout" width="60%" />
 </div>
 
 #### Port A
@@ -99,12 +99,12 @@ description: 24ch 數位輸入模組規格與腳位定義
 ### Sourcing Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_23_X236.png" alt="Sourcing Input" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sourcing_input.png" alt="geco_module_24ch_DI_sourcing_input" width="60%" />
 </div>
 
 ### Sinking Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_23_X242.png" alt="Sinking Input" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sinking_input.png" alt="geco_module_24ch_DI_sinking_input" width="60%" />
 </div>
 

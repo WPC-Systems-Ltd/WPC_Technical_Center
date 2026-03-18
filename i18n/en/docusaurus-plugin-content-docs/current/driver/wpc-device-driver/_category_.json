@@ -1,0 +1,10 @@
+{
+    "label": "WPC Device Driver",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "slug": "wpc-device-driver",
+        "title": "WPC Device Driver",
+        "description": "WPC Device Driver development documentation for DAQ products."
+    }
+}

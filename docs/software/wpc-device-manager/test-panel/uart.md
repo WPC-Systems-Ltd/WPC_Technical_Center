@@ -8,7 +8,7 @@ sidebar_label: 'UART'
 UART (Universal Asynchronous Receiver/Transmitter) 面板提供使用者進行非同步串列通訊測試。您可以設定鮑率、同位檢查等參數，進行資料收發。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/uart.png" alt="UART Test Panel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_uart.png" alt="WDM_testPanel_uart" width="60%" />
 </div>
 
 ## 支援產品與連接埠

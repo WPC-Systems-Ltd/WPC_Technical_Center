@@ -21,13 +21,13 @@ description: 16ch 可變電阻模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_11_X156.jpg" alt="DPOT Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT.jpg" alt="geco_module_16ch_DPOT" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_12_X162.png" alt="DPOT Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_pinout.png" alt="geco_module_16ch_DPOT_pinout" width="60%" />
 </div>
 
 | Pin Description | Pin Number | Pin Number | Pin Description |
@@ -93,12 +93,12 @@ description: 16ch 可變電阻模組規格與腳位定義
 ## 3. DIO ctrl.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_14_X175.png" alt="DIO ctrl." width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl.png" alt="geco_module_16ch_DPOT_DIO_ctrl" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_14_X177.png" alt="DIO ctrl." width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl1.png" alt="geco_module_16ch_DPOT_DIO_ctrl1" width="60%" />
 </div>
 
 
@@ -106,7 +106,7 @@ description: 16ch 可變電阻模組規格與腳位定義
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_15_X183.png" alt="Paralleling or Stacking." width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_paralleling.png" alt="geco_module_16ch_DPOT_paralleling" width="60%" />
 </div>
 
 
@@ -114,5 +114,5 @@ description: 16ch 可變電阻模組規格與腳位定義
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_15_X185.png" alt="Voltage diff. across a resistor." width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_voltage_diff.png" alt="geco_module_16ch_DPOT_voltage_diff" width="60%" />
 </div>

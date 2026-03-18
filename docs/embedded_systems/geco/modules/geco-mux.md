@@ -19,5 +19,6 @@ description: 24ch 多工器模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_page_47_X428.jpg" alt="Multiplexer Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_multiplexer.png
+  " alt="geco_module_24ch_multiplexer" width="60%" />
 </div>

@@ -5,14 +5,14 @@ sidebar_position: 2
 
 # PYCO ETH
 
-PYCO ETH is a fully functional Python programmable controller that integrates **8-channel AI/AO/DI/DO**, built-in **Ethernet** and **OLED screen**, suitable for industrial applications requiring wired network connection.
+PYCO ETH is a full-featured Python programmable controller, integrating **8-channel AI/AO/DI/DO**, with built-in **Ethernet** and an **OLED display**, making it ideal for industrial applications requiring wired network connectivity.
 
 
 ## Product Appearance
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-eth.png" alt="PYCO ETH Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth.png').default} alt="PYCO ETH Appearance" width="60%" />
 </div>
 
 
@@ -34,16 +34,16 @@ PYCO ETH is a fully functional Python programmable controller that integrates **
 *   **24V DC Power Input**.
 
 
-## Parts Description
+## Component Names
 ---
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/pyco/pyco-eth-general.png" alt="PYCO ETH Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth-general.png').default} alt="PYCO ETH Components" width="60%" />
 </div>
 
 
-1.  **LCD Screen**: Displays network information, firmware details, serial number, and other functional information.
+1.  **OLED Display**: Shows network information, firmware details, serial number, and other functional information.
 2.  **RTC Battery Holder**: Used to maintain the real-time clock.
-3.  **24V DC Input**: Main power input.
+3.  **24V DC Input**: Primary power input.
 4.  **Secondary 24V DC Input**: Secondary power input.
 5.  **Protective Earth (PE)**.
 6.  **10/100M Ethernet Port**.
@@ -52,15 +52,15 @@ PYCO ETH is a fully functional Python programmable controller that integrates **
 9.  **Analog Connector**.
 10. **Digital I/O Connector**.
 11. **Reset Button**:
-    - Short press: Reboot device.
-    - Hold FUNC and press Reset: Reboot and enter bootloader mode.
+    - Short press: Reboots the device.
+    - Press and hold FUNC while pressing Reset: Reboots and enters bootloader mode.
 12. **FUNC Button**:
-    - Long press for about 3 seconds: Reset IP to default (192.168.1.110).
-    - Short press: Switch LCD display page.
+    - Long press for approx. 3 seconds: Resets IP to default (192.168.1.110).
+    - Short press: Switches the OLED display page.
 
 
 
-## Pin Definition
+## Pinout
 ---
 
 ### Analog I/O Connector

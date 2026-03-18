@@ -333,79 +333,79 @@
     "message": "Precision, Integration, Performance"
   },
   "首頁": {
-    "message": "首頁"
+    "message": "Home"
   },
   "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。": {
-    "message": "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。"
+    "message": "WPC Technical Center provides comprehensive development and technical documentation for Data Acquisition (DAQ), Embedded System Control (GECO/PYCO), Drones, and related software SDKs."
   },
   "DAQ (資料擷取)": {
-    "message": "DAQ (資料擷取)"
+    "message": "DAQ"
   },
   "各類型資料擷取裝置的技術文件與教學。": {
-    "message": "各類型資料擷取裝置的技術文件與教學。"
+    "message": "Technical documentation and tutorials for various types of data acquisition devices."
   },
   "入門指南": {
-    "message": "入門指南"
+    "message": "Get Started"
   },
   "軟體工具": {
-    "message": "軟體工具"
+    "message": "Software Tools"
   },
   "搭配 WPC 硬體使用的軟體工具與管理平台。": {
-    "message": "搭配 WPC 硬體使用的軟體工具與管理平台。"
+    "message": "Software tools and management platforms used with WPC hardware."
   },
   "嵌入式系統": {
-    "message": "嵌入式系統"
+    "message": "Embedded Systems"
   },
   "嵌入式控制平台的開發文件與應用範例。": {
-    "message": "嵌入式控制平台的開發文件與應用範例。"
+    "message": "Development documentation and application examples for embedded control platforms."
   },
   "無人機": {
-    "message": "無人機"
+    "message": "Drone"
   },
   "WPC 無人機產品的規格、指南與常見問題。": {
-    "message": "WPC 無人機產品的規格、指南與常見問題。"
+    "message": "Specifications, guides, and FAQ for WPC drone products."
   },
   "規格": {
-    "message": "規格"
+    "message": "Specification"
   },
   "起飛指南": {
-    "message": "起飛指南"
+    "message": "Takeoff Guide"
   },
   "選擇硬體": {
-    "message": "選擇硬體"
+    "message": "Select Hardware"
   },
   "DAQ 或 嵌入式系統": {
-    "message": "DAQ 或 嵌入式系統"
+    "message": "DAQ or Embedded Systems"
   },
   "安裝 SDK": {
-    "message": "安裝 SDK"
+    "message": "Install SDK"
   },
   "執行範例": {
-    "message": "執行範例"
+    "message": "Run Examples"
   },
   "連接設備並擷取數據": {
-    "message": "連接設備並擷取數據"
+    "message": "Connect devices and acquire data"
   },
   "快速起步指南": {
-    "message": "快速起步指南"
+    "message": "Quick Start Guide"
   },
   "只需三個步驟，立即開始您的精密測量專案": {
-    "message": "只需三個步驟，立即開始您的精密測量專案"
+    "message": "Just three steps to start your precision measurement project immediately"
   },
   "前往完整入門指南": {
-    "message": "前往完整入門指南"
+    "message": "Go to complete getting started guide"
   },
   "最近更新文件 (Recent Updates)": {
-    "message": "最近更新文件 (Recent Updates)"
+    "message": "Recent Updates"
   },
   "WPC 技術文件庫最新編修紀錄": {
-    "message": "WPC 技術文件庫最新編修紀錄"
+    "message": "Latest revision records of WPC technical documentation library"
   },
   "by": {
     "message": "by"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} 個項目",
+    "message": "{count} items",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "cmfcmf/d-s-l.searchBar.placeholder": {
@@ -427,5 +427,299 @@
   "cmfcmf/d-s-l.searchBar.noResults": {
     "message": "No results found.",
     "description": "message shown if no results are found"
+  },
+  "homepage.title": {
+    "message": "Home"
+  },
+  "homepage.tagline": {
+    "message": "WPC Technical Center provides comprehensive development and technical documentation for Data Acquisition (DAQ), Embedded System Control (GECO/PYCO), Drones, and related software SDKs."
+  },
+  "homepage.description": {
+    "message": "WPC Technical Center provides comprehensive development and technical documentation for Data Acquisition (DAQ), Embedded System Control (GECO/PYCO), Drones, and related software SDKs."
+  },
+  "homepage.bento.daq.title": {
+    "message": "DAQ"
+  },
+  "homepage.bento.daq.description": {
+    "message": "Technical documentation and tutorials for various types of data acquisition devices."
+  },
+  "homepage.bento.daq.links.intro": {
+    "message": "Get Started"
+  },
+  "homepage.bento.software.title": {
+    "message": "Software Tools"
+  },
+  "homepage.bento.software.description": {
+    "message": "Software tools and management platforms used with WPC hardware."
+  },
+  "homepage.bento.embedded.title": {
+    "message": "Embedded Systems"
+  },
+  "homepage.bento.embedded.description": {
+    "message": "Development documentation and application examples for embedded control platforms."
+  },
+  "homepage.bento.embedded.links.intro": {
+    "message": "Get Started"
+  },
+  "homepage.bento.drone.title": {
+    "message": "Drone"
+  },
+  "homepage.bento.drone.description": {
+    "message": "Specifications, guides, and FAQ for WPC drone products."
+  },
+  "homepage.bento.drone.links.intro": {
+    "message": "Get Started"
+  },
+  "homepage.bento.drone.links.spec": {
+    "message": "Specification"
+  },
+  "homepage.bento.drone.links.takeoff": {
+    "message": "Takeoff Guide"
+  },
+  "sitemap.category.drone.title": {
+    "message": "Drone"
+  },
+  "sitemap.category.drone.description": {
+    "message": "Specifications, guides, and FAQ for WPC drone products."
+  },
+  "sitemap.category.drone.section.guide": {
+    "message": "Guides & Tutorials"
+  },
+  "sitemap.category.drone.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.drone.link.takeoff": {
+    "message": "Takeoff Guide"
+  },
+  "sitemap.category.drone.link.remote": {
+    "message": "Remote Control Guide"
+  },
+  "sitemap.category.drone.link.battery": {
+    "message": "Battery Charging"
+  },
+  "sitemap.category.drone.section.spec": {
+    "message": "Specifications"
+  },
+  "sitemap.category.drone.link.spec_table": {
+    "message": "Spec Table"
+  },
+  "sitemap.category.drone.link.appendix": {
+    "message": "Appendix"
+  },
+  "sitemap.category.drone.section.faq": {
+    "message": "FAQ"
+  },
+  "sitemap.category.drone.link.faq": {
+    "message": "FAQ"
+  },
+  "sitemap.category.ethan.description": {
+    "message": "High-speed Ethernet data acquisition system, supporting remote monitoring and high bandwidth transmission."
+  },
+  "sitemap.category.ethan.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.ethan.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.ethan.link.led": {
+    "message": "Hardware & LED Status"
+  },
+  "sitemap.category.ethan.section.spec": {
+    "message": "Specifications"
+  },
+  "sitemap.category.ethan.link.spec_table": {
+    "message": "Spec Table"
+  },
+  "sitemap.category.ethan.section.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.ethan.link.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.usb.description": {
+    "message": "Plugnd-play USB data acquisition cards, ideal for labs and portable applications."
+  },
+  "sitemap.category.usb.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.usb.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.usb.link.sampling": {
+    "message": "Sampling Rate"
+  },
+  "sitemap.category.usb.link.comp": {
+    "message": "Compatibility"
+  },
+  "sitemap.category.usb.section.spec": {
+    "message": "Specifications"
+  },
+  "sitemap.category.usb.link.layout": {
+    "message": "Layout Diagram"
+  },
+  "sitemap.category.usb.link.spec_table": {
+    "message": "Spec Table"
+  },
+  "sitemap.category.usb.section.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.usb.link.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.wifi.description": {
+    "message": "A new standard for wireless data acquisition, free from cable constraints."
+  },
+  "sitemap.category.wifi.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.wifi.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.wifi.link.led": {
+    "message": "Hardware & LED Status"
+  },
+  "sitemap.category.wifi.link.setup_ap": {
+    "message": "Setup (AP Mode)"
+  },
+  "sitemap.category.wifi.link.setup_wdm": {
+    "message": "Change Wi-Fi Setup (using WDM)"
+  },
+  "sitemap.category.stem.description": {
+    "message": "4-slot modular Ethernet controller, supporting various expansions."
+  },
+  "sitemap.category.stem.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.stem.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.stem.link.layout": {
+    "message": "Hardware Layout"
+  },
+  "sitemap.category.stem.section.modules": {
+    "message": "Supported Modules"
+  },
+  "sitemap.category.stem.link.modules": {
+    "message": "Supported Modules"
+  },
+  "sitemap.category.motion.description": {
+    "message": "Motor control and motion drive solutions."
+  },
+  "sitemap.category.geco.description": {
+    "message": "Development documentation and application examples for embedded control platforms."
+  },
+  "sitemap.category.geco.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.geco.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.geco.section.spec": {
+    "message": "Specifications"
+  },
+  "sitemap.category.geco.link.controller": {
+    "message": "Controller Specs"
+  },
+  "sitemap.category.geco.link.breakout": {
+    "message": "RMC Breakout Specs"
+  },
+  "sitemap.category.geco.section.modules": {
+    "message": "Supported Modules"
+  },
+  "sitemap.category.geco.link.modules": {
+    "message": "Supported Modules"
+  },
+  "sitemap.category.pyco.description": {
+    "message": "Development documentation and application examples for embedded control platforms."
+  },
+  "sitemap.category.pyco.section.guide": {
+    "message": "Tutorials"
+  },
+  "sitemap.category.pyco.link.intro": {
+    "message": "Product Intro"
+  },
+  "sitemap.category.pyco.link.gs": {
+    "message": "Getting Started"
+  },
+  "sitemap.category.pyco.section.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.pyco.link.models": {
+    "message": "Product Models"
+  },
+  "sitemap.category.pyco.section.faq": {
+    "message": "FAQ"
+  },
+  "sitemap.category.pyco.link.faq": {
+    "message": "FAQ"
+  },
+  "sitemap.category.software.title": {
+    "message": "Software Tools"
+  },
+  "sitemap.category.software.description": {
+    "message": "Software tools and management platforms used with WPC hardware."
+  },
+  "sitemap.category.software.link.wdm_intro": {
+    "message": "Getting Started"
+  },
+  "sitemap.category.software.link.wdm_main": {
+    "message": "Main Screen"
+  },
+  "sitemap.category.software.link.wdm_func": {
+    "message": "General Functions"
+  },
+  "sitemap.category.software.link.wdm_eth": {
+    "message": "Ethernet Device"
+  },
+  "sitemap.category.software.link.wdm_usb": {
+    "message": "USB Device"
+  },
+  "sitemap.category.software.link.wdm_wifi": {
+    "message": "WIFI Device"
+  },
+  "sitemap.category.software.link.wdm_panels": {
+    "message": "Test Panels"
+  },
+  "sitemap.category.software.link.wdm_faq": {
+    "message": "FAQ"
+  },
+  "sitemap.category.software.link.gm_intro": {
+    "message": "Getting Started"
+  },
+  "sitemap.category.software.link.gm_interface": {
+    "message": "Interface Intro"
+  },
+  "sitemap.category.software.link.gm_func": {
+    "message": "Advanced Functions"
+  },
+  "sitemap.category.software.link.sa_intro": {
+    "message": "Getting Started"
+  },
+  "sitemap.category.software.link.sa_interface": {
+    "message": "Interface Intro"
+  },
+  "sitemap.category.software.link.sa_func": {
+    "message": "General Functions"
+  },
+  "sitemap.page.title": {
+    "message": "Sitemap"
+  },
+  "sitemap.page.description": {
+    "message": "WPC Technical Center Sitemap and Resource Navigation"
+  },
+  "sitemap.hero.title": {
+    "message": "Sitemap"
+  },
+  "sitemap.hero.subtitle": {
+    "message": "Quickly browse all resources of WPC Technical Center"
+  },
+  "sitemap.cta.title": {
+    "message": "Still not sure where to start?"
+  },
+  "sitemap.cta.subtitle": {
+    "message": "Our technical team is always ready to assist you."
+  },
+  "sitemap.cta.button": {
+    "message": "Contact Technical Support"
   }
 }

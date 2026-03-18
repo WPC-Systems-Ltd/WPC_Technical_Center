@@ -10,38 +10,42 @@ description: "GECO Manager 主畫面介紹、裝置搜尋與模擬裝置新增"
 ## 主畫面介紹
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page7_X94.png" alt="GECO Manager 主畫面" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_main_screen.png" alt="geco_manager_main_screen" width="60%" />
 </div>
 
-1.  **Network Devices**: GECO 裝置將會列在網路裝置列表中。
-2.  **Test Panel**: 測試面板會根據 GECO 模組顯示不同的測試按鈕。
-3.  **Product Information**: 顯示完整的產品資訊，如序號 (Serial Number)、IP 位址、MAC 位址、韌體版本等。使用者也可點擊藍色按鈕進行設定或查看腳位圖。
-4.  **Device Specifications & Status**: 描述裝置規格與效能，狀態列會顯示連線狀態 (Connected, Disconnected) 或 IP 衝突 (IP Conflict) 等資訊。
+主畫面功能依序說明如下：
+
+1. 網路裝置列表: GECO 裝置將會列在網路裝置列表中。
+2. 測試程式面板: 測試面板會根據 GECO 模組顯示不同的測試按鈕。
+3. 產品資訊: 顯示完整的產品資訊，如序號、IP、MAC、韌體版本等
+4. 電腦與裝置的連線狀態: 狀態列顯示連線狀態 (Connected, Disconnected) 或 IP 衝突等資訊。
 
 ## 一般功能
 
 ### 搜尋與重新整理
 
-將游標移至 "Network"，點擊右鍵並選擇 **"Refresh Network"** 以搜尋 GECO 裝置。
+Geco Manager 提供自動搜尋功能，可掃描網域內的 GECO 裝置。
+
+- **網路裝置**：將滑鼠游標移至 "**Network**" 區域，按右鍵選擇 "**Refresh Network**"。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page8_X101.png" alt="重新整理網路" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_refresh_network.png" alt="geco_manager_refresh_network" width="60%" />
 </div>
 
-:::tip 故障排除
-如果在 GECO Manager 中找不到網路裝置，請先檢查您的主機電腦 IP 位址與網域設定是否與裝置的 IP 位址在同一個網域內。
+:::caution
+若無法於列表中找到您的網路裝置，請確認電腦主機與裝置的 IP 位址是否位於 **同一子網域**。
 :::
 
 ### 新增模擬裝置
 
-若要新增模擬裝置以查看其腳位圖 (Pinmap) 與支援的測試面板，請依下列步驟操作：
+GECO Manager 支援模擬裝置功能，允許使用者在無實體硬體的情況下，預覽腳位圖 (Pinout) 與測試面板功能。
 
 1.  點擊選單列的 **"View"**。
-2.  選擇 **"Add SimulatedDevice"**。
+2.  選擇 **"Add Simulated Device"**。
 3.  您可以按住 **Ctrl** 鍵以選取多個裝置，然後點擊 **"OK"** 確認。
 
 這些步驟可協助您新增模擬裝置以檢視詳細資訊，無需實際連接硬體。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page9_X108.png" alt="新增模擬裝置" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_add_simulated_device.png" alt="geco_manager_add_simulated_device" width="60%" />
 </div>

@@ -19,4 +19,4 @@ USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/usb-daq-ad-pinout.png" alt="USB-DAQ-AD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAD_pinout.png" alt="USB-DAQ-AD 腳位圖" width="60%" /></div>
