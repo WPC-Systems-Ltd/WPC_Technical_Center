@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import { translate } from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 import {
@@ -34,11 +35,11 @@ interface CardData {
 
 const cards: CardData[] = [
     {
-        title: 'DAQ (資料擷取)',
-        description: '各類型資料擷取裝置的技術文件與教學。',
+        title: translate({ message: 'DAQ (資料擷取)', id: 'homepage.bento.daq.title' }),
+        description: translate({ message: '各類型資料擷取裝置的技術文件與教學。', id: 'homepage.bento.daq.description' }),
         icon: <Activity size={20} />,
         links: [
-            { label: '入門指南', href: '/docs/daq-intro', icon: <BookOpen size={16} /> },
+            { label: translate({ message: '入門指南', id: 'homepage.bento.daq.links.intro' }), href: '/docs/daq-intro', icon: <BookOpen size={16} /> },
             { label: 'Ethernet DAQ', href: '/docs/ethan', icon: <Network size={16} /> },
             { label: 'USB DAQ', href: '/docs/usb-daq', icon: <Usb size={16} /> },
             { label: 'WIFI DAQ', href: '/docs/wifi-daq', icon: <Wifi size={16} /> },
@@ -46,8 +47,8 @@ const cards: CardData[] = [
         ],
     },
     {
-        title: '軟體工具',
-        description: '搭配 WPC 硬體使用的軟體工具與管理平台。',
+        title: translate({ message: '軟體工具', id: 'homepage.bento.software.title' }),
+        description: translate({ message: '搭配 WPC 硬體使用的軟體工具與管理平台。', id: 'homepage.bento.software.description' }),
         icon: <TerminalSquare size={20} />,
         links: [
             { label: 'WPC Device Manager', href: '/docs/software/wpc-device-manager/intro', icon: <Settings2 size={16} /> },
@@ -56,23 +57,23 @@ const cards: CardData[] = [
         ],
     },
     {
-        title: '嵌入式系統',
-        description: '嵌入式控制平台的開發文件與應用範例。',
+        title: translate({ message: '嵌入式系統', id: 'homepage.bento.embedded.title' }),
+        description: translate({ message: '嵌入式控制平台的開發文件與應用範例。', id: 'homepage.bento.embedded.description' }),
         icon: <Microchip size={20} />,
         links: [
-            { label: '入門指南', href: '/docs/embedded-intro', icon: <BookOpen size={16} /> },
+            { label: translate({ message: '入門指南', id: 'homepage.bento.embedded.links.intro' }), href: '/docs/embedded-intro', icon: <BookOpen size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Cpu size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <TerminalSquare size={16} /> },
         ],
     },
     {
-        title: '無人機',
-        description: 'WPC 無人機產品的規格、指南與常見問題。',
+        title: translate({ message: '無人機', id: 'homepage.bento.drone.title' }),
+        description: translate({ message: 'WPC 無人機產品的規格、指南與常見問題。', id: 'homepage.bento.drone.description' }),
         icon: <Rocket size={20} />,
         links: [
-            { label: '入門指南', href: '/docs/drone-intro', icon: <BookOpen size={16} /> },
-            { label: '規格', href: '/docs/Drone/specification', icon: <Rocket size={16} /> },
-            { label: '起飛指南', href: '/docs/Drone/takeoff-guide', icon: <Rocket size={16} /> },
+            { label: translate({ message: '入門指南', id: 'homepage.bento.drone.links.intro' }), href: '/docs/drone-intro', icon: <BookOpen size={16} /> },
+            { label: translate({ message: '規格', id: 'homepage.bento.drone.links.spec' }), href: '/docs/Drone/specification', icon: <Rocket size={16} /> },
+            { label: translate({ message: '起飛指南', id: 'homepage.bento.drone.links.takeoff' }), href: '/docs/Drone/takeoff-guide', icon: <Rocket size={16} /> },
             { label: 'FAQ', href: '/docs/drone-faq', icon: <Rocket size={16} /> },
         ],
     },
