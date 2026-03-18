@@ -24,5 +24,5 @@ This module provides 16 channels of thermocouple input, supporting K-type thermo
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_thermo.png" alt="16ch Thermocouple Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_thermo.png').default} alt="16ch Thermocouple Module" width="60%" />
 </div>

@@ -9,7 +9,7 @@ Ethan-D integrates **8-channel digital input** (DI) and **6-channel relay output
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanD.png" alt="Ethan-D Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD.png').default} alt="Ethan-D Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,4 +26,4 @@ Ethan-D integrates **8-channel digital input** (DI) and **6-channel relay output
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanD_pinout.png" alt="Ethan-D Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD_pinout.png').default} alt="Ethan-D Pinout" width="60%" /></div>

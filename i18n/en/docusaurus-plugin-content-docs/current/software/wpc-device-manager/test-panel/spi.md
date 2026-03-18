@@ -8,7 +8,7 @@ sidebar_label: 'SPI'
 The SPI (Serial Peripheral Interface) panel provides users with SPI serial communication testing. You can set the SPI mode and transmission rate to perform full-duplex communication with peripheral devices.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_spi.png" alt="WDM_testPanel_spi" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_spi.png').default} alt="WDM_testPanel_spi" width="60%" />
 </div>
 
 ## Supported Products and Ports

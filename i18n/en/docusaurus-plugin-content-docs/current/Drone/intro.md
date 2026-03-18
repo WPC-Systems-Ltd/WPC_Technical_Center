@@ -11,7 +11,7 @@ description: WPC Drone features and technical specifications
 Featuring self-developed high-efficiency flight control algorithms with a response time as fast as 2.5 ms, it boasts excellent wind resistance, maintaining stable flight even in level 7 gusts. With a high-speed Attitude and Heading Reference System (AHRS), overall control is faster with superior vibration resistance, ensuring high stability and reliability for flight missions.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone.png" alt="drone" width="60%" />
+  <img src={require('@site/static/img/drone/drone.png').default} alt="drone" width="60%" />
 </div>
 
 ## Core Technical Features

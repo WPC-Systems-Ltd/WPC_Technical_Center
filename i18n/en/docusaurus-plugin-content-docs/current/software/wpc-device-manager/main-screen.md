@@ -8,7 +8,7 @@ description: "Description of Device List, Test Panel, and Product Information in
 ## Main Screen Function Description
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_main_screen.png" alt="WDM_main_screen" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_main_screen.png').default} alt="WDM_main_screen" width="60%" />
 </div>
 
 1.  **Device List**

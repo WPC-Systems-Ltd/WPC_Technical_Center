@@ -20,13 +20,13 @@ This module provides 24 channels of digital input, supporting NPN/PNP architectu
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI.png" alt="24ch DI Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DI.png').default} alt="24ch DI Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_pinout.png" alt="24ch DI Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DI_pinout.png').default} alt="24ch DI Pinout" width="60%" />
 </div>
 
 #### Port A
@@ -99,11 +99,11 @@ This module provides 24 channels of digital input, supporting NPN/PNP architectu
 ### Sourcing Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sourcing_input.png" alt="Sourcing Input" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DI_sourcing_input.png').default} alt="Sourcing Input" width="60%" />
 </div>
 
 ### Sinking Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sinking_input.png" alt="Sinking Input" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DI_sinking_input.png').default} alt="Sinking Input" width="60%" />
 </div>

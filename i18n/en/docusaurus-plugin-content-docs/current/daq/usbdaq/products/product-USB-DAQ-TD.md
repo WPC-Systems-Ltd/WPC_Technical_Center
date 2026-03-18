@@ -1,9 +1,9 @@
----
+﻿---
 title: USB-DAQ-TD
 sidebar_position: 5
 ---
 
-USB-DAQ-TD is specifically designed for temperature measurement, providing **2-channel thermocouple input**, supporting eight types: **K, J, N, R, S, T, E, B**. It has a measurement range of **-210°C ~ 1800°C**, with built-in cold-junction compensation and 50/60Hz noise filtering.
+USB-DAQ-TD is specifically designed for temperature measurement, providing **2-channel thermocouple input**, supporting eight types: **K, J, N, R, S, T, E, B**. It has a measurement range of **-210Â°C ~ 1800Â°C**, with built-in cold-junction compensation and 50/60Hz noise filtering.
 
 # USB-DAQ-TD
 
@@ -20,11 +20,12 @@ USB-DAQ-TD is specifically designed for temperature measurement, providing **2-c
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQTD_pinout.png" alt="USB-DAQ-TD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQTD_pinout.png').default} alt="USB-DAQ-TD Pinout" width="60%" /></div>
 
 ### Thermocouple Wiring Instructions
 ---
 
 The USB-DAQ-TD uses standard-specification thermocouple connectors; simply plug in the connector for use. If you purchase thermocouple wire separately and connect it to a standard connector, reverse polarity may occur. If the positive and negative poles of the thermocouple are reversed, the DAQ temperature reading will show a decrease when heating and an increase when cooling. In such cases, swapping the positive and negative wires will resolve the issue.
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQTD_thermocouple.png" alt="Thermocouple Wiring" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQTD_thermocouple.png').default} alt="Thermocouple Wiring" width="60%" /></div>
+

@@ -333,79 +333,79 @@
     "message": "Precision, Integration, Performance"
   },
   "首頁": {
-    "message": "首頁"
+    "message": "Home"
   },
   "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。": {
-    "message": "WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。"
+    "message": "WPC Technical Center provides comprehensive development and technical documentation for Data Acquisition (DAQ), Embedded System Control (GECO/PYCO), Drones, and related software SDKs."
   },
   "DAQ (資料擷取)": {
-    "message": "DAQ (資料擷取)"
+    "message": "DAQ"
   },
   "各類型資料擷取裝置的技術文件與教學。": {
-    "message": "各類型資料擷取裝置的技術文件與教學。"
+    "message": "Technical documentation and tutorials for various types of data acquisition devices."
   },
   "入門指南": {
-    "message": "入門指南"
+    "message": "Get Started"
   },
   "軟體工具": {
-    "message": "軟體工具"
+    "message": "Software Tools"
   },
   "搭配 WPC 硬體使用的軟體工具與管理平台。": {
-    "message": "搭配 WPC 硬體使用的軟體工具與管理平台。"
+    "message": "Software tools and management platforms used with WPC hardware."
   },
   "嵌入式系統": {
-    "message": "嵌入式系統"
+    "message": "Embedded Systems"
   },
   "嵌入式控制平台的開發文件與應用範例。": {
-    "message": "嵌入式控制平台的開發文件與應用範例。"
+    "message": "Development documentation and application examples for embedded control platforms."
   },
   "無人機": {
-    "message": "無人機"
+    "message": "Drone"
   },
   "WPC 無人機產品的規格、指南與常見問題。": {
-    "message": "WPC 無人機產品的規格、指南與常見問題。"
+    "message": "Specifications, guides, and FAQ for WPC drone products."
   },
   "規格": {
-    "message": "規格"
+    "message": "Specification"
   },
   "起飛指南": {
-    "message": "起飛指南"
+    "message": "Takeoff Guide"
   },
   "選擇硬體": {
-    "message": "選擇硬體"
+    "message": "Select Hardware"
   },
   "DAQ 或 嵌入式系統": {
-    "message": "DAQ 或 嵌入式系統"
+    "message": "DAQ or Embedded Systems"
   },
   "安裝 SDK": {
-    "message": "安裝 SDK"
+    "message": "Install SDK"
   },
   "執行範例": {
-    "message": "執行範例"
+    "message": "Run Examples"
   },
   "連接設備並擷取數據": {
-    "message": "連接設備並擷取數據"
+    "message": "Connect devices and acquire data"
   },
   "快速起步指南": {
-    "message": "快速起步指南"
+    "message": "Quick Start Guide"
   },
   "只需三個步驟，立即開始您的精密測量專案": {
-    "message": "只需三個步驟，立即開始您的精密測量專案"
+    "message": "Just three steps to start your precision measurement project immediately"
   },
   "前往完整入門指南": {
-    "message": "前往完整入門指南"
+    "message": "Go to complete getting started guide"
   },
   "最近更新文件 (Recent Updates)": {
-    "message": "最近更新文件 (Recent Updates)"
+    "message": "Recent Updates"
   },
   "WPC 技術文件庫最新編修紀錄": {
-    "message": "WPC 技術文件庫最新編修紀錄"
+    "message": "Latest revision records of WPC technical documentation library"
   },
   "by": {
     "message": "by"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} 個項目",
+    "message": "{count} items",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "cmfcmf/d-s-l.searchBar.placeholder": {

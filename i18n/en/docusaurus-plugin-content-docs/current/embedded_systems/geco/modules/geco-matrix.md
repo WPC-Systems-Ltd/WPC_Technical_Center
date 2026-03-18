@@ -19,5 +19,5 @@ This module provides a 4x6 matrix switching function, utilizing mechanical relay
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_4x6_matrix.png" alt="4x6 Matrix Switch Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_4x6_matrix.png').default} alt="4x6 Matrix Switch Module" width="60%" />
 </div>

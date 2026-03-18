@@ -8,7 +8,7 @@ sidebar_label: 'Matrix'
 The Matrix (Matrix Switch) panel provides users with control over the connection status of matrices and multiplexers. Through a visual interface, you can set cross-point connections for rows (Row) and columns (Column).
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_matrix.png" alt="WDM_testPanel_matrix" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_matrix.png').default} alt="WDM_testPanel_matrix" width="60%" />
 </div>
 
 ## Operation Description

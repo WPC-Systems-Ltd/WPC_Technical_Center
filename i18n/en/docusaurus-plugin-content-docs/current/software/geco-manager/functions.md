@@ -2,46 +2,45 @@
 title: General Functions
 sidebar_label: General Functions
 sidebar_position: 3
-description: "GECO Manager general functions: Refresh, Pinout view, Reboot, Change Personality"
+description: "GECO Manager general functions: Refresh, Pinout view, Reboot, and Changing Personality"
 ---
 
 # General Functions
 
 ## Refresh
 
-Click the **"Refresh"** button to re-read and update WPC GECO device information.
+Click the **"Refresh"** button to re-read and update the WPC GECO device information.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page13_X140.png" alt="Refresh" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_refresh.png').default} alt="Refresh Device Information" width="60%" />
 </div>
-
 
 ## Pinout
 
-Click the **"Pinout"** button to display the pinout diagram. The window size can be adjusted based on the user's requirements.
+Click the **"Pinout"** button to display the pinout diagram. The window size can be adjusted as needed.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_pinout.png" alt="geco_manager_pinout" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_pinout.png').default} alt="GECO Manager Pinout View 1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_pinout1.png" alt="geco_manager_pinout1" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_pinout1.png').default} alt="GECO Manager Pinout View 2" width="60%" />
 </div>
 
 ## Reboot
 
-To reboot the device via software, please click the **"Reboot"** button.
+If you need to reboot the device via software, please click the **"Reboot"** button.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_page13_X133.png" alt="Reboot" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_reboot.png').default} alt="Reboot Device" width="60%" />
 </div>
 
 ## Change Personality
 
-Click the **"Change"** button to change the FPGA Personality of the GECO.
+Click the **"Change"** button to modify the FPGA Personality of the GECO.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_change.png" alt="geco_manager_change" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_change.png').default} alt="Change FPGA Personality" width="60%" />
 </div>
 
 ### Personality Comparison Table
@@ -60,4 +59,6 @@ The table below lists the module configurations for each slot (C1 - C4) correspo
 | **Switch** | Switch | Switch | Switch | Switch |
 | **Thermo** | Thermo | Thermo | Thermo | Thermo |
 
-> **Note**: HX represents the Motion axis card.
+:::note
+**HX** represents a Motion axis card.
+:::

@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 1
 sidebar_label: '24ch AI/8ch AO Module'
 ---
@@ -32,5 +32,6 @@ This module provides 24-channel analog input and 8-channel analog output functio
 ## Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_AIO.png" alt="AI/AO Module Pinout" width="50%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_AIO.png').default} alt="AI/AO Module Pinout" width="50%" />
 </div>
+

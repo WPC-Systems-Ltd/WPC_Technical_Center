@@ -16,7 +16,7 @@ The WPC HCMV Amplifier (including HCMV Amplifier-200 and HCMV Amplifier-275) is 
 *   **Standardized Power Supply and Gain**: Powered by 24VDC with a fixed gain (Gain) of 1, facilitating easy system integration.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV.png" alt="8ch_HCMV" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_HCMV.png').default} alt="8ch_HCMV" width="60%" />
 </div>
 
 ---
@@ -52,7 +52,7 @@ The WPC 8ch HCMV Amplifier is designed for high-stability and high-safety measur
 Below is the interface configuration description for the WPC 8ch HCMV Amplifier:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_pinout.png" alt="8ch_HCMV_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_HCMV_pinout.png').default} alt="8ch_HCMV_pinout" width="60%" />
 </div>
 
 :::caution
@@ -73,7 +73,7 @@ The figure below displays the connection method for the 8ch HCMV Amplifier in a 
 
 ### Connection Diagram
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_connection_diagram.png" alt="8ch_HCMV_connection_diagram" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_HCMV_connection_diagram.png').default} alt="8ch_HCMV_connection_diagram" width="60%" />
 </div>
 
 ### Application Note
@@ -86,12 +86,12 @@ The WPC 8ch HCMV is primarily used for battery pack measurement. Since there is 
 ### Power & References
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_power_ref.png" alt="8ch_HCMV_power_ref" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_HCMV_power_ref.png').default} alt="8ch_HCMV_power_ref" width="60%" />
 </div>
 
 ### High Voltage Expansion
 This series of modules supports high-voltage expansion applications. You can choose the corresponding model (HCMV-200 or HCMV-275) based on the total series voltage of the measurement point and use multiple modules together to expand the measurement channels.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_high_voltage_expansion.png" alt="8ch_HCMV_high_voltage_expansion" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_HCMV_high_voltage_expansion.png').default} alt="8ch_HCMV_high_voltage_expansion" width="60%" />
 </div>

@@ -1,4 +1,4 @@
----
+﻿---
 title: Specific Breakout Board
 sidebar_position: 3
 sidebar_label: 'Specific Breakout Board'
@@ -51,7 +51,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.1 Delta ASDA-B2
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_B2.png" alt="Delta B2 Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Delta_ASDA_B2.png').default} alt="Delta B2 Board" width="60%" />
 </div>
 
 - SCSI-50P connectors (CN1 and CN2) can be connected to Delta ASDA-B2 servo drivers via pin-to-pin SCSI-50P cables.
@@ -78,7 +78,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.2 Delta ASDA-A2
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_A2.png" alt="Delta A2 Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Delta_ASDA_A2.png').default} alt="Delta A2 Board" width="60%" />
 </div>
 
 - SCSI-50P connectors (CN1 and CN2) can be connected to Delta ASDA-A2 servo drivers via pin-to-pin SCSI-50P cables.
@@ -105,7 +105,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.3 Yaskawa SGDV / SGD7
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Yaskawa_SGDV_SGD7.png" alt="Yaskawa Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Yaskawa_SGDV_SGD7.png').default} alt="Yaskawa Board" width="60%" />
 </div>
 
 - SCSI-50P connectors (CN1 and CN2) can be connected to Yaskawa SGDV/SGD7 servo drivers via pin-to-pin SCSI-50P cables; the wiring diagrams for both are compatible.
@@ -125,7 +125,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.4 Panasonic Minas A4 / A5 / A6
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Panasonic_A4_A5_A6.png" alt="Panasonic Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Panasonic_A4_A5_A6.png').default} alt="Panasonic Board" width="60%" />
 </div>
 
 - SCSI-50P connectors (CN1 and CN2) can be connected to Panasonic Minas A4/A5/A6 servo drivers via pin-to-pin SCSI-50P cables.
@@ -152,7 +152,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.5 Mitsubishi MR-J4 / JE
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J4_JE.png" alt="Mitsubishi J4 Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J4_JE.png').default} alt="Mitsubishi J4 Board" width="60%" />
 </div>
 
 - SCSI-50P connectors (CN1 and CN2) can be connected to Mitsubishi MR-J4/JE servo drivers via pin-to-pin SCSI-50P cables.
@@ -172,7 +172,7 @@ Each motion control card can support two specific breakout boards. A single brea
 ### 4.6 Mitsubishi MR-J2S
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J2S.png" alt="Mitsubishi J2S Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J2S.png').default} alt="Mitsubishi J2S Board" width="60%" />
 </div>
 
 - SCSI-20P connectors (CN1A, CN1AB, CN2A, and CN2B) can be connected to Mitsubishi MR-J2S servo drivers via pin-to-pin SCSI-50P cables (Note: check specific cable compatibility).
@@ -193,3 +193,4 @@ Each motion control card can support two specific breakout boards. A single brea
 | :-------------------- | :----------------------------- | :-------------------------------- |
 | **Output/Input Polarity**| **Sinking Out / Sourcing In**<br/>R6/R3 = OR<br/>R5/R4 = NC | **Sourcing Out / Sinking In**<br/>R6/R3 = NC<br/>R5/R4 = OR |
 | **EMO Control**       | **EMO Disable (Internal Resistor)**<br/>R1/R2 = OR | **EMO Ext. Control (External)**<br/>R1/R2 = NC |
+

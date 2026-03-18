@@ -15,7 +15,7 @@ WPC has specifically designed the **RMC (RIO Mezzanine Card) Breakout Board** fo
 NI sbRIO (Single-Board RIO) is a powerful embedded controller. To maintain maximum flexibility, sbRIO integrates a vast number of FPGA I/O (up to 96 3.3V digital I/O channels) and high-speed processor signals into a single high-density expansion connector known as the **RMC (RIO Mezzanine Card)**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_connector.png" alt="rmc_connector" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/rmc_connector.png').default} alt="rmc_connector" width="60%" />
 </div>
 
 Users can utilize this RMC connector to design and customize their own peripheral boards (Mezzanine Cards), thereby maximizing the performance of sbRIO.
@@ -61,7 +61,7 @@ The most basic breakout model, suitable for the entire sbRIO series and perfectl
 *   Built-in RTC (Real-Time Clock) backup battery socket.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_support_enclosure.png" alt="rmc_bk_support_enclosure" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/rmc_bk_support_enclosure.png').default} alt="rmc_bk_support_enclosure" width="60%" />
 </div>
 
 ### 4.2 RMC-BK-SERIAL (Does Not Support Enclosure)
@@ -73,7 +73,7 @@ Designed specifically for applications requiring additional communication interf
 *   Built-in RTC backup battery socket.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_serial_not_support_enclosure.png" alt="rmc_bk_serial_not_support_enclosure" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/rmc_bk_serial_not_support_enclosure.png').default} alt="rmc_bk_serial_not_support_enclosure" width="60%" />
 </div>
 
 ### 4.3 RMC-BK-ETH (Does Not Support Enclosure)
@@ -85,7 +85,7 @@ Born for applications requiring higher network bandwidth or dual-network segment
 *   Built-in RTC backup battery socket.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_eth_not_support_enclosure.png" alt="rmc_bk_eth_not_support_enclosure" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/rmc_bk_eth_not_support_enclosure.png').default} alt="rmc_bk_eth_not_support_enclosure" width="60%" />
 </div>
 
 ---
@@ -99,20 +99,20 @@ If users need to customize LabVIEW FPGA programs or design peripheral circuits t
 This interface is the IDC 50-pin header definition used by the 4 Slots.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout.png" alt="IDC_50P_connector_pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/IDC_50P_connector_pinout.png').default} alt="IDC_50P_connector_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout_c1_c4.png" alt="IDC_50P_connector_pinout_c1_c4" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/IDC_50P_connector_pinout_c1_c4.png').default} alt="IDC_50P_connector_pinout_c1_c4" width="60%" />
 </div>
 
 ### 5.2 DSUB-37P Pinouts
 Definition of the DSUB 37-pin connector used for some special breakouts or communication interfaces.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout.png" alt="DSUB_37P_connector_pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/DSUB_37P_connector_pinout.png').default} alt="DSUB_37P_connector_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout_c1_c4.png" alt="DSUB_37P_connector_pinout_c1_c4" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/DSUB_37P_connector_pinout_c1_c4.png').default} alt="DSUB_37P_connector_pinout_c1_c4" width="60%" />
 </div>

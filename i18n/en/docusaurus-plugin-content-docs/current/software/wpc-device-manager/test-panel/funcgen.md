@@ -8,7 +8,7 @@ sidebar_label: 'Function Generator'
 The Function Generator panel allows users to generate various standard waveform signals through analog output channels.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.png" alt="WDM_testPanel_function_gen" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.png').default} alt="WDM_testPanel_function_gen" width="60%" />
 </div>
 
 ## Supported Products

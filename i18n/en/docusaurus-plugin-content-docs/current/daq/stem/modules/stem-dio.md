@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 2
 sidebar_label: '12ch DI/12ch DO Module'
 ---
@@ -18,13 +18,13 @@ This module provides 12-channel digital input (DI) and 12-channel digital output
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO.png" alt="DIO Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO.png').default} alt="DIO Module Appearance" width="60%" />
 </div>
 
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_layout.png" alt="DIO Module Pinout" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_layout.png').default} alt="DIO Module Pinout" width="60%" />
 </div>
 
 ## Wiring Instructions
@@ -33,21 +33,21 @@ This module supports Sinking and Sourcing wiring modes, which need to be configu
 
 ### Sinking Out + Sourcing In
 
-*   ⚠️ Install the **top row** of resistors
+*   âš ï¸ Install the **top row** of resistors
 *   Output is Sinking (0V active)
 *   Input must be Common Anode (24V)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sinkingout.png" alt="Sinking Out + Sourcing In" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sinkingout.png').default} alt="Sinking Out + Sourcing In" width="60%" />
 </div>
 
 ### Sourcing Out + Sinking In
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sourcingout.png" alt="Sourcing Out + Sinking In" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sourcingout.png').default} alt="Sourcing Out + Sinking In" width="60%" />
 </div>
 
-*   ⚠️ Install the **bottom row** of resistors
+*   âš ï¸ Install the **bottom row** of resistors
 *   Output is Sourcing (24V active)
 *   Input must be Common Cathode (0V)
 
@@ -80,3 +80,4 @@ This module supports Sinking and Sourcing wiring modes, which need to be configu
 | **DO_10**        | DIO 67          | DIO 71          | DIO 75          | DIO 46          |
 | **DO_11**        | DIO 34          | DIO 38          | DIO 42          | DIO 47          |
 | **DO_12**        | DIO 52          | DIO 56          | DIO 60          | DIO 15          |
+

@@ -35,7 +35,7 @@ The WPC 3-Phase Voltage Isolator delivers outstanding performance for high-volta
 Below is the detailed pinout configuration description for the 3-Phase Voltage Isolator:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_pinout.png" alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_pinout.png').default} alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
 </div>
 
 :::note
@@ -51,12 +51,12 @@ This module can be easily integrated with common data acquisition equipment. The
 
 #### Left Part
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.png" alt="Connect_with_DAQ_Left" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.png').default} alt="Connect_with_DAQ_Left" width="60%" />
 </div>
 
 #### Right Part
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.png" alt="Connect_with_DAQ_Right" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.png').default} alt="Connect_with_DAQ_Right" width="60%" />
 </div>
 
 ---

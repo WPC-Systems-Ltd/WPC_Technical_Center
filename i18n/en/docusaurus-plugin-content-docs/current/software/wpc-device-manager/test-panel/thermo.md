@@ -8,7 +8,7 @@ sidebar_label: 'Thermo'
 The Thermo panel is specifically designed for temperature measurement, supporting Thermocouple and RTD (Resistance Temperature Detector) sensors. It provides various sensor type selections and signal filtering functions.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_thermo.png" alt="WDM_testPanel_thermo" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_thermo.png').default} alt="WDM_testPanel_thermo" width="60%" />
 </div>
 
 ## Supported Products and Ports

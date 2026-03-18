@@ -1,4 +1,4 @@
----
+﻿---
 title: Without Breakout Board
 sidebar_position: 1
 description: If you do not plan to use the breakout boards provided by WPC, you can also directly connect wiring to the interfaces on the module.
@@ -15,7 +15,7 @@ description: If you do not plan to use the breakout boards provided by WPC, you 
 ## Appearance of Axis Card Without Breakout Board
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card.png" alt="Motion Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card.png').default} alt="Motion Module Appearance" width="60%" />
 </div>
 
 *   Top left **2-pin European-style terminal**: External power supply 24VDC.
@@ -28,3 +28,4 @@ description: If you do not plan to use the breakout boards provided by WPC, you 
 - During installation, the DIN rail clip will raise the module by approximately 7.4 mm.
 - A clearance of approximately 82mm is recommended above the axis card to allow for the bending of the SCSI cable.
 :::
+

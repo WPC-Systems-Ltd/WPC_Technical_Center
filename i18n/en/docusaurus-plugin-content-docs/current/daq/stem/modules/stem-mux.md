@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 6
 sidebar_label: 'Multiplexer Module'
 ---
@@ -19,5 +19,6 @@ This module provides 24-channel multiplexing functionality, suitable for multi-p
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_multiplexer.png" alt="Multiplexer Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_multiplexer.png').default} alt="Multiplexer Module Appearance" width="60%" />
 </div>
+

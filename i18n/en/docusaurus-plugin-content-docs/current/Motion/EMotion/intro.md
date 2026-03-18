@@ -15,7 +15,7 @@ The 10MHz encoder reading speed prevents step loss during high-speed movement. A
 WPC's LabVIEW version continues the design philosophy of NI Motion, making it an ideal alternative for NI axis cards. Since 2021, the addition of Motion Express VIs allows users to quickly get started and develop motor control programs in a short time.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion.png" alt="EMotion" width="60%" />
+  <img src={require('@site/static/img/motion/EMotion.png').default} alt="EMotion" width="60%" />
 </div>
 
 ---
@@ -38,7 +38,7 @@ WPC's LabVIEW version continues the design philosophy of NI Motion, making it an
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/Emotion_IO.png" alt="EMotion I/O" width="60%" />
+  <img src={require('@site/static/img/motion/Emotion_IO.png').default} alt="EMotion I/O" width="60%" />
 </div>
 
 Interfaces are described as follows:
@@ -60,7 +60,7 @@ Interfaces are described as follows:
 EMotion's dimensions are 254.2 × 147.4 (mm) in length × width; the height without breakout boards is 26.7 (mm).
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_size.png" alt="EMotion Dimensions" width="60%" />
+  <img src={require('@site/static/img/motion/EMotion_size.png').default} alt="EMotion Dimensions" width="60%" />
 </div>
 
 ---
@@ -70,7 +70,7 @@ EMotion's dimensions are 254.2 × 147.4 (mm) in length × width; the height with
 EMotion can be installed directly on a DIN rail; note that the DIN rail clip will lift the body by approximately 12.9 (mm). A clearance of 50 (mm) above the breakout boards is recommended for SCSI cable bending.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_install.png" alt="EMotion Installation" width="60%" />
+  <img src={require('@site/static/img/motion/EMotion_install.png').default} alt="EMotion Installation" width="60%" />
 </div>
 
 
@@ -81,7 +81,7 @@ EMotion requires an external 24VDC power supply; please use the original WPC ATX
 If using a [specific breakout board](../../daq/stem/modules/motion/breakout/specific_board.md), you can connect directly to the driver using a dedicated SCSI cable, greatly simplifying wiring. If using a [general breakout board](../../daq/stem/modules/motion/breakout/general_board.md), wire according to the signal definitions.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_wiring.png" alt="EMotion Wiring" width="60%" />
+  <img src={require('@site/static/img/motion/EMotion_wiring.png').default} alt="EMotion Wiring" width="60%" />
 </div>
 
 

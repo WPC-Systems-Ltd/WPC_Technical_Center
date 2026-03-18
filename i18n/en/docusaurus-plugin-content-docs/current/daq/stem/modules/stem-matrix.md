@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 7
 sidebar_label: 'Matrix Switch Module'
 ---
@@ -20,5 +20,6 @@ This module provides 4x6 matrix switching functionality, allowing free switching
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_matrix.png" alt="Matrix Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_matrix.png').default} alt="Matrix Module Appearance" width="60%" />
 </div>
+

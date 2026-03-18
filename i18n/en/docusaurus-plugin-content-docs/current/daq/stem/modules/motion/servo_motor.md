@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 6
 sidebar_label: 'Servo Motor Wiring Examples'
 description: Collection of position control mode wiring diagrams for various servo driver brands
@@ -32,20 +32,21 @@ After changing driver parameter settings or wiring, be sure to **power cycle** t
 
 ### 2.1 Mitsubishi MR-J4 / JE
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Mitsubishi_MR_J4_JE.png" alt="Mitsubishi J4 Wiring" width="60%" />
+  <img src={require('@site/static/img/daq/stem/example_Mitsubishi_MR_J4_JE.png').default} alt="Mitsubishi J4 Wiring" width="60%" />
 </div>
 
 ### 2.2 Delta ASDA-B2
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Delta_ASDA_B2.png" alt="Delta B2 Wiring" width="60%" />
+  <img src={require('@site/static/img/daq/stem/example_Delta_ASDA_B2.png').default} alt="Delta B2 Wiring" width="60%" />
 </div>
 
 ### 2.3 Panasonic Minas A4 / A5 / A6
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Panasonic_Minas_A4_A5_A6.png" alt="Panasonic Wiring" width="60%" />
+  <img src={require('@site/static/img/daq/stem/example_Panasonic_Minas_A4_A5_A6.png').default} alt="Panasonic Wiring" width="60%" />
 </div>
 
 ### 2.4 Yaskawa SGDV / SGD7
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Yaskawa_SGDV_SGD7.png" alt="Yaskawa Wiring" width="60%" />
+  <img src={require('@site/static/img/daq/stem/example_Yaskawa_SGDV_SGD7.png').default} alt="Yaskawa Wiring" width="60%" />
 </div>
+

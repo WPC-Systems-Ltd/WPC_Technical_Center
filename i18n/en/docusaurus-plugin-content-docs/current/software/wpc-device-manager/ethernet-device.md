@@ -10,7 +10,7 @@ description: "Network parameter settings, pinout, alias settings, and firmware u
 Click the **"Refresh"** button to re-read and update Ethernet device information.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_refresh.png" alt="WDM_Ethan_refresh" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_refresh.png').default} alt="WDM_Ethan_refresh" width="60%" />
 </div>
 
 ---
@@ -20,11 +20,11 @@ Click the **"Refresh"** button to re-read and update Ethernet device information
 Click the **"Pinout"** button to display the pinout diagram. The window size can be adjusted based on the user's requirements.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout.png" alt="WDM_Ethan_pinout" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_pinout.png').default} alt="WDM_Ethan_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout1.png" alt="WDM_Ethan_pinout1" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_pinout1.png').default} alt="WDM_Ethan_pinout1" width="60%" />
 </div>
 
 ---
@@ -42,7 +42,7 @@ If multiple devices of the same model are connected to the system simultaneously
 5.  After the device reboots, the name in the device list on the left will be updated to **EthanA-WPC**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_alias.png" alt="WDM_Ethan_set_alias" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_set_alias.png').default} alt="WDM_Ethan_set_alias" width="60%" />
 </div>
 
 ---
@@ -57,7 +57,7 @@ The steps to change the device IP address are as follows:
 4.  The system will prompt that the device needs to be rebooted to apply the settings; please click **"OK"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_ip.png" alt="WDM_Ethan_set_ip" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_set_ip.png').default} alt="WDM_Ethan_set_ip" width="60%" />
 </div>
 
 ---
@@ -72,7 +72,7 @@ The steps to change the device's default gateway are as follows:
 4.  The system will prompt that the device needs to be rebooted to apply the settings; please click **"OK"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_gateway.png" alt="WDM_Ethan_set_gateway" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_set_gateway.png').default} alt="WDM_Ethan_set_gateway" width="60%" />
 </div>
 
 ---
@@ -82,7 +82,7 @@ The steps to change the device's default gateway are as follows:
 To reboot the device via software, please click the **"Reboot"** button.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_reboot.png" alt="WDM_Ethan_reboot" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_reboot.png').default} alt="WDM_Ethan_reboot" width="60%" />
 </div>
 
 ---
@@ -94,7 +94,7 @@ To update the Ethernet device firmware, please follow these steps:
 1.  Click the **"Update Firmware"** button.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png" alt="WDM_Ethan_update_firmware" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png').default} alt="WDM_Ethan_update_firmware" width="60%" />
     </div>
 
 :::info
@@ -105,23 +105,23 @@ To update the Ethernet device firmware, please follow these steps:
 2.  Select the corresponding firmware file (`.bin`) from the file browser.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_choose_bin.png" alt="WDM_Ethan_choose_bin" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_choose_bin.png').default} alt="WDM_Ethan_choose_bin" width="60%" />
     </div>
 
 3.  A confirmation window will pop up; click **"OK"** to start writing.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png" alt="WDM_Ethan_update_firmware" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png').default} alt="WDM_Ethan_update_firmware" width="60%" />
     </div>
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_keep_updating.png" alt="WDM_Ethan_keep_updating" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_keep_updating.png').default} alt="WDM_Ethan_keep_updating" width="60%" />
     </div>
 
 4.  Wait for the progress bar to complete.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_updating.png" alt="WDM_Ethan_updating" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_updating.png').default} alt="WDM_Ethan_updating" width="60%" />
     </div>
 
 :::danger
@@ -135,7 +135,7 @@ To update the Ethernet device firmware, please follow these steps:
 Configuring the Simple Network Time Protocol ensures device time synchronization.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/choose-sntp.png" alt="Set SNTP" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/ethernet/WDM_Ethan_sntp.png').default} alt="Set SNTP" width="60%" />
 </div>
 
 SNTP supports the following two configuration modes:

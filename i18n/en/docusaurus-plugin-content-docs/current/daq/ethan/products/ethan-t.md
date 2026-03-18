@@ -1,15 +1,15 @@
----
+﻿---
 title: Ethan-T
 sidebar_position: 7
 ---
 
-Ethan-T is specifically designed for temperature measurement, providing **7-channel thermocouple input**, supporting eight types of thermocouples: **K, J, N, R, S, T, E, and B**. It has a measurement range of **-210°C ~ 1800°C** and built-in cold-junction compensation.
+Ethan-T is specifically designed for temperature measurement, providing **7-channel thermocouple input**, supporting eight types of thermocouples: **K, J, N, R, S, T, E, and B**. It has a measurement range of **-210Â°C ~ 1800Â°C** and built-in cold-junction compensation.
 
 ### Product Appearance
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT.png" alt="Ethan-T Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT.png').default} alt="Ethan-T Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,4 +26,5 @@ Ethan-T is specifically designed for temperature measurement, providing **7-chan
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT_pinout.png" alt="Ethan-T Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT_pinout.png').default} alt="Ethan-T Pinout" width="60%" /></div>
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: Ethan-EX-D
 sidebar_position: 4
 ---
@@ -9,7 +9,7 @@ Ethan-EX-D provides expanded digital I/O capabilities, including **16-channel DI
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D.png" alt="Ethan-EX-D Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanEX-D.png').default} alt="Ethan-EX-D Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -27,4 +27,5 @@ Ethan-EX-D provides expanded digital I/O capabilities, including **16-channel DI
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D_pinout.png" alt="Ethan-EX-D Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanEX-D_pinout.png').default} alt="Ethan-EX-D Pinout" width="60%" /></div>
+

@@ -8,7 +8,7 @@ sidebar_label: 'MUX'
 The MUX (Multiplexer) panel allows users to control the channel switching of multiplexers.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_mux.png" alt="WDM_testPanel_mux" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_mux.png').default} alt="WDM_testPanel_mux" width="60%" />
 </div>
 
 ## Operation Description

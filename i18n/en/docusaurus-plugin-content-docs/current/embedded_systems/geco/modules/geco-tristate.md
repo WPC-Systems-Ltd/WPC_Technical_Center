@@ -18,5 +18,5 @@ This module provides a 12-channel tri-state switching function.
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_tristate.png" alt="12ch Tri-state Switch Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_tristate.png').default} alt="12ch Tri-state Switch Module" width="60%" />
 </div>

@@ -13,7 +13,7 @@ WPC EDrive-ST is a **single-axis stepper motor integrated driver** equipped with
 Compact in size and simple to wire, it is widely used in semiconductor equipment, small laboratory setups, and scientific research instruments. Powered by DC power, it supports up to 36V, making it suitable for DC environments like mobile vehicles, solar photovoltaics, and energy storage systems.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST.png" alt="EDriveST" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST.png').default} alt="EDriveST" width="60%" />
 </div>
 
 ### Core Features
@@ -30,7 +30,7 @@ Compact in size and simple to wire, it is widely used in semiconductor equipment
 ### System Architecture Diagram
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_system_diagram.png" alt="EDriveST System Diagram" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_system_diagram.png').default} alt="EDriveST System Diagram" width="60%" />
 </div>
 
 :::caution
@@ -59,7 +59,7 @@ EDrive-ST only supports **two-phase** stepper motors.
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_IO.png" alt="EDriveST I/O" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_IO.png').default} alt="EDriveST I/O" width="60%" />
 </div>
 
 Interfaces identified by numbers:
@@ -80,7 +80,7 @@ Interfaces identified by numbers:
 ## Connector 4 — Encoder Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_connector.png" alt="EDriveST Connector" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_connector.png').default} alt="EDriveST Connector" width="60%" />
 </div>
 
 | Pin | Name     | Description                              |
@@ -101,7 +101,7 @@ Pin 1 provides 5V power and Pin 2 is Ground, which can be used directly to power
 Differential encoders are supported by default, with 5V TTL voltage levels.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_diff.png" alt="EDriveST Differential" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_diff.png').default} alt="EDriveST Differential" width="60%" />
 </div>
 
 ### Single-ended Encoder
@@ -109,7 +109,7 @@ Differential encoders are supported by default, with 5V TTL voltage levels.
 Connect the encoder outputs to the ENC_A/B/C+ terminals, leaving the ENC_A/B/C- terminals floating.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_single.png" alt="EDriveST Single-ended" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_single.png').default} alt="EDriveST Single-ended" width="60%" />
 </div>
 
 :::note
@@ -134,7 +134,7 @@ If you need to use a single-ended encoder, please inform WPC or your distributio
 A 6.8kΩ current limiting resistor is built-in; no external resistor is required.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_current_limit_resistor.png" alt="EDriveST Current Limiting" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_current_limit_resistor.png').default} alt="EDriveST Current Limiting" width="60%" />
 </div>
 
 ### NPN Type Limit Switch
@@ -142,7 +142,7 @@ A 6.8kΩ current limiting resistor is built-in; no external resistor is required
 Connect LIM_FWD/REV/HOM+ to 24V (common anode), and the limit switch output to LIM_FWD/REV/HOM-.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_NPN.png" alt="EDriveST NPN" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_NPN.png').default} alt="EDriveST NPN" width="60%" />
 </div>
 
 ### PNP Type Limit Switch
@@ -150,7 +150,7 @@ Connect LIM_FWD/REV/HOM+ to 24V (common anode), and the limit switch output to L
 Connect LIM_FWD/REV/HOM- to 0V (common cathode), and the limit switch output to LIM_FWD/REV/HOM+.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_PNP.png" alt="EDriveST PNP" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_PNP.png').default} alt="EDriveST PNP" width="60%" />
 </div>
 
 ### Mechanical Limit Switch
@@ -158,11 +158,11 @@ Connect LIM_FWD/REV/HOM- to 0V (common cathode), and the limit switch output to 
 One of the following two wiring methods can be selected:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_1.png" alt="EDriveST Mechanical 1" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_traditional_1.png').default} alt="EDriveST Mechanical 1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_2.png" alt="EDriveST Mechanical 2" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_traditional_2.png').default} alt="EDriveST Mechanical 2" width="60%" />
 </div>
 
 ---
@@ -179,7 +179,7 @@ One of the following two wiring methods can be selected:
 ### 4-Wire Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_4wire.png" alt="EDriveST 4-wire" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_4wire.png').default} alt="EDriveST 4-wire" width="60%" />
 </div>
 
 ### 6-Wire Wiring
@@ -187,7 +187,7 @@ One of the following two wiring methods can be selected:
 Do not connect the common terminals in the middle of the coils; only connect the two ends of each coil.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_6wire.png" alt="EDriveST 6-wire" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveST_6wire.png').default} alt="EDriveST 6-wire" width="60%" />
 </div>
 
 ---

@@ -7,5 +7,5 @@ sidebar_position: 1
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_faq_beep.png" alt="drone_faq_beep" width="60%" />
+  <img src={require('@site/static/img/drone/drone_faq_beep.png').default} alt="drone_faq_beep" width="60%" />
 </div>

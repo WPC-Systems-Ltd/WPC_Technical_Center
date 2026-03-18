@@ -8,7 +8,7 @@ sidebar_label: 'I2C'
 The I2C (Inter-Integrated Circuit) panel provides users with I2C protocol testing. You can set the clock rate and perform read, write, and query operations on slave devices.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.png" alt="WDM_testPanel_i2c" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.png').default} alt="WDM_testPanel_i2c" width="60%" />
 </div>
 
 ## Supported Products and Ports

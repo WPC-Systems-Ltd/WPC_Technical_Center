@@ -12,7 +12,7 @@ PYCO ETH is a full-featured Python programmable controller, integrating **8-chan
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth.png" alt="PYCO ETH Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth.png').default} alt="PYCO ETH Appearance" width="60%" />
 </div>
 
 
@@ -37,7 +37,7 @@ PYCO ETH is a full-featured Python programmable controller, integrating **8-chan
 ## Component Names
 ---
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth-general.png" alt="PYCO ETH Components" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth-general.png').default} alt="PYCO ETH Components" width="60%" />
 </div>
 
 

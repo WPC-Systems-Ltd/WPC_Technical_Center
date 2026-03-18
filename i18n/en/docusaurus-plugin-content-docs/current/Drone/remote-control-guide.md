@@ -15,7 +15,7 @@ description: Drone remote controller operation and flight process
 ## Remote Controller Button Descriptions
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_main.png" alt="remote_controller_main" width="60%" />
+  <img src={require('@site/static/img/drone/remote_controller_main.png').default} alt="remote_controller_main" width="60%" />
 </div>
 
 | Position           | Function         | Description                                                                 |
@@ -30,7 +30,7 @@ description: Drone remote controller operation and flight process
 ## Takeoff Operation
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_takeoff.png" alt="remote_controller_takeoff" width="60%" />
+  <img src={require('@site/static/img/drone/remote_controller_takeoff.png').default} alt="remote_controller_takeoff" width="60%" />
 </div>
 
 
@@ -45,14 +45,14 @@ description: Drone remote controller operation and flight process
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_landing.png" alt="remote_controller_landing" width="60%" />
+  <img src={require('@site/static/img/drone/remote_controller_landing.png').default} alt="remote_controller_landing" width="60%" />
 </div>
 
 Move the left stick (Z-axis control stick) ( ↕ ) to the lowest position. After the drone nears the ground, it will automatically disarm the flight mode.
 
 ## Emergency Shutdown
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_emergency.png" alt="remote_controller_emergency" width="60%" />
+  <img src={require('@site/static/img/drone/remote_controller_emergency.png').default} alt="remote_controller_emergency" width="60%" />
 </div>
 
 **Emergency Shutdown:**

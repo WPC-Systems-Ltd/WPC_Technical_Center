@@ -9,7 +9,7 @@ description: Firmware and software update guide for myRIO across different LabVI
 Before starting the update process, please confirm the number of LabVIEW versions installed on your computer and choose the appropriate procedure based on the following scenarios.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_faq_myRIO_firmware.png" alt="drone_faq_myRIO_firmware" width="60%" />
+  <img src={require('@site/static/img/drone/drone_faq_myRIO_firmware.png').default} alt="drone_faq_myRIO_firmware" width="60%" />
 </div>
 
 ## Scenario 1: Single LabVIEW Version

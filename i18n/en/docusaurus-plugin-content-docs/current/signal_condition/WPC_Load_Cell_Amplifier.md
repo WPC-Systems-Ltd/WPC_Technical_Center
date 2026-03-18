@@ -16,7 +16,7 @@ The WPC Load Cell Amplifier (LCA) is a signal processing front-end module specif
 *   **Precision Zero-Point Tuning**: Equipped with an adjustable resistor (VR) for convenient zero-point offset (Offset) compensation.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier.png" alt="Load_Cell_Amplifier" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier.png').default} alt="Load_Cell_Amplifier" width="60%" />
 </div>
 
 ---
@@ -54,13 +54,13 @@ Below is the detailed pinout configuration for the WPC LCA:
 | 24V-       | 0V        | -         | Negative Power Input                     |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_pinout.png" alt="Load_Cell_Amplifier_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_pinout.png').default} alt="Load_Cell_Amplifier_pinout" width="60%" />
 </div>
 
 ## Gain Selection
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_gain_selection.png" alt="Load_Cell_Amplifier_gain_selection" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_gain_selection.png').default} alt="Load_Cell_Amplifier_gain_selection" width="60%" />
 </div>
 ---
 
@@ -70,7 +70,7 @@ Below is the detailed pinout configuration for the WPC LCA:
 The figure below shows the connection method between the LCA and a typical load cell. Please note the correspondence between the excitation power and signal input.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_connection.png" alt="Load_Cell_Amplifier_connection" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_connection.png').default} alt="Load_Cell_Amplifier_connection" width="60%" />
 </div>
 
 ### Grounding & Shielding
@@ -79,7 +79,7 @@ To ensure measurement precision and reduce electromagnetic interference, it is r
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_grounding.png" alt="Load_Cell_Amplifier_grounding" width="80%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_grounding.png').default} alt="Load_Cell_Amplifier_grounding" width="80%" />
 </div>
 ---
 
@@ -89,20 +89,20 @@ To ensure measurement precision and reduce electromagnetic interference, it is r
 With a time axis of 50ms/div and a range setting of 10mV/div, the base noise of the LCA is approximately between 5~10 mV.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_noise.png" alt="Load_Cell_Amplifier_noise" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_noise.png').default} alt="Load_Cell_Amplifier_noise" width="60%" />
 </div>
 
 ### Correlation
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_correlation.png" alt="Load_Cell_Amplifier_correlation" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_correlation.png').default} alt="Load_Cell_Amplifier_correlation" width="60%" />
 </div>
 
 ### Simple Test
 The figure below shows a comparison of signals before and after amplification (Blue: before amplification, Yellow: after amplification). A significant amplification effect of 1000x gain can be observed.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_test.png" alt="Load_Cell_Amplifier_test" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_test.png').default} alt="Load_Cell_Amplifier_test" width="60%" />
 </div>
 
 ---
@@ -110,9 +110,9 @@ The figure below shows a comparison of signals before and after amplification (B
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension.png" alt="Load_Cell_Amplifier_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_dimension.png').default} alt="Load_Cell_Amplifier_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension1.png" alt="Load_Cell_Amplifier_dimension1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Load_Cell_Amplifier_dimension1.png').default} alt="Load_Cell_Amplifier_dimension1" width="60%" />
 </div>

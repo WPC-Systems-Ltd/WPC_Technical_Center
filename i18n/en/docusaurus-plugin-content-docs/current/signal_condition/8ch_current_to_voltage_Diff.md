@@ -12,7 +12,7 @@ sidebar_label: 8ch Current-to-Voltage (Diff)
 The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing module that converts industrial-standard 4-20mA current signals into 0-5V voltage signals. This module supports high-precision conversion across multiple channels. This is the **Differential Output** version, a design that helps eliminate common-mode noise on the transmission path, making it particularly suitable for data acquisition (DAQ) and control systems in long-distance transmissions or high-noise environments.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential.png" alt="8ch_cv_differential" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential.png').default} alt="8ch_cv_differential" width="60%" />
 </div>
 
 ---
@@ -34,7 +34,7 @@ The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing modul
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_pinout.png" alt="8ch_cv_differential_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_pinout.png').default} alt="8ch_cv_differential_pinout" width="60%" />
 </div>
 
 
@@ -60,13 +60,13 @@ The input terminal supports both **Sourcing input** and **Sinking input** type s
 ### Sinking Input Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sinking_input.png" alt="8ch_cv_differential_sinking_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sinking_input.png').default} alt="8ch_cv_differential_sinking_input" width="60%" />
 </div>
 
 ### Sourcing Input Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sourcing_input.png" alt="8ch_cv_differential_sourcing_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sourcing_input.png').default} alt="8ch_cv_differential_sourcing_input" width="60%" />
 </div>
 
 
@@ -81,7 +81,7 @@ In the differential output version, each output channel features independent `OU
 ## Dimensions
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_dimension.png" alt="8ch_cv_differential_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_dimension.png').default} alt="8ch_cv_differential_dimension" width="60%" />
 </div>
 
 *   **Length**: 170.0 mm

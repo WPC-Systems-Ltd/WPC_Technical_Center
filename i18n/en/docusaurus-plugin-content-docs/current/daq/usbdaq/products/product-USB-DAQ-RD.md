@@ -1,9 +1,9 @@
----
+﻿---
 title: USB-DAQ-RD
 sidebar_position: 6
 ---
 
-USB-DAQ-RD supports **2-channel PT-100/PT-1000 RTD temperature sensors**, providing **15-bit** resolution with temperature resolution of up to **0.03125°C** and a total accuracy of **0.05%**, suitable for high-precision temperature monitoring.
+USB-DAQ-RD supports **2-channel PT-100/PT-1000 RTD temperature sensors**, providing **15-bit** resolution with temperature resolution of up to **0.03125Â°C** and a total accuracy of **0.05%**, suitable for high-precision temperature monitoring.
 
 # USB-DAQ-RD
 
@@ -20,7 +20,7 @@ USB-DAQ-RD supports **2-channel PT-100/PT-1000 RTD temperature sensors**, provid
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_pinout.png" alt="USB-DAQ-RD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQRD_pinout.png').default} alt="USB-DAQ-RD Pinout" width="60%" /></div>
 
 ### RTD Sensor Wiring Instructions
 ---
@@ -35,10 +35,11 @@ Wiring instructions for three common types of RTD sensors are as follows:
 - For 3-wire sensors, an external wire must be used to short RTD- and EX- on one side (or RTD+ and EX+ on the other side).
 - For 2-wire sensors, RTD+ must be shorted to EX+, and RTD- must be shorted to EX-.
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_wiring.png" alt="RTD Wiring" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQRD_wiring.png').default} alt="RTD Wiring" width="60%" /></div>
 
 ### 4-Wire Connection
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_4wire.png" alt="RTD 4-Wire Connection" width="30%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQD_4wire.png').default} alt="RTD 4-Wire Connection" width="30%" /></div>
 
 ---
+

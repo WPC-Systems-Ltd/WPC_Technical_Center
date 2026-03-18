@@ -13,7 +13,7 @@ The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing modul
 
 ### Single-Ended Output
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended.png" alt="8ch_cv_single_ended" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_single_ended.png').default} alt="8ch_cv_single_ended" width="60%" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing modul
 The top of the module provides standard power terminals to ensure stable system operation.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended_pinout.png" alt="8ch_cv_single_ended_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_single_ended_pinout.png').default} alt="8ch_cv_single_ended_pinout" width="60%" />
 </div>
 
 
@@ -72,13 +72,13 @@ The input terminal supports both **Sourcing input** and **Sinking input** type s
 ### Sinking Input Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended_sinking_input.png" alt="8ch_cv_single_ended_sinking_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_single_ended_sinking_input.png').default} alt="8ch_cv_single_ended_sinking_input" width="60%" />
 </div>
 
 ### Sourcing Input Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended_sourcing_input.png" alt="8ch_cv_single_ended_sourcing_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_single_ended_sourcing_input.png').default} alt="8ch_cv_single_ended_sourcing_input" width="60%" />
 </div>
 
 ---
@@ -92,7 +92,7 @@ In the single-ended output version, all output channels share a common analog gr
 ## Dimensions
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended_dimension.png" alt="8ch_cv_single_ended_single_ended_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_single_ended_dimension.png').default} alt="8ch_cv_single_ended_single_ended_dimension" width="60%" />
 </div>
 
 *   **Length**: 170.0 mm

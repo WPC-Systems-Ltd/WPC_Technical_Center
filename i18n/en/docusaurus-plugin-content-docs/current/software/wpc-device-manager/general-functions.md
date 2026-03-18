@@ -12,13 +12,13 @@ WDM provides an automatic search function that can scan for WPC devices within t
 *   **USB Devices**: Move the mouse cursor to the **"My Computer"** area, right-click, and select **"Refresh My Computer"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_computer.png" alt="WDM_refresh_computer" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/WDM_refresh_computer.png').default} alt="WDM_refresh_computer" width="60%" />
     </div>
 
 *   **Network Devices**: Move the mouse cursor to the **"Network"** area, right-click, and select **"Refresh Network"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_network.png" alt="WDM_refresh_network" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/WDM_refresh_network.png').default} alt="WDM_refresh_network" width="60%" />
     </div>
 
 :::caution
@@ -39,7 +39,7 @@ WDM supports simulated device functions, allowing users to preview pinouts and t
 4.  Click **"OK"** to confirm adding.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_add_simulated_device.png" alt="WDM_add_simulated_device" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_add_simulated_device.png').default} alt="WDM_add_simulated_device" width="60%" />
 </div>
 
 ---
@@ -60,5 +60,5 @@ This function only supports WPC Ethan series products.
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_toggle_blink.png" alt="WDM_toggle_blink" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_toggle_blink.png').default} alt="WDM_toggle_blink" width="60%" />
 </div>

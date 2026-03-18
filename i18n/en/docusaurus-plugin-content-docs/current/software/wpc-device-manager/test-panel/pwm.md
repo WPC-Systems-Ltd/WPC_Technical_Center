@@ -8,7 +8,7 @@ sidebar_label: 'PWM'
 The PWM (Pulse Width Modulation) panel allows users to generate pulse width modulation signals. You can control the frequency and duty cycle (Duty Cycle) of the digital signal, applicable to applications such as motor control and LED dimming.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_pwm.png" alt="WDM_testPanel_pwm" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_pwm.png').default} alt="WDM_testPanel_pwm" width="60%" />
 </div>
 
 ## Supported Products and Channels

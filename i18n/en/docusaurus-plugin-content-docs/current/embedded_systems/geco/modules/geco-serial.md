@@ -20,11 +20,11 @@ This module provides multi-channel serial communication interfaces, supporting R
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232.png" alt="RS-232/422/485 Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_RS232.png').default} alt="RS-232/422/485 Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232_pinout.png" alt="Serial Module Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_RS232_pinout.png').default} alt="Serial Module Pinout" width="60%" />
 </div>

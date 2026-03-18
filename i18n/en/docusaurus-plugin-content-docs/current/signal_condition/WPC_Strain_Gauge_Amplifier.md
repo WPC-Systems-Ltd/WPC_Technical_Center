@@ -16,7 +16,7 @@ The WPC Strain Gauge Amplifier (SGA) is a high-bandwidth signal amplification fr
 *   **1/4 Bridge Support**: Specifically designed for 120 ohms 1/4 bridge strain gauge architectures.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier.png" alt="Strain_Gauge_Amplifier" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier.png').default} alt="Strain_Gauge_Amplifier" width="60%" />
 </div>
 
 ---
@@ -52,7 +52,7 @@ Below is the detailed pinout configuration for the WPC SGA:
 | VR         | Offset  | Offset adjustment resistor (Clockwise to increase offset) |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_pinout.png" alt="Strain_Gauge_Amplifier_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_pinout.png').default} alt="Strain_Gauge_Amplifier_pinout" width="60%" />
 </div>
 
 ---
@@ -63,7 +63,7 @@ Below is the detailed pinout configuration for the WPC SGA:
 Correctly connect the strain gauge to Sensor+ and Sensor- to start measurements.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_connection.png" alt="Strain_Gauge_Amplifier_connection" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_connection.png').default} alt="Strain_Gauge_Amplifier_connection" width="60%" />
 </div>
 
 ### Application with NI Data Acquisition Equipment
@@ -73,11 +73,11 @@ This module can be quickly integrated with common DAQ equipment (such as NI-6009
 The table below displays the typical correlation for achieving offset compensation through Vtune calibration:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_use_NI6009.png" alt="Strain_Gauge_Amplifier_use_NI6009" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_use_NI6009.png').default} alt="Strain_Gauge_Amplifier_use_NI6009" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_use_NI6363.png" alt="Strain_Gauge_Amplifier_use_NI6363" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_use_NI6363.png').default} alt="Strain_Gauge_Amplifier_use_NI6363" width="60%" />
 </div>
 
 | Vtune Adjustment Value | Resulting Offset Level |
@@ -92,7 +92,7 @@ The table below displays the typical correlation for achieving offset compensati
 At full bandwidth of 300kHz, the noise level of the SGA is approximately 60mV.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_noise.png" alt="Strain_Gauge_Amplifier_noise" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_noise.png').default} alt="Strain_Gauge_Amplifier_noise" width="60%" />
 </div>
 
 ---
@@ -100,9 +100,9 @@ At full bandwidth of 300kHz, the noise level of the SGA is approximately 60mV.
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_dimension.png" alt="Strain_Gauge_Amplifier_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_dimension.png').default} alt="Strain_Gauge_Amplifier_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Strain_Gauge_Amplifier_dimension1.png" alt="Strain_Gauge_Amplifier_dimension1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Strain_Gauge_Amplifier_dimension1.png').default} alt="Strain_Gauge_Amplifier_dimension1" width="60%" />
 </div>

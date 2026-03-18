@@ -21,11 +21,11 @@ This function supports devices equipped with an AHRS module:
 The panel is divided into two parts: numerical data display and 3D model attitude display:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.png" alt="WDM_testPanel_AHRS" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.png').default} alt="WDM_testPanel_AHRS" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.png" alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.png').default} alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
 </div>
 
 | Parameter          | Description                         | Range         |

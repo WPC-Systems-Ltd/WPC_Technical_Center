@@ -12,7 +12,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi.png" alt="PYCO WIFI Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi.png').default} alt="PYCO WIFI Appearance" width="60%" />
 </div>
 
 
@@ -38,7 +38,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-general.png" alt="PYCO WIFI Components" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-general.png').default} alt="PYCO WIFI Components" width="60%" />
 </div>
 
 1.  **OLED Display**: Shows network information, firmware details, serial number, and other functional information.
@@ -60,7 +60,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png" alt="PYCO WIFI Pinout Diagram" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png').default} alt="PYCO WIFI Pinout Diagram" width="60%" />
 </div>
 
 

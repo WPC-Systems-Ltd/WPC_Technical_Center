@@ -1,9 +1,9 @@
----
+﻿---
 title: USB-DAQ-AD
 sidebar_position: 1
 ---
 
-USB-DAQ-AD provides **8-channel 16-bit analog input** (±10V), with a maximum sampling rate of **16kHz**, integrating **20-channel digital I/O** and various communication protocols (I2C/SPI/UART). It is USB bus-powered, requiring no external power supply.
+USB-DAQ-AD provides **8-channel 16-bit analog input** (Â±10V), with a maximum sampling rate of **16kHz**, integrating **20-channel digital I/O** and various communication protocols (I2C/SPI/UART). It is USB bus-powered, requiring no external power supply.
 
 ### Product Features
 ---
@@ -19,4 +19,5 @@ USB-DAQ-AD provides **8-channel 16-bit analog input** (±10V), with a maximum sa
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAD_pinout.png" alt="USB-DAQ-AD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAD_pinout.png').default} alt="USB-DAQ-AD Pinout" width="60%" /></div>
+

@@ -10,7 +10,7 @@ description: "Introduction to gStack-RIO Manager main screen, device searching, 
 ## Main Screen Introduction
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_main_screen.png" alt="gstackRIO_manager_main_screen" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/gstackRIO_manager_main_screen.png').default} alt="gstackRIO_manager_main_screen" width="60%" />
 </div>
 
 The functions of the main screen are described as follows:
@@ -29,7 +29,7 @@ gStack-RIO Manager provides an automatic search function that can scan for gStac
 - **Network Devices**: Move the mouse cursor to the "**Network**" area, right-click and select "**Refresh Network**".
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_refresh1.png" alt="gstackRIO_manager_refresh1" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/gstackRIO_manager_refresh1.png').default} alt="gstackRIO_manager_refresh1" width="60%" />
 </div>
 
 :::caution
@@ -47,5 +47,5 @@ gStack-RIO Manager supports simulated device functions, allowing users to previe
 These steps can help you add simulated devices to view their detailed information without having to actually connect the hardware.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_add_simulated_device.png" alt="gstackRIO_manager_add_simulated_device" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/gstackRIO_manager_add_simulated_device.png').default} alt="gstackRIO_manager_add_simulated_device" width="60%" />
 </div>

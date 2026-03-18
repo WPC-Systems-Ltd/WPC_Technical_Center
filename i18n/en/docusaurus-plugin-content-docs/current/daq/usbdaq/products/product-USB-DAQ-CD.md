@@ -1,4 +1,4 @@
----
+﻿---
 title: USB-DAQ-CD
 sidebar_position: 7
 ---
@@ -19,11 +19,12 @@ USB-DAQ-CD provides a **CAN 2.0A/B communication interface**, supporting transmi
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_pinout.png" alt="USB-DAQ-CD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQCD_pinout.png').default} alt="USB-DAQ-CD Pinout" width="60%" /></div>
 
 ### CAN Bus Wiring Instructions
 ---
 
 CAN bus wiring is simple; just connect the CAN_H and CAN_L signals in parallel to the CAN network. Pins 35 and 36 of the USB-DAQ-CD provide an internal 120-ohm termination resistor function. If a termination resistor is required, simply short Pins 35 and 36 together.
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_CANbud_wiring.png" alt="CAN Bus Wiring" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQCD_CANbud_wiring.png').default} alt="CAN Bus Wiring" width="60%" /></div>
+

@@ -8,7 +8,7 @@ sidebar_label: 'DPOT'
 The DPOT (Digital Potentiometer) panel provides users with control over digital variable resistors, which can be applied to analog circuit parameter adjustment or sensor simulation.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_dpot.png" alt="WDM_testPanel_dpot" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_dpot.png').default} alt="WDM_testPanel_dpot" width="60%" />
 </div>
 
 ## Supported Products

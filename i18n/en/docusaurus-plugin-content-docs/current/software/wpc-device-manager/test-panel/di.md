@@ -8,7 +8,7 @@ sidebar_label: 'DI'
 The DI (Digital Input) panel allows users to read the status of digital input signals. Through this interface, you can monitor the digital signal changes of each port in real-time to confirm the input status of external devices.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_di.png" alt="WDM_testPanel_di" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_di.png').default} alt="WDM_testPanel_di" width="60%" />
 </div>
 
 ## Supported Products and Ports

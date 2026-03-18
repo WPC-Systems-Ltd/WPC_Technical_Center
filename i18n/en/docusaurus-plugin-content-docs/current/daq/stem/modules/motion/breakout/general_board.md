@@ -1,4 +1,4 @@
----
+﻿---
 title: General Breakout Board
 sidebar_position: 2
 description: Universal breakout board suitable for various types of stepper and servo motors
@@ -21,7 +21,7 @@ This general breakout board is specifically designed for motion control modules,
 The breakout board is equipped with four main sets of European-style terminal blocks, partitioned according to signal characteristics:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_general_board.png" alt="General Breakout Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_general_board.png').default} alt="General Breakout Board" width="60%" />
 </div>
 
 *   **T1 / T3 Terminal Blocks (High-Speed Signal Area)**:
@@ -89,3 +89,4 @@ Accidental connection to 24V signals (e.g., miswired to a 24V limit switch loop)
 | **10**| BP      | 5V    | Single-ended   | Out     | Break-point output signal                       |
 | **11**| CAP     | 5V    | Single-ended   | In      | Capture input signal                            |
 | **12**| GND     |       | Power          | Out/Ref | Signal reference for BP / CAP                   |
+

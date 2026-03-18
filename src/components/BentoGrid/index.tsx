@@ -39,10 +39,10 @@ const cards: CardData[] = [
         icon: <Activity size={20} />,
         links: [
             { label: '入門指南', href: '/docs/daq-intro', icon: <BookOpen size={16} /> },
-            { label: 'Ethernet DAQ', href: '/docs/daq/ethan', icon: <Network size={16} /> },
-            { label: 'USB DAQ', href: '/docs/daq/usb-daq', icon: <Usb size={16} /> },
-            { label: 'WIFI DAQ', href: '/docs/daq/wifi-daq', icon: <Wifi size={16} /> },
-            { label: 'STEM', href: '/docs/daq/stem', icon: <GraduationCap size={16} /> },
+            { label: 'Ethernet DAQ', href: '/docs/ethan', icon: <Network size={16} /> },
+            { label: 'USB DAQ', href: '/docs/usb-daq', icon: <Usb size={16} /> },
+            { label: 'WIFI DAQ', href: '/docs/wifi-daq', icon: <Wifi size={16} /> },
+            { label: 'STEM', href: '/docs/stem', icon: <GraduationCap size={16} /> },
         ],
     },
     {
@@ -60,7 +60,7 @@ const cards: CardData[] = [
         description: '嵌入式控制平台的開發文件與應用範例。',
         icon: <Microchip size={20} />,
         links: [
-            { label: '入門指南', href: '/docs/embedded_intro', icon: <BookOpen size={16} /> },
+            { label: '入門指南', href: '/docs/embedded-intro', icon: <BookOpen size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Cpu size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <TerminalSquare size={16} /> },
         ],
@@ -70,10 +70,10 @@ const cards: CardData[] = [
         description: 'WPC 無人機產品的規格、指南與常見問題。',
         icon: <Rocket size={20} />,
         links: [
-            { label: '入門指南', href: '/docs/drone_intro', icon: <BookOpen size={16} /> },
+            { label: '入門指南', href: '/docs/drone-intro', icon: <BookOpen size={16} /> },
             { label: '規格', href: '/docs/Drone/specification', icon: <Rocket size={16} /> },
             { label: '起飛指南', href: '/docs/Drone/takeoff-guide', icon: <Rocket size={16} /> },
-            { label: 'FAQ', href: '/docs/category/drone-faq', icon: <Rocket size={16} /> },
+            { label: 'FAQ', href: '/docs/drone-faq', icon: <Rocket size={16} /> },
         ],
     },
 ];

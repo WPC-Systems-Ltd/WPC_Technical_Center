@@ -10,7 +10,7 @@ The Motion (Motion Control) panel provides a complete test environment for axis 
 In addition, the panel supports saving the current settings as a configuration file (*.INI), making it convenient for fast loading during subsequent program development.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion.png" alt="WDM_testPanel_motion" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_motion.png').default} alt="WDM_testPanel_motion" width="60%" />
 </div>
 
 ## Status Monitor
@@ -32,18 +32,18 @@ The upper area of the panel displays real-time status information for each axis:
 
 | Icon                                                         | Function Description                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_open_config-_panel.png" width="30" /> | **Open Configuration Panel**: Opens the motion control I/O setting panel. |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_servo_on.png" width="30" /> | **Servo On/Off**: Toggles the servo excitation status.       |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_halt.png" width="30" /> | **Halt**: Emergency pause of motor operation.                |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_move.png" width="30" /> | **Interactive Control**: Opens the interactive move control panel. |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_reset.png" width="30" /> | **Reset Position**: Resets the logical position count to 0.  |
+| <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_open_config-_panel.png').default} width="30" /> | **Open Configuration Panel**: Opens the motion control I/O setting panel. |
+| <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_servo_on.png').default} width="30" /> | **Servo On/Off**: Toggles the servo excitation status.       |
+| <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_halt.png').default} width="30" /> | **Halt**: Emergency pause of motor operation.                |
+| <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_move.png').default} width="30" /> | **Interactive Control**: Opens the interactive move control panel. |
+| <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_reset.png').default} width="30" /> | **Reset Position**: Resets the logical position count to 0.  |
 
 ## Configuration Panel (Configuration)
 
 After clicking the settings icon, detailed configuration can be made for the axis card I/O behavior:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion_config.png" alt="WDM_testPanel_motion_config" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_motion_config.png').default} alt="WDM_testPanel_motion_config" width="60%" />
 </div>
 
 | Parameter Setting     | Options                            | Description                                                  |
@@ -67,7 +67,7 @@ After clicking the settings icon, detailed configuration can be made for the axi
 Provides basic PTP (Point-to-Point) move testing functionality.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_simple_move.png" alt="WDM_testPanel_simple_move" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_simple_move.png').default} alt="WDM_testPanel_simple_move" width="60%" />
 </div>
 
 | Parameter         | Description                                                  |
@@ -84,7 +84,7 @@ Provides basic PTP (Point-to-Point) move testing functionality.
 Perform automatic home-finding procedure.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_find_ref.png" alt="WDM_testPanel_find_ref" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_find_ref.png').default} alt="WDM_testPanel_find_ref" width="60%" />
 </div>
 
 | Parameter           | Description                                                  |

@@ -12,7 +12,7 @@ PYCO WIFI MINI AO is a mini-sized Python controller focused on **8-channel analo
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai.png" alt="PYCO WIFI MINI AO Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai.png').default} alt="PYCO WIFI MINI AO Appearance" width="60%" />
 </div>
 
 ## Key Features
@@ -32,5 +32,5 @@ PYCO WIFI MINI AO is a mini-sized Python controller focused on **8-channel analo
 **Analog I/O Connector**
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.png" alt="PYCO WIFI MINI AO Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.png').default} alt="PYCO WIFI MINI AO Pinout" width="60%" />
 </div>

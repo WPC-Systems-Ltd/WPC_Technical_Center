@@ -8,7 +8,7 @@ sidebar_label: 'Counter'
 The Counter panel allows users to perform pulse signal counting and frequency measurement. You can set the trigger edge and the time interval for frequency measurement to adapt to different signal characteristics.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_counter.png" alt="WDM_testPanel_counter" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_counter.png').default} alt="WDM_testPanel_counter" width="60%" />
 </div>
 
 ## Parameter Settings and Operation

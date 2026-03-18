@@ -12,7 +12,7 @@ description: "SAPE general functions: File transfer, execute and save scripts"
 You can directly drag and drop files from the **Host PC** to the **Target** (WPC device).
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_drop_file.gif" alt="stand_alone_editor_drop_file" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_drop_file.gif').default} alt="stand_alone_editor_drop_file" width="60%" />
 </div>
 
 For example: Drag example code from a folder on your computer directly into the list on the target device.
@@ -22,7 +22,7 @@ For example: Drag example code from a folder on your computer directly into the 
 Write or open `main.py` code in the **Editor**. Once completed, click the **"Run script"** button to execute the code; the results will be displayed in the **Console**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_run_script.gif" alt="stand_alone_editor_run_script" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_run_script.gif').default} alt="stand_alone_editor_run_script" width="60%" />
 </div>
 
 Example code:
@@ -40,7 +40,7 @@ After editing, click the **"Save script"** button.
 A confirmation window will pop up; please select **"Yes"** to confirm saving. After saving, the asterisk will automatically disappear.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_save_script.gif" alt="stand_alone_editor_save_script" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_save_script.gif').default} alt="stand_alone_editor_save_script" width="60%" />
 </div>
 
 ## Override main.py
@@ -50,7 +50,7 @@ This function allows you to override `main.py` with the code currently being edi
 Click the **"Override main.py"** button. A confirmation window will pop up; please select **"Yes"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_override.gif" alt="stand_alone_editor_override" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_override.gif').default} alt="stand_alone_editor_override" width="60%" />
 </div>
 
 ## Close File
@@ -58,5 +58,5 @@ Click the **"Override main.py"** button. A confirmation window will pop up; plea
 Click the red close button to close the file.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_close.gif" alt="stand_alone_editor_close" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_close.gif').default} alt="stand_alone_editor_close" width="60%" />
 </div>

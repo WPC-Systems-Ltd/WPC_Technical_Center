@@ -35,25 +35,25 @@ It takes approximately 2 minutes for the flight controller to start. Upon comple
 ## 4. Flight Direction Confirmation
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_flight_direction.png" alt="drone_flight_direction" width="60%" />
+  <img src={require('@site/static/img/drone/drone_flight_direction.png').default} alt="drone_flight_direction" width="60%" />
 </div>
 
 ### Ascend/Descend
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_flight_up_down.gif" alt="drone_flight_up_down" width="60%" />
+  <img src={require('@site/static/img/drone/drone_flight_up_down.gif').default} alt="drone_flight_up_down" width="60%" />
 </div>
 
 ### Rotate (Yaw)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_flight_rotate.gif" alt="drone_flight_rotate" width="60%" />
+  <img src={require('@site/static/img/drone/drone_flight_rotate.gif').default} alt="drone_flight_rotate" width="60%" />
 </div>
 
 ### Move (Translation)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_flight_move.gif" alt="drone_flight_move" width="60%" />
+  <img src={require('@site/static/img/drone/drone_flight_move.gif').default} alt="drone_flight_move" width="60%" />
 </div>
 
 

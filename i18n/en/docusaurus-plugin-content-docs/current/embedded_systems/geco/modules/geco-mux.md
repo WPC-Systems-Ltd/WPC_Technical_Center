@@ -19,5 +19,5 @@ This module provides a 24-channel 2-wire multiplexing (MUX) function.
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_multiplexer.png" alt="24ch Multiplexer Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_multiplexer.png').default} alt="24ch Multiplexer Module" width="60%" />
 </div>

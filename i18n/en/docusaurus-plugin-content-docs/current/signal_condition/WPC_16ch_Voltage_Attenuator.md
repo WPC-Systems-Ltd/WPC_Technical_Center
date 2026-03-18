@@ -16,7 +16,7 @@ The WPC 16ch Voltage Attenuator is a high-density signal processing front-end mo
 *   **Industrial Grade Environmental Adaptation**: Operating temperature range from -40 to 85 °C, suitable for harsh industrial environments.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator.png" alt="16ch_Voltage_Attenuator" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator.png').default} alt="16ch_Voltage_Attenuator" width="60%" />
 </div>
 
 ---
@@ -41,7 +41,7 @@ The WPC 16ch Voltage Attenuator provides stable and high-speed voltage attenuati
 Below is the interface configuration description for the WPC 16ch Voltage Attenuator:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_pinout.png" alt="16ch_Voltage_Attenuator_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_pinout.png').default} alt="16ch_Voltage_Attenuator_pinout" width="60%" />
 </div>
 
 :::note
@@ -60,7 +60,7 @@ This product has undergone rigorous high-frequency square wave testing to ensure
 *   **Frequency**: 200kHz
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_200kHz.png" alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_200kHz.png').default} alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
 </div>
 
 ### 2MHz Test
@@ -69,5 +69,5 @@ This product has undergone rigorous high-frequency square wave testing to ensure
 *   **Frequency**: 2MHz
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_2MHz.png" alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_2MHz.png').default} alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
 </div>

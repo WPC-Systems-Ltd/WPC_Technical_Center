@@ -26,7 +26,7 @@ Please download the latest version of gStack-RIO Manager from the WPC official w
 > [Download gStack-RIO Manager](https://www.wpc.com.tw/gstackrio-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_download_page.png" alt="gstackRIO_manager_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/gstackRIO_manager_download_page.png').default} alt="gstackRIO_manager_download_page" width="60%" />
 </div>
 
 :::caution
@@ -39,7 +39,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2019*
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/runtime2019_download_page.png" alt="runtime2019_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/runtime2019_download_page.png').default} alt="runtime2019_download_page" width="60%" />
 </div>
 
 ### Step 3: Download and Install NI VISA Runtime 15.5
@@ -47,7 +47,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2019*
 > [Download NI CompactRIO 15.5](https://www.wpc.com.tw/ni-compactrio-155.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/compactRIO_15_5_download_page.png" alt="compactRIO_15_5_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/compactRIO_15_5_download_page.png').default} alt="compactRIO_15_5_download_page" width="60%" />
 </div>
 
 ## Open gStack-RIO Manager
@@ -62,13 +62,13 @@ If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
 1.  Click **"More info"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_1.png" alt="windows_protection_1" width="60%" />
+      <img src={require('@site/static/img/wpc-gstack-rio-manager/windows_protection_1.png').default} alt="windows_protection_1" width="60%" />
     </div>
 
 2.  Click **"Run anyway"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_2.png" alt="windows_protection_2" width="60%" />
+      <img src={require('@site/static/img/wpc-gstack-rio-manager/windows_protection_2.png').default} alt="windows_protection_2" width="60%" />
     </div>
 
 ### Firewall Settings
@@ -79,11 +79,11 @@ Upon the first opening, the Windows Firewall might block some functions.
 2.  Click **"Allow access"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_firewall.png" alt="windows_firewall" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/windows_firewall.png').default} alt="windows_firewall" width="60%" />
 </div>
 
 Once opened, gStack-RIO Manager will automatically search for gStackRIO controllers.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_search.png" alt="gstackRIO_manager_search" width="60%" />
+  <img src={require('@site/static/img/wpc-gstack-rio-manager/gstackRIO_manager_search.png').default} alt="gstackRIO_manager_search" width="60%" />
 </div>

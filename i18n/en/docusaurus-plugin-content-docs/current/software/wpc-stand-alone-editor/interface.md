@@ -10,7 +10,7 @@ description: "SAPE hardware connection and main screen functions introduction"
 The main screen areas of the Stand-Alone Python Editor are divided as follows:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_main_screen.png" alt="stand_alone_editor_main_screen" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_main_screen.png').default} alt="stand_alone_editor_main_screen" width="60%" />
 </div>
 
 1.  **Menu bar**:
@@ -32,7 +32,7 @@ The main screen areas of the Stand-Alone Python Editor are divided as follows:
 Please use a USB cable to directly connect the WPC hardware to the host computer (Host PC).
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_controller_connect_pc.png" alt="stand_alone_editor_controller_connect_pc" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_controller_connect_pc.png').default} alt="stand_alone_editor_controller_connect_pc" width="60%" />
 </div>
 
 ### Step 2: Configure COM Port
@@ -40,11 +40,11 @@ Please use a USB cable to directly connect the WPC hardware to the host computer
 Open the connection function from the menu bar, then select **COM Port Settings**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_choose_COM_port.png" alt="stand_alone_editor_choose_COM_port" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_choose_COM_port.png').default} alt="stand_alone_editor_choose_COM_port" width="60%" />
 </div>
 
 Please select the appropriate COM Port number.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_COM_port.png" alt="stand_alone_editor_COM_port" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_COM_port.png').default} alt="stand_alone_editor_COM_port" width="60%" />
 </div>

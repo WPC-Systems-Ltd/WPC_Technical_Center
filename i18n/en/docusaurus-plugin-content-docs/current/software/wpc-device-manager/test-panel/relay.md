@@ -8,7 +8,7 @@ sidebar_label: 'Relay'
 The Relay panel allows users to control the switch status of relays on the device and set the initial power-up state.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay.png" alt="WDM_testPanel_relay" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_relay.png').default} alt="WDM_testPanel_relay" width="60%" />
 </div>
 
 ## Supported Products and Ports
@@ -30,7 +30,7 @@ The Relay panel allows users to control the switch status of relays on the devic
 Click the **Power-Up State** button to enter the detailed setting page:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay_powe_state.png" alt="WDM_testPanel_relay_powe_state" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_relay_powe_state.png').default} alt="WDM_testPanel_relay_powe_state" width="60%" />
 </div>
 
 On this page, you can specify whether each relay channel should remain **ON** or **OFF** at the moment the device is powered on (Power On). Please save after settings are complete, and this setting will be automatically applied the next time the device reboots.

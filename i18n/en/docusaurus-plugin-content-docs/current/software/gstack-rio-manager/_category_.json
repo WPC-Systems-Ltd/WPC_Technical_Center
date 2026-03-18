@@ -1,0 +1,10 @@
+{
+    "label": "gStack-RIO Manager",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "slug": "gstack-rio-manager",
+        "title": "gStack-RIO Manager",
+        "description": "gStack-RIO Manager User Manual and Function Description."
+    }
+}

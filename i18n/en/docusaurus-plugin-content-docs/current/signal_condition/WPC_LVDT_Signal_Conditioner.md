@@ -16,7 +16,7 @@ The WPC LVDT Signal Conditioner is a signal processing front-end module specific
 *   **Industrial Standard Interface**: Powered by 24VDC, easy to integrate into various data acquisition and automation systems.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner.png" alt="LVDT_Signal_Conditioner" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner.png').default} alt="LVDT_Signal_Conditioner" width="60%" />
 </div>
 
 ---
@@ -53,7 +53,7 @@ Below are the detailed pinout and tuning resistor descriptions for the WPC LVDT 
 | 0V   | GND              | Negative Power Input (0V)                                |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_pinout.png" alt="LVDT_Signal_Conditioner_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_pinout.png').default} alt="LVDT_Signal_Conditioner_pinout" width="60%" />
 </div>
 
 ---
@@ -64,15 +64,15 @@ Below are the detailed pinout and tuning resistor descriptions for the WPC LVDT 
 Connect the excitation and signal lines of the LVDT sensor correctly to the corresponding terminals to start displacement measurement.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection.png" alt="LVDT_Signal_Conditioner_connection" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection.png').default} alt="LVDT_Signal_Conditioner_connection" width="60%" />
 </div>
 
  <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection1.png" alt="LVDT_Signal_Conditioner_connection1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection1.png').default} alt="LVDT_Signal_Conditioner_connection1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection2.png" alt="LVDT_Signal_Conditioner_connection2" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection2.png').default} alt="LVDT_Signal_Conditioner_connection2" width="60%" />
 </div>
 
 ---
@@ -83,14 +83,14 @@ Connect the excitation and signal lines of the LVDT sensor correctly to the corr
 This module can be perfectly paired with the LVDT-813 series displacement sensors. The figure below displays the typical specifications and performance curves of this series.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813_series.png" alt="LVDT_813_series" width="80%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813_series.png').default} alt="LVDT_813_series" width="80%" />
 </div>
 
 ---
 
 ### LVDT-813-1000 Datasheet
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813-1000.png" alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813-1000.png').default} alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
 </div>
 
 ---
@@ -98,9 +98,9 @@ This module can be perfectly paired with the LVDT-813 series displacement sensor
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension.png" alt="LVDT_Signal_Conditioner_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension.png').default} alt="LVDT_Signal_Conditioner_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension1.png" alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension1.png').default} alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
 </div>

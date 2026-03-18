@@ -8,7 +8,7 @@ sidebar_label: 'DO'
 The DO (Digital Output) panel allows users to control the status of digital output signals. Through this interface, you can manually toggle the high and low potential outputs of each channel and set the initial power-up state.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_do.png" alt="WDM_testPanel_do" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_do.png').default} alt="WDM_testPanel_do" width="60%" />
 </div>
 
 ## Supported Products and Ports
@@ -42,7 +42,7 @@ You can click the switch icon on the screen to toggle the output status and use 
 This function allows you to set the default initial state (High or Low) for each DO channel when the device powers up or reboots. This setting is written to the device's non-volatile memory.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_do_power_state.png" alt="WDM_testPanel_do_power_state" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_do_power_state.png').default} alt="WDM_testPanel_do_power_state" width="60%" />
 </div>
 
 1. Click the **Power-Up state** button to open the settings window.

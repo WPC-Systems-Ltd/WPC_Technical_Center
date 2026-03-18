@@ -11,7 +11,7 @@ description: Introduction, features, and specifications of the WPC 1ch Low power
 The WPC 1ch Low Power Current Source (LPCS) is a signal processing front-end module that converts voltage signals into high-precision, **minute current** outputs. This product is designed for applications requiring precise current drive and measurement, featuring a compact size and efficient current control capabilities.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS.png" alt="1ch_LPCS" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS.png').default} alt="1ch_LPCS" width="60%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ The WPC 1ch LPCS features two sets of terminals (top and bottom), responsible fo
 Mainly responsible for power input and control signal connections.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout1.png" alt="1ch_LPCS_pinout" width="40%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS_pinout1.png').default} alt="1ch_LPCS_pinout" width="40%" />
 </div>
 
 | Pin Number | Description                   | Function Description                  |
@@ -61,7 +61,7 @@ Mainly responsible for power input and control signal connections.
 Mainly responsible for current output and load-end voltage sensing.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout2.png" alt="1ch_LPCS_pinout" width="20%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS_pinout2.png').default} alt="1ch_LPCS_pinout" width="20%" />
 </div>
 
 | Pin Number | Description | Function Description |
@@ -80,7 +80,7 @@ Mainly responsible for current output and load-end voltage sensing.
 Example of connection for control and measurement using a general data acquisition device (DAQ):
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_connection_diagram.png" alt="1ch_LPCS_connection_diagram" width="80%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS_connection_diagram.png').default} alt="1ch_LPCS_connection_diagram" width="80%" />
 </div>
 
 ### Application Example: Contact Resistance Measurement
@@ -90,7 +90,7 @@ To measure contact resistance, it is strongly recommended to use **4-wire sensin
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_CR_measurement.png" alt="1ch_LPCS_CR_measurement" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS_CR_measurement.png').default} alt="1ch_LPCS_CR_measurement" width="60%" />
 </div>
 
 ### Characteristic Curve: Input Voltage vs. Output Current
@@ -98,7 +98,7 @@ To measure contact resistance, it is strongly recommended to use **4-wire sensin
 The figure below shows the linear relationship curve between the control input voltage and the corresponding output current:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_Vin_vs_Iout.png" alt="1ch_LPCS_Vin_vs_Iout" width="80%" />
+  <img src={require('@site/static/img/signal-condition/1ch_LPCS_Vin_vs_Iout.png').default} alt="1ch_LPCS_Vin_vs_Iout" width="80%" />
 </div>
 
 ---
@@ -108,11 +108,11 @@ The figure below shows the linear relationship curve between the control input v
 The WPC 2ch Power LPCS is a high-isolation dual-channel power supply specifically designed to drive the WPC 1ch LPCS, effectively simplifying system wiring and enhancing signal stability.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_front.png" alt="2ch_Power_LPCS_front" width="50%" />
+  <img src={require('@site/static/img/signal-condition/2ch_Power_LPCS_front.png').default} alt="2ch_Power_LPCS_front" width="50%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_rear.png" alt="2ch_Power_LPCS_rear" width="50%" />
+  <img src={require('@site/static/img/signal-condition/2ch_Power_LPCS_rear.png').default} alt="2ch_Power_LPCS_rear" width="50%" />
 </div>
 
 ### Product Specifications and Features
@@ -128,7 +128,7 @@ The WPC 2ch Power LPCS is a high-isolation dual-channel power supply specificall
 The front panel features two sets of output ports, which can be connected directly via 4-pin signal cables to the bottom terminals of the 1ch LPCS.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_front.png" alt="2ch_Power_LPCS_pinout_front" width="60%" />
+  <img src={require('@site/static/img/signal-condition/2ch_Power_LPCS_pinout_front.png').default} alt="2ch_Power_LPCS_pinout_front" width="60%" />
 </div>
 
 | Pin Number | Description |
@@ -143,7 +143,7 @@ The front panel features two sets of output ports, which can be connected direct
 The rear panel features two sets of 10-pin box headers (IDC-10P) and signal interfaces for connecting to the DAQ, divided into two independent channels, Channel A and Channel B.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_rear.png" alt="2ch_Power_LPCS_pinout_rear" width="60%" />
+  <img src={require('@site/static/img/signal-condition/2ch_Power_LPCS_pinout_rear.png').default} alt="2ch_Power_LPCS_pinout_rear" width="60%" />
 </div>
 
 | Pin Number | Channel | Description | Function Description                  |

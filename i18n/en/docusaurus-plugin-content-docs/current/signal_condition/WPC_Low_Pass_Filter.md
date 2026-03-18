@@ -16,7 +16,7 @@ The WPC Low Pass Filter (LPF-150) is a signal processing front-end module specif
 *   **Precision Offset Adjustment**: Equipped with an adjustable resistor (VR), allowing users to manually calibrate the zero-point offset (Offset) according to their needs.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter.png" alt="Low_Pass_Filter" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter.png').default} alt="Low_Pass_Filter" width="60%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ The WPC LPF-150 provides precise frequency filtering. Its main specifications ar
 Below are the detailed pinout and power configuration instructions for the WPC LPF-150:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_pinout.png" alt="Low_Pass_Filter_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_pinout.png').default} alt="Low_Pass_Filter_pinout" width="60%" />
 </div>
 
 | Pin Number | Function Description            |
@@ -65,7 +65,7 @@ Below are the detailed pinout and power configuration instructions for the WPC L
 The WPC LPF-150 undergoes manual zero-point calibration at the factory. This module retains the offset tuning function to facilitate fine-tuning for specific application scenarios by customers. For example, you can adjust the VR to shift a signal originally between ±2.5V into a range of 0 to 5V, allowing direct use with data acquisition equipment (DAQ) that supports only a 5V single-supply range.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_offset_tuning.png" alt="Low_Pass_Filter_offset_tuning" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_offset_tuning.png').default} alt="Low_Pass_Filter_offset_tuning" width="60%" />
 </div>
 
 ---
@@ -76,14 +76,14 @@ The WPC LPF-150 undergoes manual zero-point calibration at the factory. This mod
 The figure below shows the frequency response curve of the LPF-150, with the cutoff point precisely set at 150Hz.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_frequency_response.png" alt="Low_Pass_Filter_frequency_response" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_frequency_response.png').default} alt="Low_Pass_Filter_frequency_response" width="60%" />
 </div>
 
 ### Gain/Phase Spectrum
 This chart details the gain and phase variations of the signal across different frequencies.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_gain_phase.png" alt="Low_Pass_Filter_gain_phase" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_gain_phase.png').default} alt="Low_Pass_Filter_gain_phase" width="60%" />
 </div>
 
 ---
@@ -91,8 +91,8 @@ This chart details the gain and phase variations of the signal across different 
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension.png" alt="Low_Pass_Filter_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_dimension.png').default} alt="Low_Pass_Filter_dimension" width="60%" />
 </div>
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension1.png" alt="Low_Pass_Filter_dimension1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/Low_Pass_Filter_dimension1.png').default} alt="Low_Pass_Filter_dimension1" width="60%" />
 </div>

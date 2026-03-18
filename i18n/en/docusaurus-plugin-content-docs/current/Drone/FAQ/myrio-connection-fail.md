@@ -6,7 +6,7 @@ sidebar_position: 4
 # Project Unable to Connect to myRIO
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_faq_myRIO.png" alt="drone_faq_myRIO" width="60%" />
+  <img src={require('@site/static/img/drone/drone_faq_myRIO.png').default} alt="drone_faq_myRIO" width="60%" />
 </div>
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Appearance and LED Status
 sidebar_position: 4
 description: Hardware interface description (Power, Network, Buttons, OLED) and LED indicator diagnosis (System/Network status interpretation)
@@ -6,7 +6,7 @@ description: Hardware interface description (Power, Network, Buttons, OLED) and 
 
 ## Hardware Appearance
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_appearance.png" alt="Ethan Appearance" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/Ethan_appearance.png').default} alt="Ethan Appearance" width="40%" /></div>
 
 ## Interface Description by Number
 

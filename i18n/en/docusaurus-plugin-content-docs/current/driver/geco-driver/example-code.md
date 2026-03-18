@@ -1,4 +1,4 @@
----
+﻿---
 title: Example Code
 sidebar_label: Example Code
 sidebar_position: 3
@@ -10,10 +10,10 @@ description: "How to find and run example code provided by the GECO Driver"
 After opening LabVIEW, you can follow these steps to find various example programs provided by WPC GECO:
 
 1. Go to the top menu bar.
-2. Click **Help** → **Find Examples...**.
+2. Click **Help** â†’ **Find Examples...**.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_find_example.png" alt="geco_driver_find_example" width="60%" />
+  <img src={require('@site/static/img/driver/geco_driver/geco_driver_find_example.png').default} alt="geco_driver_find_example" width="60%" />
 </div>
 
 This will open the NI Example Finder window.
@@ -23,5 +23,6 @@ This will open the NI Example Finder window.
 5. Click the search button, and you will see all example programs applicable to LabVIEW and related to WPC GECO products.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/geco_driver/geco_driver_search.png" alt="geco_driver_search" width="60%" />
+  <img src={require('@site/static/img/driver/geco_driver/geco_driver_search.png').default} alt="geco_driver_search" width="60%" />
 </div>
+
