@@ -1,6 +1,12 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.12 Date: 2026/03/18, Developer: Chunglee_people
+---------------------------------------------------
+### Added
+- Add all WPC product pages, including signal condition, DAQ, GECO, gstack.
+
+
 v0.0.11 Date: 2026/03/06, Developer: Hok
 ---------------------------------------------------
 ### Added
@@ -19,7 +25,7 @@ v0.0.10 Date: 2026/03/04, Developer: Hok
 ---------------------------------------------------
 ### Added
 - Custom 404 Page: Created a customized 404 error page with brand styling, helpful navigation links, and a search tip.
-- SEO & Crawling: Added a basic `robots.txt` pointing to the sitemap and improved the homepage's `description` meta tag. 
+- SEO & Crawling: Added a basic `robots.txt` pointing to the sitemap and improved the homepage's `description` meta tag.
 
 ### Changed
 - Site Configuration: Updated tagline to "Precision, Integration, Performance", removed Facebook template `editUrl`, and applied `WPC_Logo.jpg` as the social card image.
@@ -29,7 +35,7 @@ v0.0.10 Date: 2026/03/04, Developer: Hok
 
 ### Fixed
 - LatestChanges Component: Resolved an issue where the `LatestChanges` timeline incorrectly hid all recent updates due to overly aggressive commit message filtering in the `plugin-recent-docs` plugin.
-- Broken Links: Removed the dead global "入門指南" link and temporarily replaced the LabVIEW SDK link with an "Upcoming" placeholder. 
+- Broken Links: Removed the dead global "入門指南" link and temporarily replaced the LabVIEW SDK link with an "Upcoming" placeholder.
 - Internal Paths: Fixed hardcoded path prefixes (`/WPC_Technical_Center/...`) in `daq-intro.mdx` and trailing slash issues in `sitemap.tsx` to use correct relative site URLs.
 
 ### Removed
