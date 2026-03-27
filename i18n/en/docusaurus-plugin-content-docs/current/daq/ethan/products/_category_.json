@@ -4,6 +4,7 @@
     "key": "ethan-products",
     "link": {
         "type": "generated-index",
-        "description": "Covers 10 models: AI (16/24-bit), AO (Waveform output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial application needs"
+        "description": "Covers 10 models: AI (16/24-bit), AO (Waveform output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial application needs",
+        "slug": "/ethan/products"
     }
 }

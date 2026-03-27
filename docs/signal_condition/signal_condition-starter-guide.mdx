@@ -1,0 +1,38 @@
+---
+title: 訊號調節器入門指南 (Signal Conditioner Getting Started)
+sidebar_label: 訊號調節器入門指南
+sidebar_position: 1
+slug: /signal-conditioner-starter-guide
+---
+
+import { Cpu, Activity, Zap, Settings } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>歡迎探索 WPC 訊號調節器</h1>
+  <p>我們提供高精度、高穩定性的訊號處理模組，協助您將各種感測器訊號轉換為標準電壓或電流格式，以利後端資料擷取設備 (DAQ) 與工業控制系統讀取。</p>
+</div>
+
+## <Activity size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 模組產品線
+
+<div className="gs-card-grid">
+  <a href="/docs/signal_condition/WPC_1ch_LPCS" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Zap size={24} color="var(--brand-electric-blue)"/> 1ch Low Power Current Source</h2>
+    <p>**高精度微小電流輸出**</p>
+    <p>可將電壓訊號轉換為高精度微小電流輸出的訊號處理前端模組，專為精密電流驅動與測量設計。</p>
+  </a>
+  <a href="/docs/signal_condition/WPC_1ch_Current_Sense_Amplifier" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Activity size={24} color="var(--brand-electric-blue)"/> 1ch Current Sense Amplifier</h2>
+    <p>**高精準度電流感測**</p>
+    <p>提供 ±50mA 雙向電流範圍的高精度電流感測放大器，支援高電壓共模輸入，並具備隔離設計。</p>
+  </a>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_SE" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (單端)</h2>
+    <p>**工業標準訊號轉換 (單端輸出)**</p>
+    <p>將 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道轉換模組。此為單端輸出版本，適用於單點接地的 DAQ 平台。</p>
+  </a>
+  <a href="/docs/signal_condition/8ch_current_to_voltage_Diff" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 8ch Current-to-Voltage Converter (差分)</h2>
+    <p>**工業標準訊號轉換 (差分輸出)**</p>
+    <p>將 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道轉換模組。此為差分輸出版本，能有效消除環境共模雜訊。</p>
+  </a>
+</div>

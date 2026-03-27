@@ -1,6 +1,32 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.15 Date: 2026/03/27, Developer: Hok
+---------------------------------------------------
+### Fixed
+- Fixed broken links in `daq-intro.mdx` and `embedded_intro.mdx`.
+- Fixed hardcoded path prefixes in `daq-intro.mdx`.
+- Fixed trailing slash issues in `sitemap.tsx`.
+- Fixed broken links in `daq-intro.mdx` and `embedded_intro.mdx`.
+- Drones: Updated drone instructional images.
+- Drone Guide Update: Significantly updated the drone battery charging guide (battery-charge.md), adding detailed operating steps.
+- Instrumentation: Updated the WPC 1ch PGA product page and related display images.
+- WPC Drone Driver: Added a WPC Drone Driver product page.
+- Updated home sitemap.
+- Updated sitemap.
+- Updated footer.
+
+v0.0.14 Date: 2026/03/19, Developer: Chunglee_people
+---------------------------------------------------
+### Added
+- Added a new category "Signal Conditioner" for signal conditioning modules.
+- Added `signal_condition_intro.mdx` as the introduction page for signal conditioning modules.
+- Added 10 signal conditioning module pages with detailed specifications and English translations.
+
+### Changed
+- Updated `sidebars.ts` to include the new Signal Conditioner category and its pages.
+- Updated `docusaurus.config.ts` to add the Signal Conditioner category to the navigation bar.
+
 v0.0.13 Date: 2026/03/18, Developer: Chunglee_people
 ---------------------------------------------------
 ### Fixed

@@ -4,6 +4,7 @@
     "key": "usbdaq-products",
     "link": {
         "type": "generated-index",
-        "description": "涵蓋 7 款型號：數位 I/O (TTL/24V 隔離)、類比 I/O (16-bit)、溫度量測 (TC/RTD)、CAN 通訊"
+        "description": "涵蓋 7 款型號：數位 I/O (TTL/24V 隔離)、類比 I/O (16-bit)、溫度量測 (TC/RTD)、CAN 通訊",
+        "slug": "/usb-daq/products"
     }
 }

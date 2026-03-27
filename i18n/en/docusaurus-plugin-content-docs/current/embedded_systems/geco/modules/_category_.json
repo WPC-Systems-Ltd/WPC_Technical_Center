@@ -2,6 +2,7 @@
     "label": "Support Modules",
     "position": 4,
     "link": {
+        "slug": "/embedded_systems/geco/modules",
         "type": "generated-index",
         "description": "Dedicated expansion modules for the GECO series"
     }

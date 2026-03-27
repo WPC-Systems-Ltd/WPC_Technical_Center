@@ -1,0 +1,9 @@
+{
+    "label": "模組介紹",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "gStack-RIO 模組詳細介紹",
+        "slug": "/Instrumentation/modules"
+    }
+}

@@ -1,0 +1,78 @@
+---
+title: 嵌入式系統入門指南
+sidebar_label: 嵌入式入門指南
+sidebar_position: 1
+slug: /embedded-starter-guide
+---
+
+import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
+
+<div className="gs-hero glow-effect">
+  <h1>歡迎探索 WPC 嵌入式系統</h1>
+  <p>我們提供 GECO 與 PYCO 兩大嵌入式平台，專為工業控制、物聯網整合及邊緣運算設計。無論您是硬體工程師還是軟體開發者，都能找到最適合的解決方案。</p>
+</div>
+
+## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 起步學習路徑
+
+<div className="gs-timeline">
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">1</div>
+    <div className="gs-timeline-content">
+      <h3>選擇核心控制板</h3>
+      <p>根據您的需求選擇 GECO (圖形嵌入式控制器) 或 PYCO (低功耗嵌入式工業控制器)。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">2</div>
+    <div className="gs-timeline-content">
+      <h3>硬體擴充與接線</h3>
+      <p>搭配對應的擴充模組 (如 DI, DO, AI, AO, Motion) 並完成實體接線配置。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">3</div>
+    <div className="gs-timeline-content">
+      <h3>安裝軟體與開發環境</h3>
+      <p>GECO 系列可藉由 LabVIEW 建立圖形化開發環境；PYCO 則提供免配置的 WPC Stand-Alone Python Editor，讓您隨開即用。</p>
+    </div>
+  </div>
+  <div className="gs-timeline-item">
+    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-content">
+      <h3>運行您的第一個範例</h3>
+      <p>開啟官方範例庫 (例如 PYCO 的 `AI_on_demand_once.py`)，直接在編輯器中點擊執行，快速讀取系統資訊或感測器數據。</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的嵌入式平台
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/embedded_systems/geco/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> GECO 系列</h2>
+    <p>**強大的模組化工業控制**</p>
+    <p>支援多達十數種擴充模組 (DI/DO/AI/AO/Motion)，具備極高彈性，適合工廠自動化、精密機台控制。</p>
+  </a>
+  <a href="/WPC_Technical_Center/docs/embedded_systems/pyco/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> PYCO 系列</h2>
+    <p>**自帶無線與物聯網基因**</p>
+    <p>高度整合 WiFi/Ethernet，支援 MicroPython 開發，極適合遠端邊緣運算與輕型控制分析終端。</p>
+  </a>
+</div>
+
+:::tip[需要高速資料擷取？]
+如果您主要的需求是高頻寬、高精度的量測而非邊緣控制，請參考我們的 **[資料擷取入門指南](/docs/daq-intro)**。
+:::
+
+---
+
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
+
+<div className="gs-card-grid">
+  <a href="/WPC_Technical_Center/docs/pyco-faq" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><HelpCircle size={24} color="var(--brand-electric-blue)"/> PYCO 開發板</h2>
+    <p>**常見問題與問題排除指南**</p>
+  </a>
+</div>

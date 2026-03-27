@@ -2,6 +2,7 @@
     "label": "支援模組",
     "position": 4,
     "link": {
+        "slug": "/embedded_systems/geco/modules",
         "type": "generated-index",
         "description": "GECO 系列專用擴充模組"
     }
