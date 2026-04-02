@@ -48,22 +48,34 @@
    Categories Grid 
    ===================================== */
 .categoriesSection {
-    padding: 1rem 0 2rem;
+    padding: 1.5rem 2rem 2rem;
 }
 
 .categoriesGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    max-width: 1000px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+    .categoriesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 996px) {
+    .categoriesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .categoryCard {
     background: var(--ifm-background-surface-color);
     border: 1px solid var(--ifm-border-color);
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 1.2rem;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: var(--card-shadow);
 }

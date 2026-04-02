@@ -86,3 +86,9 @@ In the differential output version, each output channel features independent `OU
 
 *   **Length**: 170.0 mm
 *   **Width**: 72.0 mm
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended_dinrail.png').default}  alt="2ch_cv_differential_dimension" width="60%" /> 
+  DIN Rail Module Panel
+</div> 

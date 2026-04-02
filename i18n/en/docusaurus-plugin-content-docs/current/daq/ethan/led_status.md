@@ -15,8 +15,8 @@ The following table corresponds to the numbers in the figure above, describing t
 | No.  | Component Name       | Function Description                                                                 |
 | :--: | :------------------- | :----------------------------------------------------------------------- |
 | **0**| **Reset Button**     | 1. **Restart**: Press directly to restart the device.<br/> 2. **Bootloader Mode**: Press and hold the **FUNC** button and the reset button at the same time, the device will restart and enter Bootloader mode. |
-| **1**| **LED1 Status Indicator**| Displays the operating status of the system main program (see next section for details). |
-| **2**| **LED2 OS Indicator**| Displays the operating system and network connection status (see next section for details). |
+| **1**| **LED1 Status Indicator**| Displays the operating status of the system main program (see [LED Status](#led-status) for details). |
+| **2**| **LED2 OS Indicator**| Displays the operating system and network connection status (see [LED Status](#led-status) for details). |
 | **3**| **FUNC Button**      | 1. **Reset IP**: Long press for about 3 seconds to reset the IP to the default `192.168.1.110`.<br/> 2. **Switch Display**: Short press to switch OLED panel display pages. |
 | **4**| **OLED Panel**       | Displays network settings information, firmware version, serial number, and other system statuses. |
 | **5**| **24V DC Power Input**| Power supply interface, input voltage is 24V DC. |

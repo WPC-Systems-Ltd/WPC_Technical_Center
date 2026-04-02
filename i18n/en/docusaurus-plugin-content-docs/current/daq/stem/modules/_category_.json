@@ -2,6 +2,7 @@
     "label": "Support Modules",
     "position": 4,
     "link": {
+        "slug": "/stem/modules",
         "type": "generated-index",
         "description": "Dedicated expansion modules for the STEM series"
     }

@@ -1,0 +1,9 @@
+{
+    "label": "Module Introduction",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Detailed introduction of gStack-RIO modules",
+        "slug": "/Instrumentation/modules"
+    }
+}

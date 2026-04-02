@@ -4,6 +4,7 @@
     "key": "usbdaq-products",
     "link": {
         "type": "generated-index",
-        "description": "Covers 7 models: Digital I/O (TTL/24V isolation), Analog I/O (16-bit), Temperature measurement (TC/RTD), and CAN communication."
+        "description": "Covers 7 models: Digital I/O (TTL/24V isolation), Analog I/O (16-bit), Temperature measurement (TC/RTD), and CAN communication.",
+        "slug": "/usb-daq/products"
     }
 }

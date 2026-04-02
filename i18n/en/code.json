@@ -446,11 +446,23 @@
   "homepage.bento.daq.links.intro": {
     "message": "Get Started"
   },
-  "homepage.bento.software.title": {
-    "message": "Software Tools"
+  "homepage.bento.motion.title": {
+    "message": "Motion"
   },
-  "homepage.bento.software.description": {
-    "message": "Software tools and management platforms used with WPC hardware."
+  "homepage.bento.motion.description": {
+    "message": "WPC Motion Control specifications, technical documentation, and tutorials."
+  },
+  "homepage.bento.motion.links.intro": {
+    "message": "Get Started"
+  },
+  "homepage.bento.instrumentation.title": {
+    "message": "Instrumentation & Control"
+  },
+  "homepage.bento.instrumentation.description": {
+    "message": "WPC Instrumentation & Control specifications, technical documentation, and tutorials."
+  },
+  "homepage.bento.instrumentation.links.intro": {
+    "message": "Get Started"
   },
   "homepage.bento.embedded.title": {
     "message": "Embedded Systems"
@@ -460,6 +472,27 @@
   },
   "homepage.bento.embedded.links.intro": {
     "message": "Get Started"
+  },
+  "homepage.bento.signal-conditioner.title": {
+    "message": "Signal Conditioners"
+  },
+  "homepage.bento.signal-conditioner.description": {
+    "message": "WPC Signal Conditioners specifications, technical documentation, and tutorials."
+  },
+  "homepage.bento.signal-conditioner.links.intro": {
+    "message": "Get Started"
+  },
+  "homepage.bento.software.title": {
+    "message": "Software Tools"
+  },
+  "homepage.bento.software.description": {
+    "message": "Software tools and management platforms used with WPC hardware."
+  },
+  "homepage.bento.driver.title": {
+    "message": "Drivers"
+  },
+  "homepage.bento.driver.description": {
+    "message": "Drivers for WPC products."
   },
   "homepage.bento.drone.title": {
     "message": "Drone"
@@ -475,6 +508,9 @@
   },
   "homepage.bento.drone.links.takeoff": {
     "message": "Takeoff Guide"
+  },
+  "homepage.bento.drone.links.faq": {
+    "message": "FAQ"
   },
   "sitemap.category.drone.title": {
     "message": "Drone"

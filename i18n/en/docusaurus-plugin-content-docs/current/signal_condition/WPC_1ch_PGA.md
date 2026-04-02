@@ -48,10 +48,10 @@ Below are the detailed pinout and power configuration instructions for the WPC 1
 | :--------- | :------------ | :----------------------------- |
 | 1          | Input+        | Signal Input (Pos.)            |
 | 2          | Input-        | Signal Input (Neg.)            |
-| 3          | D0            | Gain control bit 0             |
-| 4          | D1            | Gain control bit 1             |
-| 5          | D2            | Gain control bit 2             |
-| 6          | D3            | Gain control bit 3             |
+| 3          | D3            | Gain control bit 0             |
+| 4          | D2            | Gain control bit 1             |
+| 5          | D1            | Gain control bit 2             |
+| 6          | D0            | Gain control bit 3             |
 | 7          | GND           | Digital/Signal Ground          |
 | 8          | Output        | Signal Output                  |
 | VR         | Offset Tuning | Zero-point offset adjustment resistor |

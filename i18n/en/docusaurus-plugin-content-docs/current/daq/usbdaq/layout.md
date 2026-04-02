@@ -9,7 +9,7 @@ description: "2D engineering drawings for each model: AD/AOD/RD/CD series, D/D-S
 ### **Applicable to USB-DAQ-AD, USB-DAQ-AOD, USB-DAQ-RD, USB-DAQ-CD**
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAD_Layout_.png').default} alt="USB-DAQ-AD Series Layout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAD_Layout_.png').default} alt="USB-DAQ-AD Series Dimensions" width="60%" /></div>
 
 
 ### **Applicable to USB-DAQ-D, USB-DAQ-D-SNK**

@@ -2,10 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import BentoGrid from '@site/src/components/BentoGrid';
 import ParticleNetwork from '@site/src/components/ParticleNetwork';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -15,13 +14,11 @@ function HomepageHeader() {
       <div className="container">
         <div className={styles.heroContent}>
           <h1 className={clsx('hero__title', styles.heroTitle)}>
-            {/* Gradient Text */}
             <span className={styles.gradientText}>WPC Technical Center</span>
           </h1>
           <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
-            {/* Translatable Tagline */}
             <Translate id="homepage.tagline">
-              WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。
+              WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件。
             </Translate>
           </p>
         </div>
@@ -34,9 +31,9 @@ export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={translate({message: '首頁', id: 'homepage.title'})}
+      title={translate({ message: '首頁', id: 'homepage.title' })}
       description={translate({
-        message: 'WPC Technical Center 提供資料擷取 (DAQ)、嵌入式系統控制 (GECO/PYCO)、無人機及相關軟體 SDK 的完整開發與技術文件。',
+        message: 'WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件。',
         id: 'homepage.description'
       })}>
       {/* Abstract 3D/Tech Background Element */}
