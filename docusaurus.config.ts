@@ -64,6 +64,10 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         blog: false,
+        gtag: {
+          trackingID: 'G-J3EDFB73MH',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,12 +77,13 @@ const config: Config = {
 
   clientModules: [
     require.resolve('./src/plugins/plugin-nprogress.ts'),
+    require.resolve('./src/plugins/ga4-events.ts'),
   ],
 
   themeConfig: {
     image: 'img/WPC_Logo.jpg',
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },

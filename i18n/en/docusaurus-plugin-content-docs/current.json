@@ -71,8 +71,8 @@
     "message": "Product Models",
     "description": "The link title for category Product Models in sidebar tutorialSidebar"
   },
-  "Ethernet-DAQ 使用說明書": {
-    "message": "Ethernet-DAQ Series",
+  "Ethernet-DAQ (Ethan) 使用說明書": {
+    "message": "Ethernet-DAQ (Ethan) Series",
     "description": "Sidebar label for Ethernet-DAQ"
   },
   "USB-DAQ 使用說明書": {
@@ -99,9 +99,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Ethernet-DAQ 使用說明書": {
-    "message": "Ethernet-DAQ Series",
-    "description": "The label for category 'Ethernet-DAQ 使用說明書' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Ethernet-DAQ (Ethan) 使用說明書": {
+    "message": "Ethernet-DAQ (Ethan) Series",
+    "description": "The label for category 'Ethernet-DAQ (Ethan) 使用說明書' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.ethan-products": {
     "message": "Product Models",

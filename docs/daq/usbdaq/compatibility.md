@@ -1,6 +1,6 @@
 ---
 title: 產品相容性
-sidebar_position: 3
+sidebar_position: 2
 description: 功能通道數總覽與硬體資源互斥表，明確標示 I2C/SPI/UART/PWM/AI/AO 等功能的同時啟用限制
 ---
 

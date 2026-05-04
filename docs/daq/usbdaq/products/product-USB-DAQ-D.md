@@ -19,3 +19,12 @@ USB-DAQ-D 專為數位訊號處理設計，提供 **20 通道 3.3V 數位 I/O**�
 ---
 
 <div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_pinout.png" alt="USB-DAQ-D 腳位圖" width="60%" /></div>
+
+
+### 電源需求
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| 電源電壓         |                    |  4.3   |   5    |  5.5   |  V   |
+| 電流消耗         | 待機模式           |  120   |   180  |  220   |  mA  |
+

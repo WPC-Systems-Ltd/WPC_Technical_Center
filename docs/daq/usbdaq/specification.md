@@ -1,5 +1,5 @@
 ---
-title: 產品規格書
+title: 規格總覽
 sidebar_position: 4
 description: 完整技術參數：電源需求、DI/DO 特性、AI/AO 精度、熱電偶/RTD 規格、通訊介面速率
 ---

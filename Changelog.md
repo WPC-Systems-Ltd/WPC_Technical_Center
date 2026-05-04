@@ -1,6 +1,22 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.16 Date: 2026/05/04, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated product images and related information.
+- Changed naming:
+  - Ethernet-DAQ 使用說明書 → Ethernet-DAQ (Ethan) 使用說明書
+  - 產品規格書 → 規格總覽
+  - Ethan 產品型號 → 以型號分類
+  - 外觀及 LED 狀態 → 基本操作(外觀及 LED 狀態)
+- Restructured the order: common features first, then detailed model introductions.
+- Fixed the deployment issue.
+- Changed the default theme to light mode.
+- Added FAQ sections to DAQ, Embedded Systems, and Software Tools on the homepage.
+- Added WPC Device Driver, geco driver, gstackRIO Driver, and WPC Drone Driver to the Drivers section.
+- EthernetDAQ, USBDAQ, Specifications for each model are listed in the table.
+
 v0.0.15 Date: 2026/03/27, Developer: Hok
 ---------------------------------------------------
 ### Fixed

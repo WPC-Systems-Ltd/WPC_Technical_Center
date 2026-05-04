@@ -92,10 +92,10 @@ Signal GND 與 0V 是隔離的
 ## 外觀尺寸 (Dimension)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_single_ended_dimension.png" alt="8ch_cv_single_ended_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_cv_single_dimension.png" alt="2ch_cv_differential_dimension" width="60%" />
 </div>
 
-*   **長度**：170.0 mm
+*   **長度**：80.0 mm
 *   **寬度**：72.0 mm
 
 <div style={{textAlign: 'center'}}>

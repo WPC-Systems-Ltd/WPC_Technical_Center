@@ -40,6 +40,7 @@ const cards: CardData[] = [
             { label: 'USB DAQ', href: '/docs/daq/usbdaq/intro', icon: <Activity size={16} /> },
             { label: 'WIFI DAQ', href: '/docs/daq/wifidaq/product-general', icon: <Activity size={16} /> },
             { label: 'STEM', href: '/docs/daq/stem/intro', icon: <Activity size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.daq.links.faq' }), href: '/docs/wdm-faq', icon: <Activity size={16} /> },
         ],
     },
     {
@@ -50,7 +51,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.motion.links.intro' }), href: '/docs/motion-starter-guide', icon: <Cpu size={16} /> },
             { label: 'EDriveST', href: '/docs/Motion/EDriveST/intro', icon: <Cpu size={16} /> },
             { label: 'EDriveSRV', href: '/docs/Motion/EDriveSRV/intro', icon: <Cpu size={16} /> },
-            { label: 'Emotion', href: '/docs/Motion/Emotion/intro', icon: <Cpu size={16} /> },
+            { label: 'EMotion', href: '/docs/Motion/Emotion/intro', icon: <Cpu size={16} /> },
         ],
     },
     {
@@ -70,6 +71,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.embedded.links.intro' }), href: '/docs/embedded-starter-guide', icon: <Microchip size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Microchip size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <Microchip size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.embedded.links.faq' }), href: '/docs/embedded-starter-guide#-%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-faq', icon: <Microchip size={16} /> },
         ],
     },
     {
@@ -89,6 +91,7 @@ const cards: CardData[] = [
             { label: 'GECO Manager', href: '/docs/software/geco-manager/intro', icon: <TerminalSquare size={16} /> },
             { label: 'gStackRIO Manager', href: '/docs/software/gstack-rio-manager/intro', icon: <TerminalSquare size={16} /> },
             { label: 'Stand-Alone Editor', href: '/docs/software/wpc-stand-alone-editor/intro', icon: <TerminalSquare size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.software.links.faq' }), href: '/docs/wdm-faq', icon: <TerminalSquare size={16} /> },
         ],
     },
     {
@@ -96,7 +99,10 @@ const cards: CardData[] = [
         description: translate({ message: 'WPC 產品的驅動程式。', id: 'homepage.bento.driver.description' }),
         icon: <TerminalSquare size={20} />,
         links: [
-            { label: 'LabVIEW Driver', href: '/docs/driver/wpc-device-driver/intro', icon: <TerminalSquare size={16} /> },
+            { label: 'WPC Device Driver', href: '/docs/category/wpc-device-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'GECO Driver', href: '/docs/category/geco-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'gStackRIO Driver', href: '/docs/category/gstack-rio-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'WPC Drone Driver', href: '/docs/category/wpc-drone-driver', icon: <TerminalSquare size={16} /> },
             { label: 'Python Driver', href: 'https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release', icon: <TerminalSquare size={16} /> },
             { label: 'C# Driver', href: 'https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release', icon: <TerminalSquare size={16} /> },
         ],

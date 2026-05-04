@@ -1,6 +1,6 @@
 ---
 title: 類比輸入取樣率
-sidebar_position: 5
+sidebar_position: 4
 description: 多通道取樣率對照表：啟用通道數與單通道最大取樣率 (16kHz → 2kHz) 的關係說明
 ---
 
