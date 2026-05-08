@@ -20,7 +20,7 @@ Ethan-I 專為 **4-20mA 工業電流迴路**設計，提供 **8 通道 24-bit �
 3. 電流輸入: 8 通道多工切換 & 24-bit 解析度
 4. 最大更新率: 1.2kHz (單通道)
 5. 輸入範圍: ±20mA
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### 腳位定義
 

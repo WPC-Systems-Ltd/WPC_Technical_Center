@@ -1,6 +1,6 @@
 ---
 title: Product Introduction
-sidebar_position: 2
+sidebar_position: 1
 description: Product naming rule analysis (USB-DAQ-XX) and selection guide, covering Digital, Analog, Temperature, and Communication application categories
 ---
 

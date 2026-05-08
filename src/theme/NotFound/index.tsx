@@ -39,8 +39,7 @@ export default function NotFound(): React.JSX.Element {
                             </h3>
                             <ul className={styles.helpList}>
                                 <li>您可以嘗試使用網頁右上角的 <Search size={14} style={{ display: 'inline-block', verticalAlign: 'middle', margin: '0 2px' }} /> <strong>搜尋功能</strong> 來尋找相關資訊。</li>
-                                <li>前往我們的 <Link to="/WPC_Technical_Center/docs/daq-intro">入門指南 <ArrowRight size={14} style={{ display: 'inline-block', verticalAlign: 'middle' }} /></Link>。</li>
-                                <li>如果這是一個失效的連結，或是您有任何問題，請聯絡 <a href="mailto:sales@wpc.com.tw">sales@wpc.com.tw</a>。</li>
+                                <li>如果這是一個失效的連結，或是您有任何問題，請聯絡 <a href="mailto:dolbylee@mail.wpc.com.tw">dolbylee@mail.wpc.com.tw</a>。</li>
                             </ul>
                         </div>
                     </div>

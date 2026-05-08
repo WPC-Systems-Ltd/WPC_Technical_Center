@@ -41,7 +41,7 @@ const config: Config = {
   organizationName: 'WPC-Systems-Ltd', // Usually your GitHub org/user name.
   projectName: 'WPC_Technical_Center', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'zh-Hant',
@@ -185,17 +185,12 @@ const config: Config = {
       style: 'light',
       copyright: `
         <div style="display: flex; align-items: center; max-width: var(--ifm-container-width); margin: 0 auto; width: 100%; padding: 0 1rem; color: var(--ifm-color-content-secondary); font-size: 0.9rem;">
-          <div style="flex: 1;">
-            <div style="font-weight: 700">星協科技有限公司 (WPC Systems Ltd.)</div>
-            <div style="font-size: 0.8rem; letter-spacing: 0.05em; font-weight: 500; opacity: 0.8;">精準．整合．效率</div>
-            
-          </div>
-          <div style="flex: 1; text-align: center; margin-bottom: 0.2rem;">版權所有 © ${new Date().getFullYear()} 星協科技有限公司 (WPC Systems Ltd.)</div>
+          <div style="flex: 1; text-align: center; margin-bottom: 0.2rem;">Copyright © ${new Date().getFullYear()} WPC Systems Ltd. All rights reserved.</div>
           <div style="flex: 1; display: flex; justify-content: flex-end;">
             <div class="footer-social-icons" style="display: flex; gap: 1.5rem; align-items: center;">
           <a href="/WPC_Technical_Center/sitemap" style="color: inherit; display: flex; align-items: center; gap: 0.4rem; transition: color 0.2s; text-decoration: none;">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" x2="9" y1="3" y2="18"/><line x1="15" x2="15" y1="6" y2="21"/></svg>
-              <span style="font-weight: 500;">網站導覽</span>
+              <span style="font-weight: 500;">Sitemap</span>
             </a>
             <a href="https://www.wpc.com.tw" target="_blank" rel="noopener noreferrer" style="color: inherit; display: flex; align-items: center; gap: 0.4rem; transition: color 0.2s; text-decoration: none;">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
@@ -210,7 +205,7 @@ const config: Config = {
             <a href="https://www.youtube.com/@wpcsystemsltd.8927" aria-label="YouTube" target="_blank" style="color: inherit; display: flex; align-items: center; gap: 0.4rem; transition: color 0.2s; text-decoration: none;">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
             </a>
-            <a href="mailto:hltsai@wpc.com.tw" style="color: inherit; display: flex; align-items: center; gap: 0.4rem; transition: color 0.2s; text-decoration: none;">
+            <a href="mailto:dolbylee@mail.wpc.com.tw" style="color: inherit; display: flex; align-items: center; gap: 0.4rem; transition: color 0.2s; text-decoration: none;">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             </a>
             </div>

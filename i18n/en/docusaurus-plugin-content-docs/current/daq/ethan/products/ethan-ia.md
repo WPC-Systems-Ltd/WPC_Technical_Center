@@ -22,7 +22,7 @@ Ethan-IA integrates **voltage and current dual-mode input**, providing **8-chann
 5. Maximum update rate: 600Hz (Single channel)
 6. Current input range: Â±20mA
 7. Voltage input range: Â±10V
-8. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](https://www.wpc.com.tw)
+8. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 

@@ -1,6 +1,6 @@
 {
-    "label": "Ethan Product Models",
-    "position": 1,
+    "label": "By Model",
+    "position": 4,
     "key": "ethan-products",
     "link": {
         "type": "generated-index",

@@ -1,5 +1,5 @@
 ---
-title: 外觀及 LED 狀態
+title: 基本操作(外觀及 LED 狀態)
 sidebar_position: 2
 description: 產品外觀照片與 LED 燈號快速診斷 (紅：AP 模式、綠：待機、藍：已連線)
 ---

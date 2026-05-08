@@ -1,6 +1,13 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.17 Date: 2026/05/08, Developer: Hok
+---------------------------------------------------
+### Changed
+- EthernetDAQ, WiFiDA Q, USBDAQ Specifications for each model are listed in the table.
+- Fixed issue: USB-DAQ-RD "4" 通道 -> "2" 通道
+- Fixed issue: USB-DAQ-TC "4" 通道 -> "2" 通道
+
 v0.0.16 Date: 2026/05/04, Developer: Hok
 ---------------------------------------------------
 ### Changed

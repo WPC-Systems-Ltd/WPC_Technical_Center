@@ -20,8 +20,7 @@ Ethan-A2 提供 **8 通道 24-bit 高精度類比輸入**，取樣率達 **10kHz
 3. 類比輸入 (AI): 8 通道同步取樣 & 24-bit 單端解析度
 4. 最大取樣率: 10kHz
 5. 輸入範圍: ±13.75V
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
-
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 ### 腳位定義
 
 ---

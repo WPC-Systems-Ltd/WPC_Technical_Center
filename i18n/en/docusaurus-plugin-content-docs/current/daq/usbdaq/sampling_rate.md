@@ -1,6 +1,6 @@
 ---
 title: Analog Input Sampling Rate
-sidebar_position: 5
+sidebar_position: 4
 description: "Relationship between enabled channels and individual channel max sampling rate (16kHz - 2kHz)"
 ---
 

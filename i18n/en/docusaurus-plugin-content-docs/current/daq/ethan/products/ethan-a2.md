@@ -20,7 +20,7 @@ Ethan-A2 provides **8-channel 24-bit high-precision analog input**, with a sampl
 3. Analog Input (AI): 8-channel synchronous sampling & 24-bit single-ended resolution
 4. Maximum sampling rate: 10kHz
 5. Input range: Â±13.75V
-6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](https://www.wpc.com.tw)
+6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 

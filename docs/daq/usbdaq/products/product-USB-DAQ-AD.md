@@ -10,25 +10,45 @@ USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 
 
 1. USB 2.0 全速匯流排供電
 2. 20 通道 3.3V 數位 I/O (可承受 5V 輸入)
-3. 支援 I2C/SPI/UART/PWM/計數器
+3. 支援 I2C/SPI/UART/PWM/Counter
 4. 類比輸入 (AI): 8 通道同步取樣 & 16-bit 單端解析度
 5. 最大取樣率: 16kHz (單通道)
 6. 輸入範圍: +/-10V
-7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
+7. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### 腳位圖
 ---
 
 <div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAD_pinout.png" alt="USB-DAQ-AD 腳位圖" width="60%" /></div>
 
-### 電源需求
+### 產品規格
+
+---
+
+#### 數位輸入
+
+---
 
 | 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
 | :--------------- | :----------------- | :----: | :----: | :----: | :--: |
-| 電源電壓         |                    |  4.3   |   5    |  5.5   |  V   |
-| 電流消耗         | 待機模式           |        |   40   |        |  mA  |
+| 輸入高電位電壓   |                    |   3    |   5    |  5.5   |  V   |
+| 輸入低電位電壓   |                    |  -0.5  |   0    |  0.5   |  V   |
+| 輸入阻抗         |                    |  50k   |        |        |  Ω   |
 
-### 類比輸入 (-A Only)
+#### 數位輸出
+
+---
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| 輸出高電位電壓   |                    |  3.1   |  3.3   |  3.5   |  V   |
+| 輸出低電位電壓   |                    |  -0.5  |   0    |  0.5   |  V   |
+| 輸出電流 (Source)|                    |        |        |   10   |  mA  |
+| 輸出電流 (Sink)  |                    |        |        |  -10   |  mA  |
+
+#### 類比輸入
+
+---
 
 | 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
 | :--------------- | :----------------- | :----: | :----: | :----: | :--: |
@@ -44,10 +64,13 @@ USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 
 | 積分非線性 (INL) |                    |        |  ±0.5  |        | LSB  |
 | 微分非線性 (DNL) |                    |        |  ±0.5  |        | LSB  |
 
-### 數位輸入 (-D Only)
+#### 通訊介面
+
+---
 
 | 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
 | :--------------- | :----------------- | :----: | :----: | :----: | :--: |
-| 輸入高電位電壓   |                    |   3    |   5    |  5.5   |  V   |
-| 輸入低電位電壓   |                    |  -0.5  |   0    |  0.5   |  V   |
-| 輸入阻抗         |                    |  50k   |        |        |  Ω   |
+| UART 鮑率 (Baud Rate) |               |        |        | 460.8k | bps  |
+| SPI-1 傳輸率     |                    |        |        |  36M   |  Hz  |
+| SPI-2 傳輸率     |                    |        |        |  18M   |  Hz  |
+| I2C 傳輸率       |                    |        |        |  400k  |  Hz  |
