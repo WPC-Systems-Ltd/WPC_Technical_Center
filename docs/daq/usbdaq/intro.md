@@ -3,7 +3,10 @@ title: 產品介紹
 sidebar_position: 1
 description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數位、類比、溫度、通訊四大應用類別
 ---
+
 ## WPC 的產品命名代表了介面與功能的組合。
+
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usbdaq/USBDAQ_naming.png" alt="USB-DAQ 命名規則" width="40%" /></div>
 
 | 命名代號 | 英文全稱         | 功能說明                                |
 | :------- | :--------------- | :-------------------------------------- |
@@ -16,11 +19,8 @@ description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數�
 | **RD**   | RTD              | 電阻式溫度感測器採集 + DIO              |
 | **CD**   | CAN Bus          | CAN 匯流排通訊 + DIO                    |
 
-## 產品特色
 
----
-
-### 產品選型指南
+## 產品選型指南
 
 | 分類         | 型號              | 主要功能特色                                  |
 | :----------- | :---------------- | :-------------------------------------------- |
@@ -33,3 +33,5 @@ description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數�
 | **通訊 I/O** | **USB-DAQ-CD**    | 控制器區域網路 (CAN) 通訊介面                 |
 
 > 💡 USB-DAQ-RD 僅支援 PT-100 或 PT-1000 溫度感測器。購買前請向經銷商確認規格與型號。
+
+> 💡 **注意**：詳細規格請參閱 [規格總覽](./specification.md)。

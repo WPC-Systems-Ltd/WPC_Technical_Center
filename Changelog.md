@@ -1,6 +1,12 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.18 Date: 2026/05/12, Developer: Hok
+---------------------------------------------------
+### Changed
+- Ethan product series:
+  - Add product series name and product type in the table.
+
 v0.0.17 Date: 2026/05/08, Developer: Hok
 ---------------------------------------------------
 ### Changed

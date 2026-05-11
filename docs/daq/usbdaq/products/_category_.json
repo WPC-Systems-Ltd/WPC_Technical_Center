@@ -1,6 +1,6 @@
 {
     "label": "以型號分類",
-    "position": 5,
+    "position": 6,
     "key": "usbdaq-products",
     "link": {
         "type": "generated-index",

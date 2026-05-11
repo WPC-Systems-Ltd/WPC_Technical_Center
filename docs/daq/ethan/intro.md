@@ -4,6 +4,22 @@ sidebar_position: 1
 description: 快速選型指南：依應用分類（類比輸入/輸出、數位 I/O、溫度量測）查找適合的 Ethan 型號
 ---
 
+## WPC 的產品命名代表了介面與功能的組合。
+
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_naming.png" alt="Ethan 命名規則" width="40%" /></div>
+
+| 命名代號    | 英文全稱                  | 功能說明                                 |
+| :-------   | :------------------------ | :-------------------------------------- |
+| **Ethan**  | Ethernet                  | 乙太網路傳輸介面                          |
+| **DAQ**    | Data Acquisition          | 數據採集功能                            |
+| **D**      | Digital I/O               | 數位輸入/輸出 (DIO)                     |
+| **A**      | Analog Volt in            | 類比輸入 (AI)                          |
+| **L**      | Relay                     | 繼電器輸出                            |
+| **0**      | Analog Volt out           | 類比電壓輸出                             |
+| **T**      | Thermocouple              | 熱電偶溫度採集                            |
+| **I**      | Analog current in         | 電流輸入                              |
+| **P**      | Digital Potentiometer out | 數位電位器输出                          |
+
 
 ## 產品選型指南
 
@@ -20,4 +36,4 @@ description: 快速選型指南：依應用分類（類比輸入/輸出、數位
 |              | **Ethan-L**    | 6 通道機械式繼電器 (4x Form-A, 2x Form-C)          |
 | **其他**     | **Ethan-P**    | 4 通道可變數位電位器 (300Ω-50kΩ)                   |
 
-> 💡 **注意**：部分型號詳細規格請參閱 [產品規格書](./specification.md)。
+> 💡 **注意**：詳細規格請參閱 [規格總覽](./specification.md)。
