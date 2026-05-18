@@ -1,7 +1,15 @@
 WPC Technical Center Changelog
 ==================================
 
-v0.0.18 Date: 2026/05/12, Developer: Hok
+v0.0.19 Date: 2026/05/18, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated the Drone Starter Guide.
+- Fixed the home page active class.
+- Fixed the broken links in Drone Starter Guide.
+- Fixed the broken links in Signal Conditioner Starter Guide.
+
+v0.0.18 Date: 2026/05/11, Developer: Hok
 ---------------------------------------------------
 ### Changed
 - Ethan product series:

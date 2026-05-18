@@ -50,12 +50,12 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的嵌入式平台
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/embedded_systems/geco/intro" className="theme-doc-card gs-card">
+  <a href="/docs/embedded_systems/geco/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> GECO 系列</h2>
     <p>**強大的模組化工業控制**</p>
     <p>支援多達十數種擴充模組 (DI/DO/AI/AO/Motion)，具備極高彈性，適合工廠自動化、精密機台控制。</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/embedded_systems/pyco/intro" className="theme-doc-card gs-card">
+  <a href="/docs/embedded_systems/pyco/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> PYCO 系列</h2>
     <p>**自帶無線與物聯網基因**</p>
     <p>高度整合 WiFi/Ethernet，支援 MicroPython 開發，極適合遠端邊緣運算與輕型控制分析終端。</p>
@@ -63,15 +63,15 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 </div>
 
 :::tip[需要高速資料擷取？]
-如果您主要的需求是高頻寬、高精度的量測而非邊緣控制，請參考我們的 **[資料擷取入門指南](/docs/daq-intro)**。
+如果您主要的需求是高頻寬、高精度的量測而非邊緣控制，請參考我們的 **[資料擷取入門指南](/docs/daq-starter-guide)**。
 :::
 
 ---
 
-## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ) {#faq}
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/pyco-faq" className="theme-doc-card gs-card">
+  <a href="/docs/pyco-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><HelpCircle size={24} color="var(--brand-electric-blue)"/> PYCO 開發板</h2>
     <p>**常見問題與問題排除指南**</p>
   </a>

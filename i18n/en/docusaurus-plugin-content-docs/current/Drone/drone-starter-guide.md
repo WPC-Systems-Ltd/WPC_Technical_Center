@@ -5,7 +5,7 @@ sidebar_position: 1
 slug: /drone-starter-guide
 ---
 
-import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code } from 'lucide-react';
+import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, FileCode } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>Explore WPC Drone Solutions</h1>
@@ -57,32 +57,32 @@ import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code }
 ## <PlaneTakeoff size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Core Teaching Resources
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/Drone/intro" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> Introduction</h2>
     <p>**Understand System Architecture**</p>
     <p>Includes introductions to drone components, sensor principles.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Drone/specification" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/specification" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> Product Specifications</h2>
     <p>**Understand Product Specifications**</p>
     <p>Includes detailed product specifications.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Drone/takeoff-guide" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/takeoff-guide" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><PlaneTakeoff size={24} color="var(--brand-electric-blue)"/> Takeoff Guide</h2>
     <p>**From Zero to the Sky**</p>
     <p>Provides a detailed pre-flight checklist, as well as standard procedures for safe operation and emergency handling.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Drone/remote-control-guide" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/remote-control-guide" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><RadioTower size={24} color="var(--brand-electric-blue)"/> Remote Control and Communication</h2>
     <p>**Take Control of Your Drone**</p>
     <p>Definitions of control sticks and switches, and guides on configuring flight modes and failsafe protections.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Drone/battery-charge" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/battery-charge" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><RadioTower size={24} color="var(--brand-electric-blue)"/> Battery Charging Tutorial</h2>
     <p>**Battery Charging Tutorial**</p>
     <p>Introduces precautions for battery charging and how to charge the battery correctly.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Drone/appendix" className="theme-doc-card gs-card">
+  <a href="/docs/Drone/appendix" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><RadioTower size={24} color="var(--brand-electric-blue)"/> Appendix</h2>
     <p>**Hardware Confirmation and Payload Installation**</p>
     <p>Confirm communication status between the mission computer and flight control computer, and familiarize yourself with the UART pin definitions of the flight control computer.</p>
@@ -91,13 +91,13 @@ import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code }
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver Support Overview
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver Support Overview
 
 WPC provides hardware drivers for multiple programming languages, allowing users to quickly integrate WPC hardware devices and develop their own applications. You can click the language link below to go to the detailed tutorial:
 
 | Programming Language | Features | Detailed Tutorial Link |
 | :------- | :------- | :----------- |
-| **LabVIEW** | Provides a complete set of VI packages and ready-made graphical panels, allowing engineers to quickly integrate automated testing and measurement workflows. | [LabVIEW Getting Started](/docs/driver/driver_intro) |
+| **LabVIEW** | Provides a complete set of VI packages and ready-made graphical panels, allowing engineers to quickly integrate automated testing and measurement workflows. | [LabVIEW Getting Started](/docs/driver/wpc-drone-driver/intro) |
 | **Python** | Open-source and easy-to-use API with a consistent interface and rich examples, suitable for developers of all levels to get started quickly. | [Python Getting Started](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
 
 ---
@@ -105,7 +105,7 @@ WPC provides hardware drivers for multiple programming languages, allowing users
 ## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ)
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/drone-faq" className="theme-doc-card gs-card">
+  <a href="/WPC_Technical_Center/en/docs/drone-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Drone</h2>
     <p>**Common Issues and Troubleshooting Guide**</p>
   </a>

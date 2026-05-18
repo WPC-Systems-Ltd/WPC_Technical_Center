@@ -5,12 +5,16 @@ sidebar_position: 1
 slug: /daq-starter-guide
 ---
 
-import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>Explore WPC DAQ Solutions</h1>
   <p>We provide complete solutions from sensor data acquisition and various motor controls to drone system integration. Just select the hardware device that suits your needs and your familiar programming language to quickly start your precision control project.</p>
 </div>
+
+:::tip[Definition]
+DAQ stands for Data Acquisition, which means "data acquisition". You can think of it as the "five senses" of a computer, responsible for converting real-world physical quantities (such as temperature, pressure, voltage) into digital signals that the computer can understand.
+:::
 
 ## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Getting Started Learning Path
 
@@ -19,7 +23,7 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
       <h3>Choose Hardware Device</h3>
-      <p>According to your needs (network distance, portability, wireless applications), choose the appropriate DAQ device or system.</p>
+      <p>According to your needs [(long-distance transmission, portability, wireless transmission, multi-channel)](/docs/daq-starter-guide#choose-hardware) to choose the appropriate data acquisition device.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
@@ -47,25 +51,25 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
 
 ---
 
-## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform {#choose-hardware}
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/daq/ethan/intro" className="theme-doc-card gs-card">
+  <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ Series</h2>
     <p>**Stable, High-Bandwidth Industrial Measurement Solution**</p>
     <p>Ideal for industrial sites requiring long-distance connections and multi-node synchronous monitoring. Features an RJ45 interface with high stability and bandwidth.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
+  <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB DAQ Series</h2>
     <p>**Plug-and-play High Precision Measurement**</p>
     <p>Quickly connect to PC via USB, supports Windows, ideal for lab R&D and portable testing applications.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
+  <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
     <p>**Wireless Deployment and IoT Applications**</p>
     <p>Designed for data acquisition needs in areas difficult to wire or for mobile carriers. Supports wireless network transmission for sensing everywhere.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/stem/layout" className="theme-doc-card gs-card">
+  <a href="/docs/daq/stem/layout" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings2 size={24} color="var(--brand-electric-blue)"/> STEM Series</h2>
     <p>**Education and Automation Prototyping**</p>
     <p>Rich Analog and Digital I/O, supports multiple dev environments, ideal for automation learning and prototyping.</p>
@@ -73,7 +77,7 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
 </div>
 
 :::tip[What Else?]
-Beyond the standard DAQ series, we also provide **[Embedded Systems Getting Started](/docs/embedded-intro)** and a full **[Drone Control Getting Started](/docs/drone-intro)**.
+Beyond the standard DAQ series, we also provide **[Embedded Systems Getting Started](/docs/embedded-starter-guide)** and a full **[Drone Control Getting Started](/docs/drone-starter-guide)**.
 :::
 
 ---
@@ -120,7 +124,7 @@ Download and install the management tool to manage and configure your WPC DAQ de
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Software SDK Support Overview
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Software SDK Support Overview
 
 WPC provides hardware drivers in various programming languages, allowing users to quickly integrate WPC hardware and develop their own applications. You can click the language links below for detailed tutorials:
 

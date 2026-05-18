@@ -223,7 +223,7 @@ const categories: SitemapCategory[] = [
                 heading: translate({ message: '快速開始', id: 'sitemap.category.motion.emotion.section.quickstart' }),
                 links: [
                     { label: translate({ message: '入門指南', id: 'sitemap.category.motion.emotion.link.quickstart' }), href: '/docs/motion-starter-guide', icon: <BookOpen size={16} /> },
-                    { label: translate({ message: '產品介紹', id: 'sitemap.category.motion.emotion.intro' }), href: '/docs/Motion/Emotion/intro', icon: <BookOpen size={16} /> },
+                    { label: translate({ message: '產品介紹', id: 'sitemap.category.motion.emotion.intro' }), href: '/docs/Motion/EMotion/intro', icon: <BookOpen size={16} /> },
                 ],
             },
             {
@@ -247,8 +247,8 @@ const categories: SitemapCategory[] = [
                 heading: translate({ message: '快速開始', id: 'sitemap.category.instrumentation.section.quickstart' }),
                 links: [
                     { label: translate({ message: '入門指南', id: 'sitemap.category.instrumentation.links.intro' }), href: '/docs/instrumentation-starter-guide', icon: <Server size={16} /> },
-                    { label: translate({ message: '產品介紹', id: 'sitemap.category.instrumentation.intro' }), href: 'docs/Instrumentation/intro', icon: <Server size={16} /> },
-                    { label: translate({ message: '模組介紹', id: 'sitemap.category.instrumentation.modules' }), href: 'docs/Instrumentation/modules', icon: <Server size={16} /> },
+                    { label: translate({ message: '產品介紹', id: 'sitemap.category.instrumentation.intro' }), href: '/docs/Instrumentation/intro', icon: <Server size={16} /> },
+                    { label: translate({ message: '模組介紹', id: 'sitemap.category.instrumentation.modules' }), href: '/docs/Instrumentation/modules', icon: <Server size={16} /> },
                 ],
             },
             {
@@ -259,8 +259,8 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '規格與支援', id: 'sitemap.category.instrumentation.section.spec' }),
                 links: [
-                    { label: translate({ message: '硬體外觀', id: 'sitemap.category.instrumentation.appearance' }), href: 'docs/Instrumentation/appearance', icon: <Server size={16} /> },
-                    { label: translate({ message: '控制器規格', id: 'sitemap.category.instrumentation.controller' }), href: 'docs/Instrumentation/controller', icon: <Server size={16} /> },
+                    { label: translate({ message: '硬體外觀', id: 'sitemap.category.instrumentation.appearance' }), href: '/docs/Instrumentation/appearance', icon: <Server size={16} /> },
+                    { label: translate({ message: '控制器規格', id: 'sitemap.category.instrumentation.controller' }), href: '/docs/Instrumentation/controller', icon: <Server size={16} /> },
                 ],
             },
         ]

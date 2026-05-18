@@ -98,7 +98,7 @@ const config: Config = {
           to: '/',
           label: '首頁',
           position: 'left',
-          activeBaseRegex: '^/WPC_Technical_Center/$',
+          activeBaseRegex: '^/WPC_Technical_Center/(en/)?$',
         },
         {
           type: 'doc',

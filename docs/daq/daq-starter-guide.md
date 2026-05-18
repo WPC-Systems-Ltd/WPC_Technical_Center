@@ -5,12 +5,16 @@ sidebar_position: 1
 slug: /daq-starter-guide
 ---
 
-import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>歡迎探索 WPC 資料擷取</h1>
   <p>我們提供資料擷取方案，只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。</p>
 </div>
+
+:::tip[名詞定義]
+DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它想像成電腦的「五官」，負責把真實世界的物理量（例如溫度、壓力、電壓），轉換成電腦能懂的數位訊號。
+:::
 
 ## <Rocket size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 起步學習路徑
 
@@ -19,7 +23,7 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
       <h3>選擇硬體設備</h3>
-      <p>根據您的需求（網路距離、攜帶便利性、無線應用）選擇合適的 DAQ 設備或系統。</p>
+      <p>根據您的需求[（長距離傳輸、攜帶便利性、無線傳輸、多通道）](/docs/daq-starter-guide#choose-hardware)選擇合適的資料擷取裝置。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
@@ -47,25 +51,25 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
 
 ---
 
-## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的硬體平台
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的硬體平台 {#choose-hardware}
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/daq/ethan/intro" className="theme-doc-card gs-card">
+  <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ 系列</h2>
     <p>**高穩定的工業量測解決方案**</p>
     <p>適合需長距離連接、多節點同步監控的工業現場。提供 RJ45 介面，具有高穩定度特性。</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
+  <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB DAQ 系列</h2>
     <p>**隨插即用的高精度量測**</p>
     <p>透過 USB 介面快速連接電腦，適合實驗室研發與可攜式測試應用。</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
+  <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
     <p>**主打無線部署與 IoT 應用**</p>
     <p>適合難以佈線或移動式載體的數據採集需求。支援無線網路傳輸，讓感測無所不在。</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/daq/stem/intro" className="theme-doc-card gs-card">
+  <a href="/docs/daq/stem/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings2 size={24} color="var(--brand-electric-blue)"/> STEM 系列</h2>
     <p>**多通道、混合量測控制解決方案**</p>
     <p>具備豐富的類比與數位 I/O，可搭配多種擴充模組，是自動化控制與建立原型的理想平台。</p>
@@ -73,7 +77,7 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
 </div>
 
 :::tip[除此之外還有什麼？]
-除了標準的資料擷取系列，我們還提供 **[嵌入式系統入門](/docs/embedded-intro)** 以及完整的 **[無人機控制入門](/docs/drone-intro)**。
+除了資料擷取系列，我們還提供 **[訊號調節器](/docs/signal-conditioner-starter-guide)**。
 :::
 
 ---
@@ -119,7 +123,7 @@ import { Rocket, Cpu, Code, HelpCircle, Network, Usb, Wifi, Settings2, Search, Z
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式支援一覽表
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式支援一覽表
 
 WPC 提供多種程式語言的硬體驅動程式，讓使用者能夠快速整合 WPC 硬體裝置，開發自己的應用程式。您可以點擊下方語言連結前往詳細教學：
 

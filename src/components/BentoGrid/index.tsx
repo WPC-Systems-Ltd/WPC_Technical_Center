@@ -51,7 +51,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.motion.links.intro' }), href: '/docs/motion-starter-guide', icon: <Cpu size={16} /> },
             { label: 'EDriveST', href: '/docs/Motion/EDriveST/intro', icon: <Cpu size={16} /> },
             { label: 'EDriveSRV', href: '/docs/Motion/EDriveSRV/intro', icon: <Cpu size={16} /> },
-            { label: 'EMotion', href: '/docs/Motion/Emotion/intro', icon: <Cpu size={16} /> },
+            { label: 'EMotion', href: '/docs/Motion/EMotion/intro', icon: <Cpu size={16} /> },
         ],
     },
     {
@@ -60,7 +60,7 @@ const cards: CardData[] = [
         icon: <Server size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.instrumentation.links.intro' }), href: '/docs/instrumentation-starter-guide', icon: <Server size={16} /> },
-            { label: 'gStack-RIO', href: 'docs/Instrumentation/intro', icon: <Server size={16} /> },
+            { label: 'gStack-RIO', href: '/docs/Instrumentation/intro', icon: <Server size={16} /> },
         ],
     },
     {
@@ -71,7 +71,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.embedded.links.intro' }), href: '/docs/embedded-starter-guide', icon: <Microchip size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Microchip size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <Microchip size={16} /> },
-            { label: translate({ message: '常見問題', id: 'homepage.bento.embedded.links.faq' }), href: '/docs/embedded-starter-guide#-%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-faq', icon: <Microchip size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.embedded.links.faq' }), href: '/docs/embedded-starter-guide#faq', icon: <Microchip size={16} /> },
         ],
     },
     {
