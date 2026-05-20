@@ -89,6 +89,6 @@ WPC 2ch Current-to-Voltage Converter 是一款將工業標準的 4-20mA 電流�
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_cv_single_ended_dinrail.png" alt="2ch_cv_differential_dimension" width="60%" /> 
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_cv_single_ended_dinrail.png" alt="2ch_cv_differential_dimension" width="60%" />
   DIN Rail（導軌）模組盤
-</div> 
+</div>
