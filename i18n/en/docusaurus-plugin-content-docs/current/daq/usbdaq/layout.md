@@ -1,6 +1,6 @@
 ---
 title: Product Dimensions
-sidebar_position: 3
+sidebar_position: 2
 description: "2D engineering drawings for each model: AD/AOD/RD/CD series, D/D-SNK series, and TD series appearance specifications"
 ---
 

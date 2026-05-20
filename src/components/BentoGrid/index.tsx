@@ -40,6 +40,7 @@ const cards: CardData[] = [
             { label: 'USB DAQ', href: '/docs/daq/usbdaq/intro', icon: <Activity size={16} /> },
             { label: 'WIFI DAQ', href: '/docs/daq/wifidaq/product-general', icon: <Activity size={16} /> },
             { label: 'STEM', href: '/docs/daq/stem/intro', icon: <Activity size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.daq.links.faq' }), href: '/docs/wdm-faq', icon: <Activity size={16} /> },
         ],
     },
     {
@@ -50,7 +51,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.motion.links.intro' }), href: '/docs/motion-starter-guide', icon: <Cpu size={16} /> },
             { label: 'EDriveST', href: '/docs/Motion/EDriveST/intro', icon: <Cpu size={16} /> },
             { label: 'EDriveSRV', href: '/docs/Motion/EDriveSRV/intro', icon: <Cpu size={16} /> },
-            { label: 'Emotion', href: '/docs/Motion/Emotion/intro', icon: <Cpu size={16} /> },
+            { label: 'EMotion', href: '/docs/Motion/EMotion/intro', icon: <Cpu size={16} /> },
         ],
     },
     {
@@ -59,7 +60,7 @@ const cards: CardData[] = [
         icon: <Server size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.instrumentation.links.intro' }), href: '/docs/instrumentation-starter-guide', icon: <Server size={16} /> },
-            { label: 'gStack-RIO', href: 'docs/Instrumentation/intro', icon: <Server size={16} /> },
+            { label: 'gStack-RIO', href: '/docs/Instrumentation/intro', icon: <Server size={16} /> },
         ],
     },
     {
@@ -70,6 +71,7 @@ const cards: CardData[] = [
             { label: translate({ message: '入門指南', id: 'homepage.bento.embedded.links.intro' }), href: '/docs/embedded-starter-guide', icon: <Microchip size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Microchip size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <Microchip size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.embedded.links.faq' }), href: '/docs/embedded-starter-guide#faq', icon: <Microchip size={16} /> },
         ],
     },
     {
@@ -78,6 +80,20 @@ const cards: CardData[] = [
         icon: <Signal size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.signal-conditioner.links.intro' }), href: '/docs/signal-conditioner-starter-guide', icon: <Signal size={16} /> },
+            { label: '1ch Current Sense Amplifier', href: '/docs/signal_condition/WPC_1ch_Current_Sense_Amplifier', icon: <Signal size={16} /> },
+            { label: '1ch Low Power Current Source', href: '/docs/signal_condition/WPC_1ch_LPCS', icon: <Signal size={16} /> },
+            { label: '2ch Current-to-Voltage (Differential)', href: '/docs/signal_condition/2ch_current_to_voltage_Diff', icon: <Signal size={16} /> },
+            { label: '2ch Current-to-Voltage (SingleEnded)', href: '/docs/signal_condition/2ch_current_to_voltage_SE', icon: <Signal size={16} /> },
+            { label: '8ch Current-to-Voltage (Differential)', href: '/docs/signal_condition/8ch_current_to_voltage_Diff', icon: <Signal size={16} /> },
+            { label: '8ch Current-to-Voltage (SingleEnded)', href: '/docs/signal_condition/8ch_current_to_voltage_SE', icon: <Signal size={16} /> },
+            { label: '1ch Programmable Gain Amplifier', href: '/docs/signal_condition/WPC_1ch_PGA', icon: <Signal size={16} /> },
+            { label: '8ch High Common Mode Voltage Amplifier', href: '/docs/signal_condition/WPC_8ch_HCMV', icon: <Signal size={16} /> },
+            { label: '1ch Low Pass Filter (LPF-150)', href: '/docs/signal_condition/WPC_Low_Pass_Filter', icon: <Signal size={16} /> },
+            { label: '16ch Voltage Attenuator', href: '/docs/signal_condition/WPC_16ch_Voltage_Attenuator', icon: <Signal size={16} /> },
+            { label: '1ch Load Cell Amplifier', href: '/docs/signal_condition/WPC_Load_Cell_Amplifier', icon: <Signal size={16} /> },
+            { label: '1ch Strain Gauge Amplifier', href: '/docs/signal_condition/WPC_Strain_Gauge_Amplifier', icon: <Signal size={16} /> },
+            { label: '1ch LVDT Signal Conditioner', href: '/docs/signal_condition/WPC_LVDT_Signal_Conditioner', icon: <Signal size={16} /> },
+            { label: '3-Phase Voltage Isolator', href: '/docs/signal_condition/Phase_Voltage_Isolator', icon: <Signal size={16} /> },
         ],
     },
     {
@@ -89,6 +105,7 @@ const cards: CardData[] = [
             { label: 'GECO Manager', href: '/docs/software/geco-manager/intro', icon: <TerminalSquare size={16} /> },
             { label: 'gStackRIO Manager', href: '/docs/software/gstack-rio-manager/intro', icon: <TerminalSquare size={16} /> },
             { label: 'Stand-Alone Editor', href: '/docs/software/wpc-stand-alone-editor/intro', icon: <TerminalSquare size={16} /> },
+            { label: translate({ message: '常見問題', id: 'homepage.bento.software.links.faq' }), href: '/docs/wdm-faq', icon: <TerminalSquare size={16} /> },
         ],
     },
     {
@@ -96,7 +113,10 @@ const cards: CardData[] = [
         description: translate({ message: 'WPC 產品的驅動程式。', id: 'homepage.bento.driver.description' }),
         icon: <TerminalSquare size={20} />,
         links: [
-            { label: 'LabVIEW Driver', href: '/docs/driver/wpc-device-driver/intro', icon: <TerminalSquare size={16} /> },
+            { label: 'WPC Device Driver', href: '/docs/category/wpc-device-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'GECO Driver', href: '/docs/category/geco-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'gStackRIO Driver', href: '/docs/category/gstack-rio-driver', icon: <TerminalSquare size={16} /> },
+            { label: 'WPC Drone Driver', href: '/docs/category/wpc-drone-driver', icon: <TerminalSquare size={16} /> },
             { label: 'Python Driver', href: 'https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release', icon: <TerminalSquare size={16} /> },
             { label: 'C# Driver', href: 'https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release', icon: <TerminalSquare size={16} /> },
         ],

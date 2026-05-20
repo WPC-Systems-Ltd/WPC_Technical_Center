@@ -19,10 +19,6 @@
     "message": "WIFI-DAQ",
     "description": "The label of footer link with label=WIFI-DAQ linking to /docs/daq/wifidaq/product-general"
   },
-  "copyright": {
-    "message": "Copyright © 2022-2026 WPC Systems Ltd.",
-    "description": "The footer copyright"
-  },
   "link.item.label.星協科技有限公司 (WPC Systems Ltd.)": {
     "message": "WPC Systems Ltd.",
     "description": "The label of footer link with label=星協科技有限公司 (WPC Systems Ltd.) linking to https://www.wpc.com.tw"

@@ -1,6 +1,6 @@
 {
-    "label": "Ethan 產品型號",
-    "position": 1,
+    "label": "以型號分類",
+    "position": 4,
     "key": "ethan-products",
     "link": {
         "type": "generated-index",

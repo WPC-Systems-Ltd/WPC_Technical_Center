@@ -1,6 +1,6 @@
 ---
-title: 產品規格書
-sidebar_position: 2
+title: 規格總覽
+sidebar_position: 3
 description: 完整技術參數：電源需求、AI/AO/DI/DO 規格、熱電偶/RTD、繼電器等詳細電氣特性
 ---
 

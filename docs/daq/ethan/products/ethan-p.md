@@ -20,7 +20,7 @@ Ethan-P 提供 **4 通道 10-bit 數位電位器**，阻值範圍 **300Ω ~ 50k�
 3. 4 通道可變數位電位器 & 10-bit 解析度
 4. 輸出範圍: 300Ω 至 50kΩ
 5. 最大更新率: 500Hz
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### 腳位定義
 

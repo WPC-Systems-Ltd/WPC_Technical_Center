@@ -79,7 +79,7 @@ The following table corresponds to the numbers in the figure above and describes
 
 ---
 
-## LED Indicator Status
+## LED Indicator Status {#led-status}
 
 ### LED1: System Status
 

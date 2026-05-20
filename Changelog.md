@@ -1,6 +1,43 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.19 Date: 2026/05/18, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated the Drone Starter Guide.
+- Fixed the home page active class.
+- Fixed the broken links in Drone Starter Guide.
+- Fixed the broken links in Signal Conditioner Starter Guide.
+
+v0.0.18 Date: 2026/05/11, Developer: Hok
+---------------------------------------------------
+### Changed
+- Ethan product series:
+  - Add product series name and product type in the table.
+
+v0.0.17 Date: 2026/05/08, Developer: Hok
+---------------------------------------------------
+### Changed
+- EthernetDAQ, WiFiDA Q, USBDAQ Specifications for each model are listed in the table.
+- Fixed issue: USB-DAQ-RD "4" 通道 -> "2" 通道
+- Fixed issue: USB-DAQ-TC "4" 通道 -> "2" 通道
+
+v0.0.16 Date: 2026/05/04, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated product images and related information.
+- Changed naming:
+  - Ethernet-DAQ 使用說明書 → Ethernet-DAQ (Ethan) 使用說明書
+  - 產品規格書 → 規格總覽
+  - Ethan 產品型號 → 以型號分類
+  - 外觀及 LED 狀態 → 基本操作(外觀及 LED 狀態)
+- Restructured the order: common features first, then detailed model introductions.
+- Fixed the deployment issue.
+- Changed the default theme to light mode.
+- Added FAQ sections to DAQ, Embedded Systems, and Software Tools on the homepage.
+- Added WPC Device Driver, geco driver, gstackRIO Driver, and WPC Drone Driver to the Drivers section.
+- EthernetDAQ, USBDAQ, Specifications for each model are listed in the table.
+
 v0.0.15 Date: 2026/03/27, Developer: Hok
 ---------------------------------------------------
 ### Fixed

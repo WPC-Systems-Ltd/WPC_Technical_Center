@@ -6,7 +6,7 @@ slug: /motion-starter-guide
 displayed_sidebar: motionSidebar
 ---
 
-import { Rocket, Cpu, Code, HelpCircle, Zap, Settings } from 'lucide-react';
+import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>Welcome to WPC Motion Solutions</h1>
@@ -70,7 +70,7 @@ import { Rocket, Cpu, Code, HelpCircle, Zap, Settings } from 'lucide-react';
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver
 
 | Programming Language | Download Link |
 | :------------------- | :------------------------------------------------------------------------------------ |

@@ -21,7 +21,7 @@ Ethan-EX-D provides expanded digital I/O capabilities, including **16-channel DI
 4. Digital Input (DI): 16-channel NPN, 24V opto-isolated
 5. 2-channel PWM output
 6. 2-channel counter input
-7. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](https://www.wpc.com.tw)
+7. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 

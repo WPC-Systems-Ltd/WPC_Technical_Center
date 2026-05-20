@@ -5,7 +5,7 @@ sidebar_position: 1
 slug: /instrumentation-starter-guide
 ---
 
-import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
+import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>歡迎探索 WPC 儀器設備</h1>
@@ -57,12 +57,12 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, Re
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的儀器設備
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/Instrumentation/intro" className="theme-doc-card gs-card">
+  <a href="/docs/Instrumentation/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO 系列</h2>
     <p>**分散式、高密度 I/O 解決方案**</p>
     <p>機箱式設計，支援 1 個控制器與 8 個功能模組，提供靈活的抽換式卡片介面與穩定的工業級控制環境。</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Instrumentation/modules" className="theme-doc-card gs-card">
+  <a href="/docs/Instrumentation/modules" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layout size={24} color="var(--brand-electric-blue)"/> I/O 模組卡片</h2>
     <p>**多樣化的功能擴充選擇**</p>
     <p>涵蓋電壓/電流擷取、類比輸出、數位 I/O、Relay 切換及多種工業通訊協定 (CAN FD, RS232/485/422)。</p>
@@ -70,7 +70,7 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, Re
 </div>
 
 :::tip[需要更多建議？]
-如果您不確定哪種模組最符合您的應用，請參考 **[產品介紹](/WPC_Technical_Center/docs/Instrumentation/intro)** 以了解詳細的機箱架構與控制器配置。
+如果您不確定哪種模組最符合您的應用，請參考 **[產品介紹](/docs/Instrumentation/intro)** 以了解詳細的機箱架構與控制器配置。
 :::
 
 ---
@@ -111,15 +111,15 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, Re
 </div>
 
 :::note[下載與安裝]
-請前往 **[gStack-RIO Manager 簡介與安裝](/WPC_Technical_Center/docs/software/gstack-rio-manager/intro)** 頁面，下載管理軟體並確認必要的 LabVIEW Run-time 與 NI VISA 驅動環境。
+請前往 **[gStack-RIO Manager 簡介與安裝](/docs/software/gstack-rio-manager/intro)** 頁面，下載管理軟體並確認必要的 LabVIEW Run-time 與 NI VISA 驅動環境。
 :::
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式與軟體開發
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式與軟體開發
 
 gStack-RIO 深度整合 LabVIEW 環境，讓工程師能發揮最佳的系統效能。
 
 | 開發環境 | 特色簡介 | 詳細教學連結 |
 | :------- | :------- | :----------- |
-| **LabVIEW** | 提供豐富的 VIs 與 Demo 範例，支援 PC Remote 控制模式。 | [LabVIEW 入門](/WPC_Technical_Center/docs/driver/gstack-rio-driver/intro) |
+| **LabVIEW** | 提供豐富的 VIs 與 Demo 範例，支援 PC Remote 控制模式。 | [LabVIEW 入門](/docs/driver/gstack-rio-driver/intro) |

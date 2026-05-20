@@ -20,7 +20,7 @@ Ethan-A is an industrial-grade Ethernet data acquisition card, providing **8-cha
 3. Analog Input (AI): 8-channel synchronous sampling & 16-bit single-ended resolution
 4. Maximum sampling rate: 20kHz
 5. Input range: Â±10V
-6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](https://www.wpc.com.tw)
+6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 
@@ -28,3 +28,20 @@ Ethan-A is an industrial-grade Ethernet data acquisition card, providing **8-cha
 
 <div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA_pinout.png').default} alt="Ethan-A Pinout" width="60%" /></div>
 
+### Ethan-A Detailed Specifications
+
+---
+
+| Parameter                        | Test Conditions/Notes      | Min.   | Typical| Max.   | Unit |
+| :------------------------------- | :------------------------- | :----- | :----- | :----- | :--- |
+| Number of Channel                |                            |        | 8      |        | ch   |
+| Input High Voltage               |                            | 9.7    | 10     | 10.3   | V    |
+| Input Low Voltage                |                            | -9.7   | -10    | -10.3  | V    |
+| Resolution                       |                            |        | 16     |        | bit  |
+| Sampling Rate                    | 8 channels continuous mode |        |        | 20k    | Hz   |
+| Input Impedance                  |                            |        | 1M     |        | Ω    |
+| Bandwidth                        |                            |        | 100k   |        | Hz   |
+| Signal-to-Noise Ratio (SNR)      |                            |        | 95.5   |        | dB   |
+| Third Harmonic Distortion (THD)  |                            |        | -107   |        | dB   |
+| Integral Nonlinearity (INL)      |                            |        | ±0.5   |        | LSB  |
+| Differential Nonlinearity (DNL)  |                            |        | ±0.5   |        | LSB  |

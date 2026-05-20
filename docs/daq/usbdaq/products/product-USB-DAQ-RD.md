@@ -3,7 +3,7 @@ title: USB-DAQ-RD
 sidebar_position: 6
 ---
 
-USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-bit** 解析度，溫度解析度達 **0.03125°C**，總準確度 **0.05%**，適用於高精度溫度監控。
+USB-DAQ-RD 支援 **2 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-bit** 解析度，溫度解析度達 **0.03125°C**，總準確度 **0.05%**，適用於高精度溫度監控。
 
 # USB-DAQ-RD
 
@@ -15,7 +15,7 @@ USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 3. 支援 I2C/SPI/UART/PWM/計數器
 4. 2 通道 RTD 輸入
 5. 支援 PT-100 或 PT-1000
-6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](https://www.wpc.com.tw)
+6. 支援 [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), 以及 [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### 腳位圖
 ---
@@ -42,3 +42,57 @@ USB-DAQ-RD 支援 **4 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 <div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_4wire.png" alt="RTD 四線式接法" width="30%" /></div>
 
 ---
+
+### 產品規格
+
+---
+
+#### 數位輸入
+
+---
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| 輸入高電位電壓   |                    |   3    |   5    |  5.5   |  V   |
+| 輸入低電位電壓   |                    |  -0.5  |   0    |  0.5   |  V   |
+| 輸入阻抗         |                    |  50k   |        |        |  Ω   |
+
+#### 數位輸出
+
+---
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| 輸出高電位電壓   |                    |  3.1   |  3.3   |  3.5   |  V   |
+| 輸出低電位電壓   |                    |  -0.5  |   0    |  0.5   |  V   |
+| 輸出電流 (Source)|                    |        |        |   10   |  mA  |
+| 輸出電流 (Sink)  |                    |        |        |  -10   |  mA  |
+
+#### RTD 輸入
+
+---
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| ADC 解析度       |                    |        |   15   |        | bit  |
+| ADC 全刻度誤差   |                    |        |   ±1   |        | LSB  |
+| ADC 積分非線性   |                    |        |   ±1   |        | LSB  |
+| ADC 偏移誤差     |                    |   -3   |        |   3    | LSB  |
+| 額定溫度解析度   | 因 RTD 非線性而異  |        |0.03125 |        |  °C  |
+| 總準確度 (FS)    |                    |        | 0.05%  |        |  %   |
+| ADC 轉換時間     | 視轉換模式而定     |        |   20   |   66   |  ms  |
+| 輸入電壓保護     |                    |        |  ±45   |        |  V   |
+| 偏壓輸出電流     |                    |  0.2   |        |  5.75  |  mA  |
+| 共模抑制比       |                    |        |   90   |        |  dB  |
+| 50/60Hz 雜訊抑制 | 基頻與諧波         |        |   82   |        |  dB  |
+
+#### 通訊介面
+
+---
+
+| 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |
+| :--------------- | :----------------- | :----: | :----: | :----: | :--: |
+| UART 鮑率 (Baud Rate) |               |        |        | 460.8k | bps  |
+| SPI-1 傳輸率     |                    |        |        |  36M   |  Hz  |
+| SPI-2 傳輸率     |                    |        |        |  18M   |  Hz  |
+| I2C 傳輸率       |                    |        |        |  400k  |  Hz  |

@@ -1,6 +1,6 @@
 ---
 title: Product Specifications
-sidebar_position: 4
+sidebar_position: 5
 description: "Full technical parameters: Power requirements, DI/DO characteristics, AI/AO precision, Thermocouple/RTD specs, communication interface rates"
 ---
 

@@ -63,12 +63,12 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 </div>
 
 :::tip[需要高速資料擷取？]
-如果您主要的需求是高頻寬、高精度的量測而非邊緣控制，請參考我們的 **[資料擷取入門指南](/docs/daq-intro)**。
+如果您主要的需求是高頻寬、高精度的量測而非邊緣控制，請參考我們的 **[資料擷取入門指南](/docs/daq-starter-guide)**。
 :::
 
 ---
 
-## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ) {#faq}
 
 <div className="gs-card-grid">
   <a href="/WPC_Technical_Center/docs/pyco-faq" className="theme-doc-card gs-card">

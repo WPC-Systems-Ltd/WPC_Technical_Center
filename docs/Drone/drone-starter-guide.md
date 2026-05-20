@@ -5,7 +5,7 @@ sidebar_position: 1
 slug: /drone-starter-guide
 ---
 
-import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code } from 'lucide-react';
+import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, FileCode } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>歡迎探索 WPC 無人機</h1>
@@ -33,14 +33,14 @@ import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code }
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
       <h3>硬體確認與架構解析</h3>
-      <p>若您的專案需要結合 AI 邊緣運算或客製化感測器，請在掛載設備前先詳閱 [WPC Drone User Guide](/WPC_Technical_Center/docs/Drone/appendix) 中的附錄說明，這能幫您釐清系統架構。</p>
+      <p>若您的專案需要結合 AI 邊緣運算或客製化感測器，請在掛載設備前先詳閱 [WPC Drone User Guide](/docs/Drone/appendix) 中的附錄說明，這能幫您釐清系統架構。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
       <h3>標準飛行操作程序</h3>
-      <p>在進行實際飛行前，請務必詳閱 [標準飛行操作程序](/WPC_Technical_Center/docs/Drone/takeoff-guide)，以確保飛行安全。</p>
+      <p>在進行實際飛行前，請務必詳閱 [標準飛行操作程序](/docs/Drone/takeoff-guide)，以確保飛行安全。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
@@ -57,7 +57,7 @@ import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code }
 ## <PlaneTakeoff size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 核心教學資源
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/Drone/intro" className="theme-doc-card gs-card">
+  <a href="WPC_Technical_Center/docs/Drone/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> 無人機介紹</h2>
     <p>**深入了解核心技術特色**</p>
     <p>介紹 WPC 在無人機領域的技術優勢、專業服務與支援。</p>
@@ -91,13 +91,13 @@ import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, Code }
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式支援一覽表
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 驅動程式支援一覽表
 
 WPC 提供多種程式語言的硬體驅動程式，讓使用者能夠快速整合 WPC 硬體裝置，開發自己的應用程式。您可以點擊下方語言連結前往詳細教學：
 
 | 程式語言 | 特色簡介 | 詳細教學連結 |
 | :------- | :------- | :----------- |
-| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。| [LabVIEW 入門](/docs/driver/driver_intro) |
+| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。| [LabVIEW 入門](/docs/driver/wpc-drone-driver/intro) |
 | **Python** | 開源且易於使用的 API，具備一致的介面與豐富範例，適合各階層開發者快速上手。 | [Python 入門](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
 
 ---

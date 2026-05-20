@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appearance and LED Status
 sidebar_position: 4
 description: Hardware interface description (Power, Network, Buttons, OLED) and LED indicator diagnosis (System/Network status interpretation)
@@ -25,7 +25,7 @@ The following table corresponds to the numbers in the figure above, describing t
 
 ---
 
-## LED Indicator Status
+## LED Indicator Status {#led-status}
 
 ### LED1: System Status
 

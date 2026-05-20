@@ -20,7 +20,7 @@ Ethan-P provides **4-channel 10-bit digital potentiometers** with a resistance r
 3. 4-channel variable digital potentiometers & 10-bit resolution
 4. Output range: 300Î© to 50kÎ©
 5. Maximum update rate: 500Hz
-6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](https://www.wpc.com.tw)
+6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 

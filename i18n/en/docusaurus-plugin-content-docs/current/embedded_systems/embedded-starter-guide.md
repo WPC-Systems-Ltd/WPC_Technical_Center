@@ -64,12 +64,12 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 </div>
 
 :::tip[Need High-Speed DAQ?]
-If your primary need is high-bandwidth, high-precision measurement rather than edge control, please refer to our **[DAQ Getting Started Guide](/docs/daq-intro)**.
+If your primary need is high-bandwidth, high-precision measurement rather than edge control, please refer to our **[DAQ Getting Started Guide](/docs/daq-starter-guide)**.
 :::
 
 ---
 
-## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ)
+## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ) {#faq}
 
 <div className="gs-card-grid">
   <a href="/WPC_Technical_Center/docs/pyco-faq" className="theme-doc-card gs-card">

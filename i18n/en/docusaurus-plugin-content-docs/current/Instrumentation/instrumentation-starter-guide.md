@@ -5,7 +5,7 @@ sidebar_position: 1
 slug: /instrumentation-starter-guide
 ---
 
-import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
+import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
   <h1>Welcome to Explore WPC Instrumentation</h1>
@@ -57,12 +57,12 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, Re
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Instrumentation Equipment
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/Instrumentation/intro" className="theme-doc-card gs-card">
+  <a href="/docs/Instrumentation/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO Series</h2>
     <p>**Distributed, High-Density I/O Solution**</p>
     <p>Chassis design supporting 1 controller and 8 functional modules, providing a flexible swappable card interface and a stable industrial-grade control environment.</p>
   </a>
-  <a href="/WPC_Technical_Center/docs/Instrumentation/modules" className="theme-doc-card gs-card">
+  <a href="/docs/Instrumentation/modules" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layout size={24} color="var(--brand-electric-blue)"/> I/O Module Cards</h2>
     <p>**Diverse Functional Expansion Options**</p>
     <p>Covers voltage/current acquisition, analog output, digital I/O, relay switching, and various industrial communication protocols (CAN FD, RS232/485/422).</p>
@@ -70,7 +70,7 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi, Settings2, Search, Zap, Re
 </div>
 
 :::tip[Need more advice?]
-If you are unsure which module best fits your application, please refer to the **[Product Introduction](/WPC_Technical_Center/docs/Instrumentation/intro)** to learn about detailed chassis architecture and controller configurations.
+If you are unsure which module best fits your application, please refer to the **[Product Introduction](/docs/Instrumentation/intro)** to learn about detailed chassis architecture and controller configurations.
 :::
 
 ---
@@ -111,15 +111,15 @@ If you are unsure which module best fits your application, please refer to the *
 </div>
 
 :::note[Download and Installation]
-Please go to the **[gStack-RIO Manager Introduction and Installation](/WPC_Technical_Center/docs/software/gstack-rio-manager/intro)** page to download the management software and confirm the necessary LabVIEW Run-time and NI VISA driver environment.
+Please go to the **[gStack-RIO Manager Introduction and Installation](/docs/software/gstack-rio-manager/intro)** page to download the management software and confirm the necessary LabVIEW Run-time and NI VISA driver environment.
 :::
 
 ---
 
-## <Code size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver and Software Development
+## <FileCode size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Driver and Software Development
 
 gStack-RIO is deeply integrated with the LabVIEW environment, allowing engineers to achieve optimal system performance.
 
 | Development Environment | Feature Summary | Detailed Tutorial Link |
 | :---------------------- | :-------------- | :--------------------- |
-| **LabVIEW** | Provides rich VIs and demo examples, supporting PC Remote control mode. | [LabVIEW Getting Started](/WPC_Technical_Center/docs/driver/gstack-rio-driver/intro) |
+| **LabVIEW** | Provides rich VIs and demo examples, supporting PC Remote control mode. | [LabVIEW Getting Started](/docs/driver/gstack-rio-driver/intro) |
