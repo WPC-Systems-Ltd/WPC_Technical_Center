@@ -1,14 +1,15 @@
 ---
 sidebar_position: 18
 sidebar_label: 'Step Drive'
+description: "The WPC-EDrive-ST is a single-axis stepper motor integrated driver with a network interface. Through the Step Drive panel, you can set the driver current, re..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Step Drive
 
 The **WPC-EDrive-ST** is a single-axis stepper motor integrated driver with a network interface. Through the Step Drive panel, you can set the driver current, resolution, perform motion tests, and vibration suppression functions.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_edrive_connect.png').default} alt="WDM_testPanel_edrive_connect" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_edrive_connect.webp').default} alt="WDM_testPanel_edrive_connect" width="60%" />
 </div>
 
 ## Driver Setup
@@ -16,7 +17,7 @@ The **WPC-EDrive-ST** is a single-axis stepper motor integrated driver with a ne
 Set the stepper motor's running current (Run Current), holding current (Hold Current), and microstepping resolution (Microstepping).
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_driver_setup.png').default} alt="WDM_testPanel_driver_setup" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_driver_setup.webp').default} alt="WDM_testPanel_driver_setup" width="60%" />
 </div>
 
 ### 1. Current Setting Description
@@ -79,7 +80,7 @@ Stepper motors are prone to resonance and vibration when running at low speeds. 
 Set a safe back-and-forth movement interval.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration.png').default} alt="WDM_testPanel_anti_vibration" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration.webp').default} alt="WDM_testPanel_anti_vibration" width="60%" />
 </div>
 
 1. Press **Servo on** to excite.
@@ -89,7 +90,7 @@ Set a safe back-and-forth movement interval.
 ### Step 2. Adjust Anti-Vibration Parameters
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration2.png').default} alt="WDM_testPanel_anti_vibration2" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration2.webp').default} alt="WDM_testPanel_anti_vibration2" width="60%" />
 </div>
 
 1. Turn on **Enable** to enable the anti-vibration function.
@@ -103,5 +104,5 @@ Set a safe back-and-forth movement interval.
 EDrive-ST supports configuration file export and import functions, which are convenient for quickly copying parameters to other machines or for backup.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_file_configure.png').default} alt="WDM_testPanel_file_configure" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_file_configure.webp').default} alt="WDM_testPanel_file_configure" width="60%" />
 </div>

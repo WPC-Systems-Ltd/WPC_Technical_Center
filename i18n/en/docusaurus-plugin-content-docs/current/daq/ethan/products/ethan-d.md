@@ -1,15 +1,16 @@
 ---
 title: Ethan-D
 sidebar_position: 3
+description: "Ethan-D integrates 8-channel digital input (DI) and 6-channel relay output (NPN drive), while providing 2-channel PWM output, suitable for industrial automat..."
+keywords: [EthanD, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 Ethan-D integrates **8-channel digital input** (DI) and **6-channel relay output** (NPN drive), while providing **2-channel PWM output**, suitable for industrial automation control and digital signal processing.
 
 ### Product Appearance
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD.png').default} alt="Ethan-D Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD.webp').default} alt="Ethan-D Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,7 +27,7 @@ Ethan-D integrates **8-channel digital input** (DI) and **6-channel relay output
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD_pinout.png').default} alt="Ethan-D Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanD_pinout.webp').default} alt="Ethan-D Pinout" width="60%" /></div>
 
 ### Ethan-D Detailed Specifications
 

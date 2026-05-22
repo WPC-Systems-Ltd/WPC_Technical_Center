@@ -9,7 +9,7 @@ description: Common photoelectric limit switch wiring principles and safety reco
 This chapter uses industry-standard photoelectric switches (such as OMRON EE-SX67x series) as an example to explain the wiring modes and safety configuration recommendations for limit switches.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/limit_switch_connection.png').default} alt="Omron EE-SX67x Series" width="60%" />
+  <img src={require('@site/static/img/daq/stem/limit_switch_connection.webp').default} alt="Omron EE-SX67x Series" width="60%" />
 </div>
 
 ## 1. Wiring Mode Description
@@ -36,7 +36,7 @@ In industrial automation applications, it is **strongly recommended to use Dark-
 This mode constitutes a **"Fail-Safe"** mechanism.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/suggest_connection.png').default} alt="Wiring Configuration" width="60%" />
+  <img src={require('@site/static/img/daq/stem/suggest_connection.webp').default} alt="Wiring Configuration" width="60%" />
 </div>
 
 ### Recommended Safety Configuration

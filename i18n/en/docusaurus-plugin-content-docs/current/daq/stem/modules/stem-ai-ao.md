@@ -32,6 +32,6 @@ This module provides 24-channel analog input and 8-channel analog output functio
 ## Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_module_AIO.png').default} alt="AI/AO Module Pinout" width="50%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_AIO.webp').default} alt="AI/AO Module Pinout" width="50%" />
 </div>
 

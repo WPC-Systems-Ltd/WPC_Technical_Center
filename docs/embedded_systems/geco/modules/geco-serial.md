@@ -2,8 +2,8 @@
 sidebar_position: 12
 sidebar_label: 'RS-232 / 422 / 485'
 description: 序列通訊模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # RS-232 / 422 / 485 模組
 
 本模組提供多通道序列通訊介面，支援 RS-232、RS-422 與 RS-485 標準，並具備通道間隔離功能。
@@ -20,11 +20,11 @@ description: 序列通訊模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232.png" alt="geco_module_RS232" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232.webp" alt="geco_module_RS232" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232_pinout.png" alt="geco_module_RS232_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_RS232_pinout.webp" alt="geco_module_RS232_pinout" width="60%" />
 </div>

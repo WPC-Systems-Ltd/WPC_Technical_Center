@@ -3,8 +3,9 @@ title: Drone Getting Started
 sidebar_label: Drone Getting Started
 sidebar_position: 1
 slug: /drone-starter-guide
+description: "Explore WPC Drone Solutions The drone in your hands is a professional flight platform designed and manufactured entirely in Taiwan (MIT). It is equipped with..."
+keywords: [Drone Getting Started, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, FileCode } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

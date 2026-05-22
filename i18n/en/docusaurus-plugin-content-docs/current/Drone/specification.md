@@ -1,9 +1,9 @@
 ---
 title: Product Specifications
 sidebar_position: 5
+description: "| Item | Specification | | :------------------------ | :-------------------- | | Drone Size (Wheelbase) | 550mm | | Total Length | 75cm | | Total Height | 26..."
+keywords: [Product Specifications, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
-
 ## Product Specifications
 
 | Item                      | Specification         |

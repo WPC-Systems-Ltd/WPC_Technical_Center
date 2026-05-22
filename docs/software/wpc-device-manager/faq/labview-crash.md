@@ -3,8 +3,8 @@ title: WDM 閃退
 sidebar_label: WDM 閃退
 sidebar_position: 2
 description: "解決因顯卡驅動或節能設定導致的 WDM 閃退問題"
+keywords: [WDM 閃退, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 問題描述
 
 在特定電腦環境下，執行包含 **3D Picture Control** 元件的 LabVIEW 應用程式（或編譯後的 EXE）時，可能會發生以下異常：

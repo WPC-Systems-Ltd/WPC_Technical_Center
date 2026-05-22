@@ -1,15 +1,16 @@
 ---
 title: Ethan-O
 sidebar_position: 8
+description: "Ethan-O 提供 8 通道 16-bit 類比輸出（±10V），更新率達 1kHz，支援任意波形產生功能，適用於訊號模擬與控制應用。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 類比輸出 (AO): 8 通道同步輸出 & 16-bit..."
+keywords: [EthanO, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-O 提供 **8 通道 16-bit 類比輸出**（±10V），更新率達 **1kHz**，支援**任意波形產生**功能，適用於訊號模擬與控制應用。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO.png" alt="Ethan-O 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO.webp" alt="Ethan-O 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -27,7 +28,7 @@ Ethan-O 提供 **8 通道 16-bit 類比輸出**（±10V），更新率達 **1kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO_pinout.png" alt="Ethan-O 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanO_pinout.webp" alt="Ethan-O 腳位圖" width="60%" /></div>
 
 ### Ethan-O 詳細規格
 

@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-CD
 sidebar_position: 7
+description: "USB-DAQ-CD 提供 CAN 2.0A/B 通訊介面，支援最高 1Mbps 傳輸速率，整合 20 通道數位 I/O，適用於車載網路、工業自動化與設備間通訊應用。 --- 1. USB 2.0 全速匯流排供電 2. 20 通道 3.3V 數位 I/O (可承受 5V 輸入) 3. 支援 I..."
+keywords: [USBDAQCD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-CD 提供 **CAN 2.0A/B 通訊介面**，支援最高 **1Mbps** 傳輸速率，整合 **20 通道數位 I/O**，適用於車載網路、工業自動化與設備間通訊應用。
 
 # USB-DAQ-CD
@@ -19,14 +20,14 @@ USB-DAQ-CD 提供 **CAN 2.0A/B 通訊介面**，支援最高 **1Mbps** 傳輸速
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_pinout.png" alt="USB-DAQ-CD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_pinout.webp" alt="USB-DAQ-CD 腳位圖" width="60%" /></div>
 
 ### CAN Bus 接線說明
 ---
 
 CAN bus 的接線非常簡單，只需將 CAN_H 和 CAN_L 訊號並接到 CAN 網路即可。USB-DAQ-CD 的 Pin35, 36 提供了 120 歐姆的內部終端電阻（Termination resistor）功能。如果需要使用終端電阻，只需將 Pin35, 36 兩個接點短路即可。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_CANbud_wiring.png" alt="CAN Bus 接線圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQCD_CANbud_wiring.webp" alt="CAN Bus 接線圖" width="60%" /></div>
 
 ### 產品規格
 

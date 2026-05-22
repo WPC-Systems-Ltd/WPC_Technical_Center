@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-D-SNK
 sidebar_position: 4
+description: "USB-DAQ-D-SNK provides industrial-grade 24V isolated digital I/O (8 DI + 8 DO), featuring 2.5kV opto-isolation protection and a rated output current of up to..."
+keywords: [USBDAQDSNK, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 USB-DAQ-D-SNK provides industrial-grade **24V isolated digital I/O** (8 DI + 8 DO), featuring **2.5kV opto-isolation** protection and a rated output current of up to **300mA** (NPN sinking), specifically designed for harsh industrial environments.
 
 # USB-DAQ-D-SNK
@@ -22,7 +23,7 @@ USB-DAQ-D-SNK provides industrial-grade **24V isolated digital I/O** (8 DI + 8 D
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_pinout.png').default} alt="USB-DAQ-D-SNK Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_pinout.webp').default} alt="USB-DAQ-D-SNK Pinout" width="60%" /></div>
 
 ### DAQ Wiring Instructions
 ---
@@ -33,11 +34,11 @@ USB-DAQ-D-SNK is a sinking output, sourcing input module, also known as NPN type
 
 > The following is the DO equivalent circuit diagram. When DO outputs, the output pin is connected to 0V; the load side requires common anode 24V.
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_DO_wiring.png').default} alt="DO Wiring" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_DO_wiring.webp').default} alt="DO Wiring" width="60%" /></div>
 
 > The following is the DI equivalent circuit diagram. All DI channels are internally common anode to 24V. Therefore, if the DI input pin is connected to 0V, a TRUE value can be read from that DI pin. DI pins can also be tested via DO pin loop-back.
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_DI_wiring.png').default} alt="DI Wiring" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQDSNK_DI_wiring.webp').default} alt="DI Wiring" width="60%" /></div>
 
 ### Product Specifications
 

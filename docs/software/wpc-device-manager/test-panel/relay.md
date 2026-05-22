@@ -1,14 +1,15 @@
 ---
 sidebar_position: 15
 sidebar_label: 'Relay'
+description: "Relay (繼電器) 面板提供使用者控制裝置上的繼電器開關狀態，並可設定上電初始狀態。 | 產品名稱 | 連接埠 (Port) | | :-------------------------------------------------- | :------------ | | Ethan-..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Relay
 
 Relay (繼電器) 面板提供使用者控制裝置上的繼電器開關狀態，並可設定上電初始狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay.png" alt="WDM_testPanel_relay" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay.webp" alt="WDM_testPanel_relay" width="60%" />
 </div>
 
 ## 支援產品與連接埠
@@ -30,7 +31,7 @@ Relay (繼電器) 面板提供使用者控制裝置上的繼電器開關狀態�
 點擊 **Power-Up State** 按鈕，可進入詳細設定頁面：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay_powe_state.png" alt="WDM_testPanel_relay_powe_state" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_relay_powe_state.webp" alt="WDM_testPanel_relay_powe_state" width="60%" />
 </div>
 
 在此頁面中，您可以指定每個繼電器通道在裝置通電瞬間 (Power On) 應保持 **開啟 (ON)** 或 **關閉 (OFF)** 狀態。設定完成後請儲存，下次裝置重啟時將自動套用此設定。

@@ -2,8 +2,8 @@
 title: 1ch Low Pass Filter (LPF-150)
 sidebar_position: 7
 description: WPC 1ch Low Pass Filter (LPF-150) 產品簡介、特點與規格說明
+keywords: [1ch Low Pass Filter LPF150, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch Low Pass Filter (LPF-150)
 
 WPC Low Pass Filter (LPF-150) 是一個專為濾除高頻雜訊而設計的訊號處理前端模組。本產品採用主動式四階 MFB 濾波架構，能有效清除訊號中的高頻干擾，確保資料量測的準確性與穩定性。
@@ -16,7 +16,7 @@ WPC Low Pass Filter (LPF-150) 是一個專為濾除高頻雜訊而設計的訊�
 *   **精密偏移調整**：配備可調式電阻 (VR)，使用者可根據需求手動校正零點偏移 (Offset)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter.png" alt="Low_Pass_Filter" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter.webp" alt="Low_Pass_Filter" width="60%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ WPC LPF-150 提供精準的頻率過濾功能，其主要規格如下：
 以下為 WPC LPF-150 的詳細接腳與電源配置說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_pinout.png" alt="Low_Pass_Filter_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_pinout.webp" alt="Low_Pass_Filter_pinout" width="60%" />
 </div>
 
 | 接腳編號 | 功能說明                       |
@@ -65,7 +65,7 @@ WPC LPF-150 提供精準的頻率過濾功能，其主要規格如下：
 WPC LPF-150 在出廠前皆已手動完成零點校核。本模組保留了偏移調整功能，方便客戶根據特定應用場景進行微調。例如：您可以透過調整 VR，將原本介於 ±2.5V 之間的訊號平移至 0 ~ 5V 的範圍，以便直接使用僅支援 5V 單一電源範圍的資料擷取設備 (DAQ)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_offset_tuning.png" alt="Low_Pass_Filter_offset_tuning" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_offset_tuning.webp" alt="Low_Pass_Filter_offset_tuning" width="60%" />
 </div>
 
 ---
@@ -76,14 +76,14 @@ WPC LPF-150 在出廠前皆已手動完成零點校核。本模組保留了偏�
 下圖展示了 LPF-150 的頻率響應曲線，截止點精確設定於 150Hz。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_frequency_response.png" alt="Low_Pass_Filter_frequency_response" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_frequency_response.webp" alt="Low_Pass_Filter_frequency_response" width="60%" />
 </div>
 
 ### 增益/相位頻譜 (Gain/Phase Spectrum)
 這張圖表詳細描述了訊號在不同頻率下的增益與相位變化情形。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_gain_phase.png" alt="Low_Pass_Filter_gain_phase" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_gain_phase.webp" alt="Low_Pass_Filter_gain_phase" width="60%" />
 </div>
 
 ---
@@ -91,8 +91,8 @@ WPC LPF-150 在出廠前皆已手動完成零點校核。本模組保留了偏�
 ## 尺寸圖 (Dimensional Drawing)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension.png" alt="Low_Pass_Filter_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension.webp" alt="Low_Pass_Filter_dimension" width="60%" />
 </div>
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension1.png" alt="Low_Pass_Filter_dimension1" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Low_Pass_Filter_dimension1.webp" alt="Low_Pass_Filter_dimension1" width="60%" />
 </div>

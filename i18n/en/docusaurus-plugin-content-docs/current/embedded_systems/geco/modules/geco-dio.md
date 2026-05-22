@@ -2,8 +2,8 @@
 sidebar_position: 6
 sidebar_label: '12ch DI / 12ch DO'
 description: Specifications and pinout definitions for the 12ch DI / 12ch DO hybrid module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 12ch DI / 12ch DO Module
 
 This module integrates 12 channels of digital input and 12 channels of digital output, suitable for mixed-signal requirements.
@@ -21,13 +21,13 @@ This module integrates 12 channels of digital input and 12 channels of digital o
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO.png').default} alt="12ch DI / 12ch DO Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO.webp').default} alt="12ch DI / 12ch DO Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_pinout.png').default} alt="12ch DI / 12ch DO Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_pinout.webp').default} alt="12ch DI / 12ch DO Pinout" width="60%" />
 </div>
 
 ### Quick reference for GECO FPGA User
@@ -64,13 +64,13 @@ This module integrates 12 channels of digital input and 12 channels of digital o
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.png').default} alt="Sinking Output" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.webp').default} alt="Sinking Output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.png').default} alt="Sourcing Output" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.webp').default} alt="Sourcing Output" width="60%" />
 </div>
 
 :::caution

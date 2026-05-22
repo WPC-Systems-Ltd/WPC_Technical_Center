@@ -1,14 +1,15 @@
 ---
 sidebar_position: 14
 sidebar_label: 'PWM'
+description: "PWM (Pulse Width Modulation) 面板提供使用者產生脈衝寬度調變訊號的功能。您可以控制數位訊號的頻率與工作週期 (Duty Cycle)，適用於馬達控制、LED 調光等應用。 本功能支援具備 PWM 輸出功能的裝置。請依照您的裝置型號，確認對應的通道 (Channel)..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # PWM
 
 PWM (Pulse Width Modulation) 面板提供使用者產生脈衝寬度調變訊號的功能。您可以控制數位訊號的頻率與工作週期 (Duty Cycle)，適用於馬達控制、LED 調光等應用。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_pwm.png" alt="WDM_testPanel_pwm" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_pwm.webp" alt="WDM_testPanel_pwm" width="60%" />
 </div>
 
 ## 支援產品與通道

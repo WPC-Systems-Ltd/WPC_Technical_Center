@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI MINI AO
 sidebar_position: 4
+description: "PYCO WIFI MINI AO is a mini-sized Python controller focused on 8-channel analog output and 9DoF IMU attitude estimation, with built-in Wi-Fi, making it ideal..."
+keywords: [PYCO WIFI MINI AO, WPC, technical documentation, specifications]
 ---
-
 # PYCO WIFI MINI AO
 
 PYCO WIFI MINI AO is a mini-sized Python controller focused on **8-channel analog output** and **9DoF IMU attitude estimation**, with built-in **Wi-Fi**, making it ideal for lightweight signal generation and control applications.
@@ -12,7 +13,7 @@ PYCO WIFI MINI AO is a mini-sized Python controller focused on **8-channel analo
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai.png').default} alt="PYCO WIFI MINI AO Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai.webp').default} alt="PYCO WIFI MINI AO Appearance" width="60%" />
 </div>
 
 ## Key Features
@@ -32,5 +33,5 @@ PYCO WIFI MINI AO is a mini-sized Python controller focused on **8-channel analo
 **Analog I/O Connector**
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.png').default} alt="PYCO WIFI MINI AO Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.webp').default} alt="PYCO WIFI MINI AO Pinout" width="60%" />
 </div>

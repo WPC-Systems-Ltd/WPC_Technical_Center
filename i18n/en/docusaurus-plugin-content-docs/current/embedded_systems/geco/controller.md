@@ -2,8 +2,8 @@
 sidebar_position: 2
 sidebar_label: 'Controller Specifications'
 description: GECO Series Controller model comparison and detailed specifications (UNO / UNO DB9 / UNO-27)
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # GECO Controller Series
 
 GECO controllers are primarily composed of NI sbRIO, featuring a built-in 32-bit microprocessor and FPGA chips, developed using the LabVIEW Real-Time module and LabVIEW FPGA module, respectively. They can be fully developed and deployed using LabVIEW via an Ethernet interface. They can be remote-controlled by a PC or run completely independently (stand-alone).
@@ -11,7 +11,7 @@ GECO controllers are primarily composed of NI sbRIO, featuring a built-in 32-bit
 There are four slots on top for expanding with GECO modules. For example, a single controller can support up to 4 WPC motion control cards, controlling up to 16 axes simultaneously.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_controller_support.png').default} alt="geco_controller_support" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_controller_support.webp').default} alt="geco_controller_support" width="60%" />
 </div>
 
 GECO controllers are products formed by the combination of **"Carrier Boards"** and **"Core Modules"**.
@@ -27,12 +27,12 @@ GECO carrier boards provide three different physical interface designs to meet v
 The GECO UNO series is the standard controller launched by WPC, featuring the smallest size and the most economical price. It has a streamlined interface without DB9 connectors.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_uno_controller1.png').default} alt="geco_uno_controller1" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_uno_controller1.webp').default} alt="geco_uno_controller1" width="60%" />
 </div>
 
 **GECO UNO Series Layout**
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_controller_layout.png').default} alt="geco_controller_layout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_controller_layout.webp').default} alt="geco_controller_layout" width="60%" />
 </div>
 
 :::info Tip
@@ -44,12 +44,12 @@ The core module can be freely paired with **NI sbRIO-9606** (forming GECO UNO-06
 The GECO UNO DB9 series features a wider chassis, with RS-232 and CAN communication connectors (DB9 interface) added to the I/O interface compared to the GECO UNO series.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_uno_db9_controller.png').default} alt="GECO UNO DB9" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_uno_db9_controller.webp').default} alt="GECO UNO DB9" width="60%" />
 </div>
 
 **DB9 Connector Pin Definitions**
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_uno_db9_controller_pin_assignment.png').default} alt="geco_uno_db9_controller_pin_assignment" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_uno_db9_controller_pin_assignment.webp').default} alt="geco_uno_db9_controller_pin_assignment" width="60%" />
 </div>
 
 :::info Tip
@@ -61,7 +61,7 @@ The core module can also be freely paired with **NI sbRIO-9606** (forming GECO U
 GECO UNO-27 is a high-end controller launched by WPC, featuring the widest chassis. It possesses native AIO (Analog Input/Output) functionality, along with RS-232 and CAN connectors (DB9 interface).
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_uno_27_controller.png').default} alt="geco_uno_27_controller" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_uno_27_controller.webp').default} alt="geco_uno_27_controller" width="60%" />
 </div>
 
 :::info Tip
@@ -85,7 +85,7 @@ sbRIO-9606 is an embedded controller that integrates a real-time processor, reco
 *   **Interfaces**: Ethernet, CAN, USB, Serial Ports.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9606.png').default} alt="NI_sbRIO_9606" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9606.webp').default} alt="NI_sbRIO_9606" width="60%" />
 </div>
 
 ### 2.2 NI sbRIO-9607 (Advanced Dual Core)
@@ -99,7 +99,7 @@ sbRIO-9607 combines a powerful NI Linux Real-Time processor.
 *   **Interfaces**: Gigabit Ethernet, CAN, Serial, USB, 96 3.3V DIO channels.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9606.png').default} alt="sbRIO-9607" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9606.webp').default} alt="sbRIO-9607" width="60%" />
 </div>
 
 ### 2.3 NI sbRIO-9627 (Flagship Model, for UNO-27 only)
@@ -117,5 +117,5 @@ sbRIO-9627 integrates an NI Linux Real-Time processor, FPGA, and high-density I/
 *   **Interfaces**: Gigabit Ethernet, CAN, USB, Serial, SDHC ports.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9627.png').default} alt="NI_sbRIO_9627" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/NI_sbRIO_9627.webp').default} alt="NI_sbRIO_9627" width="60%" />
 </div>

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 1
 sidebar_label: 'AI'
+description: "The AI (Analog Input) panel allows users to perform analog signal measurements for voltage or current. Through this interface, you can configure acquisition..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # AI
 
 The AI (Analog Input) panel allows users to perform analog signal measurements for voltage or current. Through this interface, you can configure acquisition channels, sampling modes, and sampling rates, and view signal waveforms in real-time.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ai.png').default} alt="WDM_testPanel_ai" width="80%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ai.webp').default} alt="WDM_testPanel_ai" width="80%" />
 </div>
 
 ## Operation Flow

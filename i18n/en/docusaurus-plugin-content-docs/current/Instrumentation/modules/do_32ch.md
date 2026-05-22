@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 32ch-DO'
 description: 32-Channel Output Industrial Isolated Digital I/O Card
+keywords: [instrumentation, control systems, automated testing, WPC control]
 ---
-
 # cPCI 32ch-DO
 
 ## 1. Introduction
@@ -25,7 +25,7 @@ The cPCI 32ch-DO is a 24V industrial isolated digital I/O card with 32 output ch
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 32ch-DO Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 32ch-DO Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>

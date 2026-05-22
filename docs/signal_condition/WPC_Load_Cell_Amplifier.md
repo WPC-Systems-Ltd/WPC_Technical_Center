@@ -2,8 +2,8 @@
 title: 1ch Load Cell Amplifier
 sidebar_position: 9
 description: WPC 1ch Load Cell Amplifier (LCA) 產品簡介、特點與規格說明
+keywords: [1ch Load Cell Amplifier, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch Load Cell Amplifier
 
 WPC Load Cell Amplifier (LCA) 是一款專為荷重元量測設計的信號處理前端模組。它能將 Load Cell 輸出的微小電壓訊號（通常為 mV 等級）精確放大為標準電壓訊號，使使用者能透過一般用途的類比輸入通道進行高品質的力學量測。
@@ -16,7 +16,7 @@ WPC Load Cell Amplifier (LCA) 是一款專為荷重元量測設計的信號處�
 *   **精密零點調校**：配備可調式電阻 (VR)，方便使用者進行零點偏移 (Offset) 補償。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier.png" alt="Load_Cell_Amplifier" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier.webp" alt="Load_Cell_Amplifier" width="60%" />
 </div>
 
 ---
@@ -54,13 +54,13 @@ WPC LCA 為荷重元應用提供優異的性能表現，其主要規格如下：
 | 24V-     | 0V        | -    | 電源輸入 負極                       |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_pinout.png" alt="Load_Cell_Amplifier_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_pinout.webp" alt="Load_Cell_Amplifier_pinout" width="60%" />
 </div>
 
 ## Gain Selection
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_gain_selection.png" alt="Load_Cell_Amplifier_gain_selection" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_gain_selection.webp" alt="Load_Cell_Amplifier_gain_selection" width="60%" />
 </div>
 ---
 
@@ -70,7 +70,7 @@ WPC LCA 為荷重元應用提供優異的性能表現，其主要規格如下：
 下圖展示了 LCA 與典型荷重元的連線方式，請注意激勵電源與訊號輸入的對應關係。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_connection.png" alt="Load_Cell_Amplifier_connection" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_connection.webp" alt="Load_Cell_Amplifier_connection" width="60%" />
 </div>
 
 ### 接地與遮蔽 (Grounding & Shielding)
@@ -79,7 +79,7 @@ WPC LCA 為荷重元應用提供優異的性能表現，其主要規格如下：
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_grounding.png" alt="Load_Cell_Amplifier_grounding" width="80%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_grounding.webp" alt="Load_Cell_Amplifier_grounding" width="80%" />
 </div>
 ---
 
@@ -89,20 +89,20 @@ WPC LCA 為荷重元應用提供優異的性能表現，其主要規格如下：
 在 50ms/div 的時間軸與 10mV/div 的量程設定下，LCA 的基本噪訊約在 5~10 mV 之間。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_noise.png" alt="Load_Cell_Amplifier_noise" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_noise.webp" alt="Load_Cell_Amplifier_noise" width="60%" />
 </div>
 
 ### Correlation
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_correlation.png" alt="Load_Cell_Amplifier_correlation" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_correlation.webp" alt="Load_Cell_Amplifier_correlation" width="60%" />
 </div>
 
 ### 簡單測試 (Simple Test)
 下圖展示了放大前後的訊號對比（藍色：放大前，黃色：放大後），可觀察到 1000 倍增益的顯著放大效果。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_test.png" alt="Load_Cell_Amplifier_test" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_test.webp" alt="Load_Cell_Amplifier_test" width="60%" />
 </div>
 
 ---
@@ -110,10 +110,10 @@ WPC LCA 為荷重元應用提供優異的性能表現，其主要規格如下：
 ## 尺寸圖 (Dimensional Drawing)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension.png" alt="Load_Cell_Amplifier_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension.webp" alt="Load_Cell_Amplifier_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension1.png" alt="Load_Cell_Amplifier_dimension1" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/Load_Cell_Amplifier_dimension1.webp" alt="Load_Cell_Amplifier_dimension1" width="60%" />
 </div>
 

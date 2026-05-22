@@ -2,8 +2,8 @@
 title: 用 WIFI 和 myRIO 連線
 sidebar_position: 6
 description: 設定 myRIO 無線網路連線的兩種模式指南
+keywords: [用 WIFI 和 myRIO 連線, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 # 用 WIFI 和 myRIO 連線
 
 您可以透過 **NI MAX** 設定 myRIO 的無線通訊模式，依據您的網路環境需求，選擇以下任一種連線方式。

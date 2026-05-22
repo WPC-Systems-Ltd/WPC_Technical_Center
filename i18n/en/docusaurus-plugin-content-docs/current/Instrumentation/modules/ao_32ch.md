@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 32ch-AO'
 description: 32-Channel Single-Ended Voltage Output I/O Card
+keywords: [instrumentation, control systems, automated testing, WPC control]
 ---
-
 # cPCI 32ch-AO
 
 ## 1. Introduction
@@ -25,7 +25,7 @@ The cPCI 32ch-AO is an analog I/O card with 32 channels of single-ended +/- 10V 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 32ch-AO Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 32ch-AO Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>

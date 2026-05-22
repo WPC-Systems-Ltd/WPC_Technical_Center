@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI MINI AO
 sidebar_position: 4
+description: "PYCO WIFI MINI AO 是一款迷你型 Python 控制器，專注於 8 通道類比輸出 與 9DoF IMU 姿態估計，內建 Wi-Fi，適合輕量級訊號產生與控制應用。 --- --- Python Programmable: 支援 Stand-Alone Python 應用程式開發..."
+keywords: [PYCO WIFI MINI AO, WPC, 技術文件, 規格說明]
 ---
-
 # PYCO WIFI MINI AO
 
 PYCO WIFI MINI AO 是一款迷你型 Python 控制器，專注於 **8 通道類比輸出** 與 **9DoF IMU 姿態估計**，內建 **Wi-Fi**，適合輕量級訊號產生與控制應用。
@@ -12,7 +13,7 @@ PYCO WIFI MINI AO 是一款迷你型 Python 控制器，專注於 **8 通道類�
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai.png" alt="PYCO WIFI MINI AO 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai.webp" alt="PYCO WIFI MINI AO 外觀" width="60%" />
 </div>
 
 ## 主要特色
@@ -32,5 +33,5 @@ PYCO WIFI MINI AO 是一款迷你型 Python 控制器，專注於 **8 通道類�
 **類比 I/O 連接器 (Analog I/O Connector)**
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.png" alt="PYCO WIFI MINI AO 腳位圖" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ao-pinout.webp" alt="PYCO WIFI MINI AO 腳位圖" width="60%" />
 </div>

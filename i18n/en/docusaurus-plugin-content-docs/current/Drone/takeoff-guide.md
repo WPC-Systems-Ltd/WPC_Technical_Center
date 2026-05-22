@@ -2,9 +2,8 @@
 title: Takeoff Tutorial
 sidebar_position: 2
 description: Drone takeoff and flight process
+keywords: [Takeoff Tutorial, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
-
 ## Pre-flight Checklist
 1. Confirm the drone's center of gravity is balanced.
 2. Check that all payloads are securely fastened.
@@ -35,7 +34,7 @@ It takes approximately 2 minutes for the flight controller to start. Upon comple
 ## 4. Flight Direction Confirmation
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone/drone_flight_direction.png').default} alt="drone_flight_direction" width="60%" />
+  <img src={require('@site/static/img/drone/drone_flight_direction.webp').default} alt="drone_flight_direction" width="60%" />
 </div>
 
 ### Ascend/Descend

@@ -3,8 +3,8 @@ title: 簡介與安裝
 sidebar_label: 簡介與安裝
 sidebar_position: 1
 description: "軟體簡介與安裝下載指南"
+keywords: [簡介與安裝, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 簡介
 
 WPC Device Manager (WDM) 是一款專為 WPC 產品設計的綜合管理工具，旨在協助使用者高效地操作、配置與維護各項裝置。透過直觀的操作介面，使用者無需具備程式設計背景，即可輕鬆完成裝置管理任務。
@@ -28,7 +28,7 @@ WDM 的核心功能包括：
 > [下載 WPC Device Manager (WDM)](https://www.wpc.com.tw/wpc-device-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_download_page.png" alt="WDM_download_page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_download_page.webp" alt="WDM_download_page" width="60%" />
 </div>
 
 :::caution
@@ -40,7 +40,7 @@ WDM 的核心功能包括：
 > [下載 LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/runtime2019_download_page.png" alt="runtime2019_download_page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/runtime2019_download_page.webp" alt="runtime2019_download_page" width="60%" />
 </div>
 
 ## 開啟 WPC Device Manager
@@ -55,13 +55,13 @@ WDM 的核心功能包括：
 1.  請點擊 **「其他資訊」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect.png" alt="windows_protect" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect.webp" alt="windows_protect" width="60%" />
     </div>
 
 2.  點擊 **「仍要執行」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect1.png" alt="windows_protect" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_protect1.webp" alt="windows_protect" width="60%" />
     </div>
 
 ### 防火牆設定
@@ -72,11 +72,11 @@ WDM 的核心功能包括：
 2.  點擊 **「允許存取」**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_firework.png" alt="windows_firework" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/windows_firework.webp" alt="windows_firework" width="60%" />
 </div>
 
 開啟後，WPC Device Manager 將會自動搜尋 WPC 裝置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_search.png" alt="WDM_search" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_search.webp" alt="WDM_search" width="60%" />
 </div>

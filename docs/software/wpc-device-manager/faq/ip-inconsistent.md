@@ -3,8 +3,8 @@ title: 狀態列為 IP Inconsistent
 sidebar_label: 狀態列為 IP Inconsistent
 sidebar_position: 4
 description: "解決電腦網卡與 WPC 裝置位於不同網域導致的 IP Inconsistent 問題"
+keywords: [狀態列為 IP Inconsistent, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 問題描述
 
 在 WDM 中可以搜尋到裝置，但狀態列顯示為 **"IP inconsistent"**，導致無法進行連線或操作。

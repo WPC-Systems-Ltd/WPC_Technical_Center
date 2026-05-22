@@ -2,8 +2,8 @@
 sidebar_position: 10
 sidebar_label: '24ch 2-wire Multiplexer'
 description: Specifications and appearance for the 24ch multiplexer module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 24ch 2-wire Multiplexer Module
 
 This module provides a 24-channel 2-wire multiplexing (MUX) function.
@@ -19,5 +19,5 @@ This module provides a 24-channel 2-wire multiplexing (MUX) function.
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_multiplexer.png').default} alt="24ch Multiplexer Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_multiplexer.webp').default} alt="24ch Multiplexer Module" width="60%" />
 </div>

@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 16ch-AI VOLT'
 description: 32-Channel Single-Ended/16-Channel Differential Voltage Input I/O Card
+keywords: [instrumentation, control systems, automated testing, WPC control]
 ---
-
 # cPCI 16ch-AI VOLT
 
 ## 1. Introduction
@@ -25,9 +25,9 @@ The cPCI 16ch-AI VOLT is a 32-channel single-ended (or 16-channel differential) 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p14_00.png" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
+  <img src="/img/instrumentation/image_p14_00.webp" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
 </div>

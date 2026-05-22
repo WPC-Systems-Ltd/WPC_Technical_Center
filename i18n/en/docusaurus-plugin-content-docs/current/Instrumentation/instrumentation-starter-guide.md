@@ -3,8 +3,9 @@ title: Instrumentation Starter Guide
 sidebar_label: Starter Guide
 sidebar_position: 1
 slug: /instrumentation-starter-guide
+description: "Welcome to Explore WPC Instrumentation WPC's self-developed gStack-RIO series adopts a Rack chassis design, specifically for distributed, high-density I/O ap..."
+keywords: [Instrumentation Starter Guide, instrumentation, control systems, automated testing, WPC control]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
 
 <div className="gs-hero glow-effect">

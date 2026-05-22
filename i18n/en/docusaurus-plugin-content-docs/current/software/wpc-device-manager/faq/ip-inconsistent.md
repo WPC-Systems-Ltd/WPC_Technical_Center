@@ -3,8 +3,8 @@ title: Status Bar Shows IP Inconsistent
 sidebar_label: Status Bar Shows IP Inconsistent
 sidebar_position: 4
 description: "Resolving the IP Inconsistent problem caused by the computer network card and the WPC device being in different domains"
+keywords: [Status Bar Shows IP Inconsistent, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Problem Description
 
 The device can be searched in WDM, but the status bar displays **"IP inconsistent"**, leading to the inability to connect or operate.

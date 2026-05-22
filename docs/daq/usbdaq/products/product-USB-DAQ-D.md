@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-D
 sidebar_position: 3
+description: "USB-DAQ-D 專為數位訊號處理設計，提供 20 通道 3.3V 數位 I/O（5V 耐壓），支援 I2C/SPI/UART/PWM/計數器，適合邏輯控制與感測器介接應用。 --- 1. USB 2.0 全速匯流排供電 2. 26 通道 3.3V 數位 I/O (可承受 5V 輸入) 3...."
+keywords: [USBDAQD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-D 專為數位訊號處理設計，提供 **20 通道 3.3V 數位 I/O**（5V 耐壓），支援 **I2C/SPI/UART/PWM/計數器**，適合邏輯控制與感測器介接應用。
 
 # USB-DAQ-D
@@ -18,7 +19,7 @@ USB-DAQ-D 專為數位訊號處理設計，提供 **20 通道 3.3V 數位 I/O**�
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_pinout.png" alt="USB-DAQ-D 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_pinout.webp" alt="USB-DAQ-D 腳位圖" width="60%" /></div>
 
 ### 產品規格
 

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: 'Features and Introduction'
+description: "This module provides 4-axis motion control functionality, supporting Pulse Command control. Control Mode: Pulse/Direction or CW/CCW Output Frequency: Differe..."
+keywords: [data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 # 4-Axis Motion Control Module
 
 This module provides 4-axis motion control functionality, supporting Pulse Command control.

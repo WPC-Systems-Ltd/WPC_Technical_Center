@@ -2,8 +2,8 @@
 title: 16ch Voltage Attenuator
 sidebar_position: 8
 description: Introduction, features, and specifications of the WPC 16ch Voltage Attenuator.
+keywords: [16ch Voltage Attenuator, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 16ch Voltage Attenuator
 
 The WPC 16ch Voltage Attenuator is a high-density signal processing front-end module featuring 16 independent voltage attenuation channels. This product is specifically designed to step down high-voltage signals proportionally to low-voltage signals, facilitating safe and accurate acquisition by back-end measurement systems (such as DAQ).
@@ -16,7 +16,7 @@ The WPC 16ch Voltage Attenuator is a high-density signal processing front-end mo
 *   **Industrial Grade Environmental Adaptation**: Operating temperature range from -40 to 85 °C, suitable for harsh industrial environments.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator.png').default} alt="16ch_Voltage_Attenuator" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator.webp').default} alt="16ch_Voltage_Attenuator" width="60%" />
 </div>
 
 ---
@@ -41,7 +41,7 @@ The WPC 16ch Voltage Attenuator provides stable and high-speed voltage attenuati
 Below is the interface configuration description for the WPC 16ch Voltage Attenuator:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_pinout.png').default} alt="16ch_Voltage_Attenuator_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_pinout.webp').default} alt="16ch_Voltage_Attenuator_pinout" width="60%" />
 </div>
 
 :::note
@@ -60,7 +60,7 @@ This product has undergone rigorous high-frequency square wave testing to ensure
 *   **Frequency**: 200kHz
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_200kHz.png').default} alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_200kHz.webp').default} alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
 </div>
 
 ### 2MHz Test
@@ -69,5 +69,5 @@ This product has undergone rigorous high-frequency square wave testing to ensure
 *   **Frequency**: 2MHz
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_2MHz.png').default} alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
+  <img src={require('@site/static/img/signal-condition/16ch_Voltage_Attenuator_2MHz.webp').default} alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
 </div>

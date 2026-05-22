@@ -1,15 +1,16 @@
 ---
 title: Ethan-A2
 sidebar_position: 2
+description: "Ethan-A2 提供 8 通道 24-bit 高精度類比輸入，取樣率達 10kHz，輸入範圍 ±13.75V，適合需要高解析度量測的精密應用。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 類比輸入 (AI): 8 通道同步取樣 & 24..."
+keywords: [EthanA2, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-A2 提供 **8 通道 24-bit 高精度類比輸入**，取樣率達 **10kHz**，輸入範圍 **±13.75V**，適合需要高解析度量測的精密應用。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA2.png" alt="Ethan-A2 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA2.webp" alt="Ethan-A2 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -25,4 +26,4 @@ Ethan-A2 提供 **8 通道 24-bit 高精度類比輸入**，取樣率達 **10kHz
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA2_pinout.png" alt="Ethan-A2 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA2_pinout.webp" alt="Ethan-A2 腳位圖" width="60%" /></div>

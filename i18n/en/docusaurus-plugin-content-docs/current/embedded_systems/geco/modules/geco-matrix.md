@@ -2,8 +2,8 @@
 sidebar_position: 9
 sidebar_label: '4x6 Matrix Switch'
 description: Specifications and appearance for the 4x6 matrix switch module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 4x6 Matrix Switch Module
 
 This module provides a 4x6 matrix switching function, utilizing mechanical relays.
@@ -19,5 +19,5 @@ This module provides a 4x6 matrix switching function, utilizing mechanical relay
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_4x6_matrix.png').default} alt="4x6 Matrix Switch Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_4x6_matrix.webp').default} alt="4x6 Matrix Switch Module" width="60%" />
 </div>

@@ -3,8 +3,9 @@ title: DAQ Getting Started Guide
 sidebar_label: Getting Started
 sidebar_position: 1
 slug: /daq-starter-guide
+description: "Explore WPC DAQ Solutions We provide complete solutions from sensor data acquisition and various motor controls to drone system integration. Just select the..."
+keywords: [DAQ Getting Started Guide, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

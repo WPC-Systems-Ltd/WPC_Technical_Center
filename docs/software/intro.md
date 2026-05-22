@@ -2,8 +2,8 @@
 title: 軟體介紹
 sidebar_position: 1
 description: WPC 數據採集系統配套軟體與開發工具總覽
+keywords: [軟體介紹, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 軟體工具總覽
 
 WPC 提供多種軟體工具與開發資源,協助您快速整合與應用數據採集系統。

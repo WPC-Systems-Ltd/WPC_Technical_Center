@@ -2,8 +2,8 @@
 title: 規格總覽
 sidebar_position: 5
 description: 完整技術參數：電源需求、DI/DO 特性、AI/AO 精度、熱電偶/RTD 規格、通訊介面速率
+keywords: [規格總覽, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 ### 電源需求
 
 | 參數             | 測試條件/備註      | 最小值 | 典型值 | 最大值 | 單位 |

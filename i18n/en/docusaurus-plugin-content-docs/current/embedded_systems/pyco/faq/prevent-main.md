@@ -2,8 +2,9 @@
 title: How to Prevent or Stop main.py Execution
 sidebar_label: Prevent main.py Execution
 sidebar_position: 3
+description: "If your main.py script enters an infinite loop or you wish to prevent it from executing at startup, you have two options: Software Method: Use the command Sy..."
+keywords: [How to Prevent or Stop mainpy Execution, WPC, technical documentation, specifications]
 ---
-
 # How to Prevent or Stop main.py Execution
 
 If your `main.py` script enters an infinite loop or you wish to prevent it from executing at startup, you have two options:

@@ -3,8 +3,8 @@ title: 簡介與安裝
 sidebar_label: 簡介與安裝
 sidebar_position: 1
 description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
+keywords: [簡介與安裝, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # 簡介與安裝
 
 ## 簡介
@@ -26,7 +26,7 @@ description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
 > [下載 gStack-RIO Manager Manager](https://www.wpc.com.tw/gstackrio-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_download_page.png" alt="gstackRIO_manager_download_page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_download_page.webp" alt="gstackRIO_manager_download_page" width="60%" />
 </div>
 
 :::caution 重要
@@ -39,7 +39,7 @@ description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/runtime2019_download_page.png" alt="runtime2019_download_page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/runtime2019_download_page.webp" alt="runtime2019_download_page" width="60%" />
 </div>
 
 ### 步驟 3: 下載並安裝 NI VISA Runtime 15.5
@@ -47,7 +47,7 @@ description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
 > [下載 NI CompactRIO 15.5](https://www.wpc.com.tw/ni-compactrio-155.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/compactRIO_15_5_download_page.png" alt="compactRIO_15_5_download_page" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/compactRIO_15_5_download_page.webp" alt="compactRIO_15_5_download_page" width="60%" />
 </div>
 
 ## 開啟 gStack-RIO Manager
@@ -62,13 +62,13 @@ description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
 1.  請點擊 **「其他資訊」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_1.png" alt="windows_protection_1" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_1.webp" alt="windows_protection_1" width="60%" />
     </div>
 
 2.  點擊 **「仍要執行」**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_2.png" alt="windows_protection_2" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_protection_2.webp" alt="windows_protection_2" width="60%" />
     </div>
 
 ### 防火牆設定
@@ -79,11 +79,11 @@ description: "gStack-RIO Manager 軟體簡介、下載與安裝指南"
 2.  點擊 **「允許存取」**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_firewall.png" alt="windows_firewall" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/windows_firewall.webp" alt="windows_firewall" width="60%" />
 </div>
 
 開啟後，gStack-RIO Manager 將會自動搜尋 gStackRIO 控制器。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_search.png" alt="gstackRIO_manager_search" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-gstack-rio-manager/gstackRIO_manager_search.webp" alt="gstackRIO_manager_search" width="60%" />
 </div>

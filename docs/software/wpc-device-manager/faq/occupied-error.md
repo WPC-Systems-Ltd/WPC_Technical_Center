@@ -3,8 +3,8 @@ title: 狀態列為 IP Occupied
 sidebar_label: 狀態列為 IP Occupied
 sidebar_position: 3
 description: "解決因 IP 位址衝突或路由混淆導致的 Occupied 連線錯誤"
+keywords: [狀態列為 IP Occupied, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 問題描述
 
 在 WDM 中可以搜尋到網路裝置，且能成功 Ping 通裝置，但無法建立 TCP 連線，狀態列顯示為 **"Occupied"**。

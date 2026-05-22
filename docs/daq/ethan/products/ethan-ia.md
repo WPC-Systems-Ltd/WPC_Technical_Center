@@ -1,15 +1,16 @@
 ---
 title: Ethan-IA
 sidebar_position: 6
+description: "Ethan-IA 整合 電壓與電流雙模式輸入，提供 8 通道 24-bit 解析度，可彈性切換量測 ±10V 電壓或 ±20mA 電流訊號，一卡多用。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 電流輸入: 8 通道多工切換 & 24-b..."
+keywords: [EthanIA, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-IA 整合 **電壓與電流雙模式輸入**，提供 **8 通道 24-bit** 解析度，可彈性切換量測 **±10V 電壓**或 **±20mA 電流**訊號，一卡多用。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA.png" alt="Ethan-IA 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA.webp" alt="Ethan-IA 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -28,4 +29,4 @@ Ethan-IA 整合 **電壓與電流雙模式輸入**，提供 **8 通道 24-bit** 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA_pinout.png" alt="Ethan-IA 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-IA 腳位圖" width="60%" /></div>

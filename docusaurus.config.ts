@@ -64,6 +64,12 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         blog: false,
+        sitemap: {
+          changefreq: 'weekly',    // 告訴爬蟲網頁內容每週更新一次
+          priority: 0.5,           // 設定預設權重
+          ignorePatterns: ['/tags/**'], // 排除標籤彙整頁，避免稀釋關鍵字權重
+          filename: 'sitemap.xml',
+        },
         gtag: {
           trackingID: 'G-J3EDFB73MH',
           anonymizeIP: true,
@@ -217,6 +223,12 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    metadata: [
+      { name: 'keywords', content: 'WPC, 無人機, DAQ, 嵌入式系統, 技術文件, LabVIEW, Python, 馬達驅動, 訊號調節器' },
+      { name: 'description', content: 'WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件，包含無人機、資料擷取系統 (DAQ)、馬達驅動、嵌入式系統及驅動程式支援。' },
+      { name: 'google-site-verification', content: 'KkrvKPmd6CtQ_7w-kvJ9CZuBxfP3gf1ZxukrP1txy9E' }, // Google Search Console 驗證標籤
+
+    ],
   } satisfies Preset.ThemeConfig,
 };
 

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 13
 sidebar_label: 'MUX'
+description: "MUX (Multiplexer) 面板提供使用者控制多工器的通道切換。 | 按鈕 | 功能 | | :--------------- | :------------------- | | Start | 啟用 MUX 控制功能。 | | Stop | 停止控制。 | | Disconnect..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # MUX
 
 MUX (Multiplexer) 面板提供使用者控制多工器的通道切換。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_mux.png" alt="WDM_testPanel_mux" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_mux.webp" alt="WDM_testPanel_mux" width="60%" />
 </div>
 
 ## 操作說明

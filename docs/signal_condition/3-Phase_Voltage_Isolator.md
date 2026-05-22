@@ -2,8 +2,8 @@
 title: 3-Phase Voltage Isolator (三相電壓隔離器)
 sidebar_position: 12
 description: WPC 3-Phase Voltage Isolator 產品簡介、特點與規格說明
+keywords: [3Phase Voltage Isolator 三相電壓隔離器, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 3-Phase Voltage Isolator (三相電壓隔離器)
 
 WPC 三相電壓隔離器是一款專為高壓電力系統測量設計的信號處理前端模組。它能將單相或三相交流系統中的高電壓訊號安全地隔離並衰減為低電壓訊號，以便於與資料擷取系統 (DAQ) 或控制設備連接，適用於馬達驅動與電網監測應用。
@@ -16,7 +16,7 @@ WPC 三相電壓隔離器是一款專為高壓電力系統測量設計的信號�
 *   **工業級標準**：採用 24VDC 供電，符合標準工業自動化環境。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator.png" alt="3-Phase_Voltage_Isolator" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator.webp" alt="3-Phase_Voltage_Isolator" width="60%" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ WPC 三相電壓隔離器針對高壓隔離量測提供優異的性能表現，�
 以下為三相電壓隔離器的詳細接腳配置圖示說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_pinout.png" alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_pinout.webp" alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
 </div>
 
 :::note
@@ -55,12 +55,12 @@ WPC 三相電壓隔離器針對高壓隔離量測提供優異的性能表現，�
 
 #### 左側部分 (Left Part)
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.png" alt="Connect_with_DAQ_Left" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.webp" alt="Connect_with_DAQ_Left" width="60%" />
 </div>
 
 #### 右側部分 (Right Part)
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.png" alt="Connect_with_DAQ_Right" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.webp" alt="Connect_with_DAQ_Right" width="60%" />
 </div>
 
 ---

@@ -3,8 +3,8 @@ title: Simulated Device Reference
 sidebar_label: Simulated Device
 sidebar_position: 4
 description: "Reference list of Simulated Device IDs for various WPC products"
+keywords: [Simulated Device Reference, hardware driver, LabVIEW API, Python SDK, driver download, SDK guide]
 ---
-
 ## Simulated Device
 
 You can run driver example programs using simulated devices without having physical hardware.

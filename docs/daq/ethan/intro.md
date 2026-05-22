@@ -2,12 +2,12 @@
 title: 產品介紹
 sidebar_position: 1
 description: 快速選型指南：依應用分類（類比輸入/輸出、數位 I/O、溫度量測）查找適合的 Ethan 型號
+keywords: [產品介紹, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 ## 產品命名
 Ethan 的產品命名代表了介面與功能的組合。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_naming.png" alt="Ethan 命名規則" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_naming.webp" alt="Ethan 命名規則" width="40%" /></div>
 
 | 命名代號    | 英文全稱                  | 功能說明                                 |
 | :-------   | :------------------------ | :-------------------------------------- |

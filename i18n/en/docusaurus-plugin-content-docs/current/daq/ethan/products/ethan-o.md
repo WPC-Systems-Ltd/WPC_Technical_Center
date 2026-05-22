@@ -9,7 +9,7 @@ Ethan-O provides **8-channel 16-bit analog output** (Â±10V), with an update ra
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanO.png').default} alt="Ethan-O Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanO.webp').default} alt="Ethan-O Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -27,7 +27,7 @@ Ethan-O provides **8-channel 16-bit analog output** (Â±10V), with an update ra
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanO_pinout.png').default} alt="Ethan-O Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanO_pinout.webp').default} alt="Ethan-O Pinout" width="60%" /></div>
 
 ### Ethan-O Detailed Specifications
 

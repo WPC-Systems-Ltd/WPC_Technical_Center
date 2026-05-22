@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 16ch-AI VOLT'
 description: 32通道單端/16通道差動電壓輸入I/O卡
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 16ch-AI VOLT
 
 ## 1. 簡介
@@ -25,9 +25,9 @@ cPCI 16ch-AI VOLT 是一張 32 通道單端（或 16 通道差動）的 +/- 10V 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.png" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.webp" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.png" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.webp" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
 </div>

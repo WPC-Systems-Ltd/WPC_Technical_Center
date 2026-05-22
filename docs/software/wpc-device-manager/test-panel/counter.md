@@ -1,14 +1,15 @@
 ---
 sidebar_position: 4
 sidebar_label: 'Counter'
+description: "Counter (計數器) 面板提供使用者進行脈衝訊號的計數與頻率量測。您可以設定觸發邊緣與頻率量測的時間區間，以適應不同的訊號特性。 在使用計數器功能前，請先確認您的裝置通道設定與訊號來源。 :::caution 請注意：計數器 (Counter) 功能與 PWM 功能共用硬體資源，因此無法..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Counter
 
 Counter (計數器) 面板提供使用者進行脈衝訊號的計數與頻率量測。您可以設定觸發邊緣與頻率量測的時間區間，以適應不同的訊號特性。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_counter.png" alt="WDM_testPanel_counter" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_counter.webp" alt="WDM_testPanel_counter" width="60%" />
 </div>
 
 ## 參數設定與操作

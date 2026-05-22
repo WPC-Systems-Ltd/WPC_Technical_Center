@@ -3,12 +3,12 @@ title: Main Screen Introduction
 sidebar_label: Main Screen
 sidebar_position: 2
 description: "Description of Device List, Test Panel, and Product Information interface"
+keywords: [Main Screen Introduction, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Main Screen Function Description
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/WDM_main_screen.png').default} alt="WDM_main_screen" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_main_screen.webp').default} alt="WDM_main_screen" width="60%" />
 </div>
 
 1.  **Device List**

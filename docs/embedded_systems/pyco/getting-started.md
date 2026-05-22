@@ -1,8 +1,9 @@
 ---
 title: 快速入門
 sidebar_position: 2
+description: "感謝您選擇 PYCO。本指南將協助您快速建立開發環境，並在 PYCO 開發板上執行您的第一個程式。 硬體: 1. PYCO 開發板 2. USB A 連接線 3. 24V DC 電源供應器 (僅適用於 PYCO WIFI 與 PYCO ETH) 4. 電腦 (Windows, Linux, o..."
+keywords: [快速入門, WPC, 技術文件, 規格說明]
 ---
-
 # 快速入門
 
 ## 歡迎使用！

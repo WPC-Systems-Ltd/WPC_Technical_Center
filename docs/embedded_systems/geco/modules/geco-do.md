@@ -2,8 +2,8 @@
 sidebar_position: 4
 sidebar_label: '24ch DO'
 description: 24ch 數位輸出模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 24ch DO 模組
 
 本模組提供 24 通道數位輸出，支援 NPN/PNP 架構，具備光耦合隔離保護。
@@ -20,13 +20,13 @@ description: 24ch 數位輸出模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DO.png" alt="geco_module_24ch_DO" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DO.webp" alt="geco_module_24ch_DO" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DO_pinout.png" alt="geco_module_24ch_DO_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DO_pinout.webp" alt="geco_module_24ch_DO_pinout" width="60%" />
 </div>
 
 #### Port A
@@ -97,13 +97,13 @@ description: 24ch 數位輸出模組規格與腳位定義
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.png" alt="geco_module_24ch_DO_sinking_output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.webp" alt="geco_module_24ch_DO_sinking_output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.png" alt="geco_module_24ch_DO_sourcing_output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.webp" alt="geco_module_24ch_DO_sourcing_output" width="60%" />
 </div>
 
 :::caution

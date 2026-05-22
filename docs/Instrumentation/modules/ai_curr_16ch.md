@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 16ch-AI CURR'
 description: 16通道單端電流輸入I/O卡
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 16ch-AI CURR
 
 ## 1. 簡介
@@ -25,9 +25,9 @@ description: 16通道單端電流輸入I/O卡
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.png" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.webp" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.png" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.webp" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
 </div>

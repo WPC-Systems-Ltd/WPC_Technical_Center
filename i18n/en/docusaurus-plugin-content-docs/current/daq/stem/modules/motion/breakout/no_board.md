@@ -15,7 +15,7 @@ description: If you do not plan to use the breakout boards provided by WPC, you 
 ## Appearance of Axis Card Without Breakout Board
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/motion_card.png').default} alt="Motion Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card.webp').default} alt="Motion Module Appearance" width="60%" />
 </div>
 
 *   Top left **2-pin European-style terminal**: External power supply 24VDC.

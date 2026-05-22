@@ -1,8 +1,9 @@
 ---
 title: 控制器面板與規格
 sidebar_position: 2
+description: "gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的控制核心。本章節將詳細說明控制器的硬體介面配置、核心規格數據以及軟體架構組成的相關資訊。 --- 下圖展示了 gStack-RIO 控制器的實體面板配置與各項連接介面位置。 1. Protective earth (PE):..."
+keywords: [控制器面板與規格, 儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # gStack-RIO 控制器
 
 gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的控制核心。本章節將詳細說明控制器的硬體介面配置、核心規格數據以及軟體架構組成的相關資訊。
@@ -14,7 +15,7 @@ gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的
 下圖展示了 gStack-RIO 控制器的實體面板配置與各項連接介面位置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/Controller_Interface.png" alt="Controller Interface" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/Controller_Interface.webp" alt="Controller Interface" width="60%" />
 </div>
 
 1. Protective earth (PE): 保護接地端子。
@@ -53,7 +54,7 @@ gStack-RIO 控制器核心搭載 NI sbRIO-9607 嵌入式單板電腦，具備高
 gStack-RIO 的系統軟體架構如下圖所示。使用者可透過 gStack-RIO 提供的 PC 端或 Real-Time (RT) 端驅動程式 API，在 LabVIEW 環境下進行應用程式開發。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/Software_Architecture.png" alt="Software Architecture" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/Software_Architecture.webp" alt="Software Architecture" width="60%" />
 </div>
 
 :::caution

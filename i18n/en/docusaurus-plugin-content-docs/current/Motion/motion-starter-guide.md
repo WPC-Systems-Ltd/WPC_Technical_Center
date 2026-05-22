@@ -4,8 +4,9 @@ sidebar_label: Getting Started
 sidebar_position: 1
 slug: /motion-starter-guide
 displayed_sidebar: motionSidebar
+description: "Welcome to WPC Motion Solutions We provide stepper motor and servo motor drivers, as well as multi-axis motion control cards, covering complete solutions fro..."
+keywords: [Motion Getting Started Guide, motor drive, motor control, servo drive, stepper motor, WPC motion]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

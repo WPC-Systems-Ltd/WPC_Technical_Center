@@ -1,15 +1,16 @@
 ---
 title: Ethan-L
 sidebar_position: 7
+description: "Ethan-L 配備 6 通道機械式繼電器（4x Form-A 常開接點 + 2x Form-C 轉換接點），額定電流 2A，最高切換電壓 250VAC / 220VDC，適用於高功率負載控制。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3...."
+keywords: [EthanL, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form-C 轉換接點），額定電流 **2A**，最高切換電壓 **250VAC / 220VDC**，適用於高功率負載控制。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL.png" alt="Ethan-L 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL.webp" alt="Ethan-L 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -28,7 +29,7 @@ Ethan-L 配備 **6 通道機械式繼電器**（4x Form-A 常開接點 + 2x Form
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL_pinout.png" alt="Ethan-L 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanL_pinout.webp" alt="Ethan-L 腳位圖" width="60%" /></div>
 
 ## 繼電器規格 - Ethan-L
 

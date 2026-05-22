@@ -1,14 +1,15 @@
 ---
 sidebar_position: 18
 sidebar_label: 'Step Drive'
+description: "WPC-EDrive-ST 是一款網路介面的單軸步進馬達整合型驅動器。透過 Step Drive 面板，您可以設定驅動器電流、解析度、進行運動測試以及震動抑制功能。 設定步進馬達的運轉電流 (Run Current)、保持電流 (Hold Current) 以及微步進解析度 (Microste..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Step Drive
 
 **WPC-EDrive-ST** 是一款網路介面的單軸步進馬達整合型驅動器。透過 Step Drive 面板，您可以設定驅動器電流、解析度、進行運動測試以及震動抑制功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_edrive_connect.png" alt="WDM_testPanel_edrive_connect" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_edrive_connect.webp" alt="WDM_testPanel_edrive_connect" width="60%" />
 </div>
 
 ## 驅動器設定 (Driver Setup)
@@ -16,7 +17,7 @@ sidebar_label: 'Step Drive'
 設定步進馬達的運轉電流 (Run Current)、保持電流 (Hold Current) 以及微步進解析度 (Microstepping)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_driver_setup.png" alt="WDM_testPanel_driver_setup" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_driver_setup.webp" alt="WDM_testPanel_driver_setup" width="60%" />
 </div>
 
 ### 1. 電流設定說明
@@ -79,7 +80,7 @@ sidebar_label: 'Step Drive'
 設定一個安全的來回移動區間。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration.png" alt="WDM_testPanel_anti_vibration" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration.webp" alt="WDM_testPanel_anti_vibration" width="60%" />
 </div>
 
 1. 按下 **Servo on** 激磁。
@@ -89,7 +90,7 @@ sidebar_label: 'Step Drive'
 ### Step 2. 調整防震參數
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration2.png" alt="WDM_testPanel_anti_vibration2" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_anti_vibration2.webp" alt="WDM_testPanel_anti_vibration2" width="60%" />
 </div>
 
 1. 開啟 **Enable** 啟用防震功能。
@@ -103,5 +104,5 @@ sidebar_label: 'Step Drive'
 EDrive-ST 支援設定檔匯出與匯入功能，方便將參數快速複製到其他機台，或進行備份。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_file_configure.png" alt="WDM_testPanel_file_configure" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_file_configure.webp" alt="WDM_testPanel_file_configure" width="60%" />
 </div>

@@ -3,8 +3,8 @@ title: 2ch Current-to-Voltage Converter (Differential)
 sidebar_position: 4
 description: Introduction, features, and specifications of the WPC 2ch 4-20mA to 0-5V converter (Differential Output version).
 sidebar_label: 2ch Current-to-Voltage (Differential)
+keywords: [2ch CurrenttoVoltage Converter Differential, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 2ch Current-to-Voltage Converter (Differential Output Version)
 
 ## Introduction
@@ -12,7 +12,7 @@ sidebar_label: 2ch Current-to-Voltage (Differential)
 The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing module that converts industrial-standard 4-20mA current signals into 0-5V voltage signals. This module supports high-precision conversion across multiple channels. This is the **Differential Output** version, a design that helps eliminate common-mode noise on the transmission path, making it particularly suitable for data acquisition (DAQ) and control systems in long-distance transmissions or high-noise environments.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended.png').default}  alt="2ch_cv_differential" width="60%" />
+  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended.webp').default}  alt="2ch_cv_differential" width="60%" />
 
 </div>
 
@@ -35,7 +35,7 @@ The WPC 8ch Current-to-Voltage Converter is an 8-channel signal processing modul
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended_pinout.png').default}  alt="2ch_cv_differential_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended_pinout.webp').default}  alt="2ch_cv_differential_pinout" width="60%" />
 </div>
 
 
@@ -61,13 +61,13 @@ The input terminal supports both **Sourcing input** and **Sinking input** type s
 ### Sinking Input Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sinking_input.png').default}  alt="8ch_cv_differential_sinking_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sinking_input.webp').default}  alt="8ch_cv_differential_sinking_input" width="60%" />
 </div>
 
 ### Sourcing Inp  ut Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sourcing_input.png').default}  alt="8ch_cv_differential_sourcing_input" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_sourcing_input.webp').default}  alt="8ch_cv_differential_sourcing_input" width="60%" />
 </div>
 
 
@@ -82,7 +82,7 @@ In the differential output version, each output channel features independent `OU
 ## Dimension
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_dimension.png').default}  alt="8ch_cv_differential_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/8ch_cv_differential_dimension.webp').default}  alt="8ch_cv_differential_dimension" width="60%" />
 </div>
 
 *   **Length**: 170.0 mm
@@ -90,6 +90,6 @@ In the differential output version, each output channel features independent `OU
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended_dinrail.png').default}  alt="2ch_cv_differential_dimension" width="60%" /> 
+  <img src={require('@site/static/img/signal-condition/2ch_cv_single_ended_dinrail.webp').default}  alt="2ch_cv_differential_dimension" width="60%" /> 
   DIN Rail Module Panel
 </div> 

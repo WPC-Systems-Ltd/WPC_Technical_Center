@@ -2,8 +2,8 @@
 title: Product Introduction
 sidebar_position: 1
 description: PYCO Series Product Introduction and Selection Guide
+keywords: [Product Introduction, WPC, technical documentation, specifications]
 ---
-
 # Product Introduction
 
 PYCO series products can operate independently, without relying on external operating systems or software environments. Code can be directly flashed into the memory of PYCO products. Upon power-on, the device will automatically execute the `boot.py` and `main.py` files stored in memory.

@@ -2,8 +2,8 @@
 sidebar_position: 10
 sidebar_label: '24ch 2-wire Multiplexer'
 description: 24ch 多工器模組規格與外觀
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 24ch 2-wire Multiplexer 模組
 
 本模組提供 24 通道 2-wire 多工切換功能。
@@ -19,6 +19,6 @@ description: 24ch 多工器模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_multiplexer.png
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_multiplexer.webp
   " alt="geco_module_24ch_multiplexer" width="60%" />
 </div>

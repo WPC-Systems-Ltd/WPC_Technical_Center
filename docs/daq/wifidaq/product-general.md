@@ -2,9 +2,8 @@
 title: 產品總覽
 sidebar_position: 1
 description: 4 款無線 DAQ 型號規格比較：E3-A/AH/AO (10kHz)、F4-A (20kHz)，部分整合 9DoF IMU 姿態感測
+keywords: [產品總覽, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
-
 # 產品總覽
 
 ## WPC WIFI-DAQ 全系列產品規格比較：

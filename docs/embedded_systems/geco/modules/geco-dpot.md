@@ -2,8 +2,8 @@
 sidebar_position: 2
 sidebar_label: '16ch Digital Potentiometers'
 description: 16ch 可變電阻模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 16ch Digital Potentiometers 模組
 
 本模組提供 16 通道數位可變電阻，可透過軟體控制電阻值。
@@ -21,13 +21,13 @@ description: 16ch 可變電阻模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT.jpg" alt="geco_module_16ch_DPOT" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT.webp" alt="geco_module_16ch_DPOT" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_pinout.png" alt="geco_module_16ch_DPOT_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_pinout.webp" alt="geco_module_16ch_DPOT_pinout" width="60%" />
 </div>
 
 | Pin Description | Pin Number | Pin Number | Pin Description |
@@ -93,12 +93,12 @@ description: 16ch 可變電阻模組規格與腳位定義
 ## 3. DIO ctrl.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl.png" alt="geco_module_16ch_DPOT_DIO_ctrl" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl.webp" alt="geco_module_16ch_DPOT_DIO_ctrl" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl1.png" alt="geco_module_16ch_DPOT_DIO_ctrl1" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl1.webp" alt="geco_module_16ch_DPOT_DIO_ctrl1" width="60%" />
 </div>
 
 
@@ -106,7 +106,7 @@ description: 16ch 可變電阻模組規格與腳位定義
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_paralleling.png" alt="geco_module_16ch_DPOT_paralleling" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_paralleling.webp" alt="geco_module_16ch_DPOT_paralleling" width="60%" />
 </div>
 
 
@@ -114,5 +114,5 @@ description: 16ch 可變電阻模組規格與腳位定義
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_voltage_diff.png" alt="geco_module_16ch_DPOT_voltage_diff" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_DPOT_voltage_diff.webp" alt="geco_module_16ch_DPOT_voltage_diff" width="60%" />
 </div>

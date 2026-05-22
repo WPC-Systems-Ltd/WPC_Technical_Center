@@ -2,9 +2,8 @@
 title: 類比輸入取樣率
 sidebar_position: 4
 description: 多通道取樣率對照表：啟用通道數與單通道最大取樣率 (16kHz → 2kHz) 的關係說明
+keywords: [類比輸入取樣率, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
-
 ### 多通道最大取樣率
 
 **說明：**

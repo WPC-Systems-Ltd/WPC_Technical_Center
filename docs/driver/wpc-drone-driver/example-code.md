@@ -3,8 +3,8 @@ title: 範例程式
 sidebar_label: 範例程式
 sidebar_position: 3
 description: "尋找並執行 WPC Device Driver 提供之範例程式"
+keywords: [範例程式, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 ## 尋找範例程式碼
 
 開啟 LabVIEW 後，您可以依循下列步驟來尋找 WPC 所提供的各種範例程式：
@@ -13,7 +13,7 @@ description: "尋找並執行 WPC Device Driver 提供之範例程式"
 2. 點選 **Help** → **Find Examples...** 。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_open.png" alt="wpc_drone_driver_open" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_open.webp" alt="wpc_drone_driver_open" width="60%" />
   「如何找出範例」說明頁
 </div>
 
@@ -24,14 +24,14 @@ description: "尋找並執行 WPC Device Driver 提供之範例程式"
 5. 點擊搜尋按鈕，您將會看到所有適用於 LabVIEW 且與 WPC 產品相關的範例程式。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_search.png" alt="wpc_drone_driver_search" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_search.webp" alt="wpc_drone_driver_search" width="60%" />
   「WPC Drone Examples.lvproj」的說明頁面
 </div>
 
 在左側的檔案瀏覽器中，展開 "WPC Drone Examples.lvproj"，您將看到所有可用的 WPC Drone 範例。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_examples.png" alt="wpc_drone_driver_examples" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_examples.webp" alt="wpc_drone_driver_examples" width="60%" />
 </div>
 
 | 範例程式名稱                   | 描述                                                                |

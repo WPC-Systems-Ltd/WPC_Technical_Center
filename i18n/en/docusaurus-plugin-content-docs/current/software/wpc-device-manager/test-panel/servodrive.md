@@ -1,14 +1,15 @@
 ---
 sidebar_position: 17
 sidebar_label: 'Servo Drive'
+description: "The WPC-EDrive-SRV is a single-axis servo motor integrated driver with a network interface. Through the Servo Drive panel, users can intuitively set driver p..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Servo Drive
 
 The **WPC-EDrive-SRV** is a single-axis servo motor integrated driver with a network interface. Through the Servo Drive panel, users can intuitively set driver parameters, perform motor auto-tuning procedures, and conduct motion control tests.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_connect.png').default} alt="WDM_testPanel_srv_connect" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_connect.webp').default} alt="WDM_testPanel_srv_connect" width="60%" />
 </div>
 
 ## System Configuration
@@ -16,7 +17,7 @@ The **WPC-EDrive-SRV** is a single-axis servo motor integrated driver with a net
 Provides driver configuration file management and firmware update functions.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_file_config.png').default} alt="WDM_testPanel_srv_file_config" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_file_config.webp').default} alt="WDM_testPanel_srv_file_config" width="60%" />
 </div>
 
 | Button Function     | Description                                                  |
@@ -37,7 +38,7 @@ To obtain the best motor control performance, it is recommended to perform the f
 ### Step 1. Select Motor Model
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_fill_motor.png').default} alt="WDM_testPanel_srv_fill_motor" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_fill_motor.webp').default} alt="WDM_testPanel_srv_fill_motor" width="60%" />
 </div>
 
 Please select your motor model from the `Model No.` drop-down menu. The system will automatically fill in the corresponding rated specifications (torque, current, frequency, speed, etc.).
@@ -50,7 +51,7 @@ Panasonic series motor models are usually marked on a sticker on the side of the
 ### Step 2. Confirm Electrical Parameters
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_config_electric_param.png').default} alt="WDM_testPanel_srv_config_electric_param" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_config_electric_param.webp').default} alt="WDM_testPanel_srv_config_electric_param" width="60%" />
 </div>
 
 Displays detailed electrical parameters of the motor (such as phase resistance, phase inductance). If the model has been correctly selected in the previous step, no modification is usually needed here; click **Next** to continue.
@@ -58,7 +59,7 @@ Displays detailed electrical parameters of the motor (such as phase resistance, 
 ### Step 3. Release Brake
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_release_break.png').default} alt="WDM_testPanel_srv_release_break" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_release_break.webp').default} alt="WDM_testPanel_srv_release_break" width="60%" />
 </div>
 
 If your motor is equipped with a brake mechanism, please release the brake according to the instructions to ensure that the motor shaft can rotate freely. For detailed wiring, please refer to the **WPC-EDrive-SRV Hardware User Manual**.
@@ -66,7 +67,7 @@ If your motor is equipped with a brake mechanism, please release the brake accor
 ### Step 4. System Identification - Electrical Characteristics (Electrical ID)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_system_identify.png').default} alt="WDM_testPanel_srv_system_identify" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_system_identify.webp').default} alt="WDM_testPanel_srv_system_identify" width="60%" />
 </div>
 
 Automatically measure the actual phase resistance and inductance values of the motor.
@@ -82,7 +83,7 @@ Note: The Target Current setting value must not exceed the maximum allowable cur
 ### Step 5. System Identification - Mechanical Characteristics Description
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_system_identify_mechnical.png').default} alt="WDM_testPanel_srv_system_identify_mechnical" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_system_identify_mechnical.webp').default} alt="WDM_testPanel_srv_system_identify_mechnical" width="60%" />
 </div>
 
 This page is a description page; please click **Next** to continue.
@@ -90,7 +91,7 @@ This page is a description page; please click **Next** to continue.
 ### Step 6. System Identification - Perform Mechanical Identification (Mechanical ID)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_perform_sustem.png').default} alt="WDM_testPanel_srv_perform_sustem" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_perform_sustem.webp').default} alt="WDM_testPanel_srv_perform_sustem" width="60%" />
 </div>
 
 Automatically measure mechanical parameters such as load inertia and viscosity coefficient.
@@ -104,7 +105,7 @@ Automatically measure mechanical parameters such as load inertia and viscosity c
 6. The motor will test back and forth between the start position and the end position, and automatically adjust the output.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_fitting.png').default} alt="WDM_testPanel_srv_fitting" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_fitting.webp').default} alt="WDM_testPanel_srv_fitting" width="60%" />
 </div>
 
 **Result Interpretation:**
@@ -114,7 +115,7 @@ Automatically measure mechanical parameters such as load inertia and viscosity c
 ### Step 7. Set Controller Bandwidth
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_controller_bandwidth.png').default} alt="WDM_testPanel_srv_controller_bandwidth" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_controller_bandwidth.webp').default} alt="WDM_testPanel_srv_controller_bandwidth" width="60%" />
 </div>
 
 Adjust the response bandwidth (Bandwidth) of the motor.
@@ -131,7 +132,7 @@ After setting, press **Next**, and the system will ask whether to save. Selectin
 For short-stroke, high-precision movement requirements, this function can be turned on to eliminate the "Stick-Slip" phenomenon caused by static friction (i.e., hysteresis at startup or pause at turning points).
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_friction_compensation2.png').default} alt="WDM_testPanel_srv_friction_compensation2" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_friction_compensation2.webp').default} alt="WDM_testPanel_srv_friction_compensation2" width="60%" />
 </div>
 
 **Setting Steps:**
@@ -144,7 +145,7 @@ For short-stroke, high-precision movement requirements, this function can be tur
 Used to suppress mechanical resonance (Resonance). When the motor drives a belt or cantilever structure, if a humming sound of a specific frequency is generated, this function can be used.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_notch_filter.png').default} alt="WDM_testPanel_srv_notch_filter" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_notch_filter.webp').default} alt="WDM_testPanel_srv_notch_filter" width="60%" />
 </div>
 
 **Operation Steps:**
@@ -159,7 +160,7 @@ Used to suppress mechanical resonance (Resonance). When the motor drives a belt 
 ### Current Protection
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_current_protection.png').default} alt="WDM_testPanel_srv_current_protection" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_current_protection.webp').default} alt="WDM_testPanel_srv_current_protection" width="60%" />
 </div>
 
 Set the over-current protection mechanism to prevent the motor from burning out due to stall or machine collision.
@@ -173,7 +174,7 @@ Set the over-current protection mechanism to prevent the motor from burning out 
 ### In-Position
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_inposition.png').default} alt="WDM_testPanel_srv_inposition" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_srv_inposition.webp').default} alt="WDM_testPanel_srv_inposition" width="60%" />
 </div>
 
 Define the trigger conditions for the "In-Position" signal.

@@ -3,8 +3,9 @@ title: 資料擷取入門指南
 sidebar_label: 資料擷取入門指南
 sidebar_position: 1
 slug: /daq-starter-guide
+description: "歡迎探索 WPC 資料擷取 我們提供資料擷取方案，只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。 :::tip[名詞定義] DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它想像成電腦的「五官」，負責把真實世界的物理量（例如溫度、壓力、電..."
+keywords: [資料擷取入門指南, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

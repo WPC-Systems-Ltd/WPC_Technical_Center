@@ -2,8 +2,8 @@
 sidebar_position: 6
 sidebar_label: '伺服馬達接線範例'
 description: 各大廠牌伺服驅動器的位置控制模式接線圖集
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 常見伺服馬達接線範例
 
 ## 1. 控制模式說明
@@ -32,20 +32,20 @@ description: 各大廠牌伺服驅動器的位置控制模式接線圖集
 
 ### 2.1 Mitsubishi (三菱) MR-J4 / JE
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Mitsubishi_MR_J4_JE.png" alt="Mitsubishi J4 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Mitsubishi_MR_J4_JE.webp" alt="Mitsubishi J4 Wiring" width="60%" />
 </div>
 
 ### 2.2 Delta (台達) ASDA-B2
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Delta_ASDA_B2.png" alt="Delta B2 Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Delta_ASDA_B2.webp" alt="Delta B2 Wiring" width="60%" />
 </div>
 
 ### 2.3 Panasonic (松下) Minas A4 / A5 / A6
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Panasonic_Minas_A4_A5_A6.png" alt="Panasonic Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Panasonic_Minas_A4_A5_A6.webp" alt="Panasonic Wiring" width="60%" />
 </div>
 
 ### 2.4 Yaskawa (安川) SGDV / SGD7
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/example_Yaskawa_SGDV_SGD7.png" alt="Yaskawa Wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/example_Yaskawa_SGDV_SGD7.webp" alt="Yaskawa Wiring" width="60%" />
 </div>

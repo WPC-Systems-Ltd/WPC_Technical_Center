@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI MINI AI
 sidebar_position: 3
+description: "PYCO WIFI MINI AI 是一款迷你型 Python 控制器，專注於 8 通道類比輸入 與 9DoF IMU 姿態估計，內建 Wi-Fi，適合輕量級數據採集與感測應用。 --- --- Python Programmable: 支援 Stand-Alone Python 應用程式開發..."
+keywords: [PYCO WIFI MINI AI, WPC, 技術文件, 規格說明]
 ---
-
 # PYCO WIFI MINI AI
 
 PYCO WIFI MINI AI 是一款迷你型 Python 控制器，專注於 **8 通道類比輸入** 與 **9DoF IMU 姿態估計**，內建 **Wi-Fi**，適合輕量級數據採集與感測應用。
@@ -12,7 +13,7 @@ PYCO WIFI MINI AI 是一款迷你型 Python 控制器，專注於 **8 通道類�
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai.png" alt="PYCO WIFI MINI AI 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai.webp" alt="PYCO WIFI MINI AI 外觀" width="60%" />
 </div>
 
 ## 主要特色
@@ -35,6 +36,6 @@ PYCO WIFI MINI AI 是一款迷你型 Python 控制器，專注於 **8 通道類�
 **類比 I/O 連接器 (Analog I/O Connector)**
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png" alt="PYCO WIFI MINI AI 腳位圖" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.webp" alt="PYCO WIFI MINI AI 腳位圖" width="60%" />
 </div>
 

@@ -3,8 +3,8 @@ title: 通用功能
 sidebar_label: 通用功能
 sidebar_position: 3
 description: "裝置搜尋、模擬裝置新增與LED識別功能"
+keywords: [通用功能, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 搜尋與重新整理
 
 WDM 提供自動搜尋功能，可掃描網域內的 WPC 裝置。若需手動更新列表，請依據裝置類型執行以下操作：
@@ -12,13 +12,13 @@ WDM 提供自動搜尋功能，可掃描網域內的 WPC 裝置。若需手動�
 *   **USB 裝置**：將滑鼠游標移至 **"My Computer"** 區域，按右鍵後選擇 **"Refresh My Computer"**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_computer.png" alt="WDM_refresh_computer" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_computer.webp" alt="WDM_refresh_computer" width="60%" />
     </div>
 
 *   **網路裝置**：將滑鼠游標移至 **"Network"** 區域，按右鍵後選擇 **"Refresh Network"**。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_network.png" alt="WDM_refresh_network" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_refresh_network.webp" alt="WDM_refresh_network" width="60%" />
     </div>
 
 :::caution
@@ -39,7 +39,7 @@ WDM 支援模擬裝置功能，允許使用者在無實體硬體的情況下，�
 4.  點擊 **"OK"** 確認新增。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_add_simulated_device.png" alt="WDM_add_simulated_device" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_add_simulated_device.webp" alt="WDM_add_simulated_device" width="60%" />
 </div>
 
 ---
@@ -60,5 +60,5 @@ WDM 支援模擬裝置功能，允許使用者在無實體硬體的情況下，�
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_toggle_blink.png" alt="WDM_toggle_blink" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_toggle_blink.webp" alt="WDM_toggle_blink" width="60%" />
 </div>

@@ -2,8 +2,8 @@
 title: 3-Phase Voltage Isolator
 sidebar_position: 12
 description: Introduction, features, and specifications of the WPC 3-Phase Voltage Isolator.
+keywords: [3Phase Voltage Isolator, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 3-Phase Voltage Isolator
 
 The WPC 3-Phase Voltage Isolator is a signal processing front-end module specifically designed for high-voltage power system measurements. It safely isolates and attenuates high-voltage signals from single-phase or three-phase AC systems into low-voltage signals, facilitating connection with data acquisition systems (DAQ) or control equipment. It is suitable for motor drives and power grid monitoring applications.
@@ -35,7 +35,7 @@ The WPC 3-Phase Voltage Isolator delivers outstanding performance for high-volta
 Below is the detailed pinout configuration description for the 3-Phase Voltage Isolator:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_pinout.png').default} alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_pinout.webp').default} alt="3-Phase_Voltage_Isolator_pinout" width="60%" />
 </div>
 
 :::note
@@ -51,12 +51,12 @@ This module can be easily integrated with common data acquisition equipment. The
 
 #### Left Part
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.png').default} alt="Connect_with_DAQ_Left" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_left.webp').default} alt="Connect_with_DAQ_Left" width="60%" />
 </div>
 
 #### Right Part
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.png').default} alt="Connect_with_DAQ_Right" width="60%" />
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator_connect_daq_right.webp').default} alt="Connect_with_DAQ_Right" width="60%" />
 </div>
 
 ---
@@ -64,5 +64,5 @@ This module can be easily integrated with common data acquisition equipment. The
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/signal-condition/LVDT_Signal_Conditioner_dimension.png" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
+  <img src="/img/signal-condition/LVDT_Signal_Conditioner_dimension.webp" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
 </div>

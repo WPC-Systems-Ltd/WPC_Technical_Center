@@ -2,9 +2,8 @@
 title: 起飛教學
 sidebar_position: 2
 description: 無人機起飛飛行流程
+keywords: [起飛教學, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
-
 ## 起飛前檢查項目
 1. 確認無人機重心是否平衡。
 2. 檢查所有載荷是否固定牢靠。
@@ -35,7 +34,7 @@ description: 無人機起飛飛行流程
 ## 4. 飛行方向確認
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_flight_direction.png" alt="drone_flight_direction" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_flight_direction.webp" alt="drone_flight_direction" width="60%" />
 </div>
 
 ### 上升/下降

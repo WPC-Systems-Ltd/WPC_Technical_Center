@@ -23,7 +23,7 @@ USB-DAQ-AOD integrates **8-channel 16-bit analog input** (16kHz) and **8-channel
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAOD_pinout.png').default} alt="USB-DAQ-AOD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAOD_pinout.webp').default} alt="USB-DAQ-AOD Pinout" width="60%" /></div>
 
 ### Product Specifications
 

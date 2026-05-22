@@ -3,8 +3,8 @@ title: 範例程式
 sidebar_label: 範例程式
 sidebar_position: 3
 description: "尋找並執行 WPC Device Driver 提供之範例程式"
+keywords: [範例程式, 硬體驅動, LabVIEW驅動, Python API, SDK, 驅動程式下載]
 ---
-
 ## 尋找範例程式
 
 在開啟 LabVIEW 後，您可以依循下列步驟來尋找 WPC 所提供的各種範例程式：
@@ -13,7 +13,7 @@ description: "尋找並執行 WPC Device Driver 提供之範例程式"
 2. 點選 **Help** → **Find Examples...** 。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_device_driver/wpc_device_driver_find_example.png" alt="wpc_device_driver_find_example" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_device_driver/wpc_device_driver_find_example.webp" alt="wpc_device_driver_find_example" width="60%" />
 </div>
 
 這將開啟 NI Example Finder 視窗。
@@ -23,5 +23,5 @@ description: "尋找並執行 WPC Device Driver 提供之範例程式"
 5. 點擊搜尋按鈕，您將會看到所有適用於 LabVIEW 且與 WPC 產品相關的範例程式。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_device_driver/wpc_device_driver_search.png" alt="wpc_device_driver_search" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_device_driver/wpc_device_driver_search.webp" alt="wpc_device_driver_search" width="60%" />
 </div>

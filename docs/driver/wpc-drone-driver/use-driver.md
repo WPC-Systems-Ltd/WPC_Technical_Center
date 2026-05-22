@@ -3,14 +3,14 @@ title: 使用 WPC Drone Driver
 sidebar_label: 使用驅動程式
 sidebar_position: 2
 description: "介紹如何在 LabVIEW 中使用 WPC Drone Driver API"
+keywords: [使用 WPC Drone Driver, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 ## 開啟 LabVIEW 與驅動程式面板
 
 開啟 LabVIEW，在程式區 (Block Diagram) 點擊滑鼠右鍵，展開 Functions 面板。您將會看到 **"WPC Driver"** 分類，所有的 **WPC Drone** 相關功能皆位於 **"WPC Driver"** 分類之下。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api.png" alt="wpc_drone_driver_api" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api.webp" alt="wpc_drone_driver_api" width="60%" />
 </div>
 
 ---
@@ -20,7 +20,7 @@ description: "介紹如何在 LabVIEW 中使用 WPC Drone Driver API"
 WPC Drone Driver 提供無人機控制與資料擷取相關的 API，包含：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api2.png" alt="wpc_drone_driver_api2" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api2.webp" alt="wpc_drone_driver_api2" width="60%" />
 </div>
 
 | API 類別                      | 描述                                                                |

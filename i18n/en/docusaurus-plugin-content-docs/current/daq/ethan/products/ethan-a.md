@@ -9,7 +9,7 @@ Ethan-A is an industrial-grade Ethernet data acquisition card, providing **8-cha
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA.png').default} alt="Ethan-A Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA.webp').default} alt="Ethan-A Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,7 +26,7 @@ Ethan-A is an industrial-grade Ethernet data acquisition card, providing **8-cha
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA_pinout.png').default} alt="Ethan-A Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA_pinout.webp').default} alt="Ethan-A Pinout" width="60%" /></div>
 
 ### Ethan-A Detailed Specifications
 

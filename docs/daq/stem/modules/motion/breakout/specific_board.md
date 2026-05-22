@@ -3,8 +3,8 @@ title: 專用型子板
 sidebar_position: 3
 sidebar_label: '專用型子板'
 description: 針對各大廠牌伺服驅動器設計的專用對接板
+keywords: [專用型子板, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 # 專用型子板
 
 ## 1. 產品概述
@@ -51,7 +51,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.1 Delta ASDA-B2
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_B2.png" alt="Delta B2 Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_B2.webp" alt="Delta B2 Board" width="60%" />
 </div>
 
 - CN1 和 CN2 的 SCSI-50P 連接器可以通過 pin-to-pin SCSI-50P 接到 Delta ASDA-B2 伺服驅動器。
@@ -78,7 +78,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.2 Delta ASDA-A2
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_A2.png" alt="Delta A2 Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Delta_ASDA_A2.webp" alt="Delta A2 Board" width="60%" />
 </div>
 
 - CN1 和 CN2 的 SCSI-50P 連接器可通過 pin-to-pin SCSI-50P 接到 Delta ASDA-A2 伺服驅動器。
@@ -105,7 +105,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.3 Yaskawa SGDV / SGD7
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Yaskawa_SGDV_SGD7.png" alt="Yaskawa Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Yaskawa_SGDV_SGD7.webp" alt="Yaskawa Board" width="60%" />
 </div>
 
 - CN1 和 CN2 的 SCSI-50P 連接器可通過 pin-to-pin SCSI-50P 接到 Yaskawa SGDV/SGD7 伺服驅動器，兩者的接線圖相容。
@@ -125,7 +125,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.4 Panasonic Minas A4 / A5 / A6
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Panasonic_A4_A5_A6.png" alt="Panasonic Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Panasonic_A4_A5_A6.webp" alt="Panasonic Board" width="60%" />
 </div>
 
 - CN1 和 CN2 的 SCSI-50P 連接器可通過 pin-to-pin SCSI-50P 接到 Panasonic Minas A4/A5/A6 伺服驅動器。
@@ -152,7 +152,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.5 Mitsubishi MR-J4 / JE
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J4_JE.png" alt="Mitsubishi J4 Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J4_JE.webp" alt="Mitsubishi J4 Board" width="60%" />
 </div>
 
 - CN1 和 CN2 的 SCSI-50P 連接器可通過 pin-to-pin SCSI-50P 接到 Mitsubishi MR-J4/JE 伺服驅動器。
@@ -172,7 +172,7 @@ description: 針對各大廠牌伺服驅動器設計的專用對接板
 ### 4.6 Mitsubishi MR-J2S
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J2S.png" alt="Mitsubishi J2S Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_specefic_board_Mitsibishi_MR_J2S.webp" alt="Mitsubishi J2S Board" width="60%" />
 </div>
 
 

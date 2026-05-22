@@ -3,14 +3,14 @@ title: Use WPC Drone Driver
 sidebar_label: Use WPC Drone Driver
 sidebar_position: 2
 description: "Introduction to using WPC Drone Driver API in LabVIEW"
+keywords: [Use WPC Drone Driver, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 ## Open LabVIEW and Driver Panel
 
 Open LabVIEW, right-click on the Block Diagram, and expand the Functions palette. You will see the **"WPC Driver"** category, and all **WPC Drone** related functions are located under this category.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api.png" alt="wpc_drone_driver_api" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api.webp" alt="wpc_drone_driver_api" width="60%" />
 </div>
 
 ---
@@ -20,7 +20,7 @@ Open LabVIEW, right-click on the Block Diagram, and expand the Functions palette
 WPC Drone Driver provides APIs for drone control and data acquisition, including:
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api2.png" alt="wpc_drone_driver_api2" width="60%" />
+  <img src="/WPC_Technical_Center/img/driver/wpc_drone_driver/wpc_drone_driver_api2.webp" alt="wpc_drone_driver_api2" width="60%" />
 </div>
 
 | API 類別                      | 描述                                                                |

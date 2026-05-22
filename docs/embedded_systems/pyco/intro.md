@@ -2,8 +2,8 @@
 title: 產品介紹
 sidebar_position: 1
 description: PYCO 系列產品介紹與選型指南
+keywords: [產品介紹, WPC, 技術文件, 規格說明]
 ---
-
 # 產品介紹
 
 PYCO 系列產品可以獨立運作，無需依賴外部作業系統或軟體環境。程式碼可以直接燒錄到 PYCO 產品的記憶體中。開機後，裝置將自動執行儲存在記憶體中的 `boot.py` 和 `main.py` 檔案。

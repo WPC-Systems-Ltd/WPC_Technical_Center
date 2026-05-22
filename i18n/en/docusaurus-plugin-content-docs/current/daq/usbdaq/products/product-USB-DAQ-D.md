@@ -18,7 +18,7 @@ USB-DAQ-D is specifically designed for digital signal processing, providing **20
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQD_pinout.png').default} alt="USB-DAQ-D Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQD_pinout.webp').default} alt="USB-DAQ-D Pinout" width="60%" /></div>
 
 ### Product Specifications
 

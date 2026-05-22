@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 2ch-CAN FD'
 description: 2-Channel CAN FD Communication Card
+keywords: [instrumentation, control systems, automated testing, WPC control]
 ---
-
 # cPCI 2ch-CAN FD
 
 ## 1. Introduction
@@ -25,7 +25,7 @@ The cPCI 2ch-CAN FD is a 2-channel CAN FD (Controller Area Network Flexible Data
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>

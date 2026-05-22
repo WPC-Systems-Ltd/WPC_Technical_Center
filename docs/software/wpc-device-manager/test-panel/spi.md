@@ -1,14 +1,15 @@
 ---
 sidebar_position: 16
 sidebar_label: 'SPI'
+description: "SPI (Serial Peripheral Interface) 面板提供使用者進行 SPI 串列通訊測試。您可以設定 SPI 模式與傳輸速率，與周邊裝置進行全雙工通訊。 本功能支援具備 SPI 介面的裝置。請依照您的裝置型號，確認對應的連接埠 (Port) 編號： | 產品名稱 | 連接埠..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # SPI
 
 SPI (Serial Peripheral Interface) 面板提供使用者進行 SPI 串列通訊測試。您可以設定 SPI 模式與傳輸速率，與周邊裝置進行全雙工通訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_spi.png" alt="WDM_testPanel_spi" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_spi.webp" alt="WDM_testPanel_spi" width="60%" />
 </div>
 
 ## 支援產品與連接埠

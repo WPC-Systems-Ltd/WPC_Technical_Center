@@ -2,8 +2,9 @@
 title: '"No wifi connection" on Screen'
 sidebar_label: '"No wifi connection" on Screen'
 sidebar_position: 1
+description: "The PYCO WIFI series is designed as a highly independent device. Even if the screen displays No wifi connection, it only means that the development board is..."
+keywords: [No wifi connection on Screen, WPC, technical documentation, specifications]
 ---
-
 # `No wifi connection` on PYCO WIFI Series Screen
 
 ### Full functionality, no need to worry!

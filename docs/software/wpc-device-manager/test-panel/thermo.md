@@ -1,14 +1,15 @@
 ---
 sidebar_position: 19
 sidebar_label: 'Thermo'
+description: "Thermo 面板專為溫度量測設計，支援熱電偶 (Thermocouple) 與熱電阻 (RTD) 感測器。提供多種感測器類型選擇與訊號濾波功能。 請依照您的感測器類型與裝置型號，確認連接埠設定： | 產品名稱 | 連接埠 | | :------------------------------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Thermo
 
 Thermo 面板專為溫度量測設計，支援熱電偶 (Thermocouple) 與熱電阻 (RTD) 感測器。提供多種感測器類型選擇與訊號濾波功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_thermo.png" alt="WDM_testPanel_thermo" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_thermo.webp" alt="WDM_testPanel_thermo" width="60%" />
 </div>
 
 ## 支援產品與連接埠

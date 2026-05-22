@@ -3,8 +3,9 @@ title: 無人機入門指南
 sidebar_label: 無人機入門指南
 sidebar_position: 1
 slug: /drone-starter-guide
+description: "歡迎探索 WPC 無人機 您手上的這台無人機是全機台灣設計與製造 (MIT) 的專業飛行平台。它搭載了我們自研的高效飛控演算法，具備極速 2.5 ms 的反應時間，讓您即使在高達 17.2m/s (7 級陣風) 的嚴苛環境下也能維持穩定飛行。 1 安裝驅動程式 我們提供原生的 API 支援。請..."
+keywords: [無人機入門指南, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 import { Rocket, PlaneTakeoff, Settings, RadioTower, HelpCircle, Network, FileCode } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

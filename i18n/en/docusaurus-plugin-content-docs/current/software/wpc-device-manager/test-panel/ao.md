@@ -1,14 +1,15 @@
 ---
 sidebar_position: 2
 sidebar_label: 'AO'
+description: "The AO (Analog Output) panel allows users to perform analog signal output control for voltage or current. Through this interface, you can manually set the ou..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # AO
 
 The AO (Analog Output) panel allows users to perform analog signal output control for voltage or current. Through this interface, you can manually set the output values for each channel or update multiple channels simultaneously.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ao.png').default} alt="WDM_testPanel_ao" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ao.webp').default} alt="WDM_testPanel_ao" width="60%" />
 </div>
 
 ## Supported Products

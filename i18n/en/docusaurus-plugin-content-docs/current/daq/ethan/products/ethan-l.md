@@ -9,7 +9,7 @@ Ethan-L is equipped with **6-channel mechanical relays** (4x Form-A Normally Ope
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanL.png').default} alt="Ethan-L Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanL.webp').default} alt="Ethan-L Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -28,7 +28,7 @@ Ethan-L is equipped with **6-channel mechanical relays** (4x Form-A Normally Ope
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanL_pinout.png').default} alt="Ethan-L Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanL_pinout.webp').default} alt="Ethan-L Pinout" width="60%" /></div>
 
 ## Relay Specifications - Ethan-L
 

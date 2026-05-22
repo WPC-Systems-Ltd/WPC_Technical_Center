@@ -2,8 +2,8 @@
 title: Product Introduction
 sidebar_position: 1
 description: WPC Drone features and technical specifications
+keywords: [Product Introduction, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 # Product Introduction
 
 **WPC Drone - 6Kg-Class UAV Platform** is a high-performance flight platform specifically designed for scientific research, education, and professional applications.
@@ -11,7 +11,7 @@ description: WPC Drone features and technical specifications
 Featuring self-developed high-efficiency flight control algorithms with a response time as fast as 2.5 ms, it boasts excellent wind resistance, maintaining stable flight even in level 7 gusts. With a high-speed Attitude and Heading Reference System (AHRS), overall control is faster with superior vibration resistance, ensuring high stability and reliability for flight missions.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone/drone.png').default} alt="drone" width="60%" />
+  <img src={require('@site/static/img/drone/drone.webp').default} alt="drone" width="60%" />
 </div>
 
 ## Core Technical Features

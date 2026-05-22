@@ -2,8 +2,8 @@
 title: 遙控器操作教學
 sidebar_position: 3
 description: 無人機遙控器操作與飛行流程
+keywords: [遙控器操作教學, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 ## 無人機遙控器操作影片
 
 <div style={{textAlign: 'center'}}>
@@ -15,7 +15,7 @@ description: 無人機遙控器操作與飛行流程
 ## 遙控器按鍵說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_main.png" alt="remote_controller_main" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_main.webp" alt="remote_controller_main" width="60%" />
 </div>
 
 | 位置               | 功能         | 說明                                                                 |
@@ -30,7 +30,7 @@ description: 無人機遙控器操作與飛行流程
 ## 起飛操作說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_takeoff.png" alt="remote_controller_takeoff" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_takeoff.webp" alt="remote_controller_takeoff" width="60%" />
 </div>
 
 
@@ -45,14 +45,14 @@ description: 無人機遙控器操作與飛行流程
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_landing.png" alt="remote_controller_landing" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_landing.webp" alt="remote_controller_landing" width="60%" />
 </div>
 
 把左手搖桿 (Z 軸控制桿) ( ↕ ) 移至最低位置。無人機接近地面後，會自動解除飛行模式。
 
 ## 緊急關閉
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/remote_controller_emergency.png" alt="remote_controller_emergency" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/remote_controller_emergency.webp" alt="remote_controller_emergency" width="60%" />
 </div>
 
 **緊急關閉：**

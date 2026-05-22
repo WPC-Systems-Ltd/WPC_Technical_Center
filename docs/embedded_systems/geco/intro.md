@@ -2,8 +2,8 @@
 sidebar_position: 1
 sidebar_label: '產品介紹'
 description: GECO 產品簡介、架構與外觀說明
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # GECO 產品介紹
 
 ## 1. 什麼是 GECO?
@@ -20,7 +20,7 @@ Graphical Embedded Controller (GECO) 是一款由 sbRIO、LabVIEW 和 [WPC RMC B
 *   效益：GECO 的 圖形化系統設計 (GSD) 特性，能有效簡化複雜應用流程，縮短開發時間，並降低後續維護成本。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_compose.png" alt="geco_controller_compose" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_compose.webp" alt="geco_controller_compose" width="60%" />
 </div>
 
 ---
@@ -51,7 +51,7 @@ GECO 上方設有 4 個擴充插槽，可用於安裝各類 GECO 模組。目前
     *   RS-232 / 422 / 485
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_support.png" alt="geco_controller_support" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_support.webp" alt="geco_controller_support" width="60%" />
 </div>
 
 ---
@@ -61,7 +61,7 @@ GECO 上方設有 4 個擴充插槽，可用於安裝各類 GECO 模組。目前
 本節說明 GECO 控制器的外部介面與指示燈狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_led.png" alt="geco_controller_led" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_controller_led.webp" alt="geco_controller_led" width="60%" />
 </div>
 
 (由左至右依序說明)

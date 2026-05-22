@@ -1,8 +1,9 @@
 ---
 title: Getting Started
 sidebar_position: 2
+description: "Thank you for choosing PYCO. This guide will help you quickly set up your development environment and run your first program on the PYCO development board. H..."
+keywords: [Getting Started, WPC, technical documentation, specifications]
 ---
-
 # Getting Started
 
 ## Welcome!

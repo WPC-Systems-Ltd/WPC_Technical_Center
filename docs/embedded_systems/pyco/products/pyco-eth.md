@@ -1,8 +1,9 @@
 ---
 title: PYCO ETH
 sidebar_position: 2
+description: "PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 8 通道 AI/AO/DI/DO，並內建 Ethernet 與 OLED 螢幕，適合需要有線網路連接的工業應用。 --- --- Python Programmable: 支援 Stand-Alone Python 應用程式..."
+keywords: [PYCO ETH, WPC, 技術文件, 規格說明]
 ---
-
 # PYCO ETH
 
 PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 **8 通道 AI/AO/DI/DO**，並內建 **Ethernet** 與 **OLED 螢幕**，適合需要有線網路連接的工業應用。
@@ -12,7 +13,7 @@ PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 **8 通道 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth.png" alt="PYCO ETH 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth.webp" alt="PYCO ETH 外觀" width="60%" />
 </div>
 
 
@@ -37,7 +38,7 @@ PYCO ETH 是一款全功能型 Python 可程式化控制器，整合 **8 通道 
 ## 各部名稱
 ---
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth-general.png" alt="PYCO ETH 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-eth-general.webp" alt="PYCO ETH 外觀" width="60%" />
 </div>
 
 

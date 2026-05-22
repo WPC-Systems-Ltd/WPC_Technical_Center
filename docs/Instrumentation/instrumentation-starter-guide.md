@@ -3,8 +3,9 @@ title: 儀器設備入門指南
 sidebar_label: 儀器設備入門指南
 sidebar_position: 1
 slug: /instrumentation-starter-guide
+description: "歡迎探索 WPC 儀器設備 WPC 自行研發的 gStack-RIO 系列採用 Rack 機箱設計，專為分散式、高密度 I/O 應用而生。透過靈活的插槽設計與強大的 LabVIEW 支援，您可以快速建構精密控制與量測系統。 1 配置 I/O 模組卡片 gStack-RIO 機箱提供 8 個插槽..."
+keywords: [儀器設備入門指南, 儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
 import Link from '@docusaurus/Link';
 

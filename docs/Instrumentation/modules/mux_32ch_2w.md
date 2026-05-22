@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 32ch-2W MUX'
 description: 32通道兩線式多工切換器
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 32ch-2W MUX
 
 ## 1. 簡介
@@ -31,9 +31,9 @@ cPCI 32ch-2W MUX 是一張 1-to-32 通道的兩線式（2-wire）多工切換器
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX.png" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX.webp" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX_Pinout.png" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX_Pinout.webp" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
 </div>

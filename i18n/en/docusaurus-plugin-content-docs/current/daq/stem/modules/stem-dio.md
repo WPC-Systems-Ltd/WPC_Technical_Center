@@ -18,13 +18,13 @@ This module provides 12-channel digital input (DI) and 12-channel digital output
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_module_DIO.png').default} alt="DIO Module Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO.webp').default} alt="DIO Module Appearance" width="60%" />
 </div>
 
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_layout.png').default} alt="DIO Module Pinout" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_layout.webp').default} alt="DIO Module Pinout" width="60%" />
 </div>
 
 ## Wiring Instructions
@@ -38,13 +38,13 @@ This module supports Sinking and Sourcing wiring modes, which need to be configu
 *   Input must be Common Anode (24V)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sinkingout.png').default} alt="Sinking Out + Sourcing In" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sinkingout.webp').default} alt="Sinking Out + Sourcing In" width="60%" />
 </div>
 
 ### Sourcing Out + Sinking In
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sourcingout.png').default} alt="Sourcing Out + Sinking In" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_module_DIO_sourcingout.webp').default} alt="Sourcing Out + Sinking In" width="60%" />
 </div>
 
 *   âš ï¸ Install the **bottom row** of resistors

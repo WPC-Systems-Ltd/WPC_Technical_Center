@@ -2,14 +2,14 @@
 sidebar_position: 5
 sidebar_label: '極限開關接線'
 description: 常見的光電式極限開關接線原理與安全建議
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 常見極限開關接線
 
 本章節以業界常用的光電開關 (如 OMRON EE-SX67x 系列) 為範例，說明極限開關的接線模式與安全配置建議。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/limit_switch_connection.png" alt="Omron EE-SX67x Series" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/limit_switch_connection.webp" alt="Omron EE-SX67x Series" width="60%" />
 </div>
 
 ## 1. 接線模式說明
@@ -36,7 +36,7 @@ description: 常見的光電式極限開關接線原理與安全建議
 此模式構成了一種 **「失效安全 (Fail-Safe)」** 機制。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/suggest_connection.png" alt="Wiring Configuration" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/suggest_connection.webp" alt="Wiring Configuration" width="60%" />
 </div>
 
 ### 安全配置建議

@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 2ch-CAN FD'
 description: 2通道 CAN FD 通訊卡
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 2ch-CAN FD
 
 ## 1. 簡介
@@ -25,11 +25,11 @@ cPCI 2ch-CAN FD 是一張具備 2 通道的 CAN FD (Controller Area Network Flex
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD.png" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD.webp" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD_Pinout.png" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD_Pinout.webp" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
 </div>
 
 :::note

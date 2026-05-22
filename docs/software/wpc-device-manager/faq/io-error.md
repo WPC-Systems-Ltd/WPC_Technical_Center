@@ -3,22 +3,22 @@ title: WDM 無法開啟
 sidebar_label: WDM 無法開啟
 sidebar_position: 1
 description: "解決開啟 WDM 時出現 Generic file I/O error 的路徑長度問題"
+keywords: [WDM 無法開啟, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 問題描述
 
 開啟 WPC Device Manager (WDM) 時，跳出如下圖所示的 "Generic file I/O error" 錯誤視窗，導致程式無法正常啟動。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-01.png" alt="Generic file I/O error 錯誤訊息 1" width="40%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-01.webp" alt="Generic file I/O error 錯誤訊息 1" width="40%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-02.png" alt="Generic file I/O error 錯誤訊息 2" width="40%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-02.webp" alt="Generic file I/O error 錯誤訊息 2" width="40%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-03.png" alt="Generic file I/O error 錯誤訊息 3" width="40%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/faq/io-error-03.webp" alt="Generic file I/O error 錯誤訊息 3" width="40%" />
 </div>
 ### 可能原因
 

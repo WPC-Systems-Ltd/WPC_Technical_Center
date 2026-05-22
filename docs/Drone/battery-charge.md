@@ -2,8 +2,8 @@
 title: 電池充電教學
 sidebar_position: 4
 description: WPC Drone 電池充電教學
+keywords: [電池充電教學, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 ## 電池充電教學操作影片
 
 <div style={{textAlign: 'center'}}>
@@ -13,7 +13,7 @@ description: WPC Drone 電池充電教學
 ## 簡介
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge.png" alt="battery_charge" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge.webp" alt="battery_charge" width="60%" />
 </div>
 
 imax B6AC v2 是一款處理器控制的智能充電器，適用於大多數常見的電池類型。
@@ -34,12 +34,12 @@ imax B6AC v2 是一款處理器控制的智能充電器，適用於大多數常�
 電池的充/放電需要將電池上的**充/放電線**與**平衡充線**接上充電器，如下圖所示：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_wiring_diagram.png" alt="電池接線示意圖" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_wiring_diagram.webp" alt="電池接線示意圖" width="60%" />
   <p>電池接線示意圖。取自 iMAX B6AC V2 Manual。</p>
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_3S_balance_charging_port.png" alt="3S電池平衡充線位置" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_3S_balance_charging_port.webp" alt="3S電池平衡充線位置" width="60%" />
   <p>3S 電池平衡充線位置</p>
 </div>
 
@@ -48,7 +48,7 @@ imax B6AC v2 是一款處理器控制的智能充電器，適用於大多數常�
 imax B6AC v2 支援多種電池，必須正確切換設定以確保充電安全。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_type.png" alt="電池種類" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_type.webp" alt="電池種類" width="60%" />
   <p>電池種類選單</p>
 </div>
 
@@ -65,7 +65,7 @@ WPC Drone 使用的是 **3S LiPo 電池**（代表內部串聯 3 個電芯，標
 ### 1. 選擇平衡充電模式 (BALANCE CHG)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_select_balance_charging_mode.png" alt="選擇平衡充電模式" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_select_balance_charging_mode.webp" alt="選擇平衡充電模式" width="60%" />
   <p>選擇平衡充電模式</p>
 </div>
 
@@ -74,7 +74,7 @@ WPC Drone 使用的是 **3S LiPo 電池**（代表內部串聯 3 個電芯，標
 ### 2. 設定充電電流與電壓
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.png" alt="設定充電電流與電壓" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.webp" alt="設定充電電流與電壓" width="60%" />
   <p>設定充電電流與電壓</p>
 </div>
 
@@ -93,17 +93,17 @@ WPC Drone 使用的是 **3S LiPo 電池**（代表內部串聯 3 個電芯，標
 ### 3. 開始充電
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_start_charging.png" alt="開始充電" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_start_charging.webp" alt="開始充電" width="60%" />
   <p>確認是否開始充電的畫面</p>
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging.png" alt="充電中" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging.webp" alt="充電中" width="60%" />
   <p>充電中的畫面</p>
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging_complete.png" alt="充電完成" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging_complete.webp" alt="充電完成" width="60%" />
   <p>充電完成畫面</p>
 </div>
 

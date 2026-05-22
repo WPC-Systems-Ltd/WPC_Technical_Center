@@ -1,14 +1,15 @@
 ---
 sidebar_position: 9
 sidebar_label: 'Function Generator'
+description: "Function Generator (函數產生器) 面板允許使用者透過類比輸出通道，產生各種標準波形訊號。 本功能需搭配具備類比輸出 (AO) 的高效能 DAQ 裝置： | 產品名稱 | 說明 | | :--------------------------------------------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Function Generator
 
 Function Generator (函數產生器) 面板允許使用者透過類比輸出通道，產生各種標準波形訊號。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.png" alt="WDM_testPanel_function_gen" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.webp" alt="WDM_testPanel_function_gen" width="60%" />
 </div>
 
 ## 支援產品

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 2
 sidebar_label: 'AO'
+description: "AO (Analog Output) 面板提供使用者進行電壓或電流的類比訊號輸出控制。透過此介面，您可以手動設定各通道的輸出數值，或同步更新多個通道。 本功能僅支援具備類比輸出 (AO) 功能的裝置，請確認您的裝置型號及支援的輸出範圍： | 產品名稱 | 輸出規格說明 | | :-------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # AO
 
 AO (Analog Output) 面板提供使用者進行電壓或電流的類比訊號輸出控制。透過此介面，您可以手動設定各通道的輸出數值，或同步更新多個通道。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ao.png" alt="WDM_testPanel_ao" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ao.webp" alt="WDM_testPanel_ao" width="60%" />
 </div>
 
 ## 支援產品

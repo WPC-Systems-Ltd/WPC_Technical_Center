@@ -2,13 +2,11 @@
 title: 基本操作(外觀及 LED 狀態)
 sidebar_position: 2
 description: 硬體介面說明（電源、網路、按鈕、OLED）與 LED 指示燈診斷（系統/網路狀態判讀）
+keywords: [基本操作外觀及 LED 狀態, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
-
-
 ## 硬體外觀
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_appearance.png" alt="Ethan 外觀" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/Ethan_appearance.webp" alt="Ethan 外觀" width="40%" /></div>
 
 ## 介面以號碼對照說明
 

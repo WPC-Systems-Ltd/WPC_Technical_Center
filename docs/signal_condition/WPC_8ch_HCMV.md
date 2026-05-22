@@ -2,8 +2,8 @@
 title: 8ch High Common Mode Voltage (HCMV) Amplifier
 sidebar_position: 6
 description: WPC 8ch High Common Mode Voltage (HCMV) Amplifier 產品簡介、特點與規格說明
+keywords: [8ch High Common Mode Voltage HCMV Amplifier, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 8ch High Common Mode Voltage (HCMV) Amplifier
 
 WPC HCMV Amplifier (包含 HCMV Amplifier-200 與 HCMV Amplifier-275) 是一款專為高共模電壓訊號處理設計的放大器模組。本產品具備 8 個接地參考通道 (Ground-referenced channels) 與隔離式電源供應設計，特別適合用於**電池組 (Battery pack)** 與**燃料電池 (Fuel battery)** 的量測應用。
@@ -16,7 +16,7 @@ WPC HCMV Amplifier (包含 HCMV Amplifier-200 與 HCMV Amplifier-275) 是一款�
 *   **標準化供電與增益**：採用 24VDC 供電，具備固定增益 (Gain) 為 1，方便系統整合。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV.png" alt="8ch_HCMV" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV.webp" alt="8ch_HCMV" width="60%" />
 </div>
 
 ---
@@ -52,7 +52,7 @@ WPC 8ch HCMV Amplifier 專為高穩定性與高安全性量測而設計，其主
 以下為 WPC 8ch HCMV Amplifier 的接腳與介面配置說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_pinout.png" alt="8ch_HCMV_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_pinout.webp" alt="8ch_HCMV_pinout" width="60%" />
 </div>
 
 :::caution
@@ -73,7 +73,7 @@ WPC 8ch HCMV Amplifier 專為高穩定性與高安全性量測而設計，其主
 
 ### 連線範例 (Connection Diagram)
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_connection_diagram.png" alt="8ch_HCMV_connection_diagram" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_connection_diagram.webp" alt="8ch_HCMV_connection_diagram" width="60%" />
 </div>
 
 ### 應用說明
@@ -86,12 +86,12 @@ WPC 8ch HCMV 主要應用於電池組量測。由於電池組內部存在極高�
 ### Power & References
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_power_ref.png" alt="8ch_HCMV_power_ref" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_power_ref.webp" alt="8ch_HCMV_power_ref" width="60%" />
 </div>
 
 ### 高壓擴充 (High Voltage Expansion)
 本系列模組支援高壓擴充應用，可根據量測點的總串聯電壓選擇對應的型號 (HCMV-200 或 HCMV-275)，並可多組並用以擴充量測通道。
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_high_voltage_expansion.png" alt="8ch_HCMV_high_voltage_expansion" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_HCMV_high_voltage_expansion.webp" alt="8ch_HCMV_high_voltage_expansion" width="60%" />
 </div>
 

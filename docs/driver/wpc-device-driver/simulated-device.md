@@ -3,8 +3,8 @@ title: 虛擬裝置參考
 sidebar_label: 虛擬裝置
 sidebar_position: 4
 description: "WPC 各項產品的 Simulated Device ID 參考列表"
+keywords: [虛擬裝置參考, 硬體驅動, LabVIEW驅動, Python API, SDK, 驅動程式下載]
 ---
-
 ## 虛擬裝置
 
 您可以在沒有實體硬體的情況下，透過虛擬裝置來執行驅動程式的範例程式。

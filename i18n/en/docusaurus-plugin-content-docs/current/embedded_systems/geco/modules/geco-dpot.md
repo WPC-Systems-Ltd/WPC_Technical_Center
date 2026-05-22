@@ -2,8 +2,8 @@
 sidebar_position: 2
 sidebar_label: '16ch Digital Potentiometers'
 description: Specifications and pinout definitions for the 16ch digital potentiometer module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 16ch Digital Potentiometers Module
 
 This module provides 16 channels of digital potentiometers, allowing software control over resistance values.
@@ -21,13 +21,13 @@ This module provides 16 channels of digital potentiometers, allowing software co
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT.jpg').default} alt="16ch DPOT Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT.webp').default} alt="16ch DPOT Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_pinout.png').default} alt="16ch DPOT Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_pinout.webp').default} alt="16ch DPOT Pinout" width="60%" />
 </div>
 
 | Pin Description | Pin Number | Pin Number | Pin Description |
@@ -93,12 +93,12 @@ This module provides 16 channels of digital potentiometers, allowing software co
 ## 3. DIO Control
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl.png').default} alt="DPOT DIO Control 1" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl.webp').default} alt="DPOT DIO Control 1" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl1.png').default} alt="DPOT DIO Control 2" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_DIO_ctrl1.webp').default} alt="DPOT DIO Control 2" width="60%" />
 </div>
 
 
@@ -106,7 +106,7 @@ This module provides 16 channels of digital potentiometers, allowing software co
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_paralleling.png').default} alt="DPOT Paralleling/Stacking" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_paralleling.webp').default} alt="DPOT Paralleling/Stacking" width="60%" />
 </div>
 
 
@@ -114,5 +114,5 @@ This module provides 16 channels of digital potentiometers, allowing software co
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_voltage_diff.png').default} alt="Voltage Differential" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_DPOT_voltage_diff.webp').default} alt="Voltage Differential" width="60%" />
 </div>

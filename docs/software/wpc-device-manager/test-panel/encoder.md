@@ -1,14 +1,15 @@
 ---
 sidebar_position: 8
 sidebar_label: 'Encoder'
+description: "Encoder (編碼器) 面板提供使用者讀取正交編碼器 (Quadrature Encoder) 的位置與速度資訊。適用於馬達位置回授與轉速監控。 介面提供即時的編碼器狀態資訊： | 參數/顯示 | 說明 | | :-------------------- | :--------------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # Encoder
 
 Encoder (編碼器) 面板提供使用者讀取正交編碼器 (Quadrature Encoder) 的位置與速度資訊。適用於馬達位置回授與轉速監控。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_encoder.png" alt="WDM_testPanel_encoder" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_encoder.webp" alt="WDM_testPanel_encoder" width="60%" />
 </div>
 
 ## 參數與數值顯示
