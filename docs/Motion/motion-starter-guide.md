@@ -7,6 +7,7 @@ displayed_sidebar: motionSidebar
 ---
 
 import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings, Network, Usb, Settings2, Search, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
   <h1>歡迎來到 WPC 馬達驅動方案</h1>
@@ -51,21 +52,21 @@ import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings, Network, Usb, Setting
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的硬體平台
 
 <div className="gs-card-grid">
-  <a href="/docs/Motion/EDriveST/intro" className="theme-doc-card gs-card">
+  <Link to="./Motion/EDriveST/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Zap size={24} color="var(--brand-electric-blue)"/> EDriveST</h2>
     <p>**單軸步進馬達整合型驅動器**</p>
     <p>配備網路介面，直接連接兩相步進馬達、編碼器與極限開關，無須額外軸卡即可完成位置與速度控制。</p>
-  </a>
-  <a href="/docs/Motion/EDriveSRV/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./Motion/EDriveSRV/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> EDriveSRV</h2>
     <p>**單軸伺服馬達整合型驅動器**</p>
     <p>支援 Panasonic A6 系列伺服馬達，最高 48V 直流電源，最大輸出功率 400W，適合高精度運動控制。</p>
-  </a>
-  <a href="/docs/Motion/EMotion/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./Motion/EMotion/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Cpu size={24} color="var(--brand-electric-blue)"/> Emotion</h2>
     <p>**四軸運動控制軸卡**</p>
     <p>支援多種知名品牌伺服驅動器（安川、三菱、台達、國際牌），提供專用與通用子板，快速整合至現有系統。</p>
-  </a>
+  </Link>
 </div>
 
 ---
@@ -105,7 +106,7 @@ import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings, Network, Usb, Setting
 </div>
 
 :::note[前往了解更多]
-**[WPC Device Manager](/docs/software/wpc-device-manager/intro)**
+**[WPC Device Manager](../software/wpc-device-manager/intro.md)**
 下載並安裝管理工具，幫助您更有效率地管理與設定 WPC DAQ 設備。
 :::
 
@@ -117,6 +118,6 @@ WPC 提供多種程式語言的硬體驅動程式，讓使用者能夠快速整�
 
 | 程式語言 | 特色簡介 | 詳細教學連結 |
 | :------- | :------- | :----------- |
-| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。 | [LabVIEW 入門](/docs/driver/driver_intro) |
+| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。 | [LabVIEW 入門](../driver/intro.md) |
 | **Python** | 開源且易於使用的 API，具備一致的介面與豐富範例，適合各階層開發者快速上手。 | [Python 入門](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
 | **C#** | 針對 .NET 環境優化的開源驅動，採用直觀的開啟/讀寫/關閉邏輯，大幅降低開發門檻。 | [C# 入門](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |

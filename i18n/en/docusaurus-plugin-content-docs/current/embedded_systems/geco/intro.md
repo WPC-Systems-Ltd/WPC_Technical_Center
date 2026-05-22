@@ -38,7 +38,7 @@ The GECO ecosystem consists of three main components:
 3. **GECO Modules**: Modular units for specific signal processing or control functions.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_architecture.png" alt="GECO Architecture" width="60%" />
+  <img src="/img/embedded-system/geco/geco_controller_compose.png" alt="GECO Architecture" width="60%" />
 </div>
 
 ---

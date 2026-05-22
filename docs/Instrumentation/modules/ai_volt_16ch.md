@@ -25,9 +25,9 @@ cPCI 16ch-AI VOLT 是一張 32 通道單端（或 16 通道差動）的 +/- 10V 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p13_00.jpeg" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.png" alt="cPCI 16ch-AI VOLT Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p14_00.png" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.png" alt="cPCI 16ch-AI VOLT Pinout" width="60%" />
 </div>

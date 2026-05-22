@@ -64,5 +64,5 @@ This module can be easily integrated with common data acquisition equipment. The
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_dimension.png" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
+  <img src="/img/signal-condition/LVDT_Signal_Conditioner_dimension.png" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
 </div>

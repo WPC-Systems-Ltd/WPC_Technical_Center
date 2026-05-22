@@ -31,9 +31,9 @@ When using, simply connect the +/- terminals of the instrument to COM +/-, and c
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p19_00.jpeg" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p20_00.png" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
+  <img src="/img/instrumentation/image_p20_00.png" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
 </div>

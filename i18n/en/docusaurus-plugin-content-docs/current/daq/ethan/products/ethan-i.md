@@ -26,7 +26,7 @@ Ethan-I is specifically designed for **4-20mA industrial current loops**, provid
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanI_pinout.png" alt="Ethan-I Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanIA_pinout.png" alt="Ethan-I Pinout" width="60%" /></div>
 
 ### Ethan-I Detailed Specifications (Current Input)
 

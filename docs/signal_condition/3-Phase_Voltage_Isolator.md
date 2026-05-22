@@ -15,6 +15,10 @@ WPC 三相電壓隔離器是一款專為高壓電力系統測量設計的信號�
 *   **寬廣應用場景**：適用於單相/三相 AC 電壓量測、交流馬達參數分析等。
 *   **工業級標準**：採用 24VDC 供電，符合標準工業自動化環境。
 
+<div style={{textAlign: 'center'}}>
+  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator.png" alt="3-Phase_Voltage_Isolator" width="60%" />
+</div>
+
 ---
 
 ## 產品規格與特點
@@ -61,8 +65,4 @@ WPC 三相電壓隔離器針對高壓隔離量測提供優異的性能表現，�
 
 ---
 
-## 尺寸圖 (Dimensional Drawing)
 
-<div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/3-Phase_Voltage_Isolator_dimension.png" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
-</div>

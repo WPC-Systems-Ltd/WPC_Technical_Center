@@ -6,6 +6,7 @@ slug: /daq-starter-guide
 ---
 
 import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
   <h1>歡迎探索 WPC 資料擷取</h1>
@@ -23,7 +24,7 @@ DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它�
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
       <h3>選擇硬體設備</h3>
-      <p>根據您的需求[（長距離傳輸、攜帶便利性、無線傳輸、多通道）](/docs/daq-starter-guide#choose-hardware)選擇合適的資料擷取裝置。</p>
+      <p>根據您的需求[（長距離傳輸、攜帶便利性、無線傳輸、多通道）](#choose-hardware)選擇合適的資料擷取裝置。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
@@ -54,30 +55,30 @@ DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它�
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的硬體平台 {#choose-hardware}
 
 <div className="gs-card-grid">
-  <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
+  <Link to="./daq/ethan/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ 系列</h2>
     <p>**高穩定的工業量測解決方案**</p>
     <p>適合需長距離連接、多節點同步監控的工業現場。提供 RJ45 介面，具有高穩定度特性。</p>
-  </a>
-  <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./daq/usbdaq/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB DAQ 系列</h2>
     <p>**隨插即用的高精度量測**</p>
     <p>透過 USB 介面快速連接電腦，適合實驗室研發與可攜式測試應用。</p>
-  </a>
-  <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./daq/wifidaq/product-general" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
     <p>**主打無線部署與 IoT 應用**</p>
-    <p>適合難以佈線或移動式載體的數據採集需求。支援無線網路傳輸，讓感測無所不在。</p>
-  </a>
-  <a href="/docs/daq/stem/intro" className="theme-doc-card gs-card">
+    <p>適合難以佈線或移動式載體的數據採集需求。支援無線網路傳传输，讓感測無所不在。</p>
+  </Link>
+  <Link to="./daq/stem/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings2 size={24} color="var(--brand-electric-blue)"/> STEM 系列</h2>
     <p>**多通道、混合量測控制解決方案**</p>
     <p>具備豐富的類比與數位 I/O，可搭配多種擴充模組，是自動化控制與建立原型的理想平台。</p>
-  </a>
+  </Link>
 </div>
 
 :::tip[除此之外還有什麼？]
-除了資料擷取系列，我們還提供 **[訊號調節器](/docs/signal-conditioner-starter-guide)**。
+除了資料擷取系列，我們還提供 **[訊號調節器](../signal_condition/signal_condition-starter-guide.mdx)**。
 :::
 
 ---
@@ -117,7 +118,7 @@ DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它�
 </div>
 
 :::note[前往了解更多]
-**[WPC Device Manager](/docs/software/wpc-device-manager/intro)**
+**[WPC Device Manager](../software/wpc-device-manager/intro.md)**
 下載並安裝管理工具，幫助您更有效率地管理與設定 WPC DAQ 設備。
 :::
 
@@ -129,7 +130,7 @@ WPC 提供多種程式語言的硬體驅動程式，讓使用者能夠快速整�
 
 | 程式語言 | 特色簡介 | 詳細教學連結 |
 | :------- | :------- | :----------- |
-| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。 | [LabVIEW 入門](/docs/driver/driver_intro) |
+| **LabVIEW** | 提供完整的 VI 套件與現成圖形化面板，讓工程師能快速整合自動化測試與量測流程。 | [LabVIEW 入門](../driver/intro.md) |
 | **Python** | 開源且易於使用的 API，具備一致的介面與豐富範例，適合各階層開發者快速上手。 | [Python 入門](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
 | **C#** | 針對 .NET 環境優化的開源驅動，採用直觀的開啟/讀寫/關閉邏輯，大幅降低開發門檻。 | [C# 入門](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |
 
@@ -138,10 +139,10 @@ WPC 提供多種程式語言的硬體驅動程式，讓使用者能夠快速整�
 ## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 常見問題 (FAQ)
 
 <div className="gs-card-grid">
-  <a href="/docs/wdm-faq" className="theme-doc-card gs-card">
+  <Link to="./wdm-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Device Manager</h2>
     <p>**常見問題與問題排除指南**</p>
-  </a>
+  </Link>
 </div>
 
 

@@ -1,6 +1,14 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.20 Date: 2026/05/22, Developer: Antigravity
+---------------------------------------------------
+### Fixed
+- **404 連結與圖片路徑修復**：
+  - **修正 Category 亂碼路由**：在 4 個 `_category_.json` 檔案中定義明確的英文 `slug`，徹底解決了 Docusaurus 自動處理中文 Sidebar 與目錄索引頁編譯時產生的亂碼 404 路由。
+  - **修補遺失圖片與移除前綴**：將遺失的圖片在文檔端直接重導向至接腳或外觀 100% 相容的現有圖片（如 `EthanI_pinout` 指向 `EthanIA_pinout`；`3-Phase_Voltage_Isolator_dimension` 指向 `LVDT_Signal_Conditioner_dimension`；儀器模組奇數外貌圖統一導向 `image_p10_00.png`）。同時，移除了大量 Markdown 檔案中寫死的 `/WPC_Technical_Center` 前綴，指向標準相對根目錄，並修正了 USB-DAQ、Ethernet Device Manager 與 GECO Driver 的圖片路徑。
+  - **修正 Starter Guides JSX 卡片相對路由**：修復了 Docusaurus 生產編譯時，因為 Starter Guides 檔案使用自訂 `slug`（如 `/drone-starter-guide`，路由被提升至 `/docs/` 根目錄）所導致的自訂卡片相對連結解析錯誤。將卡片相對路徑精準調整為補上目錄層級的形式（如 `./Drone/...`、`./daq/...`、`./Instrumentation/...`、`./Motion/...`），在確保多語系（`/en/...`）自動保留正確前綴的前提下，完美通過 Docusaurus 靜態死連結檢查（Broken Links Check）。
+
 v0.0.19 Date: 2026/05/18, Developer: Hok
 ---------------------------------------------------
 ### Changed

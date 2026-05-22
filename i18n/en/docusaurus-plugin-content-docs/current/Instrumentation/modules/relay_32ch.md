@@ -25,9 +25,9 @@ The cPCI 32ch-Relay is a relay card with 32 channels (configurable as Form A or 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p21_00.jpeg" alt="cPCI 32ch-Relay Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 32ch-Relay Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p22_00.png" alt="cPCI 32ch-Relay Pinout" width="60%" />
+  <img src="/img/instrumentation/image_p22_00.png" alt="cPCI 32ch-Relay Pinout" width="60%" />
 </div>

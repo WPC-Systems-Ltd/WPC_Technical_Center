@@ -25,9 +25,9 @@ This module is a 16-channel single-ended +/- 20mA current input I/O card.
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p11_00.jpeg" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.png" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p12_00.png" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
+  <img src="/img/instrumentation/image_p12_00.png" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
 </div>

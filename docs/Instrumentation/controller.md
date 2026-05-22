@@ -14,7 +14,7 @@ gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的
 下圖展示了 gStack-RIO 控制器的實體面板配置與各項連接介面位置。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p7_00.png" alt="Controller Interface" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/Controller_Interface.png" alt="Controller Interface" width="60%" />
 </div>
 
 1. Protective earth (PE): 保護接地端子。
@@ -38,10 +38,6 @@ gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的
 
 gStack-RIO 控制器核心搭載 NI sbRIO-9607 嵌入式單板電腦，具備高效能處理器與可程式化 FPGA，適用於即時控制與監控應用。
 
-<div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p8_00.png" alt="Controller Specs" width="60%" />
-</div>
-
 詳細規格如下：
 *   Processor: 667MHz Dual core CPU
 *   FPGA: Zynq-7020
@@ -56,10 +52,10 @@ gStack-RIO 控制器核心搭載 NI sbRIO-9607 嵌入式單板電腦，具備高
 
 gStack-RIO 的系統軟體架構如下圖所示。使用者可透過 gStack-RIO 提供的 PC 端或 Real-Time (RT) 端驅動程式 API，在 LabVIEW 環境下進行應用程式開發。
 
+<div style={{textAlign: 'center'}}>
+  <img src="/WPC_Technical_Center/img/instrumentation/Software_Architecture.png" alt="Software Architecture" width="60%" />
+</div>
+
 :::caution
 gStack-RIO 系統底層會自動載入預先編譯完成的 FPGA bitfile，以確保硬體運作的穩定性與相容性，因此使用者無需也無法自行修改底層 FPGA 的功能。
 :::
-
-<div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p8_00.png" alt="Software Architecture" width="60%" />
-</div>

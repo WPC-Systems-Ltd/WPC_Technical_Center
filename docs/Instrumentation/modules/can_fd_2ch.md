@@ -25,11 +25,11 @@ cPCI 2ch-CAN FD 是一張具備 2 通道的 CAN FD (Controller Area Network Flex
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p25_00.jpeg" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD.png" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p26_00.png" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_2ch-CAN_FD_Pinout.png" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
 </div>
 
 :::note

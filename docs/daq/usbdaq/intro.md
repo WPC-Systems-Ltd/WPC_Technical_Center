@@ -6,7 +6,7 @@ description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數�
 
 ## WPC 的產品命名代表了介面與功能的組合。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usbdaq/USBDAQ_naming.png" alt="USB-DAQ 命名規則" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQ_naming.png" alt="USB-DAQ 命名規則" width="40%" /></div>
 
 | 命名代號 | 英文全稱         | 功能說明                                |
 | :------- | :--------------- | :-------------------------------------- |

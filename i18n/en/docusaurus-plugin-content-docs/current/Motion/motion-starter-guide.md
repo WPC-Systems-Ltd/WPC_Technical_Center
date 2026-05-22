@@ -7,6 +7,7 @@ displayed_sidebar: motionSidebar
 ---
 
 import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
   <h1>Welcome to WPC Motion Solutions</h1>
@@ -51,21 +52,21 @@ import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings } from 'lucide-react';
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform
 
 <div className="gs-card-grid">
-  <a href="/docs/Motion/EDriveST/intro" className="theme-doc-card gs-card">
+  <Link to="./Motion/EDriveST/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Zap size={24} color="var(--brand-electric-blue)"/> EDriveST</h2>
     <p>**Single-axis Stepper Motor Integrated Driver**</p>
     <p>Equipped with a network interface to directly connect two-phase stepper motors, encoders, and limit switches, achieving position and speed control without extra axis cards.</p>
-  </a>
-  <a href="/docs/Motion/EDriveSRV/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./Motion/EDriveSRV/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings size={24} color="var(--brand-electric-blue)"/> EDriveSRV</h2>
     <p>**Single-axis Servo Motor Integrated Driver**</p>
     <p>Supports Panasonic A6 series servo motors, up to 48V DC power, max 400400W output power, suitable for high-precision motion control.</p>
-  </a>
-  <a href="/docs/Motion/EMotion/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./Motion/EMotion/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Cpu size={24} color="var(--brand-electric-blue)"/> Emotion</h2>
     <p>**4-axis Motion Control Card**</p>
     <p>Supports various servo drive brands (Yaskawa, Mitsubishi, Delta, Panasonic), providing dedicated and universal daughter boards for quick integration.</p>
-  </a>
+  </Link>
 </div>
 
 ---
@@ -76,5 +77,5 @@ import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings } from 'lucide-react';
 | :------------------- | :------------------------------------------------------------------------------------ |
 | Python               | [WPC Python Driver](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release)    |
 | C#                   | [WPC C# Driver](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release)        |
-| LabVIEW    | [WPC Device Driver](/docs/software/wpc-device-manager/intro) |
+| LabVIEW    | [WPC Device Driver](../software/wpc-device-manager/intro.md) |
 

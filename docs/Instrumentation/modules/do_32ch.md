@@ -25,11 +25,11 @@ cPCI 32ch-DO 是一張具備 32 通道輸出的 24V 工業隔離數位 I/O 卡�
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p23_00.jpeg" alt="cPCI 32ch-DO Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch_DO.png" alt="cPCI 32ch-DO Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p24_00.png" alt="cPCI 32ch-DO Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-DO_Pinout.png" alt="cPCI 32ch-DO Pinout" width="60%" />
 </div>
 
 :::caution

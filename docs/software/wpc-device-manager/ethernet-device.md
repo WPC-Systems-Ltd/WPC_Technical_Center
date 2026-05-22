@@ -135,7 +135,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 設定網路時間協定可確保裝置時間同步。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/choose-sntp.png" alt="設定 SNTP" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_sntp.png" alt="設定 SNTP" width="60%" />
 </div>
 
 SNTP 支援以下兩種設定模式：

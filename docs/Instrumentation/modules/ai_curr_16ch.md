@@ -25,9 +25,9 @@ description: 16通道單端電流輸入I/O卡
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p11_00.jpeg" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI.png" alt="cPCI 16ch-AI CURR Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p12_00.png" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_16ch-AI_Pinout.png" alt="cPCI 16ch-AI CURR Pinout" width="60%" />
 </div>

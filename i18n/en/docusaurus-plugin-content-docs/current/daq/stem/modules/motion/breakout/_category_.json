@@ -3,6 +3,7 @@
     "position": 3,
     "link": {
         "type": "generated-index",
+        "slug": "breakout-board-wiring",
         "title": "Motion Control Breakout Boards",
         "description": "Motion control modules must be used with a 'Breakout Board', categorized into general and specific types."
     }
