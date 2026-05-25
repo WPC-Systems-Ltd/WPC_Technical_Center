@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: 'Product Introduction'
+description: "STEM is a remote controller that supports a 10/100 Ethernet interface and is equipped with 4 slots. Through STEM's 4 slots (C1 ~ C4), users can select differ..."
+keywords: [data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 # STEM Module Series
 
 STEM is a remote controller that supports a 10/100 Ethernet interface and is equipped with 4 slots. Through STEM's 4 slots (C1 ~ C4), users can select different types of modules for functional expansion.

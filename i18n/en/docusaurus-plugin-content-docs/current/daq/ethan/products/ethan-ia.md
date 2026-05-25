@@ -9,7 +9,7 @@ Ethan-IA integrates **voltage and current dual-mode input**, providing **8-chann
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanIA.png').default} alt="Ethan-IA Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanIA.webp').default} alt="Ethan-IA Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -28,5 +28,5 @@ Ethan-IA integrates **voltage and current dual-mode input**, providing **8-chann
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanIA_pinout.png').default} alt="Ethan-IA Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanIA_pinout.webp').default} alt="Ethan-IA Pinout" width="60%" /></div>
 

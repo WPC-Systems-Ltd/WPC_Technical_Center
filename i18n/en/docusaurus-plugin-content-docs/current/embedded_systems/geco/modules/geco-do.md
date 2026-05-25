@@ -2,8 +2,8 @@
 sidebar_position: 4
 sidebar_label: '24ch DO'
 description: Specifications and pinout definitions for the 24ch DO digital output module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 24ch DO Module
 
 This module provides 24 channels of digital output, supporting NPN/PNP architectures, with opto-isolated protection.
@@ -20,13 +20,13 @@ This module provides 24 channels of digital output, supporting NPN/PNP architect
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DO.png').default} alt="24ch DO Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DO.webp').default} alt="24ch DO Module" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DO_pinout.png').default} alt="24ch DO Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_DO_pinout.webp').default} alt="24ch DO Pinout" width="60%" />
 </div>
 
 #### Port A
@@ -97,13 +97,13 @@ This module provides 24 channels of digital output, supporting NPN/PNP architect
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.png').default} alt="Sinking Output" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.webp').default} alt="Sinking Output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.png').default} alt="Sourcing Output" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.webp').default} alt="Sourcing Output" width="60%" />
 </div>
 
 :::caution

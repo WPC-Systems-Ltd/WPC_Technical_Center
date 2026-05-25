@@ -2,8 +2,8 @@
 title: Appearance and LED Status
 sidebar_position: 2
 description: "Product appearance photos and LED quick diagnosis (Red: AP Mode, Green: Standby, Blue: Connected)"
+keywords: [Appearance and LED Status, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 # Appearance and LED Status
 
 The WPC WIFI-DAQ series consists of industrial-grade modules specifically designed for wireless data acquisition.
@@ -12,11 +12,11 @@ The WPC WIFI-DAQ series consists of industrial-grade modules specifically design
 
 | Front View | Back View |
 | :---: | :---: |
-| ![Front View](/img/daq/wifi-daq/wifi-daq-front.png) | ![Back View](/img/daq/wifi-daq/wifi-daq-back.png) |
+| ![Front View](/img/daq/wifi-daq/wifi-daq-front.webp) | ![Back View](/img/daq/wifi-daq/wifi-daq-back.webp) |
 
 | Side View | Connector Detail |
 | :---: | :---: |
-| ![Side View](/img/daq/wifi-daq/wifi-daq-side.png) | ![Connector Detail](/img/daq/wifi-daq/wifi-daq-connector-detail.png) |
+| ![Side View](/img/daq/wifi-daq/wifi-daq-side.webp) | ![Connector Detail](/img/daq/wifi-daq/wifi-daq-connector-detail.webp) |
 
 ---
 

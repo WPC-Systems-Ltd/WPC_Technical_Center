@@ -2,8 +2,8 @@
 sidebar_position: 7
 sidebar_label: '24ch 5V TTL'
 description: Specifications and appearance for the 24ch 5V TTL module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 24ch 5V TTL Module
 
 This module provides 24 channels of 5V TTL signals, suitable for high-speed logic signal control.
@@ -21,5 +21,5 @@ This module provides 24 channels of 5V TTL signals, suitable for high-speed logi
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_5v_ttl.png').default} alt="24ch 5V TTL Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_5v_ttl.webp').default} alt="24ch 5V TTL Module" width="60%" />
 </div>

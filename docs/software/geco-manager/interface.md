@@ -3,14 +3,14 @@ title: 介面與基本操作
 sidebar_label: 介面與基本操作
 sidebar_position: 2
 description: "GECO Manager 主畫面介紹、裝置搜尋與模擬裝置新增"
+keywords: [介面與基本操作, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # 介面與基本操作
 
 ## 主畫面介紹
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_main_screen.png" alt="geco_manager_main_screen" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_main_screen.webp" alt="geco_manager_main_screen" width="60%" />
 </div>
 
 主畫面功能依序說明如下：
@@ -29,7 +29,7 @@ Geco Manager 提供自動搜尋功能，可掃描網域內的 GECO 裝置。
 - **網路裝置**：將滑鼠游標移至 "**Network**" 區域，按右鍵選擇 "**Refresh Network**"。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_refresh_network.png" alt="geco_manager_refresh_network" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_refresh_network.webp" alt="geco_manager_refresh_network" width="60%" />
 </div>
 
 :::caution
@@ -47,5 +47,5 @@ GECO Manager 支援模擬裝置功能，允許使用者在無實體硬體的情�
 這些步驟可協助您新增模擬裝置以檢視詳細資訊，無需實際連接硬體。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_add_simulated_device.png" alt="geco_manager_add_simulated_device" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-geco-manager/geco_manager_add_simulated_device.webp" alt="geco_manager_add_simulated_device" width="60%" />
 </div>

@@ -2,8 +2,8 @@
 title: 1ch Programmable Gain Amplifier
 sidebar_position: 5
 description: Introduction, features, and specifications of the WPC 1ch Programmable Gain Amplifier (PGA).
+keywords: [1ch Programmable Gain Amplifier, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 1ch Programmable Gain Amplifier
 
 The WPC 1ch Programmable Gain Amplifier (PGA) is a signal amplification front-end module with programmable gain capabilities. This product is designed for application scenarios requiring dynamic adjustment of amplification factors, effectively handling input signals of different amplitudes and converting them into high-quality differential output signals.
@@ -16,7 +16,7 @@ The WPC 1ch Programmable Gain Amplifier (PGA) is a signal amplification front-en
 *   **Precision Offset Adjustment**: Equipped with an adjustable resistor (VR) for convenient zero-point offset correction.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_PGA.png').default} alt="1ch_PGA" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_PGA.webp').default} alt="1ch_PGA" width="60%" />
 </div>
 
 ---
@@ -41,7 +41,7 @@ The WPC 1ch PGA provides high-precision and flexible signal amplification. Its m
 Below are the detailed pinout and power configuration instructions for the WPC 1ch PGA:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_PGA_pinout.png').default} alt="1ch_PGA_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_PGA_pinout.webp').default} alt="1ch_PGA_pinout" width="60%" />
 </div>
 
 | Pin Number | Name          | Function Description           |
@@ -86,12 +86,12 @@ The figures below show typical connection examples for the WPC 1ch PGA in a syst
 
 ### Connection Example 1
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_PGA_example1.png').default} alt="1ch_PGA_example1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_PGA_example1.webp').default} alt="1ch_PGA_example1" width="60%" />
 </div>
 
 ### Connection Example 2
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_PGA_example2.png').default} alt="1ch_PGA_example2" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_PGA_example2.webp').default} alt="1ch_PGA_example2" width="60%" />
 </div>
 
 ---
@@ -99,5 +99,5 @@ The figures below show typical connection examples for the WPC 1ch PGA in a syst
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_PGA_dimension.png').default} alt="1ch_PGA_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_PGA_dimension.webp').default} alt="1ch_PGA_dimension" width="60%" />
 </div>

@@ -3,22 +3,22 @@ title: WDM Cannot Open
 sidebar_label: WDM Cannot Open
 sidebar_position: 1
 description: "Resolving the path length issue causing Generic file I/O error when opening WDM"
+keywords: [WDM Cannot Open, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Problem Description
 
 When opening WPC Device Manager (WDM), a "Generic file I/O error" window pops up as shown in the figure below, preventing the program from starting normally.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-01.png').default} alt="Generic file I/O error message 1" width="40%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-01.webp').default} alt="Generic file I/O error message 1" width="40%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-02.png').default} alt="Generic file I/O error message 2" width="40%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-02.webp').default} alt="Generic file I/O error message 2" width="40%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-03.png').default} alt="Generic file I/O error message 3" width="40%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/io-error-03.webp').default} alt="Generic file I/O error message 3" width="40%" />
 </div>
 
 ### Possible Causes

@@ -3,8 +3,8 @@ title: 常用功能
 sidebar_label: 常用功能
 sidebar_position: 3
 description: "SAPE 常用功能：檔案傳輸、執行與儲存腳本"
+keywords: [常用功能, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # 常用功能
 
 ## 檔案傳輸

@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI MINI AI
 sidebar_position: 3
+description: "PYCO WIFI MINI AI is a mini-sized Python controller focused on 8-channel analog input and 9DoF IMU attitude estimation, with built-in Wi-Fi, making it ideal..."
+keywords: [PYCO WIFI MINI AI, WPC, technical documentation, specifications]
 ---
-
 # PYCO WIFI MINI AI
 
 PYCO WIFI MINI AI is a mini-sized Python controller focused on **8-channel analog input** and **9DoF IMU attitude estimation**, with built-in **Wi-Fi**, making it ideal for lightweight data acquisition and sensing applications.
@@ -12,7 +13,7 @@ PYCO WIFI MINI AI is a mini-sized Python controller focused on **8-channel analo
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai.png').default} alt="PYCO WIFI MINI AI Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai.webp').default} alt="PYCO WIFI MINI AI Appearance" width="60%" />
 </div>
 
 ## Key Features
@@ -35,5 +36,5 @@ PYCO WIFI MINI AI is a mini-sized Python controller focused on **8-channel analo
 **Analog I/O Connector**
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png').default} alt="PYCO WIFI MINI AI Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.webp').default} alt="PYCO WIFI MINI AI Pinout" width="60%" />
 </div>

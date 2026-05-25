@@ -1,15 +1,16 @@
 ---
 title: Ethan-I
 sidebar_position: 5
+description: "Ethan-I 專為 4-20mA 工業電流迴路設計，提供 8 通道 24-bit 電流輸入（±20mA），具備 2.5kV 隔離保護，確保工業環境下的穩定量測。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 電流輸入: 8 通道多工切換..."
+keywords: [EthanI, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-I 專為 **4-20mA 工業電流迴路**設計，提供 **8 通道 24-bit 電流輸入**（±20mA），具備 **2.5kV 隔離保護**，確保工業環境下的穩定量測。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanI.png" alt="Ethan-I 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanI.webp" alt="Ethan-I 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,7 +27,7 @@ Ethan-I 專為 **4-20mA 工業電流迴路**設計，提供 **8 通道 24-bit �
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanI_pinout.png" alt="Ethan-I 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-I 腳位圖" width="60%" /></div>
 
 ### Ethan-I 詳細規格 (電流輸入)
 

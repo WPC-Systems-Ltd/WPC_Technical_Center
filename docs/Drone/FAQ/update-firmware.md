@@ -2,14 +2,14 @@
 title: 更新myRIO的韌體與軟體
 sidebar_position: 5
 description: 針對不同 LabVIEW 版本環境的 myRIO 韌體與軟體更新指南
+keywords: [更新myRIO的韌體與軟體, WPC無人機, 飛控電腦, 無人機教學, MIT無人機, 起飛檢查]
 ---
-
 # 更新myRIO的韌體與軟體
 
 在開始更新程序前，請先確認您電腦中安裝的 LabVIEW 版本數量，並依據下列情境選擇合適的操作步驟。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone_faq_myRIO_firmware.png" alt="drone_faq_myRIO_firmware" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/drone_faq_myRIO_firmware.webp" alt="drone_faq_myRIO_firmware" width="60%" />
 </div>
 
 ## 情境一：單一 LabVIEW 版本

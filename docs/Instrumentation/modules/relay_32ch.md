@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 32ch-Relay'
 description: 32通道繼電器卡片 (Form A / Form B)
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 32ch-Relay
 
 ## 1. 簡介
@@ -25,9 +25,9 @@ cPCI 32ch-Relay 是一張具備 32 通道的繼電器卡片（可設定為 Form 
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p21_00.jpeg" alt="cPCI 32ch-Relay Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX.webp" alt="cPCI 32ch-Relay Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p22_00.png" alt="cPCI 32ch-Relay Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-Relay_Pinout.webp" alt="cPCI 32ch-Relay Pinout" width="60%" />
 </div>

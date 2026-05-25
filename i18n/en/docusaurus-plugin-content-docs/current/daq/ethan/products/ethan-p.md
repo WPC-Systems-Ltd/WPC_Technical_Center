@@ -9,7 +9,7 @@ Ethan-P provides **4-channel 10-bit digital potentiometers** with a resistance r
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanP.png').default} alt="Ethan-P Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanP.webp').default} alt="Ethan-P Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,5 +26,5 @@ Ethan-P provides **4-channel 10-bit digital potentiometers** with a resistance r
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanP_pinout.png').default} alt="Ethan-P Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanP_pinout.webp').default} alt="Ethan-P Pinout" width="60%" /></div>
 

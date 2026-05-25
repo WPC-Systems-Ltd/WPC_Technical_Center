@@ -3,8 +3,8 @@ title: Introduction and Installation
 sidebar_label: Intro & Installation
 sidebar_position: 1
 description: "WPC Stand-alone Python Editor software introduction, download, and installation guide"
+keywords: [Introduction and Installation, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Introduction and Installation
 
 ## Introduction
@@ -24,7 +24,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2018*
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_download_page.png').default} alt="stand_alone_editor_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_download_page.webp').default} alt="stand_alone_editor_download_page" width="60%" />
 </div>
 
 
@@ -34,7 +34,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2018*
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-stand-alone-editor/runtime2018_download_page.png').default} alt="runtime2018_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/runtime2018_download_page.webp').default} alt="runtime2018_download_page" width="60%" />
 </div>
 
 ## Open Stand-Alone Python Editor
@@ -43,7 +43,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2018*
 2.  Open `WPC Stand-Alone Python Editor.exe`.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_open.png').default} alt="stand_alone_editor_open" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_open.webp').default} alt="stand_alone_editor_open" width="60%" />
 </div>
 
 ### Handling Windows Security Warnings
@@ -53,13 +53,13 @@ If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
 1.  Click **"More info"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc-stand-alone-editor/windows_protection_1.png').default} alt="windows_protection_1" width="60%" />
+      <img src={require('@site/static/img/wpc-stand-alone-editor/windows_protection_1.webp').default} alt="windows_protection_1" width="60%" />
     </div>
 
 2.  Click **"Run anyway"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc-stand-alone-editor/windows_protection_2.png').default} alt="windows_protection_2" width="60%" />
+      <img src={require('@site/static/img/wpc-stand-alone-editor/windows_protection_2.webp').default} alt="windows_protection_2" width="60%" />
     </div>
 
 ### Firewall Settings
@@ -70,11 +70,11 @@ Upon the first opening, the Windows Firewall might block some functions.
 2.  Click **"Allow access"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-stand-alone-editor/windows_firewall.png').default} alt="windows_firewall" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/windows_firewall.webp').default} alt="windows_firewall" width="60%" />
 </div>
 
 When opening the Stand-Alone Python Editor for the first time, it will attempt to connect to the COM Port.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_connect_COM_port.png').default} alt="stand_alone_editor_connect_COM_port" width="60%" />
+  <img src={require('@site/static/img/wpc-stand-alone-editor/stand_alone_editor_connect_COM_port.webp').default} alt="stand_alone_editor_connect_COM_port" width="60%" />
 </div>

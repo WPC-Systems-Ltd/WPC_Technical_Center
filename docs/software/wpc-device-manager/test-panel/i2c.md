@@ -1,14 +1,15 @@
 ---
 sidebar_position: 10
 sidebar_label: 'I2C'
+description: "I2C (Inter-Integrated Circuit) 面板提供使用者進行 I2C 通訊協定測試。您可以設定時脈速率，對從屬裝置 (Slave) 進行讀寫與查詢操作。 本功能支援具備 I2C 介面的裝置。請依照您的裝置型號，確認對應的連接埠 (Port) 編號： | 產品名稱 | 連接埠..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # I2C
 
 I2C (Inter-Integrated Circuit) 面板提供使用者進行 I2C 通訊協定測試。您可以設定時脈速率，對從屬裝置 (Slave) 進行讀寫與查詢操作。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.png" alt="WDM_testPanel_i2c" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.webp" alt="WDM_testPanel_i2c" width="60%" />
 </div>
 
 ## 支援產品與連接埠

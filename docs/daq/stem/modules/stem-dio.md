@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
 sidebar_label: '12ch DI/12ch DO 模組'
+description: "本模組提供 12 通道數位輸入 (DI) 與 12 通道數位輸出 (DO) 功能，適用於 24V 工業控制轉接。 | 項目 | 規格 | | :---------------- | :------------------------------------ | | 連接器 | IDC 50P..."
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 12ch DI / 12ch DO 模組
 
 本模組提供 12 通道數位輸入 (DI) 與 12 通道數位輸出 (DO) 功能，適用於 24V 工業控制轉接。
@@ -18,13 +19,13 @@ sidebar_label: '12ch DI/12ch DO 模組'
 ## 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO.png" alt="DIO Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO.webp" alt="DIO Module Appearance" width="60%" />
 </div>
 
 ## 腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_layout.png" alt="DIO Module Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_layout.webp" alt="DIO Module Pinout" width="60%" />
 </div>
 
 ## 接線說明
@@ -39,13 +40,13 @@ sidebar_label: '12ch DI/12ch DO 模組'
 *   輸入 (Input) 必須為共陽極 (Common Anode, 24V)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sinkingout.png" alt="Sinking Out + Sourcing In" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sinkingout.webp" alt="Sinking Out + Sourcing In" width="60%" />
 </div>
 
 ### Sourcing Out + Sinking In
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sourcingout.png" alt="Sourcing Out + Sinking In" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_DIO_sourcingout.webp" alt="Sourcing Out + Sinking In" width="60%" />
 </div>
 
 *   ⚠️ 安裝**下排**電阻

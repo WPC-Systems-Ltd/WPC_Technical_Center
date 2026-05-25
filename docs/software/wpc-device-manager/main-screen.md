@@ -3,12 +3,12 @@ title: 主畫面介紹
 sidebar_label: 主畫面介紹
 sidebar_position: 2
 description: "裝置列表、測試面板與產品資訊介面說明"
+keywords: [主畫面介紹, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 主畫面功能說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_main_screen.png" alt="WDM_main_screen" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/WDM_main_screen.webp" alt="WDM_main_screen" width="60%" />
 </div>
 
 1.  **裝置列表**

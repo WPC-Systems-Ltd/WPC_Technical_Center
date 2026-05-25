@@ -3,8 +3,10 @@ title: Embedded Systems Getting Started
 sidebar_label: Embedded Getting Started
 sidebar_position: 1
 slug: /embedded-starter-guide
+description: "Explore WPC Embedded Systems We provide two major embedded platforms, GECO and PYCO, specifically designed for industrial control, IoT integration, and edge..."
+keywords: [Embedded Systems Getting Started, WPC, technical documentation, specifications]
 ---
-
+import Link from '@docusaurus/Link';
 import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
@@ -51,16 +53,16 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Embedded Platform
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/embedded_systems/geco/intro" className="theme-doc-card gs-card">
+  <Link to="./embedded_systems/geco/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> GECO Series</h2>
     <p>**Powerful Modular Industrial Control**</p>
     <p>Supports dozens of expansion modules (DI/DO/AI/AO/Motion), offering extreme flexibility for factory automation and precision machine control.</p>
-  </a>
-  <a href="/WPC_Technical_Center/docs/embedded_systems/pyco/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./embedded_systems/pyco/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> PYCO Series</h2>
     <p>**Built with Wireless and IoT DNA**</p>
     <p>Highly integrated with WiFi/Ethernet and supporting MicroPython development, it is ideal for remote edge computing and lightweight control terminals.</p>
-  </a>
+  </Link>
 </div>
 
 :::tip[Need High-Speed DAQ?]
@@ -72,8 +74,8 @@ If your primary need is high-bandwidth, high-precision measurement rather than e
 ## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ) {#faq}
 
 <div className="gs-card-grid">
-  <a href="/WPC_Technical_Center/docs/pyco-faq" className="theme-doc-card gs-card">
+  <Link to="./pyco-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><HelpCircle size={24} color="var(--brand-electric-blue)"/> PYCO Board</h2>
     <p>**Common Issues and Troubleshooting Guide**</p>
-  </a>
+  </Link>
 </div>

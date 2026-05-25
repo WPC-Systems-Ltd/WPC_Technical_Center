@@ -1,14 +1,15 @@
 ---
 sidebar_position: 8
 sidebar_label: 'Encoder'
+description: "The Encoder panel allows users to read position and speed information from quadrature encoders. It is suitable for motor position feedback and rotation speed..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Encoder
 
 The Encoder panel allows users to read position and speed information from quadrature encoders. It is suitable for motor position feedback and rotation speed monitoring.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_encoder.png').default} alt="WDM_testPanel_encoder" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_encoder.webp').default} alt="WDM_testPanel_encoder" width="60%" />
 </div>
 
 ## Parameters and Value Display

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
 sidebar_label: 'AHRS'
+description: "AHRS (Attitude and Heading Reference System) 面板提供使用者讀取姿態與航向參考系統的數據。透過內建的加速度計、陀螺儀與磁力計，即時運算並顯示裝置的 3D 姿態。 本功能支援具備 AHRS 模組的裝置： | 產品名稱 | 說明 | | :-------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # AHRS
 
 AHRS (Attitude and Heading Reference System) 面板提供使用者讀取姿態與航向參考系統的數據。透過內建的加速度計、陀螺儀與磁力計，即時運算並顯示裝置的 3D 姿態。
@@ -21,11 +22,11 @@ AHRS (Attitude and Heading Reference System) 面板提供使用者讀取姿態�
 面板分為數據數值顯示與 3D 模型姿態顯示兩部分：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.png" alt="WDM_testPanel_AHRS" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.webp" alt="WDM_testPanel_AHRS" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.png" alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.webp" alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
 </div>
 
 | 參數               | 說明              | 範圍          |

@@ -3,8 +3,8 @@ title: WDM Crash
 sidebar_label: WDM Crash
 sidebar_position: 2
 description: "Resolving WDM crash issues caused by graphics card drivers or power-saving settings"
+keywords: [WDM Crash, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Problem Description
 
 Under specific computer environments, when running LabVIEW applications (or compiled EXEs) containing **3D Picture Control** components, the following abnormalities may occur:

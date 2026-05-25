@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 32ch-AO'
 description: 32通道單端電壓輸出I/O卡
+keywords: [儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
-
 # cPCI 32ch-AO
 
 ## 1. 簡介
@@ -25,9 +25,9 @@ cPCI 32ch-AO 是一張具備 32 通道單端 +/- 10V 電壓輸出的類比 I/O �
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p15_00.jpeg" alt="cPCI 32ch-AO Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-AO.webp" alt="cPCI 32ch-AO Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p16_00.png" alt="cPCI 32ch-AO Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-AO_Pinout.webp" alt="cPCI 32ch-AO Pinout" width="60%" />
 </div>

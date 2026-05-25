@@ -1,14 +1,15 @@
 ---
 sidebar_position: 5
 sidebar_label: 'DI'
+description: "DI (Digital Input) 面板提供使用者讀取數位輸入訊號的狀態。透過此介面，您可以即時監控各連接埠的數位訊號變化，確認外部裝置的輸入狀態。 本功能支援具備數位輸入 (DI) 功能的裝置。請依照您的裝置型號，確認對應的連接埠 (Port) 編號： | 產品名稱 | 連接埠 | | :..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # DI
 
 DI (Digital Input) 面板提供使用者讀取數位輸入訊號的狀態。透過此介面，您可以即時監控各連接埠的數位訊號變化，確認外部裝置的輸入狀態。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_di.png" alt="WDM_testPanel_di" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_di.webp" alt="WDM_testPanel_di" width="60%" />
 </div>
 
 ## 支援產品與連接埠

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 11
 sidebar_label: 'Matrix'
+description: "The Matrix (Matrix Switch) panel provides users with control over the connection status of matrices and multiplexers. Through a visual interface, you can set..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Matrix
 
 The Matrix (Matrix Switch) panel provides users with control over the connection status of matrices and multiplexers. Through a visual interface, you can set cross-point connections for rows (Row) and columns (Column).
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_matrix.png').default} alt="WDM_testPanel_matrix" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_matrix.webp').default} alt="WDM_testPanel_matrix" width="60%" />
 </div>
 
 ## Operation Description

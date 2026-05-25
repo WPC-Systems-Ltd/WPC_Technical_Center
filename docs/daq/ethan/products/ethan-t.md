@@ -1,15 +1,16 @@
 ---
 title: Ethan-T
 sidebar_position: 7
+description: "Ethan-T 專為溫度量測設計，提供 7 通道熱電偶輸入，支援 K, J, N, R, S, T, E, B 八種熱電偶型號，量測範圍 -210°C ~ 1800°C，內建冷接點補償。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 7 通..."
+keywords: [EthanT, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 **K, J, N, R, S, T, E, B** 八種熱電偶型號，量測範圍 **-210°C ~ 1800°C**，內建冷接點補償。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT.png" alt="Ethan-T 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT.webp" alt="Ethan-T 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,7 +27,7 @@ Ethan-T 專為溫度量測設計，提供 **7 通道熱電偶輸入**，支援 *
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT_pinout.png" alt="Ethan-T 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanT_pinout.webp" alt="Ethan-T 腳位圖" width="60%" /></div>
 
 ### Ethan-T 詳細規格 (熱電偶)
 

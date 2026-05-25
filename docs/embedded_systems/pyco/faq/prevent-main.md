@@ -2,8 +2,9 @@
 title: 如何防止或停止 main.py 執行
 sidebar_label: 防止 main.py 執行
 sidebar_position: 3
+description: "如果您的 main.py 腳本進入無窮迴圈，或者您希望在啟動時防止其執行，您有兩種選擇： 軟體方法: 使用指令 Sys_disableMain 來停用啟動時自動執行 main.py。 硬體方法: 在 PYCO 開發板上，通電前將 Save 腳位短路。這將防止 main.py 在啟動時被執行。..."
+keywords: [如何防止或停止 mainpy 執行, WPC, 技術文件, 規格說明]
 ---
-
 # 如何防止或停止 main.py 執行
 
 如果您的 `main.py` 腳本進入無窮迴圈，或者您希望在啟動時防止其執行，您有兩種選擇：

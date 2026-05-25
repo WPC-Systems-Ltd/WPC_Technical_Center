@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
 sidebar_label: 'AHRS'
+description: "The AHRS (Attitude and Heading Reference System) panel allows users to read data from the attitude and heading reference system. Through built-in acceleromet..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # AHRS
 
 The AHRS (Attitude and Heading Reference System) panel allows users to read data from the attitude and heading reference system. Through built-in accelerometers, gyroscopes, and magnetometers, it calculates and displays the device's 3D attitude in real-time.
@@ -21,11 +22,11 @@ This function supports devices equipped with an AHRS module:
 The panel is divided into two parts: numerical data display and 3D model attitude display:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.png').default} alt="WDM_testPanel_AHRS" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs.webp').default} alt="WDM_testPanel_AHRS" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.png').default} alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_ahrs_3dmodel.webp').default} alt="WDM_testPanel_ahrs_3dmodel" width="60%" />
 </div>
 
 | Parameter          | Description                         | Range         |

@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI
 sidebar_position: 1
+description: "PYCO WIFI 是一款全功能型 Python 可程式化控制器，整合 8 通道 AI/AO/DI/DO，並內建 Wi-Fi 與 OLED 螢幕，支援 SD 卡擴充，適合獨立運作與物聯網應用。 --- --- Python Programmable: 支援 Stand-Alone Python..."
+keywords: [PYCO WIFI, WPC, 技術文件, 規格說明]
 ---
-
 # PYCO WIFI
 
 PYCO WIFI 是一款全功能型 Python 可程式化控制器，整合 **8 通道 AI/AO/DI/DO**，並內建 **Wi-Fi** 與 **OLED 螢幕**，支援 SD 卡擴充，適合獨立運作與物聯網應用。
@@ -12,7 +13,7 @@ PYCO WIFI 是一款全功能型 Python 可程式化控制器，整合 **8 通道
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi.png" alt="PYCO WIFI 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi.webp" alt="PYCO WIFI 外觀" width="60%" />
 </div>
 
 
@@ -38,7 +39,7 @@ PYCO WIFI 是一款全功能型 Python 可程式化控制器，整合 **8 通道
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-general.png" alt="PYCO WIFI 外觀" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-general.webp" alt="PYCO WIFI 外觀" width="60%" />
 </div>
 
 1.  **LCD 螢幕**: 顯示網路資訊、韌體詳細資料、序號及其他功能資訊。
@@ -60,7 +61,7 @@ PYCO WIFI 是一款全功能型 Python 可程式化控制器，整合 **8 通道
 ## 腳位定義
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png" alt="PYCO WIFI 腳位" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.webp" alt="PYCO WIFI 腳位" width="60%" />
 </div>
 
 

@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: '特色與簡介'
+description: "本模組提供 4 軸運動控制功能，支援脈波指令 (Pulse Command) 控制。 控制模式：Pulse/Direction 或 CW/CCW 輸出頻率：差動輸出 (Differential output) 最高 8 MPPS 編碼器輸入：支援 ABZ 相 (Max 12 MHz) 極限與原..."
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 4軸運動控制模組
 
 本模組提供 4 軸運動控制功能，支援脈波指令 (Pulse Command) 控制。

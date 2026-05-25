@@ -1,14 +1,15 @@
 ---
 sidebar_position: 10
 sidebar_label: 'I2C'
+description: "The I2C (Inter-Integrated Circuit) panel provides users with I2C protocol testing. You can set the clock rate and perform read, write, and query operations o..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # I2C
 
 The I2C (Inter-Integrated Circuit) panel provides users with I2C protocol testing. You can set the clock rate and perform read, write, and query operations on slave devices.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.png').default} alt="WDM_testPanel_i2c" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_i2c.webp').default} alt="WDM_testPanel_i2c" width="60%" />
 </div>
 
 ## Supported Products and Ports

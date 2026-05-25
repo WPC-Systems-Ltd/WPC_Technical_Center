@@ -13,7 +13,7 @@ After opening LabVIEW, you can follow these steps to find various example progra
 2. Click **Help** â†’ **Find Examples...**.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/driver/gstack_RIO_driver/gstack_rio_driver_find_example.png').default} alt="gstack_rio_driver_find_example" width="60%" />
+  <img src={require('@site/static/img/driver/gstack_RIO_driver/gstack_rio_driver_find_example.webp').default} alt="gstack_rio_driver_find_example" width="60%" />
 </div>
 
 This will open the NI Example Finder window.
@@ -23,6 +23,6 @@ This will open the NI Example Finder window.
 5. Click the search button, and you will see all example programs applicable to LabVIEW and related to WPC products.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/driver/gstack_RIO_driver/gstack_rio_driver_find_search.png').default} alt="gstack_rio_driver_find_search" width="60%" />
+  <img src={require('@site/static/img/driver/gstack_RIO_driver/gstack_rio_driver_find_search.webp').default} alt="gstack_rio_driver_find_search" width="60%" />
 </div>
 

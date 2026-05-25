@@ -2,9 +2,8 @@
 title: Analog Input Sampling Rate
 sidebar_position: 4
 description: "Relationship between enabled channels and individual channel max sampling rate (16kHz - 2kHz)"
+keywords: [Analog Input Sampling Rate, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
-
 ### Multi-Channel Maximum Sampling Rate
 
 **Description:**

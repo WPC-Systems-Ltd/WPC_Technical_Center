@@ -1,14 +1,15 @@
 ---
 sidebar_position: 20
 sidebar_label: 'UART'
+description: "UART (Universal Asynchronous Receiver/Transmitter) 面板提供使用者進行非同步串列通訊測試。您可以設定鮑率、同位檢查等參數，進行資料收發。 本功能支援具備 UART 介面的裝置。請依照您的裝置型號，確認對應的連接埠 (Port) 編號： | 產品..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # UART
 
 UART (Universal Asynchronous Receiver/Transmitter) 面板提供使用者進行非同步串列通訊測試。您可以設定鮑率、同位檢查等參數，進行資料收發。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_uart.png" alt="WDM_testPanel_uart" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_uart.webp" alt="WDM_testPanel_uart" width="60%" />
 </div>
 
 ## 支援產品與連接埠

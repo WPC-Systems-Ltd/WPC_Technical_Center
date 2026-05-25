@@ -2,6 +2,7 @@
 sidebar_position: 8
 sidebar_label: '4-axis Motion Control'
 description: 4 軸運動控制模組規格與接線說明
+keywords: [馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
 # 4 軸運動控制模組 (4-axis Motion Control)
 

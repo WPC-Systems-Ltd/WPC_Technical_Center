@@ -3,14 +3,14 @@ title: 介面與連線
 sidebar_label: 介面與連線
 sidebar_position: 2
 description: "SAPE 硬體連線與主畫面功能介紹"
+keywords: [介面與連線, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 主畫面介紹
 
 Stand-Alone Python Editor 的主畫面功能分區如下：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_main_screen.png" alt="stand_alone_editor_main_screen" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_main_screen.webp" alt="stand_alone_editor_main_screen" width="60%" />
 </div>
 
 1.  **Menu bar (選單列)**:
@@ -32,7 +32,7 @@ Stand-Alone Python Editor 的主畫面功能分區如下：
 請使用 USB 線直接將 WPC 硬體連接至主機電腦 (Host PC)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_controller_connect_pc.png" alt="stand_alone_editor_controller_connect_pc" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_controller_connect_pc.webp" alt="stand_alone_editor_controller_connect_pc" width="60%" />
 </div>
 
 ### 步驟 2: 設定 COM Port
@@ -40,12 +40,12 @@ Stand-Alone Python Editor 的主畫面功能分區如下：
 從選單列開啟連線功能，然後選擇 **COM Port Settings**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_choose_COM_port.png" alt="stand_alone_editor_choose_COM_port" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_choose_COM_port.webp" alt="stand_alone_editor_choose_COM_port" width="60%" />
 </div>
 
 請選擇適當的 COM Port 編號。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_COM_port.png" alt="stand_alone_editor_COM_port" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc-stand-alone-editor/stand_alone_editor_COM_port.webp" alt="stand_alone_editor_COM_port" width="60%" />
 </div>
 

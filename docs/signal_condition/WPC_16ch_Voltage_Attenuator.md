@@ -2,8 +2,8 @@
 title: 16ch Voltage Attenuator
 sidebar_position: 8
 description: WPC 16ch Voltage Attenuator 產品簡介、特點與規格說明
+keywords: [16ch Voltage Attenuator, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 16ch Voltage Attenuator
 
 WPC 16ch Voltage Attenuator 是一款高密度的信號處理前端模組，具備 16 個獨立的電壓衰減通道。本產品專為將高壓訊號等比例縮小為低壓訊號而設計，以便於後端量測系統（如 DAQ）進行安全且準確的採集。
@@ -16,7 +16,7 @@ WPC 16ch Voltage Attenuator 是一款高密度的信號處理前端模組，具�
 *   **工業級環境適應**：運作溫度範圍廣達 -40 至 85 °C，適合嚴苛的工業環境。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator.png" alt="16ch_Voltage_Attenuator" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator.webp" alt="16ch_Voltage_Attenuator" width="60%" />
 </div>
 
 ---
@@ -41,7 +41,7 @@ WPC 16ch Voltage Attenuator 提供穩定且高速的電壓衰減功能，其主�
 以下為 WPC 16ch Voltage Attenuator 的介面配置說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_pinout.png" alt="16ch_Voltage_Attenuator_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_pinout.webp" alt="16ch_Voltage_Attenuator_pinout" width="60%" />
 </div>
 
 :::note
@@ -60,7 +60,7 @@ WPC 16ch Voltage Attenuator 提供穩定且高速的電壓衰減功能，其主�
 *   **頻率**：200kHz
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_200kHz.png" alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_200kHz.webp" alt="16ch_Voltage_Attenuator_200kHz" width="60%" />
 </div>
 
 ### 2MHz 測試
@@ -69,6 +69,6 @@ WPC 16ch Voltage Attenuator 提供穩定且高速的電壓衰減功能，其主�
 *   **頻率**：2MHz
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_2MHz.png" alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/16ch_Voltage_Attenuator_2MHz.webp" alt="16ch_Voltage_Attenuator_2MHz" width="60%" />
 </div>
 

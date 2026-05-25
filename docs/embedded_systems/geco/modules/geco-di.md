@@ -2,8 +2,8 @@
 sidebar_position: 5
 sidebar_label: '24ch DI'
 description: 24ch 數位輸入模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 24ch DI 模組
 
 本模組提供 24 通道數位輸入，支援 NPN/PNP 架構，具備光耦合隔離保護。
@@ -20,13 +20,13 @@ description: 24ch 數位輸入模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI.png" alt="geco_module_24ch_DI" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI.webp" alt="geco_module_24ch_DI" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_pinout.png" alt="geco_module_24ch_DI_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_pinout.webp" alt="geco_module_24ch_DI_pinout" width="60%" />
 </div>
 
 #### Port A
@@ -99,12 +99,12 @@ description: 24ch 數位輸入模組規格與腳位定義
 ### Sourcing Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sourcing_input.png" alt="geco_module_24ch_DI_sourcing_input" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sourcing_input.webp" alt="geco_module_24ch_DI_sourcing_input" width="60%" />
 </div>
 
 ### Sinking Input
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sinking_input.png" alt="geco_module_24ch_DI_sinking_input" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_DI_sinking_input.webp" alt="geco_module_24ch_DI_sinking_input" width="60%" />
 </div>
 

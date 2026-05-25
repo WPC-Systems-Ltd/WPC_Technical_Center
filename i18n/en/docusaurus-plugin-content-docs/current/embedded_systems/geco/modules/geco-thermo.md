@@ -2,8 +2,8 @@
 sidebar_position: 3
 sidebar_label: '16ch Thermocouple'
 description: Specifications and pinout definitions for the 16ch thermocouple module
+keywords: [WPC, technical documentation, specifications]
 ---
-
 # 16ch Thermocouple Module
 
 This module provides 16 channels of thermocouple input, supporting K-type thermocouples, suitable for temperature measurement applications.
@@ -24,5 +24,5 @@ This module provides 16 channels of thermocouple input, supporting K-type thermo
 ## 2. Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_thermo.png').default} alt="16ch Thermocouple Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_16ch_thermo.webp').default} alt="16ch Thermocouple Module" width="60%" />
 </div>

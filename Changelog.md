@@ -1,6 +1,16 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.21 Date: 2026/05/22, Developer: Hok
+---------------------------------------------------
+### Changed
+- Optimize site SEO and compress all images to WebP
+
+v0.0.20 Date: 2026/05/22, Developer: Hok
+---------------------------------------------------
+### Fixed
+- Fixed the broken links.
+
 v0.0.19 Date: 2026/05/18, Developer: Hok
 ---------------------------------------------------
 ### Changed

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 7
 sidebar_label: 'DPOT'
+description: "DPOT (Digital Potentiometer) 面板提供使用者控制數位可變電阻，可應用於類比電路參數調整或感測器模擬。 | 產品名稱 | 說明 | | :-------------------------------------------------- | :-----------..."
+keywords: [WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 # DPOT
 
 DPOT (Digital Potentiometer) 面板提供使用者控制數位可變電阻，可應用於類比電路參數調整或感測器模擬。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_dpot.png" alt="WDM_testPanel_dpot" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_dpot.webp" alt="WDM_testPanel_dpot" width="60%" />
 </div>
 
 ## 支援產品

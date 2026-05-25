@@ -1,14 +1,15 @@
 ---
 sidebar_position: 9
 sidebar_label: 'Function Generator'
+description: "The Function Generator panel allows users to generate various standard waveform signals through analog output channels. This function requires a high-perform..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Function Generator
 
 The Function Generator panel allows users to generate various standard waveform signals through analog output channels.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.png').default} alt="WDM_testPanel_function_gen" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_function_gen.webp').default} alt="WDM_testPanel_function_gen" width="60%" />
 </div>
 
 ## Supported Products

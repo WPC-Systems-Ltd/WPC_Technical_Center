@@ -1,9 +1,9 @@
 ---
 title: Product Introduction
 sidebar_position: 1
+description: "--- WPC's self-developed gStack product series adopts a Rack chassis design, specifically developed for distributed, high-density I/O applications. Each chas..."
+keywords: [Product Introduction, instrumentation, control systems, automated testing, WPC control]
 ---
-
-
 # gStack-RIO Product Introduction
 
 ## 1. Introduction
@@ -26,5 +26,5 @@ The gStack-RIO chassis configuration is as follows:
 Control methods can be selected using Ethernet remote control (PC Remote), or through LabVIEW Real-time development of stand-alone applications. This design not only provides flexibility but also effectively supports various distributed, high-density I/O application requirements.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p4_00.png" alt="gStack-RIO Top View" width="60%" />
+  <img src="/WPC_Technical_Center/img/instrumentation/image_p4_00.webp" alt="gStack-RIO Top View" width="60%" />
 </div>

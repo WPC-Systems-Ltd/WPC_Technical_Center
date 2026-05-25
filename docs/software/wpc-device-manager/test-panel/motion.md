@@ -1,8 +1,9 @@
 ---
 sidebar_position: 12
 sidebar_label: 'Motion'
+description: "Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以即時監控軸卡狀態、設定 I/O 參數、執行原點復歸 (Find Reference)、以及直接下達運動指令控制馬達。 此外，面板支援將當前設定儲存為組態檔案 (*.INI)，方便後續程式開發快速載入。 面板上方區域顯示各軸的即時..."
+keywords: [馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
-
 # Motion
 
 Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以即時監控軸卡狀態、設定 I/O 參數、執行原點復歸 (Find Reference)、以及直接下達運動指令控制馬達。
@@ -10,7 +11,7 @@ Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以�
 此外，面板支援將當前設定儲存為組態檔案 (*.INI)，方便後續程式開發快速載入。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion.png" alt="WDM_testPanel_motion" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion.webp" alt="WDM_testPanel_motion" width="60%" />
 </div>
 
 ## 即時狀態監控 (Status Monitor)
@@ -32,18 +33,18 @@ Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以�
 
 | 圖示                                                                               | 功能說明                                                  |
 | :--------------------------------------------------------------------------------- | :-------------------------------------------------------- |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_open_config-_panel.png" width="30" />   | **Open Configuration Panel**：開啟運動控制 I/O 設定面板。 |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_servo_on.png" width="30" />       | **Servo On/Off**：切換伺服激磁狀態。                      |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_halt.png" width="30" />               | **Halt**：緊急暫停馬達運轉。                              |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_move.png" width="30" />               | **Interactive Control**：開啟互動式移動控制面板。         |
-| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_reset.png" width="30" />              | **Reset Position**：重置邏輯位置計數為 0。                |
+| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_open_config-_panel.webp" width="30" />   | **Open Configuration Panel**：開啟運動控制 I/O 設定面板。 |
+| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_servo_on.webp" width="30" />       | **Servo On/Off**：切換伺服激磁狀態。                      |
+| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_halt.webp" width="30" />               | **Halt**：緊急暫停馬達運轉。                              |
+| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_move.webp" width="30" />               | **Interactive Control**：開啟互動式移動控制面板。         |
+| <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_reset.webp" width="30" />              | **Reset Position**：重置邏輯位置計數為 0。                |
 
 ## I/O 設定面板 (Configuration)
 
 點擊設定圖示後，可針對軸卡 I/O 行為進行詳細組態：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion_config.png" alt="WDM_testPanel_motion_config" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_motion_config.webp" alt="WDM_testPanel_motion_config" width="60%" />
 </div>
 
 | 參數設定              | 選項                                | 說明                                                                  |
@@ -67,7 +68,7 @@ Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以�
 提供基本的 PTP (點對點) 移動測試功能。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_simple_move.png" alt="WDM_testPanel_simple_move" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_simple_move.webp" alt="WDM_testPanel_simple_move" width="60%" />
 </div>
 
 | 參數              | 說明                                                                                        |
@@ -84,7 +85,7 @@ Motion (運動控制) 面板提供完整的軸控功能測試環境。您可以�
 執行自動尋原點程序。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_find_ref.png" alt="WDM_testPanel_find_ref" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/testPanel/WDM_testPanel_find_ref.webp" alt="WDM_testPanel_find_ref" width="60%" />
 </div>
 
 | 參數              | 說明                                                          |

@@ -2,8 +2,8 @@
 sidebar_position: 7
 sidebar_label: '24ch 5V TTL'
 description: 24ch 5V TTL 模組規格與外觀
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 24ch 5V TTL 模組
 
 本模組提供 24 通道 5V TTL 訊號，適用於高速邏輯訊號控制。
@@ -21,5 +21,5 @@ description: 24ch 5V TTL 模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_5v_ttl.png" alt="geco_module_24ch_5v_ttl" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_5v_ttl.webp" alt="geco_module_24ch_5v_ttl" width="60%" />
 </div>

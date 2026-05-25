@@ -2,8 +2,8 @@
 sidebar_position: 11
 sidebar_label: '12ch Tri-state Switch'
 description: 12ch 三態開關模組規格與外觀
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 12ch Tri-state Switch 模組
 
 本模組提供 12 通道三態開關切換功能。
@@ -18,5 +18,5 @@ description: 12ch 三態開關模組規格與外觀
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_tristate.png" alt="geco_module_12ch_tristate" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_tristate.webp" alt="geco_module_12ch_tristate" width="60%" />
 </div>

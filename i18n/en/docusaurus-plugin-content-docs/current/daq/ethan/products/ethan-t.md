@@ -9,7 +9,7 @@ Ethan-T is specifically designed for temperature measurement, providing **7-chan
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT.png').default} alt="Ethan-T Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT.webp').default} alt="Ethan-T Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,7 +26,7 @@ Ethan-T is specifically designed for temperature measurement, providing **7-chan
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT_pinout.png').default} alt="Ethan-T Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanT_pinout.webp').default} alt="Ethan-T Pinout" width="60%" /></div>
 
 ### Ethan-T Detailed Specifications (Thermocouple)
 

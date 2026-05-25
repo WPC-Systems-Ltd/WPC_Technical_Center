@@ -2,14 +2,14 @@
 title: Updating myRIO Firmware and Software
 sidebar_position: 5
 description: Firmware and software update guide for myRIO across different LabVIEW versions
+keywords: [Updating myRIO Firmware and Software, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 # Updating myRIO Firmware and Software
 
 Before starting the update process, please confirm the number of LabVIEW versions installed on your computer and choose the appropriate procedure based on the following scenarios.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone/drone_faq_myRIO_firmware.png').default} alt="drone_faq_myRIO_firmware" width="60%" />
+  <img src={require('@site/static/img/drone/drone_faq_myRIO_firmware.webp').default} alt="drone_faq_myRIO_firmware" width="60%" />
 </div>
 
 ## Scenario 1: Single LabVIEW Version

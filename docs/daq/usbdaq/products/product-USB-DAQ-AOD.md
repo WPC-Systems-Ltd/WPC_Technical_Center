@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-AOD
 sidebar_position: 2
+description: "USB-DAQ-AOD 整合 8 通道 16-bit 類比輸入（16kHz）與 8 通道 16-bit 類比輸出（1kHz），支援同步 AI/AO 操作，適用於閉迴路控制與訊號產生應用。 --- 1. USB 2.0 全速匯流排供電 2. 16 通道 3.3V 數位 I/O (可承受 5V 輸..."
+keywords: [USBDAQAOD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-AOD 整合 **8 通道 16-bit 類比輸入**（16kHz）與 **8 通道 16-bit 類比輸出**（1kHz），支援同步 AI/AO 操作，適用於閉迴路控制與訊號產生應用。
 
 # USB-DAQ-AOD
@@ -23,7 +24,7 @@ USB-DAQ-AOD 整合 **8 通道 16-bit 類比輸入**（16kHz）與 **8 通道 16-
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAOD_pinout.png" alt="USB-DAQ-AOD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAOD_pinout.webp" alt="USB-DAQ-AOD 腳位圖" width="60%" /></div>
 
 ### 產品規格
 

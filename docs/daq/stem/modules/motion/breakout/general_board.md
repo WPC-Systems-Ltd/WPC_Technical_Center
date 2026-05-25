@@ -2,8 +2,8 @@
 title: 通用型子板
 sidebar_position: 2
 description: 適用於各類步進與伺服馬達的通用接線板
+keywords: [通用型子板, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 # 通用型子板
 
 ## 1. 產品概述
@@ -21,7 +21,7 @@ description: 適用於各類步進與伺服馬達的通用接線板
 子板上配置了四組主要的歐規端子台，依據訊號特性進行分區：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_general_board.png" alt="General Breakout Board" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card_general_board.webp" alt="General Breakout Board" width="60%" />
 </div>
 
 *   **T1 / T3 端子台 (高速訊號區)**：

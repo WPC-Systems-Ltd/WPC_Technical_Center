@@ -2,8 +2,9 @@
 id: driver_intro
 title: Driver
 sidebar_position: 1
+description: "WPC provides hardware drivers in various programming languages, allowing users to quickly integrate WPC hardware devices and develop their own applications...."
+keywords: [Driver, hardware driver, LabVIEW API, Python SDK, driver download, SDK guide]
 ---
-
 # Driver
 
 WPC provides hardware drivers in various programming languages, allowing users to quickly integrate WPC hardware devices and develop their own applications.

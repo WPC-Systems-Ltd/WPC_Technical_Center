@@ -3,8 +3,8 @@ title: General Functions
 sidebar_label: General Functions
 sidebar_position: 3
 description: "SAPE general functions: File transfer, execute and save scripts"
+keywords: [General Functions, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # General Functions
 
 ## File Transfer

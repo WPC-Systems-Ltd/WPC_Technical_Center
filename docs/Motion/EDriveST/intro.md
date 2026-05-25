@@ -2,8 +2,8 @@
 sidebar_position: 1
 sidebar_label: '產品介紹'
 description: EDrive-ST 步進馬達驅動器產品簡介
+keywords: [馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
-
 # EDrive-ST
 
 ## 產品介紹
@@ -13,7 +13,7 @@ WPC EDrive-ST 是一款配備網路介面的**單軸步進馬達整合型驅動�
 體積小巧、接線簡單，廣泛應用於半導體設備、小型實驗設備及科研儀器等領域。採用直流電源供電，最高支援 36V，適合移動載具、太陽能光電、儲能系統等直流供電環境。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST.png" alt="EDriveST" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST.webp" alt="EDriveST" width="60%" />
 </div>
 
 ### 核心特色
@@ -30,7 +30,7 @@ WPC EDrive-ST 是一款配備網路介面的**單軸步進馬達整合型驅動�
 ### 系統架構圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_system_diagram.png" alt="EDriveST_system_diagram" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_system_diagram.webp" alt="EDriveST_system_diagram" width="60%" />
 </div>
 
 :::caution
@@ -59,7 +59,7 @@ EDrive-ST 僅支援**兩相**步進馬達（2-phase stepper motor）。
 ## 外觀說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_IO.png" alt="EDriveST_IO" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_IO.webp" alt="EDriveST_IO" width="60%" />
 </div>
 
 下表對應上圖中的編號，說明 EDrive-ST 的各項硬體介面功能：
@@ -105,7 +105,7 @@ EDrive-ST 僅支援**兩相**步進馬達（2-phase stepper motor）。
 ## Connector 4 — 編碼器輸入
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_connector.png" alt="EDriveST_connector" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_connector.webp" alt="EDriveST_connector" width="60%" />
 </div>
 
 | Pin | 名稱     | 說明                        |
@@ -126,7 +126,7 @@ Pin 1 為 5V 電源輸出、Pin 2 為 GND，可直接作為編碼器電源使用
 預設支援差動式編碼器，電壓準位為 5V TTL。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_diff.png" alt="EDriveST_diff" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_diff.webp" alt="EDriveST_diff" width="60%" />
 </div>
 
 ### 單端式編碼器（Single-ended）
@@ -134,7 +134,7 @@ Pin 1 為 5V 電源輸出、Pin 2 為 GND，可直接作為編碼器電源使用
 將編碼器輸出連接至 ENC_A/B/C+ 端，ENC_A/B/C- 端懸空不接。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_single.png" alt="EDriveST_single" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_single.webp" alt="EDriveST_single" width="60%" />
 </div>
 
 :::note
@@ -159,7 +159,7 @@ Pin 1 為 5V 電源輸出、Pin 2 為 GND，可直接作為編碼器電源使用
 內建 6.8kΩ 限流電阻，無須外接。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_current_limit_resistor.png" alt="EDriveST_current_limit_resistor" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_current_limit_resistor.webp" alt="EDriveST_current_limit_resistor" width="60%" />
 </div>
 
 ### NPN 型極限開關
@@ -167,7 +167,7 @@ Pin 1 為 5V 電源輸出、Pin 2 為 GND，可直接作為編碼器電源使用
 LIM_FWD/REV/HOM+ 接 24V（共陽極），極限開關輸出接 LIM_FWD/REV/HOM-。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_NPN.png" alt="EDriveST_NPN" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_NPN.webp" alt="EDriveST_NPN" width="60%" />
 </div>
 
 ### PNP 型極限開關
@@ -175,7 +175,7 @@ LIM_FWD/REV/HOM+ 接 24V（共陽極），極限開關輸出接 LIM_FWD/REV/HOM-
 LIM_FWD/REV/HOM- 接 0V（共陰極），極限開關輸出接 LIM_FWD/REV/HOM+。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_PNP.png" alt="EDriveST_PNP" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_PNP.webp" alt="EDriveST_PNP" width="60%" />
 </div>
 
 ### 機械式極限開關
@@ -183,11 +183,11 @@ LIM_FWD/REV/HOM- 接 0V（共陰極），極限開關輸出接 LIM_FWD/REV/HOM+�
 可選以下兩種接線方式之一：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_1.png" alt="EDriveST_traditional_1" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_1.webp" alt="EDriveST_traditional_1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_2.png" alt="EDriveST_traditional_2" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_traditional_2.webp" alt="EDriveST_traditional_2" width="60%" />
 </div>
 
 ---
@@ -204,7 +204,7 @@ LIM_FWD/REV/HOM- 接 0V（共陰極），極限開關輸出接 LIM_FWD/REV/HOM+�
 ### 四線式接線
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_4wire.png" alt="EDriveST_4wire" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_4wire.webp" alt="EDriveST_4wire" width="60%" />
 </div>
 
 ### 六線式接線
@@ -212,7 +212,7 @@ LIM_FWD/REV/HOM- 接 0V（共陰極），極限開關輸出接 LIM_FWD/REV/HOM+�
 線圈中間的 common 端不接，只接線圈兩端即可。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveST_6wire.png" alt="EDriveST_6wire" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveST_6wire.webp" alt="EDriveST_6wire" width="60%" />
 </div>
 
 ---

@@ -1,14 +1,15 @@
 ---
 sidebar_position: 20
 sidebar_label: 'UART'
+description: "The UART (Universal Asynchronous Receiver/Transmitter) panel provides users with asynchronous serial communication testing. You can set parameters such as ba..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # UART
 
 The UART (Universal Asynchronous Receiver/Transmitter) panel provides users with asynchronous serial communication testing. You can set parameters such as baud rate and parity check to perform data transmission and reception.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_uart.png').default} alt="WDM_testPanel_uart" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_uart.webp').default} alt="WDM_testPanel_uart" width="60%" />
 </div>
 
 ## Supported Products and Ports

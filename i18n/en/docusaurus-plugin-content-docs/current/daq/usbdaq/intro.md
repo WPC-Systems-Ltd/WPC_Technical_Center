@@ -2,8 +2,8 @@
 title: Product Introduction
 sidebar_position: 1
 description: Product naming rule analysis (USB-DAQ-XX) and selection guide, covering Digital, Analog, Temperature, and Communication application categories
+keywords: [Product Introduction, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 ## WPC product names represent combinations of interfaces and functions.
 
 | Code     | Full Name         | Function Description                    |

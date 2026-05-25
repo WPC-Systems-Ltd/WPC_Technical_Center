@@ -2,8 +2,8 @@
 title: 1ch LVDT Signal Conditioner
 sidebar_position: 11
 description: Introduction, features, and specifications of the WPC 1ch LVDT Signal Conditioner.
+keywords: [1ch LVDT Signal Conditioner, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 1ch LVDT Signal Conditioner
 
 The WPC LVDT Signal Conditioner is a signal processing front-end module specifically designed for Linear Variable Differential Transformer (LVDT) displacement sensors. It integrates excitation voltage drive, demodulation filtering, and signal amplification functions to accurately convert displacement changes from the sensor into standard analog voltage signals.
@@ -16,7 +16,7 @@ The WPC LVDT Signal Conditioner is a signal processing front-end module specific
 *   **Industrial Standard Interface**: Powered by 24VDC, easy to integrate into various data acquisition and automation systems.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner.png').default} alt="LVDT_Signal_Conditioner" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner.webp').default} alt="LVDT_Signal_Conditioner" width="60%" />
 </div>
 
 ---
@@ -53,7 +53,7 @@ Below are the detailed pinout and tuning resistor descriptions for the WPC LVDT 
 | 0V   | GND              | Negative Power Input (0V)                                |
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_pinout.png').default} alt="LVDT_Signal_Conditioner_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_pinout.webp').default} alt="LVDT_Signal_Conditioner_pinout" width="60%" />
 </div>
 
 ---
@@ -64,15 +64,15 @@ Below are the detailed pinout and tuning resistor descriptions for the WPC LVDT 
 Connect the excitation and signal lines of the LVDT sensor correctly to the corresponding terminals to start displacement measurement.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection.png').default} alt="LVDT_Signal_Conditioner_connection" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection.webp').default} alt="LVDT_Signal_Conditioner_connection" width="60%" />
 </div>
 
  <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection1.png').default} alt="LVDT_Signal_Conditioner_connection1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection1.webp').default} alt="LVDT_Signal_Conditioner_connection1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection2.png').default} alt="LVDT_Signal_Conditioner_connection2" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_connection2.webp').default} alt="LVDT_Signal_Conditioner_connection2" width="60%" />
 </div>
 
 ---
@@ -83,14 +83,14 @@ Connect the excitation and signal lines of the LVDT sensor correctly to the corr
 This module can be perfectly paired with the LVDT-813 series displacement sensors. The figure below displays the typical specifications and performance curves of this series.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813_series.png').default} alt="LVDT_813_series" width="80%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813_series.webp').default} alt="LVDT_813_series" width="80%" />
 </div>
 
 ---
 
 ### LVDT-813-1000 Datasheet
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813-1000.png').default} alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_813-1000.webp').default} alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
 </div>
 
 ---
@@ -98,9 +98,9 @@ This module can be perfectly paired with the LVDT-813 series displacement sensor
 ## Dimensional Drawing
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension.png').default} alt="LVDT_Signal_Conditioner_dimension" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension.webp').default} alt="LVDT_Signal_Conditioner_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension1.png').default} alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
+  <img src={require('@site/static/img/signal-condition/LVDT_Signal_Conditioner_dimension1.webp').default} alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
 </div>

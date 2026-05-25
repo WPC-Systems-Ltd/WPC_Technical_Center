@@ -2,8 +2,8 @@
 title: 1ch Low Power Current Source
 sidebar_position: 3
 description: WPC 1ch Low power current source (LPCS) 產品簡介、特點與規格說明
+keywords: [1ch Low Power Current Source, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch Low Power Current Source
 
 ## 產品簡介
@@ -11,7 +11,7 @@ description: WPC 1ch Low power current source (LPCS) 產品簡介、特點與規
 WPC 1ch Low Power Current Source (LPCS) 是一個可將電壓訊號轉換為高精度**微小電流**輸出的訊號處理前端模組。本產品專為需要精密電流驅動與測量的應用場景而設計，具備精巧的體積與高效的電流控制能力。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS.png" alt="1ch_LPCS" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS.webp" alt="1ch_LPCS" width="60%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 主負責電源輸入與控制訊號連接。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout1.png" alt="1ch_LPCS_pinout" width="40%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout1.webp" alt="1ch_LPCS_pinout" width="40%" />
 </div>
 
 | 接腳編號 | 描述                         | 功能說明                   |
@@ -61,7 +61,7 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 主負責電流輸出與負載端電壓感測。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout2.png" alt="1ch_LPCS_pinout" width="20%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_pinout2.webp" alt="1ch_LPCS_pinout" width="20%" />
 </div>
 
 | 接腳編號 | 描述    | 功能說明           |
@@ -80,7 +80,7 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 透過一般資料擷取設備 (DAQ) 進行控制與量測的連接範例：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_connection_diagram.png" alt="1ch_LPCS_connection_diagram" width="80%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_connection_diagram.webp" alt="1ch_LPCS_connection_diagram" width="80%" />
 </div>
 
 ### 應用範例：接觸電阻量測
@@ -90,7 +90,7 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_CR_measurement.png" alt="1ch_LPCS_CR_measurement" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_CR_measurement.webp" alt="1ch_LPCS_CR_measurement" width="60%" />
 </div>
 
 ### 特性曲線：輸入電壓與輸出電流
@@ -98,7 +98,7 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 下圖展示了控制輸入電壓對應輸出電流的線性關係曲線：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_Vin_vs_Iout.png" alt="1ch_LPCS_Vin_vs_Iout" width="80%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_LPCS_Vin_vs_Iout.webp" alt="1ch_LPCS_Vin_vs_Iout" width="80%" />
 </div>
 
 ---
@@ -108,11 +108,11 @@ WPC 1ch LPCS 具備上下兩組端子，分別負責不同訊號與電源的連�
 WPC 2ch Power LPCS 是一款專為驅動 WPC 1ch LPCS 所設計的高隔離雙通道電源供應器，能有效簡化系統配線並提升訊號穩定度。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_front.png" alt="2ch_Power_LPCS_front" width="50%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_front.webp" alt="2ch_Power_LPCS_front" width="50%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_rear.png" alt="2ch_Power_LPCS_rear" width="50%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_rear.webp" alt="2ch_Power_LPCS_rear" width="50%" />
 </div>
 
 ### 產品規格與特點
@@ -128,7 +128,7 @@ WPC 2ch Power LPCS 是一款專為驅動 WPC 1ch LPCS 所設計的高隔離雙�
 前面板具備兩組輸出埠，可直接透過 4-pin 訊號線與 1ch LPCS 的底部端子連接。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_front.png" alt="2ch_Power_LPCS_pinout_front" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_front.webp" alt="2ch_Power_LPCS_pinout_front" width="60%" />
 </div>
 
 | 接腳編號 | 描述    |
@@ -143,7 +143,7 @@ WPC 2ch Power LPCS 是一款專為驅動 WPC 1ch LPCS 所設計的高隔離雙�
 後面板備有兩組 10-pin 牛角座 (IDC-10P) 及連接至 DAQ 的訊號接口，分為 Channel A 與 Channel B 兩組獨立通道。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_rear.png" alt="2ch_Power_LPCS_pinout_rear" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/2ch_Power_LPCS_pinout_rear.webp" alt="2ch_Power_LPCS_pinout_rear" width="60%" />
 </div>
 
 | 接腳編號 | 通道 | 描述   | 功能說明                   |

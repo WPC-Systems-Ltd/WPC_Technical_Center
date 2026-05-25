@@ -2,8 +2,8 @@
 title: Product Specification
 sidebar_position: 2
 description: "Full technical parameters: Power requirements, AI/AO/DI/DO specifications, Thermocouple/RTD, Relay and other detailed electrical characteristics"
+keywords: [Product Specification, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 ## Power Requirements
 
 | Parameter                     | Test Conditions/Notes | Min | Typical | Max | Unit |

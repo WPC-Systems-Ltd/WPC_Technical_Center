@@ -21,7 +21,7 @@ This general breakout board is specifically designed for motion control modules,
 The breakout board is equipped with four main sets of European-style terminal blocks, partitioned according to signal characteristics:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/motion_card_general_board.png').default} alt="General Breakout Board" width="60%" />
+  <img src={require('@site/static/img/daq/stem/motion_card_general_board.webp').default} alt="General Breakout Board" width="60%" />
 </div>
 
 *   **T1 / T3 Terminal Blocks (High-Speed Signal Area)**:

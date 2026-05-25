@@ -1,8 +1,9 @@
 ---
 title: Controller Panel & Specifications
 sidebar_position: 2
+description: "The gStack-RIO controller uses a high-performance embedded processor, providing a stable and flexible control core. This chapter will detail the controller's..."
+keywords: [Controller Panel  Specifications, instrumentation, control systems, automated testing, WPC control]
 ---
-
 # gStack-RIO Controller
 
 The gStack-RIO controller uses a high-performance embedded processor, providing a stable and flexible control core. This chapter will detail the controller's hardware interface configuration, core specification data, and software architecture related information.

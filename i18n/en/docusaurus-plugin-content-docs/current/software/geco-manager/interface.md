@@ -3,14 +3,14 @@ title: Interface and Basic Operation
 sidebar_label: Interface & Basic Operation
 sidebar_position: 2
 description: "Introduction to GECO Manager main screen, device searching, and adding simulated devices"
+keywords: [Interface and Basic Operation, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Interface and Basic Operation
 
 ## Main Screen Introduction
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_main_screen.png').default} alt="GECO Manager Main Screen" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_main_screen.webp').default} alt="GECO Manager Main Screen" width="60%" />
 </div>
 
 The functions of the main screen are described below:
@@ -29,7 +29,7 @@ GECO Manager provides an automatic search function that scans for GECO devices w
 - **Network Devices**: Move the mouse cursor to the "**Network**" area, right-click, and select "**Refresh Network**".
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_refresh_network.png').default} alt="Refresh Network" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_refresh_network.webp').default} alt="Refresh Network" width="60%" />
 </div>
 
 :::caution
@@ -47,5 +47,5 @@ GECO Manager supports a simulated device feature, allowing users to preview pino
 These steps allow you to view detailed information through simulated devices without a physical connection.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_add_simulated_device.png').default} alt="Add Simulated Device" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_add_simulated_device.webp').default} alt="Add Simulated Device" width="60%" />
 </div>

@@ -16,7 +16,7 @@ The module features a standard DIN rail mounting design with a compact industria
 *   **Breakout Connector (CN1)**: DIN 41612 48-pin connector at the bottom, used to connect to motion control breakout boards.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_controller_layout.png').default} alt="Motion Module Layout" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_controller_layout.webp').default} alt="Motion Module Layout" width="60%" />
 </div>
 
 ### 1.2 Installation Notes
@@ -38,7 +38,7 @@ Before connecting the motor driver, please make sure to follow these steps:
 This module requires an external **24VDC** power supply to drive the internal circuits and isolation interfaces.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_controller_layout2.png').default} alt="Power Connection" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_controller_layout2.webp').default} alt="Power Connection" width="60%" />
 </div>
 
 ### 2.1 Wiring Instructions

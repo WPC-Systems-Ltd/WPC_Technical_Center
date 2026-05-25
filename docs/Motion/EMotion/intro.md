@@ -2,8 +2,8 @@
 sidebar_position: 1
 sidebar_label: '產品說明'
 description: EMotion 四軸運動控制軸卡產品說明、規格與接線
+keywords: [馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
-
 # EMotion
 
 ## 產品介紹
@@ -15,7 +15,7 @@ EMotion 是一款高效能的 4 軸脈波命令型軸卡，結合了 NI 7390 與
 WPC 的 LabVIEW 版本延續 NI Motion 的設計理念，是 NI 軸卡的最佳替代方案。自 2021 年起新增 Motion Express VIs，讓使用者能快速上手、短時間內開發出馬達控制程式。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion.png" alt="EMotion" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EMotion.webp" alt="EMotion" width="60%" />
 </div>
 
 ---
@@ -38,7 +38,7 @@ WPC 的 LabVIEW 版本延續 NI Motion 的設計理念，是 NI 軸卡的最佳�
 ## 外觀說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/Emotion_IO.png" alt="Emotion_IO" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/Emotion_IO.webp" alt="Emotion_IO" width="60%" />
 </div>
 
 各接口說明如下：
@@ -60,7 +60,7 @@ WPC 的 LabVIEW 版本延續 NI Motion 的設計理念，是 NI 軸卡的最佳�
 Emotion 的尺寸長×寬為 254.2×147.4 (mm)，高度不含子板為 26.7 (mm)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_size.png" alt="EMotion_size" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EMotion_size.webp" alt="EMotion_size" width="60%" />
 </div>
 ---
 
@@ -69,7 +69,7 @@ Emotion 的尺寸長×寬為 254.2×147.4 (mm)，高度不含子板為 26.7 (mm)
 EMotion 可以直接安裝於鋁軌上，安裝時要注意鋁軌扣將墊高本體約 12.9 (mm)。子板上方高度建議預留 50 (mm) 保留給 SCSI 纜線彎曲使用。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_install.png" alt="EMotion_install" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EMotion_install.webp" alt="EMotion_install" width="60%" />
 </div>
 
 
@@ -80,7 +80,7 @@ EMotion 需外接 24VDC 電源，請選用 WPC 原廠 ATX-2P 供電模組。控�
 若選用[專用型子板](../../daq/stem/modules/motion/breakout/specific_board.md)，可使用專屬 SCSI 纜線與驅動器直連，大幅簡化配線工程；若採用[通用型子板](../../daq/stem/modules/motion/breakout/general_board.md)，則請依據訊號定義進行配線。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EMotion_wiring.png" alt="EMotion_wiring" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EMotion_wiring.webp" alt="EMotion_wiring" width="60%" />
 </div>
 
 

@@ -2,8 +2,8 @@
 sidebar_position: 6
 sidebar_label: '12ch DI / 12ch DO'
 description: 12ch DI / 12ch DO 混合模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 12ch DI / 12ch DO 模組
 
 本模組整合了 12 通道數位輸入與 12 通道數位輸出，適用於混合訊號需求。
@@ -21,13 +21,13 @@ description: 12ch DI / 12ch DO 混合模組規格與腳位定義
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO.png" alt="geco_module_12ch_DIO" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO.webp" alt="geco_module_12ch_DIO" width="60%" />
 </div>
 
 ### Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_pinout.png" alt="geco_module_12ch_DIO_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_pinout.webp" alt="geco_module_12ch_DIO_pinout" width="60%" />
 </div>
 
 ### Quick reference for GECO FPGA User
@@ -64,13 +64,13 @@ description: 12ch DI / 12ch DO 混合模組規格與腳位定義
 ### Sinking Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.png" alt="geco_module_12ch_DIO_sinking_output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sinking_output.webp" alt="geco_module_12ch_DIO_sinking_output" width="60%" />
 </div>
 
 ### Sourcing Output
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.png" alt="geco_module_12ch_DIO_sourcing_output" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_12ch_DIO_sourcing_output.webp" alt="geco_module_12ch_DIO_sourcing_output" width="60%" />
 </div>
 
 :::caution

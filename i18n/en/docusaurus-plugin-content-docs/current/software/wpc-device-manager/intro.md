@@ -3,8 +3,8 @@ title: Introduction and Installation
 sidebar_label: Intro & Installation
 sidebar_position: 1
 description: "Software introduction, download, and installation guide"
+keywords: [Introduction and Installation, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Introduction
 
 WPC Device Manager (WDM) is a comprehensive management tool designed specifically for WPC products, aimed at assisting users in efficiently operating, configuring, and maintaining various devices. Through an intuitive operation interface, users can easily complete device management tasks without needing a programming background.
@@ -28,7 +28,7 @@ Please visit the official WPC website to download the latest version of WPC Devi
 > [Download WPC Device Manager (WDM)](https://www.wpc.com.tw/wpc-device-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/WDM_download_page.png').default} alt="WDM_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_download_page.webp').default} alt="WDM_download_page" width="60%" />
 </div>
 
 :::caution
@@ -40,7 +40,7 @@ Before running this software, the **LabVIEW Run-Time Engine 19.0** environment m
 > [Download LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/runtime2019_download_page.png').default} alt="runtime2019_download_page" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/runtime2019_download_page.webp').default} alt="runtime2019_download_page" width="60%" />
 </div>
 
 ## Open WPC Device Manager
@@ -55,13 +55,13 @@ If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
 1.  Click **"More info"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc_device_manager/windows_protect.png').default} alt="windows_protect" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/windows_protect.webp').default} alt="windows_protect" width="60%" />
     </div>
 
 2.  Click **"Run anyway"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc_device_manager/windows_protect1.png').default} alt="windows_protect" width="60%" />
+      <img src={require('@site/static/img/wpc_device_manager/windows_protect1.webp').default} alt="windows_protect" width="60%" />
     </div>
 
 ### Firewall Settings
@@ -72,11 +72,11 @@ Upon the first opening, the Windows Firewall might block some functions.
 2.  Click **"Allow access"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/windows_firework.png').default} alt="windows_firework" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/windows_firework.webp').default} alt="windows_firework" width="60%" />
 </div>
 
 Once opened, WPC Device Manager will automatically search for WPC devices.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/WDM_search.png').default} alt="WDM_search" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/WDM_search.webp').default} alt="WDM_search" width="60%" />
 </div>

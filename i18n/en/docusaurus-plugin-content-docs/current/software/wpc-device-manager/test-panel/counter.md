@@ -1,14 +1,15 @@
 ---
 sidebar_position: 4
 sidebar_label: 'Counter'
+description: "The Counter panel allows users to perform pulse signal counting and frequency measurement. You can set the trigger edge and the time interval for frequency m..."
+keywords: [WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Counter
 
 The Counter panel allows users to perform pulse signal counting and frequency measurement. You can set the trigger edge and the time interval for frequency measurement to adapt to different signal characteristics.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_counter.png').default} alt="WDM_testPanel_counter" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/testPanel/WDM_testPanel_counter.webp').default} alt="WDM_testPanel_counter" width="60%" />
 </div>
 
 ## Parameter Settings and Operation

@@ -2,9 +2,8 @@
 title: Product Compatibility
 sidebar_position: 3
 description: Overview of functions and channel counts with hardware resource exclusion table, clearly indicating collision limits for I2C/SPI/UART/PWM/AI/AO, etc.
+keywords: [Product Compatibility, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
-
 ## Functions and Channel Count List
 
 |               | Function  | 3.3V-DIO | 24V-DO | 24V-DI |  AI   |  AO   |  TC   |  RTD  |  CAN  |

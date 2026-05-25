@@ -3,14 +3,14 @@ title: Ethernet 裝置功能
 sidebar_label: Ethernet 裝置功能
 sidebar_position: 5
 description: "網路參數設定、腳位圖、別名設定與韌體更新"
+keywords: [Ethernet 裝置功能, WPC軟體, Geco Manager, Device Manager, 測試面板, 設定教學]
 ---
-
 ## 重新整理
 
 點擊 **"Refresh"** 按鈕可重新讀取並更新 Ethernet 裝置資訊。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_refresh.png" alt="WDM_Ethan_refresh" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_refresh.webp" alt="WDM_Ethan_refresh" width="60%" />
 </div>
 
 ---
@@ -20,11 +20,11 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 點擊 **"Pinout"** 按鈕以顯示腳位圖。視窗大小可根據使用者需求調整
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout.png" alt="WDM_Ethan_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout.webp" alt="WDM_Ethan_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout1.png" alt="WDM_Ethan_pinout1" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_pinout1.webp" alt="WDM_Ethan_pinout1" width="60%" />
 </div>
 
 ---
@@ -42,7 +42,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 5.  裝置重啟後，左側裝置列表中的名稱將更新為 **EthanA-WPC**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_alias.png" alt="WDM_Ethan_set_alias" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_alias.webp" alt="WDM_Ethan_set_alias" width="60%" />
 </div>
 
 ---
@@ -57,7 +57,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 4.  系統將提示需重新啟動裝置以套用設定，請點擊 **"OK"**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_ip.png" alt="WDM_Ethan_set_ip" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_ip.webp" alt="WDM_Ethan_set_ip" width="60%" />
 </div>
 
 ---
@@ -72,7 +72,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 4.  系統將提示需重新啟動裝置以套用設定，請點擊 **"OK"**。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_gateway.png" alt="WDM_Ethan_set_gateway" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_set_gateway.webp" alt="WDM_Ethan_set_gateway" width="60%" />
 </div>
 
 ---
@@ -82,7 +82,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 若需軟體重啟裝置，請點擊 **"Reboot"** 按鈕。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_reboot.png" alt="WDM_Ethan_reboot" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_reboot.webp" alt="WDM_Ethan_reboot" width="60%" />
 </div>
 
 ---
@@ -94,7 +94,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 1.  點擊 **"Update Firmware"** 按鈕。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png" alt="WDM_Ethan_update_firmware" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.webp" alt="WDM_Ethan_update_firmware" width="60%" />
     </div>
 
 :::info
@@ -105,23 +105,23 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 2.  在檔案瀏覽器中選擇對應的韌體檔案 (`.bin`)。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_choose_bin.png" alt="WDM_Ethan_choose_bin" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_choose_bin.webp" alt="WDM_Ethan_choose_bin" width="60%" />
     </div>
 
 3.  系統將跳出確認視窗，點擊 **"OK"** 開始寫入。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.png" alt="WDM_Ethan_update_firmware" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_update_firmware.webp" alt="WDM_Ethan_update_firmware" width="60%" />
     </div>
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_keep_updating.png" alt="WDM_Ethan_keep_updating" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_keep_updating.webp" alt="WDM_Ethan_keep_updating" width="60%" />
     </div>
 
 4.  等待進度條完成。
 
     <div style={{textAlign: 'center'}}>
-      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_updating.png" alt="WDM_Ethan_updating" width="60%" />
+      <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_updating.webp" alt="WDM_Ethan_updating" width="60%" />
     </div>
 
 :::danger
@@ -135,7 +135,7 @@ description: "網路參數設定、腳位圖、別名設定與韌體更新"
 設定網路時間協定可確保裝置時間同步。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/choose-sntp.png" alt="設定 SNTP" width="60%" />
+  <img src="/WPC_Technical_Center/img/wpc_device_manager/ethernet/WDM_Ethan_sntp.webp" alt="設定 SNTP" width="60%" />
 </div>
 
 SNTP 支援以下兩種設定模式：

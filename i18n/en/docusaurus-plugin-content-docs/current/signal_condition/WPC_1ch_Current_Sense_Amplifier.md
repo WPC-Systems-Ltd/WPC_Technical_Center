@@ -2,8 +2,8 @@
 title: 1ch Current Sense Amplifier
 sidebar_position: 2
 description: Introduction, features, and specifications of the WPC 1ch Current Sense Amplifier.
+keywords: [1ch Current Sense Amplifier, signal conditioner, signal isolation, amplifier, filter, load cell]
 ---
-
 # 1ch Current Sense Amplifier
 
 The WPC 1ch Current Sense Amplifier is a front-end module specifically designed to convert current signals into **voltage signals**. This ensures that measurement systems can obtain high-resolution data across various application scenarios.
@@ -15,7 +15,7 @@ The WPC 1ch Current Sense Amplifier is a front-end module specifically designed 
 *   **Standardized Power Supply**: Uses industrial-standard 24VDC power supply, making it easy to integrate into existing control systems.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier.png').default} alt="1ch_Current_Sense_Amplifier" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier.webp').default} alt="1ch_Current_Sense_Amplifier" width="60%" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ The WPC 1ch Current Sense Amplifier provides compact and efficient current measu
 Below are the detailed pinout and power configuration instructions for the WPC 1ch Current Sense Amplifier:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_pinout.png').default} alt="1ch_Current_Sense_Amplifier_pinout" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_pinout.webp').default} alt="1ch_Current_Sense_Amplifier_pinout" width="60%" />
 </div>
 
 ### Current-to-Voltage Mapping Table
@@ -52,7 +52,7 @@ Below are the detailed pinout and power configuration instructions for the WPC 1
 | -1A            | -10V        |
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_current_to_voltage.png').default} alt="1ch_Current_Sense_Amplifier_current_to_voltage" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_current_to_voltage.webp').default} alt="1ch_Current_Sense_Amplifier_current_to_voltage" width="60%" />
 </div>
 
 ---
@@ -62,17 +62,17 @@ Below are the detailed pinout and power configuration instructions for the WPC 1
 ### Isolation Specification
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_isolation.png').default} alt="1ch_Current_Sense_Amplifier_isolation" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_isolation.webp').default} alt="1ch_Current_Sense_Amplifier_isolation" width="60%" />
 </div>
 
 ### Input-to-Output Curve (Range: ±1A)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_1A.png').default} alt="1ch_Current_Sense_Amplifier_1A" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_1A.webp').default} alt="1ch_Current_Sense_Amplifier_1A" width="60%" />
 </div>
 
 ### Input-to-Output Curve (Range: ±1mA)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_1mA.png').default} alt="1ch_Current_Sense_Amplifier_1mA" width="60%" />
+  <img src={require('@site/static/img/signal-condition/1ch_Current_Sense_Amplifier_1mA.webp').default} alt="1ch_Current_Sense_Amplifier_1mA" width="60%" />
 </div>

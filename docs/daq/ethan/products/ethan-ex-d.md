@@ -1,15 +1,16 @@
 ---
 title: Ethan-EX-D
 sidebar_position: 4
+description: "Ethan-EX-D 提供擴展的數位 I/O 能力，包含 16 通道 DI、16 通道 DO、2 通道 PWM 與 2 通道計數器，滿足複雜的工業控制需求。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 數位輸出 (DO): 16 通道 N..."
+keywords: [EthanEXD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通道 DO**、**2 通道 PWM** 與 **2 通道計數器**，滿足複雜的工業控制需求。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D.png" alt="Ethan-EX-D 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D.webp" alt="Ethan-EX-D 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -27,4 +28,4 @@ Ethan-EX-D 提供擴展的數位 I/O 能力，包含 **16 通道 DI**、**16 通
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D_pinout.png" alt="Ethan-EX-D 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanEX-D_pinout.webp" alt="Ethan-EX-D 腳位圖" width="60%" /></div>

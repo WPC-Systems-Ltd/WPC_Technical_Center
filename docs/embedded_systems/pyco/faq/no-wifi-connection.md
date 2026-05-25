@@ -2,8 +2,9 @@
 title: 螢幕顯示 No wifi connection
 sidebar_label: 螢幕顯示 No wifi connection
 sidebar_position: 1
+description: "PYCO WIFI 系列設計為高度獨立運作的設備。即使螢幕顯示 No wifi connection，這僅表示開發板目前未連接到無線網路。這不影響開發板的核心功能： 1. 獨立運作: - 即使沒有 Wi-Fi 連接，產品的所有主要功能（如：數據採集、I/O 控制、執行內建程式）仍將正常運作。..."
+keywords: [螢幕顯示 No wifi connection, WPC, 技術文件, 規格說明]
 ---
-
 # PYCO WIFI 系列螢幕顯示 `No wifi connection`
 
 ### 功能完整，無需擔心！

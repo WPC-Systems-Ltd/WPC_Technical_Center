@@ -2,8 +2,8 @@
 title: 不使用子板
 sidebar_position: 1
 description: 若您不打算使用 WPC 提供的轉接子板，也可以直接將訊號線連接至模組上的接口。
+keywords: [不使用子板, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 ## 接口定義
 
 **DIN 41612**: 這是主要訊號輸出接口，建議使用 WPC 原廠子板以確保訊號完整性。
@@ -16,7 +16,7 @@ description: 若您不打算使用 WPC 提供的轉接子板，也可以直接�
 ## 不包含子板的軸卡外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/motion_card.png" alt="Motion Module Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/motion_card.webp" alt="Motion Module Appearance" width="60%" />
 </div>
 
 *   左上方 **2 pin 的歐規端子**：外部供電 24VDC。

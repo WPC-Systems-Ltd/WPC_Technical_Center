@@ -1,15 +1,16 @@
 ---
 title: Ethan-I
 sidebar_position: 5
+description: "Ethan-I is specifically designed for 4-20mA industrial current loops, providing 8-channel 24-bit current input (Â±20mA), featuring 2.5kV isolation protection..."
+keywords: [EthanI, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 Ethan-I is specifically designed for **4-20mA industrial current loops**, providing **8-channel 24-bit current input** (Â±20mA), featuring **2.5kV isolation protection** to ensure stable measurement in industrial environments.
 
 ### Product Appearance
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanI.png').default} alt="Ethan-I Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanI.webp').default} alt="Ethan-I Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,7 +27,7 @@ Ethan-I is specifically designed for **4-20mA industrial current loops**, provid
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanI_pinout.png" alt="Ethan-I Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-I Pinout" width="60%" /></div>
 
 ### Ethan-I Detailed Specifications (Current Input)
 

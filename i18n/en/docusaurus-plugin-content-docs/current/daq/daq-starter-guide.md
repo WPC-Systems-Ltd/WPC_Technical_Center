@@ -3,9 +3,11 @@ title: DAQ Getting Started Guide
 sidebar_label: Getting Started
 sidebar_position: 1
 slug: /daq-starter-guide
+description: "Explore WPC DAQ Solutions We provide complete solutions from sensor data acquisition and various motor controls to drone system integration. Just select the..."
+keywords: [DAQ Getting Started Guide, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
   <h1>Explore WPC DAQ Solutions</h1>
@@ -23,7 +25,7 @@ DAQ stands for Data Acquisition, which means "data acquisition". You can think o
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
       <h3>Choose Hardware Device</h3>
-      <p>According to your needs [(long-distance transmission, portability, wireless transmission, multi-channel)](/docs/daq-starter-guide#choose-hardware) to choose the appropriate data acquisition device.</p>
+      <p>According to your needs [(long-distance transmission, portability, wireless transmission, multi-channel)](#choose-hardware) to choose the appropriate data acquisition device.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
@@ -54,30 +56,30 @@ DAQ stands for Data Acquisition, which means "data acquisition". You can think o
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Hardware Platform {#choose-hardware}
 
 <div className="gs-card-grid">
-  <a href="/docs/daq/ethan/intro" className="theme-doc-card gs-card">
+  <Link to="./daq/ethan/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> Ethernet-DAQ Series</h2>
     <p>**Stable, High-Bandwidth Industrial Measurement Solution**</p>
     <p>Ideal for industrial sites requiring long-distance connections and multi-node synchronous monitoring. Features an RJ45 interface with high stability and bandwidth.</p>
-  </a>
-  <a href="/docs/daq/usbdaq/intro" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./daq/usbdaq/intro" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Usb size={24} color="var(--brand-electric-blue)"/> USB DAQ Series</h2>
     <p>**Plug-and-play High Precision Measurement**</p>
     <p>Quickly connect to PC via USB, supports Windows, ideal for lab R&D and portable testing applications.</p>
-  </a>
-  <a href="/docs/daq/wifidaq/product-general" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./daq/wifidaq/product-general" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Wifi size={24} color="var(--brand-electric-blue)"/> WIFI-DAQ</h2>
     <p>**Wireless Deployment and IoT Applications**</p>
     <p>Designed for data acquisition needs in areas difficult to wire or for mobile carriers. Supports wireless network transmission for sensing everywhere.</p>
-  </a>
-  <a href="/docs/daq/stem/layout" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./daq/stem/layout" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Settings2 size={24} color="var(--brand-electric-blue)"/> STEM Series</h2>
     <p>**Education and Automation Prototyping**</p>
     <p>Rich Analog and Digital I/O, supports multiple dev environments, ideal for automation learning and prototyping.</p>
-  </a>
+  </Link>
 </div>
 
 :::tip[What Else?]
-Beyond the standard DAQ series, we also provide **[Embedded Systems Getting Started](/docs/embedded-starter-guide)** and a full **[Drone Control Getting Started](/docs/drone-starter-guide)**.
+Beyond the standard DAQ series, we also provide **[Embedded Systems Getting Started](../embedded_systems/embedded-starter-guide.md)** and a full **[Drone Control Getting Started](../Drone/drone-starter-guide.md)**.
 :::
 
 ---
@@ -118,7 +120,7 @@ Before you start writing code, we strongly recommend installing **WPC Device Man
 </div>
 
 :::note[Learn More]
-**[WPC Device Manager](/docs/software/wpc-device-manager/intro)**
+**[WPC Device Manager](../software/wpc-device-manager/intro.md)**
 Download and install the management tool to manage and configure your WPC DAQ devices more efficiently.
 :::
 
@@ -130,7 +132,7 @@ WPC provides hardware drivers in various programming languages, allowing users t
 
 | Programming Language | Feature Summary | Detailed Tutorial Link |
 | :------------------- | :-------------- | :--------------------- |
-| **LabVIEW** | Provides a complete VI package and ready-made graphical panels, enabling engineers to quickly integrate automated test and measurement processes. | [LabVIEW Getting Started](/docs/driver/driver_intro) |
+| **LabVIEW** | Provides a complete VI package and ready-made graphical panels, enabling engineers to quickly integrate automated test and measurement processes. | [LabVIEW Getting Started](../driver/intro.md) |
 | **Python** | Open-source and easy-to-use API with a consistent interface and rich examples, suitable for developers of all levels. | [Python Getting Started](https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release) |
 | **C#** | Open-source driver optimized for .NET environments, using intuitive Open/Read-Write/Close logic, significantly lowering the development threshold. | [C# Getting Started](https://github.com/WPC-Systems-Ltd/WPC_CSharp_driver_release) |
 
@@ -139,8 +141,8 @@ WPC provides hardware drivers in various programming languages, allowing users t
 ## <HelpCircle size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Frequently Asked Questions (FAQ)
 
 <div className="gs-card-grid">
-  <a href="/docs/wdm-faq" className="theme-doc-card gs-card">
+  <Link to="./wdm-faq" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Network size={24} color="var(--brand-electric-blue)"/> WPC Device Manager</h2>
     <p>**Frequently Asked Questions and Troubleshooting Guide**</p>
-  </a>
+  </Link>
 </div>

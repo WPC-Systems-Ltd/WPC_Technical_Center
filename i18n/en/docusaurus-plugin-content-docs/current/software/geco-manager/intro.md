@@ -3,8 +3,8 @@ title: Introduction and Installation
 sidebar_label: Intro & Installation
 sidebar_position: 1
 description: "GECO Manager software introduction, download, and installation guide"
+keywords: [Introduction and Installation, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 # Introduction and Installation
 
 ## Introduction
@@ -25,7 +25,7 @@ Please visit the official WPC website to download the latest version of GECO Man
 > [Download GECO Manager](https://www.wpc.com.tw/geco-manager.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_download_page.png').default} alt="GECO Manager Download Page" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_download_page.webp').default} alt="GECO Manager Download Page" width="60%" />
 </div>
 
 :::caution
@@ -37,7 +37,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2019*
 > [Download LabVIEW 2019 Run-time Engine](https://www.wpc.com.tw/labview-runtime-2019.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/runtime2019_download_page.png').default} alt="LabVIEW 2019 Run-time Engine Download Page" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/runtime2019_download_page.webp').default} alt="LabVIEW 2019 Run-time Engine Download Page" width="60%" />
 </div>
 
 ### Step 3: Download and Install NI CompactRIO 15.5
@@ -45,7 +45,7 @@ To run this software, you must first install the **LabVIEW Run-Time Engine 2019*
 > [Download NI CompactRIO 15.5](https://www.wpc.com.tw/ni-compactrio-155.html)
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/compactRIO_15_5_download_page.png').default} alt="NI CompactRIO 15.5 Download Page" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/compactRIO_15_5_download_page.webp').default} alt="NI CompactRIO 15.5 Download Page" width="60%" />
 </div>
 
 ## Opening GECO Manager
@@ -60,13 +60,13 @@ If Windows displays a "Windows protected your PC" or "Unrecognized app" warning:
 1.  Click **"More info"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc-geco-manager/windows_protect.png').default} alt="Windows Protect" width="60%" />
+      <img src={require('@site/static/img/wpc-geco-manager/windows_protect.webp').default} alt="Windows Protect" width="60%" />
     </div>
 
 2.  Click **"Run anyway"**.
 
     <div style={{textAlign: 'center'}}>
-      <img src={require('@site/static/img/wpc-geco-manager/windows_protect1.png').default} alt="Run Anyway" width="60%" />
+      <img src={require('@site/static/img/wpc-geco-manager/windows_protect1.webp').default} alt="Run Anyway" width="60%" />
     </div>
 
 ### Firewall Settings
@@ -77,11 +77,11 @@ When opening for the first time, Windows Firewall may block some features.
 2.  Click **"Allow access"**.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/windows_firework.png').default} alt="Windows Firewall" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/windows_firework.webp').default} alt="Windows Firewall" width="60%" />
 </div>
 
 Once opened, GECO Manager will automatically search for WPC GECO controllers.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_search.png').default} alt="GECO Manager Searching" width="60%" />
+  <img src={require('@site/static/img/wpc-geco-manager/geco_manager_search.webp').default} alt="GECO Manager Searching" width="60%" />
 </div>

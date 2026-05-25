@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: '24ch AI/8ch AO 模組'
+description: "本模組提供 24 通道類比輸入與 8 通道類比輸出功能。 | 項目 | 規格 | | :------------- | :----------------------------- | | 連接器 | IDC 50P Connector | | 通道數 | 24 ch (同步取樣) | | 解..."
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 24ch AI / 8ch AO 模組
 
 本模組提供 24 通道類比輸入與 8 通道類比輸出功能。
@@ -32,5 +33,5 @@ sidebar_label: '24ch AI/8ch AO 模組'
 ## 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_AIO.png" alt="AI/AO Module Pinout" width="50%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_module_AIO.webp" alt="AI/AO Module Pinout" width="50%" />
 </div>

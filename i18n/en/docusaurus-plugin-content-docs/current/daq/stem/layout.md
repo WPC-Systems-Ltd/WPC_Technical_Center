@@ -8,7 +8,7 @@ sidebar_label: 'Appearance and Hardware'
 ## Appearance Description
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_controller.png').default} alt="STEM Appearance" width="60%" />
+  <img src={require('@site/static/img/daq/stem/STEM_controller.webp').default} alt="STEM Appearance" width="60%" />
 </div>
 
 In order from top to bottom:
@@ -20,7 +20,7 @@ In order from top to bottom:
 ## Interface Description
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/daq/stem/STEM_controller_front.png').default} alt="STEM Interface" width="80%" />
+  <img src={require('@site/static/img/daq/stem/STEM_controller_front.webp').default} alt="STEM Interface" width="80%" />
 </div>
 
 In order from left to right:

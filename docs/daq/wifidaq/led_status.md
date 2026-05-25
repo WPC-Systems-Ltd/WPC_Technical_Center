@@ -2,8 +2,8 @@
 title: 基本操作(外觀及 LED 狀態)
 sidebar_position: 2
 description: 產品外觀照片與 LED 燈號快速診斷 (紅：AP 模式、綠：待機、藍：已連線)
+keywords: [基本操作外觀及 LED 狀態, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 # 外觀及 LED 狀態
 
 WPC WIFI-DAQ 系列是專為無線數據採集設計的工業級模組。
@@ -13,11 +13,11 @@ WPC WIFI-DAQ 系列是專為無線數據採集設計的工業級模組。
 
 | 正面 | 背面 |
 | :---: | :---: |
-| ![Front View](/img/daq/wifi-daq/wifi-daq-front.png) | ![Back View](/img/daq/wifi-daq/wifi-daq-back.png) |
+| ![Front View](/img/daq/wifi-daq/wifi-daq-front.webp) | ![Back View](/img/daq/wifi-daq/wifi-daq-back.webp) |
 
 | 側面 | 接頭特寫 |
 | :---: | :---: |
-| ![Side View](/img/daq/wifi-daq/wifi-daq-side.png) | ![Connector Detail](/img/daq/wifi-daq/wifi-daq-connector-detail.png) |
+| ![Side View](/img/daq/wifi-daq/wifi-daq-side.webp) | ![Connector Detail](/img/daq/wifi-daq/wifi-daq-connector-detail.webp) |
 
 ---
 

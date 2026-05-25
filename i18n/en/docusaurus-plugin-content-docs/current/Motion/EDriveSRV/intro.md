@@ -2,8 +2,8 @@
 sidebar_position: 1
 sidebar_label: 'Product Introduction'
 description: Product introduction for EDrive-SRV stepper motor driver
+keywords: [motor drive, motor control, servo drive, stepper motor, WPC motion]
 ---
-
 # EDrive-SRV
 
 ## Product Introduction
@@ -13,7 +13,7 @@ WPC EDrive-SRV is characterized by its small size, simple wiring, and ease of us
 It operates on DC power, supporting up to 48V with a maximum output power of 400W. This makes it suitable for DC-powered environments such as mobile vehicles, solar photovoltaics, energy storage systems, batteries, and battery-powered setups.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV.png').default} alt="EDriveSRV" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV.webp').default} alt="EDriveSRV" width="60%" />
 </div>
 
 :::info
@@ -27,7 +27,7 @@ EDrive-SRV operates on DC power, supporting up to 48V.
 ## System Architecture Diagram
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_system_diagram.png').default} alt="EDriveSRV System Diagram" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_system_diagram.webp').default} alt="EDriveSRV System Diagram" width="60%" />
 </div>
 
 ---
@@ -47,7 +47,7 @@ EDrive-SRV operates on DC power, supporting up to 48V.
 ## Appearance
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_IO.png').default} alt="EDriveSRV I/O" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_IO.webp').default} alt="EDriveSRV I/O" width="60%" />
 </div>
 
 Describing the hardware interface functions of the EDrive-SRV series products:
@@ -99,18 +99,18 @@ Describing the hardware interface functions of the EDrive-SRV series products:
 ### I/O and Encoder Pin Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_connector1.png').default} alt="EDriveSRV Connector 1" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_connector1.webp').default} alt="EDriveSRV Connector 1" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_connector1_pinout.png').default} alt="EDriveSRV Connector 1 Pinout" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_connector1_pinout.webp').default} alt="EDriveSRV Connector 1 Pinout" width="60%" />
 </div>
 
 ### I/O Connector Wiring Example
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_IO_connector_example.png').default} alt="EDriveSRV I/O Connector Example" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_IO_connector_example.webp').default} alt="EDriveSRV I/O Connector Example" width="60%" />
 </div>
 
 ---
@@ -118,11 +118,11 @@ Describing the hardware interface functions of the EDrive-SRV series products:
 ### Power Pin Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_connector3.png').default} alt="EDriveSRV Connector 3" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_connector3.webp').default} alt="EDriveSRV Connector 3" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_connector_voltage.png').default} alt="EDriveSRV Connector Voltage" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_connector_voltage.webp').default} alt="EDriveSRV Connector Voltage" width="60%" />
 </div>
 
 ---
@@ -130,5 +130,5 @@ Describing the hardware interface functions of the EDrive-SRV series products:
 ### Encoder Pin Wiring
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/motion/EDriveSRV_connector_encoder.png').default} alt="EDriveSRV Connector Encoder" width="60%" />
+  <img src={require('@site/static/img/motion/EDriveSRV_connector_encoder.webp').default} alt="EDriveSRV Connector Encoder" width="60%" />
 </div>

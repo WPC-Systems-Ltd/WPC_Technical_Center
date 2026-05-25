@@ -1,8 +1,9 @@
 ---
 title: PYCO ETH
 sidebar_position: 2
+description: "PYCO ETH is a full-featured Python programmable controller, integrating 8-channel AI/AO/DI/DO, with built-in Ethernet and an OLED display, making it ideal fo..."
+keywords: [PYCO ETH, WPC, technical documentation, specifications]
 ---
-
 # PYCO ETH
 
 PYCO ETH is a full-featured Python programmable controller, integrating **8-channel AI/AO/DI/DO**, with built-in **Ethernet** and an **OLED display**, making it ideal for industrial applications requiring wired network connectivity.
@@ -12,7 +13,7 @@ PYCO ETH is a full-featured Python programmable controller, integrating **8-chan
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth.png').default} alt="PYCO ETH Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth.webp').default} alt="PYCO ETH Appearance" width="60%" />
 </div>
 
 
@@ -37,7 +38,7 @@ PYCO ETH is a full-featured Python programmable controller, integrating **8-chan
 ## Component Names
 ---
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth-general.png').default} alt="PYCO ETH Components" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-eth-general.webp').default} alt="PYCO ETH Components" width="60%" />
 </div>
 
 

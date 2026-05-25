@@ -1,15 +1,16 @@
 ---
 title: Ethan-P
 sidebar_position: 9
+description: "Ethan-P 提供 4 通道 10-bit 數位電位器，阻值範圍 300Ω ~ 50kΩ，更新率 500Hz，可程式化控制電阻值，適用於類比電路調校與校準應用。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 4 通道可變數位電位器 & 1..."
+keywords: [EthanP, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-P 提供 **4 通道 10-bit 數位電位器**，阻值範圍 **300Ω ~ 50kΩ**，更新率 **500Hz**，可程式化控制電阻值，適用於類比電路調校與校準應用。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanP.png" alt="Ethan-P 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanP.webp" alt="Ethan-P 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,4 +27,4 @@ Ethan-P 提供 **4 通道 10-bit 數位電位器**，阻值範圍 **300Ω ~ 50k�
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanP_pinout.png" alt="Ethan-P 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanP_pinout.webp" alt="Ethan-P 腳位圖" width="60%" /></div>

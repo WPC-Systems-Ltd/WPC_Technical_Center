@@ -1,14 +1,15 @@
 ---
 sidebar_position: 2
 sidebar_label: '外觀與硬體'
+description: "由上到下依序為： C1 (Slot C1): 24ch 3.3V DIO C2 (Slot C2): 24ch 3.3V DIO C3 (Slot C3): 24ch 3.3V DIO C4 (Slot C4): 24ch 3.3V DIO 由左到右依序為： 1. 24V 直流電輸入 2. 保..."
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
+## 外觀與硬體配置
 
-# 外觀與硬體配置
-
-## 外觀說明
+### 外觀說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller.png" alt="STEM Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller.webp" alt="STEM Appearance" width="60%" />
 </div>
 
 由上到下依序為：
@@ -17,10 +18,10 @@ sidebar_label: '外觀與硬體'
 *   **C3 (Slot C3)**: 24ch 3.3V DIO
 *   **C4 (Slot C4)**: 24ch 3.3V DIO
 
-## 介面說明
+### 介面說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_front.png" alt="STEM Interface" width="80%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_front.webp" alt="STEM Interface" width="80%" />
 </div>
 
 由左到右依序為：
@@ -31,7 +32,7 @@ sidebar_label: '外觀與硬體'
 5.  **Reset 按鍵**
 6.  **FUNC 按鍵** (位於 Reset 旁)
 
-### LED 指示燈定義
+#### LED 指示燈定義
 
 | 位置        | 名稱           | 行為描述 |
 | :-----------| :-------------|:----------------------------------------------------------------------------------|
@@ -40,7 +41,7 @@ sidebar_label: '外觀與硬體'
 | 左下角      | 狀態 (Status)  | • **閃爍兩次**：啟動時主程式初始化無錯誤。<br/>• **恆亮**：系統正在運行。<br/>• **週期閃爍**：發生錯誤。  |
 | 右下角      | 作業系統 (OS)  | • **約 4 Hz 閃爍**：乙太網路線已連接。<br/>• **約 2 Hz 閃爍**：乙太網路線未連接。<br/>• **不閃爍**：OS 停止運行。 |
 
-### 按鍵功能
+#### 按鍵功能
 
 | 按鍵      | 功能說明                                                                          |
 | :-------- | :-------------------------------------------------------------------------------- |

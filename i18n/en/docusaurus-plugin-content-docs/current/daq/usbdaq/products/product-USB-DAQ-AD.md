@@ -19,7 +19,7 @@ USB-DAQ-AD provides **8-channel 16-bit analog input** (Â±10V), with a maximum 
 ### Pinout
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAD_pinout.png').default} alt="USB-DAQ-AD Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/usb-daq/USBDAQAD_pinout.webp').default} alt="USB-DAQ-AD Pinout" width="60%" /></div>
 
 ### Product Specifications
 

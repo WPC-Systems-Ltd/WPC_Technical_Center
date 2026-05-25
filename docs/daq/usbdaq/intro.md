@@ -2,11 +2,11 @@
 title: 產品介紹
 sidebar_position: 1
 description: 產品命名規則解析 (USB-DAQ-XX) 與選型指南，涵蓋數位、類比、溫度、通訊四大應用類別
+keywords: [產品介紹, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 ## WPC 的產品命名代表了介面與功能的組合。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usbdaq/USBDAQ_naming.png" alt="USB-DAQ 命名規則" width="40%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQ_naming.webp" alt="USB-DAQ 命名規則" width="40%" /></div>
 
 | 命名代號 | 英文全稱         | 功能說明                                |
 | :------- | :--------------- | :-------------------------------------- |

@@ -77,8 +77,8 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '規格與支援', id: 'sitemap.category.ethan.section.spec' }),
                 links: [
-                    { label: translate({ message: '硬體外觀及 LED 狀態', id: 'sitemap.category.ethan.link.led' }), href: '/docs/daq/ethan/led_status', icon: <BookOpen size={16} /> },
-                    { label: translate({ message: '規格總表', id: 'sitemap.category.ethan.link.spec_table' }), href: '/docs/daq/ethan/specification', icon: <Gauge size={16} /> },
+                    { label: translate({ message: '基本操作(外觀及 LED 狀態)', id: 'sitemap.category.ethan.link.led' }), href: '/docs/daq/ethan/led_status', icon: <BookOpen size={16} /> },
+                    { label: translate({ message: '規格總覽', id: 'sitemap.category.ethan.link.spec_table' }), href: '/docs/daq/ethan/specification', icon: <Gauge size={16} /> },
                 ],
             }
         ],
@@ -107,7 +107,7 @@ const categories: SitemapCategory[] = [
                 heading: translate({ message: '規格與支援', id: 'sitemap.category.usb.section.spec' }),
                 links: [
                     { label: translate({ message: '產品尺寸圖', id: 'sitemap.category.usb.link.layout' }), href: '/docs/daq/usbdaq/layout', icon: <LayoutDashboard size={16} /> },
-                    { label: translate({ message: '規格總表', id: 'sitemap.category.usb.link.spec_table' }), href: '/docs/daq/usbdaq/specification', icon: <Gauge size={16} /> },
+                    { label: translate({ message: '規格總覽', id: 'sitemap.category.usb.link.spec_table' }), href: '/docs/daq/usbdaq/specification', icon: <Gauge size={16} /> },
                 ],
             },
         ],
@@ -134,7 +134,7 @@ const categories: SitemapCategory[] = [
             {
                 heading: translate({ message: '規格與支援', id: 'sitemap.category.wifi.section.spec' }),
                 links: [
-                    { label: translate({ message: '硬體外觀及 LED 狀態', id: 'sitemap.category.wifi.link.led' }), href: '/docs/daq/wifidaq/led_status', icon: <BookOpen size={16} /> },
+                    { label: translate({ message: '基本操作(外觀及 LED 狀態)', id: 'sitemap.category.wifi.link.led' }), href: '/docs/daq/wifidaq/led_status', icon: <BookOpen size={16} /> },
                 ],
             },
         ],

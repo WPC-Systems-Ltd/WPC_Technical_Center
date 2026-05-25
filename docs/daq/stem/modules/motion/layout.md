@@ -2,8 +2,8 @@
 sidebar_position: 4
 sidebar_label: '外觀尺寸與安裝'
 description: 4 軸運動控制模組的硬體尺寸、介面佈局與安裝指南
+keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---
-
 # 外觀尺寸與安裝
 
 ## 1. 外觀尺寸圖
@@ -16,7 +16,7 @@ description: 4 軸運動控制模組的硬體尺寸、介面佈局與安裝指�
 *   **子板連接器 (CN1)**：下方 DIN 41612 48-pin 接口，用於連接運動控制子板 (Breakout Board)。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_layout.png" alt="Motion Module Layout" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_layout.webp" alt="Motion Module Layout" width="60%" />
 </div>
 
 ### 1.2 系統安裝注意事項
@@ -38,7 +38,7 @@ description: 4 軸運動控制模組的硬體尺寸、介面佈局與安裝指�
 本模組需要外部供應 **24VDC** 電源以驅動內部電路與隔離介面。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_layout2.png" alt="Power Connection" width="60%" />
+  <img src="/WPC_Technical_Center/img/daq/stem/STEM_controller_layout2.webp" alt="Power Connection" width="60%" />
 </div>
 
 ### 2.1 配線須知

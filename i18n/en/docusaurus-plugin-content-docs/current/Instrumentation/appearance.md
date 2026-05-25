@@ -1,9 +1,9 @@
 ---
 title: Chassis Appearance & Dimensions
 sidebar_position: 3
+description: "--- ---"
+keywords: [Chassis Appearance  Dimensions, instrumentation, control systems, automated testing, WPC control]
 ---
-
-
 ## Chassis Appearance
 
 ---

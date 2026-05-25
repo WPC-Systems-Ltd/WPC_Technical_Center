@@ -2,9 +2,8 @@
 title: Product Overview
 sidebar_position: 1
 description: "Comparison of 4 wireless DAQ model specifications: E3-A/AH/AO (10kHz), F4-A (20kHz), some integrated with 9DoF IMU attitude sensing"
+keywords: [Product Overview, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
-
 # Product Overview
 
 ## WPC WIFI-DAQ Series Product Specification Comparison:

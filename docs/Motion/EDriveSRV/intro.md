@@ -2,8 +2,8 @@
 sidebar_position: 1
 sidebar_label: '產品介紹'
 description: EDrive-SRV 伺服馬達驅動器產品簡介
+keywords: [馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
-
 # EDrive-SRV
 
 ## 產品介紹
@@ -13,7 +13,7 @@ WPC EDrive-SRV，體積小、接線單純、容易使用的特性使得它適合
 電源上使用直流電源，最高可支援到 48V，最大輸出功率 400W，適合應用於直流供電的環境，比如移動載具、太陽能光電、儲能系統、電池、電瓶供電環境下使用。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV.png" alt="EDriveSRV" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV.webp" alt="EDriveSRV" width="60%" />
 </div>
 
 :::info
@@ -27,7 +27,7 @@ EDrive-SRV 電源上使用直流電源，最高可支援到 48V。
 ## 系統架構圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_system_diagram.png" alt="EDriveSRV_system_diagram" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_system_diagram.webp" alt="EDriveSRV_system_diagram" width="60%" />
 </div>
 
 ---
@@ -48,7 +48,7 @@ EDrive-SRV 電源上使用直流電源，最高可支援到 48V。
 ## 外觀說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_IO.png" alt="EDriveSRV_IO" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_IO.webp" alt="EDriveSRV_IO" width="60%" />
 </div>
 
 說明 EDrive-SRV 的各項硬體介面功能：
@@ -99,18 +99,18 @@ EDrive-SRV 電源上使用直流電源，最高可支援到 48V。
 ### I/O 及 Encoder 腳位接線說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector1.png" alt="EDriveSRV_connector1" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector1.webp" alt="EDriveSRV_connector1" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector1_pinout.png" alt="EDriveSRV_connector1_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector1_pinout.webp" alt="EDriveSRV_connector1_pinout" width="60%" />
 </div>
 
 ### I/O connector 接線範例
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_IO_connector_example.png" alt="EDriveSRV_IO_connector_example" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_IO_connector_example.webp" alt="EDriveSRV_IO_connector_example" width="60%" />
 </div>
 
 ---
@@ -118,11 +118,11 @@ EDrive-SRV 電源上使用直流電源，最高可支援到 48V。
 ### 電源的腳位接線說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector3.png" alt="EDriveSRV_connector3" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector3.webp" alt="EDriveSRV_connector3" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector_voltage.png" alt="EDriveSRV_connector_voltage" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector_voltage.webp" alt="EDriveSRV_connector_voltage" width="60%" />
 </div>
 
 ---
@@ -130,5 +130,5 @@ EDrive-SRV 電源上使用直流電源，最高可支援到 48V。
 ### 編碼器的腳位接線說明
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector_encoder.png" alt="EDriveSRV_connector_encoder" width="60%" />
+  <img src="/WPC_Technical_Center/img/motion/EDriveSRV_connector_encoder.webp" alt="EDriveSRV_connector_encoder" width="60%" />
 </div>

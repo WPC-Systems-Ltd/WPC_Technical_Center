@@ -2,8 +2,8 @@
 title: Product Introduction
 sidebar_position: 2
 description: "Quick Selection Guide: Find the right Ethan model based on application (Analog Input/Output, Digital I/O, Temperature Measurement)"
+keywords: [Product Introduction, data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 ## Product Selection Guide
 
 | Classification  | Model          | Key Features                                       |

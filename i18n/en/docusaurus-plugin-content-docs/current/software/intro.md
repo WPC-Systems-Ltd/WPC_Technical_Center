@@ -2,8 +2,8 @@
 title: Software Intro
 sidebar_position: 1
 description: Overview of supporting software and development tools for WPC data acquisition systems
+keywords: [Software Intro, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Software Tools Overview
 
 WPC provides various software tools and development resources to help you quickly integrate and apply data acquisition systems.

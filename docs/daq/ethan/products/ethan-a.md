@@ -1,15 +1,16 @@
 ---
 title: Ethan-A
 sidebar_position: 1
+description: "Ethan-A 是一款工業級乙太網路數據採集卡，提供 8 通道同步 16-bit 類比輸入，最高取樣率達 20kHz，適用於高速訊號量測與監控應用。 --- --- 1. 電源輸入: 24VDC 2. 10/100 Base-T 乙太網路介面 3. 類比輸入 (AI): 8 通道同步取樣 &..."
+keywords: [EthanA, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 Ethan-A 是一款工業級乙太網路數據採集卡，提供 **8 通道同步 16-bit 類比輸入**，最高取樣率達 **20kHz**，適用於高速訊號量測與監控應用。
 
 ### 產品外觀
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA.png" alt="Ethan-A 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA.webp" alt="Ethan-A 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -26,7 +27,7 @@ Ethan-A 是一款工業級乙太網路數據採集卡，提供 **8 通道同步 
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA_pinout.png" alt="Ethan-A 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanA_pinout.webp" alt="Ethan-A 腳位圖" width="60%" /></div>
 
 ### Ethan-A 詳細規格
 

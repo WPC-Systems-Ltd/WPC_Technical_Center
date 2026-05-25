@@ -2,8 +2,8 @@
 title: 1ch Current Sense Amplifier
 sidebar_position: 2
 description: WPC 1ch Current Sense Amplifier 產品簡介、特點與規格說明
+keywords: [1ch Current Sense Amplifier, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch Current Sense Amplifier
 
 WPC 1ch Current Sense Amplifier 是一個專為將電流訊號轉換為**電壓訊號**的前端模組。確保測量系統在各種應用場景中皆能取得高解析度的數據
@@ -15,7 +15,7 @@ WPC 1ch Current Sense Amplifier 是一個專為將電流訊號轉換為**電壓�
 *   **標準化供電**：採用工業標準 24VDC 供電，易於整合至現有控制系統中。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier.png" alt="1ch_Current_Sense_Amplifier" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier.webp" alt="1ch_Current_Sense_Amplifier" width="60%" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ WPC 1ch Current Sense Amplifier 提供精巧、高效的電流測量功能，其
 以下為 WPC 1ch Current Sense Amplifier 的詳細接腳與電源配置說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_pinout.png" alt="1ch_Current_Sense_Amplifier_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_pinout.webp" alt="1ch_Current_Sense_Amplifier_pinout" width="60%" />
 </div>
 
 ### 電流對電壓映射表 (Current-to-Voltage Mapping Table)
@@ -52,7 +52,7 @@ WPC 1ch Current Sense Amplifier 提供精巧、高效的電流測量功能，其
 | -1A         | -10V     |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_current_to_voltage.png" alt="1ch_Current_Sense_Amplifier_current_to_voltage" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_current_to_voltage.webp" alt="1ch_Current_Sense_Amplifier_current_to_voltage" width="60%" />
 </div>
 
 ---
@@ -62,17 +62,17 @@ WPC 1ch Current Sense Amplifier 提供精巧、高效的電流測量功能，其
 ### 隔離規範 (Isolation Specification)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_isolation.png" alt="1ch_Current_Sense_Amplifier_isolation" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_isolation.webp" alt="1ch_Current_Sense_Amplifier_isolation" width="60%" />
 </div>
 
 ### 輸入對輸出曲線 (範圍：±1A)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_1A.png" alt="1ch_Current_Sense_Amplifier_1A" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_1A.webp" alt="1ch_Current_Sense_Amplifier_1A" width="60%" />
 </div>
 
 ### 輸入對輸出曲線 (範圍：±1mA)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_1mA.png" alt="1ch_Current_Sense_Amplifier_1mA" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_Current_Sense_Amplifier_1mA.webp" alt="1ch_Current_Sense_Amplifier_1mA" width="60%" />
 </div>

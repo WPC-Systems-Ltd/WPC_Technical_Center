@@ -2,8 +2,8 @@
 title: 1ch LVDT Signal Conditioner
 sidebar_position: 11
 description: WPC 1ch LVDT Signal Conditioner 產品簡介、特點與規格說明
+keywords: [1ch LVDT Signal Conditioner, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch LVDT Signal Conditioner
 
 WPC LVDT Signal Conditioner 是一款專為線性差動變壓器 (LVDT) 位移感測器設計的訊號處理前端模組。它集成了激勵電壓驅動、解調濾波與訊號放大功能，能將感測器的位移變化精確轉換為標準的類比電壓訊號。
@@ -16,7 +16,7 @@ WPC LVDT Signal Conditioner 是一款專為線性差動變壓器 (LVDT) 位移�
 *   **工業標準介面**：採用 24VDC 供電，易於整合至各式資料擷取與自動化系統。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner.png" alt="LVDT_Signal_Conditioner" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner.webp" alt="LVDT_Signal_Conditioner" width="60%" />
 </div>
 
 ---
@@ -53,7 +53,7 @@ WPC LVDT Signal Conditioner 提供穩定且精確的位移訊號處理能力，�
 | 0V   | GND         | 電源輸入 負極 (0V)                            |
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_pinout.png" alt="LVDT_Signal_Conditioner_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_pinout.webp" alt="LVDT_Signal_Conditioner_pinout" width="60%" />
 </div>
 
 ---
@@ -64,15 +64,15 @@ WPC LVDT Signal Conditioner 提供穩定且精確的位移訊號處理能力，�
 將 LVDT 感測器的激勵與訊號線正確連接至對應端子，即可啟動位移量測。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection.png" alt="LVDT_Signal_Conditioner_connection" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection.webp" alt="LVDT_Signal_Conditioner_connection" width="60%" />
 </div>
 
  <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection1.png" alt="LVDT_Signal_Conditioner_connection1" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection1.webp" alt="LVDT_Signal_Conditioner_connection1" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection2.png" alt="LVDT_Signal_Conditioner_connection2" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_connection2.webp" alt="LVDT_Signal_Conditioner_connection2" width="60%" />
 </div>
 
 ---
@@ -83,24 +83,24 @@ WPC LVDT Signal Conditioner 提供穩定且精確的位移訊號處理能力，�
 本模組可完美搭配 LVDT-813 系列位移感測器使用，下圖展示了該系列的典型規格與性能曲線。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813_series.png" alt="LVDT_813_series" width="80%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813_series.webp" alt="LVDT_813_series" width="80%" />
 </div>
 
 ---
 
 ### LVDT-813-1000 datasheet
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813-1000.png" alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_813-1000.webp" alt="LVDT_Signal_Conditioner_813-1000" width="80%" />
 </div>
 
 ---
 ## 尺寸圖 (Dimensional Drawing)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension.png" alt="LVDT_Signal_Conditioner_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension.webp" alt="LVDT_Signal_Conditioner_dimension" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension1.png" alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/LVDT_Signal_Conditioner_dimension1.webp" alt="LVDT_Signal_Conditioner_dimension1" width="60%" />
 </div>
 

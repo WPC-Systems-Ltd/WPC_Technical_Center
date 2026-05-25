@@ -2,8 +2,8 @@
 sidebar_position: 3
 sidebar_label: 'RMC 轉接板'
 description: WPC sbRIO RMC Breakout
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # WPC sbRIO RMC Breakout 轉接板
 
 WPC 專門為 NI sbRIO 系列設計的 **RMC (RIO Mezzanine Card) 轉接板 (Breakout)**，旨在解決硬體開發者在處理高密度 FPGA I/O 時面臨的痛點，協助使用者更便利、更快速地完成硬體系統的整合與開發。
@@ -15,7 +15,7 @@ WPC 專門為 NI sbRIO 系列設計的 **RMC (RIO Mezzanine Card) 轉接板 (Bre
 NI sbRIO (Single-Board RIO) 是一款功能強大的嵌入式控制器。為了保留最大的靈活性，sbRIO 將 FPGA 龐大數量的 I/O (包含高達 96 個 3.3V 數位 I/O 通道) 以及處理器的高速訊號，全數整合在一個被稱為 **RMC (RIO Mezzanine Card)** 的高密度擴充接頭上。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_connector.png" alt="rmc_connector" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_connector.webp" alt="rmc_connector" width="60%" />
 </div>
 
 使用者可以透過這個 RMC 接頭，設計並客製化自己專屬的周邊電路板 (Mezzanine Card)，從而將 sbRIO 的效能發揮到極致。
@@ -61,7 +61,7 @@ WPC RMC Breakout 直接將難以處理的 sbRIO RMC 接頭，轉換為工業測�
 *   內建 RTC (即時時鐘) 備用電池座。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_support_enclosure.png" alt="rmc_bk_support_enclosure" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_support_enclosure.webp" alt="rmc_bk_support_enclosure" width="60%" />
 </div>
 
 ### 4.2 RMC-BK-SERIAL (不支援外殼)
@@ -73,7 +73,7 @@ WPC RMC Breakout 直接將難以處理的 sbRIO RMC 接頭，轉換為工業測�
 *   內建 RTC 備用電池座。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_serial_not_support_enclosure.png" alt="rmc_bk_serial_not_support_enclosure" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_serial_not_support_enclosure.webp" alt="rmc_bk_serial_not_support_enclosure" width="60%" />
 </div>
 
 ### 4.3 RMC-BK-ETH (不支援外殼)
@@ -85,7 +85,7 @@ WPC RMC Breakout 直接將難以處理的 sbRIO RMC 接頭，轉換為工業測�
 *   內建 RTC 備用電池座。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_eth_not_support_enclosure.png" alt="rmc_bk_eth_not_support_enclosure" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/rmc_bk_eth_not_support_enclosure.webp" alt="rmc_bk_eth_not_support_enclosure" width="60%" />
 </div>
 
 ---
@@ -99,21 +99,21 @@ WPC RMC Breakout 直接將難以處理的 sbRIO RMC 接頭，轉換為工業測�
 此介面為 4 組 Slot 所使用的 IDC 50-pin (牛角排線) 連接器定義。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout.png" alt="IDC_50P_connector_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout.webp" alt="IDC_50P_connector_pinout" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout_c1_c4.png" alt="IDC_50P_connector_pinout_c1_c4" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/IDC_50P_connector_pinout_c1_c4.webp" alt="IDC_50P_connector_pinout_c1_c4" width="60%" />
 </div>
 ### 5.2 DSUB-37P 腳位定義
 部分特規轉接或通訊介面所使用的 DSUB 37-pin 連接器。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout.png" alt="DSUB_37P_connector_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout.webp" alt="DSUB_37P_connector_pinout" width="60%" />
 </div>
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout_c1_c4.png" alt="DSUB_37P_connector_pinout_c1_c4" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/DSUB_37P_connector_pinout_c1_c4.webp" alt="DSUB_37P_connector_pinout_c1_c4" width="60%" />
 </div>
 

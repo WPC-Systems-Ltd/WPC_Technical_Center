@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-RD
 sidebar_position: 6
+description: "USB-DAQ-RD 支援 2 通道 PT-100/PT-1000 RTD 溫度感測器，提供 15-bit 解析度，溫度解析度達 0.03125°C，總準確度 0.05%，適用於高精度溫度監控。 --- 1. USB 2.0 全速匯流排供電 2. 21 通道 3.3V 數位 I/O (可承受..."
+keywords: [USBDAQRD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-RD 支援 **2 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-bit** 解析度，溫度解析度達 **0.03125°C**，總準確度 **0.05%**，適用於高精度溫度監控。
 
 # USB-DAQ-RD
@@ -20,7 +21,7 @@ USB-DAQ-RD 支援 **2 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_pinout.png" alt="USB-DAQ-RD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_pinout.webp" alt="USB-DAQ-RD 腳位圖" width="60%" /></div>
 
 ### RTD 感測器接線說明
 ---
@@ -35,11 +36,11 @@ USB-DAQ-RD 支援 **2 通道 PT-100/PT-1000 RTD 溫度感測器**，提供 **15-
 - 使用三線式（3-wire）溫度感測器時，需使用一條外部連接線，將單邊的 RTD- 與 EX- 短路（或單邊的 RTD+ 與 EX+短路）。
 - 使用兩線式（2-wire）溫度感測器時，須分別將 RTD+與 EX+ 短路以及 RTD- 與 EX- 短路。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_wiring.png" alt="RTD 接線圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQRD_wiring.webp" alt="RTD 接線圖" width="60%" /></div>
 
 ### 四線式接法
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_4wire.png" alt="RTD 四線式接法" width="30%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQD_4wire.webp" alt="RTD 四線式接法" width="30%" /></div>
 
 ---
 

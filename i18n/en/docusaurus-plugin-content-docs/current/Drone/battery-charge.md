@@ -2,8 +2,8 @@
 title: Battery Charging Tutorial
 sidebar_position: 4
 description: WPC Drone battery charging tutorial
+keywords: [Battery Charging Tutorial, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 ## Battery Charging Tutorial
 
 <div style={{textAlign: 'center'}}>
@@ -12,7 +12,7 @@ description: WPC Drone battery charging tutorial
 
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge.png" alt="battery_charge" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge.webp" alt="battery_charge" width="60%" />
 </div>
 
 ## Introduction
@@ -30,12 +30,12 @@ Maximum charging current up to 6A or maximum power 50W.
 The battery charger kit includes a battery charger, power cord, and several charging adapter cables.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_wiring_diagram.png" alt="Battery Wiring Diagram" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_wiring_diagram.webp" alt="Battery Wiring Diagram" width="60%" />
   Battery wiring diagram. Taken from the iMAX B6AC V2 Manual.
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_3S_balance_charging_port.png" alt="3S Battery Balancing Cable Location" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_3S_balance_charging_port.webp" alt="3S Battery Balancing Cable Location" width="60%" />
   3S Battery Balancing Cable Location
 </div>
 
@@ -46,7 +46,7 @@ Charging/discharging the battery requires connecting the battery's charging/disc
 The iMAX B6AC v2 supports battery types including LiPo, LiIon, etc.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_type.png" alt="Battery Type" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_battery_type.webp" alt="Battery Type" width="60%" />
   Battery Type
 </div>
 
@@ -64,7 +64,7 @@ Therefore, the correct charging mode, charging current, and charging voltage nee
 ## Select Balance Charging Mode
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_select_balance_charging_mode.png" alt="Select Balance Charging Mode" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_select_balance_charging_mode.webp" alt="Select Balance Charging Mode" width="60%" />
   Select Balance Charging Mode
 </div>
 
@@ -75,7 +75,7 @@ For Lipo batteries, it is recommended to use Balance charging mode (BALANCE CHG)
 ## Setting the Charging Current
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.png" alt="Set Charging Current" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.webp" alt="Set Charging Current" width="60%" />
   Setting the Charging Current
 </div>
 
@@ -98,7 +98,7 @@ A 2200mAh battery has a maximum charging current of 2.2A.
 ## Setting Battery Voltage
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.png" alt="Set Battery Voltage" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_setting_charging_amp.webp" alt="Set Battery Voltage" width="60%" />
   Setting Battery Voltage
 </div>
 
@@ -109,19 +109,19 @@ A 2200mAh battery has a maximum charging current of 2.2A.
 ## Starting Charging
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_start_charging.png" alt="Start Charging" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_start_charging.webp" alt="Start Charging" width="60%" />
   Start Charging
 </div>
 
 Confirmation Screen
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging.png" alt="Charging" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging.webp" alt="Charging" width="60%" />
   Charging
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging_complete.png" alt="Charging Complete" width="60%" />
+  <img src="/WPC_Technical_Center/img/drone/battery_charge_charging_complete.webp" alt="Charging Complete" width="60%" />
   Charging Complete
 </div>
 

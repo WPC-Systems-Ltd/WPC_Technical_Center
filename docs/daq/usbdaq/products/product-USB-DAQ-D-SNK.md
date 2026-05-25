@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-D-SNK
 sidebar_position: 4
+description: "USB-DAQ-D-SNK 提供工業級 24V 隔離數位 I/O（8 DI + 8 DO），具備 2.5kV 光電隔離保護，輸出額定電流達 300mA（NPN汲入式），專為嚴苛工業環境設計。 --- 1. USB 2.0 全速匯流排供電 2. 數位輸出 (DO): 12 通道 NPN, 光耦合..."
+keywords: [USBDAQDSNK, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-D-SNK 提供工業級 **24V 隔離數位 I/O**（8 DI + 8 DO），具備 **2.5kV 光電隔離**保護，輸出額定電流達 **300mA**（NPN汲入式），專為嚴苛工業環境設計。
 
 # USB-DAQ-D-SNK
@@ -22,7 +23,7 @@ USB-DAQ-D-SNK 提供工業級 **24V 隔離數位 I/O**（8 DI + 8 DO），具備
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_pinout.png" alt="USB-DAQ-D-SNK 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_pinout.webp" alt="USB-DAQ-D-SNK 腳位圖" width="60%" /></div>
 
 ### DAQ 接線說明
 ---
@@ -33,11 +34,11 @@ USB-DAQ-D-SNK 為 sinking output, sourcing input 模組，又稱 NPN type。輸�
 
 > 下圖為 DO 等效電路圖，DO 輸出時會將 output pin 連接到 0V，負載端則需共陽極 24V。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_DO_wiring.png" alt="DO 接線圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_DO_wiring.webp" alt="DO 接線圖" width="60%" /></div>
 
 > 下圖為 DI 等效電路圖，所有 DI 通道內部都直接共陽極 24V，因此若將 DI 輸入 pin 腳連接到 0V 則可以從該 DI 腳位讀取到 TRUE。DI 腳位也可以透過 DO 腳位進行 loop-back 測試。
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_DI_wiring.png" alt="DI 接線圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQDSNK_DI_wiring.webp" alt="DI 接線圖" width="60%" /></div>
 
 ### 產品規格
 

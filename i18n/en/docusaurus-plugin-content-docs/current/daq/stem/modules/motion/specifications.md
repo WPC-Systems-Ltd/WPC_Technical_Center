@@ -1,8 +1,9 @@
 ---
 sidebar_position: 8
 sidebar_label: 'Specifications'
+description: "| Item | Specification | | :---------------- | :------------------------------------------------------------ | | No. of Axes | 4 axes | | Control Type | Open..."
+keywords: [data acquisition, DAQ card, measurement hardware, WPC DAQ, signal acquisition]
 ---
-
 # Specifications
 
 ## Pulse Command Output

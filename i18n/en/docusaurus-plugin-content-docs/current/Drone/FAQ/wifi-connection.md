@@ -2,8 +2,8 @@
 title: Connecting to myRIO via Wi-Fi
 sidebar_position: 6
 description: Guide for setting up two modes of myRIO wireless network connection
+keywords: [Connecting to myRIO via WiFi, WPC drone, flight controller, UAV tutorial, MIT drone, pre-flight checklist]
 ---
-
 # Connecting to myRIO via Wi-Fi
 
 You can configure the wireless communication mode of myRIO through **NI MAX**. Choose one of the following connection methods based on your network environment requirements.

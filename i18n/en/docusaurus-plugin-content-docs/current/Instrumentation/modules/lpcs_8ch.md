@@ -1,8 +1,8 @@
 ---
 sidebar_label: 'cPCI 8ch-LPCS'
 description: 8-Channel Programmable Current Source Module Card
+keywords: [instrumentation, control systems, automated testing, WPC control]
 ---
-
 # cPCI 8ch-LPCS
 
 ## 1. Introduction
@@ -25,9 +25,9 @@ The cPCI 8ch-LPCS is an 8-channel programmable current source module card.
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p17_00.jpeg" alt="cPCI 8ch-LPCS Appearance" width="60%" />
+  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 8ch-LPCS Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p18_00.png" alt="cPCI 8ch-LPCS Pinout" width="60%" />
+  <img src="/img/instrumentation/image_p18_00.png" alt="cPCI 8ch-LPCS Pinout" width="60%" />
 </div>

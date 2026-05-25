@@ -2,8 +2,8 @@
 sidebar_position: 3
 sidebar_label: '16ch Thermocouple'
 description: 16ch 熱電偶模組規格與腳位定義
+keywords: [WPC, 技術文件, 規格說明]
 ---
-
 # 16ch Thermocouple 模組
 
 本模組提供 16 通道熱電偶輸入，支援 K-type 熱電偶，適用於溫度量測應用。
@@ -24,5 +24,5 @@ description: 16ch 熱電偶模組規格與腳位定義
 ## 2. 外觀
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_thermo.png" alt="geco_module_16ch_thermo" width="60%" />
+  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_16ch_thermo.webp" alt="geco_module_16ch_thermo" width="60%" />
 </div>

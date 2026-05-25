@@ -1,8 +1,9 @@
 ---
 title: PYCO WIFI
 sidebar_position: 1
+description: "PYCO WIFI is a full-featured Python programmable controller, integrating 8-channel AI/AO/DI/DO, with built-in Wi-Fi and an OLED display, and supporting SD ca..."
+keywords: [PYCO WIFI, WPC, technical documentation, specifications]
 ---
-
 # PYCO WIFI
 
 PYCO WIFI is a full-featured Python programmable controller, integrating **8-channel AI/AO/DI/DO**, with built-in **Wi-Fi** and an **OLED display**, and supporting SD card expansion, making it ideal for independent operation and IoT applications.
@@ -12,7 +13,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi.png').default} alt="PYCO WIFI Appearance" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi.webp').default} alt="PYCO WIFI Appearance" width="60%" />
 </div>
 
 
@@ -38,7 +39,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-general.png').default} alt="PYCO WIFI Components" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-general.webp').default} alt="PYCO WIFI Components" width="60%" />
 </div>
 
 1.  **OLED Display**: Shows network information, firmware details, serial number, and other functional information.
@@ -60,7 +61,7 @@ PYCO WIFI is a full-featured Python programmable controller, integrating **8-cha
 ## Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.png').default} alt="PYCO WIFI Pinout Diagram" width="60%" />
+  <img src={require('@site/static/img/embedded-system/pyco/pyco-wifi-mini-ai-pinout.webp').default} alt="PYCO WIFI Pinout Diagram" width="60%" />
 </div>
 
 

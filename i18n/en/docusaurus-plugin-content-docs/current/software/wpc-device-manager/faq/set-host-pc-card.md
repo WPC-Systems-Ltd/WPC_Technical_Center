@@ -3,8 +3,8 @@ title: Configure Host PC Network Card
 sidebar_label: Configure Host PC Network Card
 sidebar_position: 6
 description: "Confirming if the network card connecting the computer and the WPC device is in the same domain"
+keywords: [Configure Host PC Network Card, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 > 💡 Please first confirm if the network card connecting the computer and the WPC device is in the same domain?
 
 *   Example: `192.168.1.110` and `192.168.1.xxx` belong to the same domain.
@@ -24,7 +24,7 @@ Correct domain settings are crucial for normal communication with WPC network de
 Click the "Start" button and select the "Settings" icon to enter the settings page.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/windows-settings.png').default} alt="Search settings in Windows" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/windows-settings.webp').default} alt="Search settings in Windows" width="60%" />
 </div>
 
 ---
@@ -34,7 +34,7 @@ Click the "Start" button and select the "Settings" icon to enter the settings pa
 On the "Settings" page, select "Network & Internet", then select "Ethernet" on the left.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/network-settings.png').default} alt="Select Network & Internet" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/network-settings.webp').default} alt="Select Network & Internet" width="60%" />
 </div>
 
 ---
@@ -44,7 +44,7 @@ On the "Settings" page, select "Network & Internet", then select "Ethernet" on t
 On the Ethernet settings page, click "Change adapter options".
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/change-adapter-options.png').default} alt="Select Change adapter options" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/change-adapter-options.webp').default} alt="Select Change adapter options" width="60%" />
 </div>
 
 ---
@@ -54,7 +54,7 @@ On the Ethernet settings page, click "Change adapter options".
 In the "Network Connections" window, find the Ethernet connection you are using, right-click and select "Properties".
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ethernet-properties.png').default} alt="Select Properties" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ethernet-properties.webp').default} alt="Select Properties" width="60%" />
 </div>
 
 ---
@@ -64,7 +64,7 @@ In the "Network Connections" window, find the Ethernet connection you are using,
 In the "Properties" window, double-click "Internet Protocol Version 4 (TCP/IPv4)" to enter the IPv4 settings page.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ipv4-properties.png').default} alt="Select Internet Protocol Version 4 (TCP/IPv4)" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ipv4-properties.webp').default} alt="Select Internet Protocol Version 4 (TCP/IPv4)" width="60%" />
 </div>
 
 ---
@@ -74,7 +74,7 @@ In the "Properties" window, double-click "Internet Protocol Version 4 (TCP/IPv4)
 Select "Use the following IP address" and manually enter the IP address, subnet mask, and default gateway. Ensure the IP address is within the same subnet and does not conflict with any other device's IP address.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/set-static-ip.png').default} alt="Select Use the following IP address" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/set-static-ip.webp').default} alt="Select Use the following IP address" width="60%" />
 </div>
 
 | Parameter | Setting Value |
@@ -95,13 +95,13 @@ ping 192.168.1.110
 ```
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/cmd-ping.png').default} alt="Enter ping command" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/cmd-ping.webp').default} alt="Enter ping command" width="60%" />
 </div>
 
 If the following response appears, it means that the WPC device and the computer have successfully connected:
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ping-result.png').default} alt="Ping success response" width="60%" />
+  <img src={require('@site/static/img/wpc_device_manager/faq/host-pc-card/ping-result.webp').default} alt="Ping success response" width="60%" />
 </div>
 
 If you still encounter communication problems, you can try replacing it with a new network cable or seek technical support from WPC.

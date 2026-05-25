@@ -9,7 +9,7 @@ Ethan-A2 provides **8-channel 24-bit high-precision analog input**, with a sampl
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA2.png').default} alt="Ethan-A2 Appearance" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA2.webp').default} alt="Ethan-A2 Appearance" width="60%" /></div>
 
 ### Key Features
 
@@ -26,5 +26,5 @@ Ethan-A2 provides **8-channel 24-bit high-precision analog input**, with a sampl
 
 ---
 
-<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA2_pinout.png').default} alt="Ethan-A2 Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanA2_pinout.webp').default} alt="Ethan-A2 Pinout" width="60%" /></div>
 

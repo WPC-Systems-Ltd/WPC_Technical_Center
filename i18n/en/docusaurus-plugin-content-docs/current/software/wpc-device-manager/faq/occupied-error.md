@@ -3,8 +3,8 @@ title: Status Bar Shows IP Occupied
 sidebar_label: Status Bar Shows IP Occupied
 sidebar_position: 3
 description: "Resolving Occupied connection errors caused by IP address conflicts or routing confusion"
+keywords: [Status Bar Shows IP Occupied, WPC software, Geco Manager, Device Manager, test panel, configuration guide]
 ---
-
 ## Problem Description
 
 The network device can be searched in WDM, and the device can be successfully pinged, but a TCP connection cannot be established, and the status bar displays **"Occupied"**.

@@ -2,8 +2,8 @@
 title: 1ch Programmable Gain Amplifier
 sidebar_position: 5
 description: WPC 1ch Programmable Gain Amplifier (PGA) 產品簡介、特點與規格說明
+keywords: [1ch Programmable Gain Amplifier, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 1ch Programmable Gain Amplifier
 
 WPC 1ch Programmable Gain Amplifier (PGA) 是一個具備可程式化增益功能的訊號放大前端模組。本產品專為需要動態調整放大倍率的應用場景而設計，接受差動訊號輸入 (Differential Input)，有效消除共模雜訊，並輸出單端訊號 (Single-ended Output)，方便後端 DAQ 系統擷取。
@@ -15,7 +15,7 @@ WPC 1ch Programmable Gain Amplifier (PGA) 是一個具備可程式化增益功�
 *   **內建濾波器**：內建 EMI 濾波器與低通濾波器，頻寬達 9KHz，確保訊號純淨度。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA.png" alt="1ch_PGA" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA.webp" alt="1ch_PGA" width="60%" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ WPC 1ch PGA 提供高精度且靈活的訊號放大功能，其主要規格如�
 以下為 WPC 1ch PGA 的詳細接腳與電源配置說明：
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_pinout.png" alt="1ch_PGA_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_pinout.webp" alt="1ch_PGA_pinout" width="60%" />
 </div>
 
 | 接腳編號 | 名稱          | 功能說明                          |
@@ -84,13 +84,13 @@ D0~D3 僅支援 3.3V / 5V，切勿接 24V，否則會損壞模組。
 ### 連線範例 1
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_example1.png" alt="1ch_PGA_example1" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_example1.webp" alt="1ch_PGA_example1" width="60%" />
 </div>
 
 ### 連線範例 2
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_example2.png" alt="1ch_PGA_example2" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_example2.webp" alt="1ch_PGA_example2" width="60%" />
 </div>
 
 ---
@@ -98,5 +98,5 @@ D0~D3 僅支援 3.3V / 5V，切勿接 24V，否則會損壞模組。
 ## 尺寸圖 (Dimensional Drawing)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_dimension.png" alt="1ch_PGA_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/1ch_PGA_dimension.webp" alt="1ch_PGA_dimension" width="60%" />
 </div>

@@ -1,8 +1,9 @@
 ---
 title: USB-DAQ-AD
 sidebar_position: 1
+description: "USB-DAQ-AD 提供 8 通道 16-bit 類比輸入（±10V），最高取樣率 16kHz，整合 20 通道數位 I/O 與多種通訊協定（I2C/SPI/UART），USB 匯流排供電免外接電源。 --- 1. USB 2.0 全速匯流排供電 2. 20 通道 3.3V 數位 I/O (..."
+keywords: [USBDAQAD, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
-
 USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 **16kHz**，整合 **20 通道數位 I/O** 與多種通訊協定（I2C/SPI/UART），USB 匯流排供電免外接電源。
 
 ### 產品特色
@@ -19,7 +20,7 @@ USB-DAQ-AD 提供 **8 通道 16-bit 類比輸入**（±10V），最高取樣率 
 ### 腳位圖
 ---
 
-<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAD_pinout.png" alt="USB-DAQ-AD 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/usb-daq/USBDAQAD_pinout.webp" alt="USB-DAQ-AD 腳位圖" width="60%" /></div>
 
 ### 產品規格
 

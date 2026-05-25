@@ -3,8 +3,8 @@ title: 8ch Current-to-Voltage Converter (差分)
 sidebar_position: 4
 description: WPC 8ch 4-20mA to 0-5V converter (差分輸出版) 產品簡介、特點與規格說明
 sidebar_label: 8ch Current-to-Voltage (差分)
+keywords: [8ch CurrenttoVoltage Converter 差分, 訊號調節器, 電壓隔離, 訊號放大, 濾波器, Load Cell 放大器]
 ---
-
 # 8ch Current-to-Voltage Converter (差分輸出版本)
 
 ## 產品簡介
@@ -12,7 +12,7 @@ sidebar_label: 8ch Current-to-Voltage (差分)
 WPC 8ch Current-to-Voltage Converter 是一款將工業標準的 4-20mA 電流訊號轉換為 0-5V 電壓訊號的 8 通道訊號處理模組。本模組設計支援多通道高精度轉換，此為 **差分輸出 (Differential)** 版本，此設計有助於消除傳輸路徑上的共模雜訊，特別適合遠距離傳輸或高雜訊環境的資料擷取設備 (DAQ) 與控制系統的需求。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential.png" alt="8ch_cv_differential" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential.webp" alt="8ch_cv_differential" width="60%" />
 </div>
 
 ---
@@ -34,7 +34,7 @@ WPC 8ch Current-to-Voltage Converter 是一款將工業標準的 4-20mA 電流�
 ## 接腳定義
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_pinout.png" alt="8ch_cv_differential_pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_pinout.webp" alt="8ch_cv_differential_pinout" width="60%" />
 </div>
 
 
@@ -60,13 +60,13 @@ WPC 8ch Current-to-Voltage Converter 是一款將工業標準的 4-20mA 電流�
 ### Sinking Input 接線方式
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sinking_input.png" alt="8ch_cv_differential_sinking_input" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sinking_input.webp" alt="8ch_cv_differential_sinking_input" width="60%" />
 </div>
 
 ### Sourcing Input 接線方式
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sourcing_input.png" alt="8ch_cv_differential_sourcing_input" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_sourcing_input.webp" alt="8ch_cv_differential_sourcing_input" width="60%" />
 </div>
 
 
@@ -81,7 +81,7 @@ WPC 8ch Current-to-Voltage Converter 是一款將工業標準的 4-20mA 電流�
 ## 外觀尺寸 (Dimension)
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_dimension.png" alt="8ch_cv_differential_dimension" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch_cv_differential_dimension.webp" alt="8ch_cv_differential_dimension" width="60%" />
 </div>
 
 *   **長度**：170.0 mm
