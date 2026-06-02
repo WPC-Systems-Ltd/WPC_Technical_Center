@@ -8,7 +8,7 @@ keywords: [WPC, 技術文件, 規格說明]
 
 ## 1. 什麼是 GECO?
 
-Graphical Embedded Controller (GECO) 是一款由 sbRIO、LabVIEW 和 [WPC RMC Breakout](rmc_breakout.md)組成的控制器，具備完整的圖形化開發環境。
+Graphical Embedded Controller (GECO) 是一款由 sbRIO、LabVIEW 和 [WPC RMC Breakout](rmc_breakout.md) 組成的控制器，具備完整的圖形化開發環境。
 
 ### 核心特色
 *   圖形化開發：使用者可透過 LabVIEW 編輯、下載及部署應用程式。

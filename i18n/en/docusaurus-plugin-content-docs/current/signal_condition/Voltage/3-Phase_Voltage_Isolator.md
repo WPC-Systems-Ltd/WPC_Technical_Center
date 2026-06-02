@@ -15,6 +15,10 @@ The WPC 3-Phase Voltage Isolator is a signal processing front-end module specifi
 *   **Wide Application Scenarios**: Suitable for single-phase/three-phase AC voltage measurements, AC motor parameter analysis, etc.
 *   **Industrial Grade Standard**: Powered by 24VDC, compliant with standard industrial automation environments.
 
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/signal-condition/3-Phase_Voltage_Isolator.webp').default} alt="3-Phase_Voltage_Isolator" width="60%" />
+</div>
+
 ---
 
 ## Product Specifications and Features
@@ -60,9 +64,3 @@ This module can be easily integrated with common data acquisition equipment. The
 </div>
 
 ---
-
-## Dimensional Drawing
-
-<div style={{textAlign: 'center'}}>
-  <img src="/img/signal-condition/LVDT_Signal_Conditioner_dimension.webp" alt="3-Phase_Voltage_Isolator_dimension" width="60%" />
-</div>

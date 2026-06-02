@@ -11,9 +11,9 @@
     "message": "DAQ",
     "description": "Navbar item with label DAQ"
   },
-  "item.label.嵌入式系統": {
+  "item.label.嵌入式控制器": {
     "message": "Embedded Systems",
-    "description": "Navbar item with label 嵌入式系統"
+    "description": "Navbar item with label 嵌入式控制器"
   },
   "item.label.GitHub": {
     "message": "GitHub",
@@ -23,13 +23,13 @@
     "message": "Home",
     "description": "Navbar item with label 首頁"
   },
-  "item.label.馬達驅動": {
+  "item.label.運動控制": {
     "message": "Motion",
-    "description": "Navbar item with label 馬達驅動"
+    "description": "Navbar item with label 運動控制"
   },
-  "item.label.儀器與控制": {
+  "item.label.高密度量測&控制": {
     "message": "Instrumentation & Control",
-    "description": "Navbar item with label 儀器與控制"
+    "description": "Navbar item with label 高密度量測&控制"
   },
   "item.label.訊號調節器": {
     "message": "Signal Conditioners",

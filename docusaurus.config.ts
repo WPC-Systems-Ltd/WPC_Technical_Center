@@ -4,8 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const isEn = process.env.DOCUSAURUS_CURRENT_LOCALE === 'en';
+
 const config: Config = {
-  title: 'WPC Technical Center',
+  title: isEn ? 'WPC Technical Center' : '技術支援中心',
   tagline: 'Precision, Integration, Performance',
   favicon: 'img/favicon.ico',
 
@@ -87,17 +89,17 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/WPC_Logo.jpg',
+    image: 'img/WPC_Logo.webp',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'WPC Technical Center',
+      title: isEn ? 'WPC Technical Center' : '技術支援中心',
       logo: {
         alt: 'WPC Logo',
-        src: 'img/WPC_Logo.jpg',
+        src: 'img/WPC_Logo.webp',
       },
       items: [
         {
@@ -122,19 +124,19 @@ const config: Config = {
           type: 'doc',
           docId: 'Motion/motion-starter-guide',
           position: 'left',
-          label: '馬達驅動',
+          label: '運動控制',
         },
         {
           type: 'doc',
           docId: 'Instrumentation/instrumentation-starter-guide',
           position: 'left',
-          label: '儀器與控制',
+          label: '高密度量測&控制',
         },
         {
           type: 'doc',
           docId: 'embedded_systems/embedded-starter-guide',
           position: 'left',
-          label: '嵌入式系統',
+          label: '嵌入式控制器',
         },
         {
           type: 'doc',
@@ -224,8 +226,8 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     metadata: [
-      { name: 'keywords', content: 'WPC, 無人機, DAQ, 嵌入式系統, 技術文件, LabVIEW, Python, 馬達驅動, 訊號調節器' },
-      { name: 'description', content: 'WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件，包含無人機、資料擷取系統 (DAQ)、馬達驅動、嵌入式系統及驅動程式支援。' },
+      { name: 'keywords', content: 'WPC, 星協, 星協系統科技, 無人機, DAQ, 嵌入式系統, 技術文件, LabVIEW, Python, 運動控制, 訊號調節器, 驅動程式' },
+      { name: 'description', content: isEn ? 'WPC Technical Center provides comprehensive development and technical documentation for Data Acquisition (DAQ), Embedded System Control (GECO/PYCO), Drones, and related software SDKs.' : '技術支援中心提供硬體及相關軟體的完整開發與技術文件，包含無人機、資料擷取系統 (DAQ)、運動控制、嵌入式系統及驅動程式支援。' },
       { name: 'google-site-verification', content: 'KkrvKPmd6CtQ_7w-kvJ9CZuBxfP3gf1ZxukrP1txy9E' }, // Google Search Console 驗證標籤
 
     ],

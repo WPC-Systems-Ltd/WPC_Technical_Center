@@ -1,6 +1,6 @@
 ---
 title: 控制器面板與規格
-sidebar_position: 2
+sidebar_position: 3
 description: "gStack-RIO 控制器採用高效能嵌入式處理器，提供穩定且靈活的控制核心。本章節將詳細說明控制器的硬體介面配置、核心規格數據以及軟體架構組成的相關資訊。 --- 下圖展示了 gStack-RIO 控制器的實體面板配置與各項連接介面位置。 1. Protective earth (PE):..."
 keywords: [控制器面板與規格, 儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---

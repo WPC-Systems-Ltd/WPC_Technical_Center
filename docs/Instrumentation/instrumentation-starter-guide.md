@@ -1,16 +1,16 @@
 ---
-title: 儀器設備入門指南
-sidebar_label: 儀器設備入門指南
-sidebar_position: 1
+title: 高密度量測&控制設備入門指南
+sidebar_label: 高密度量測&控制設備入門指南
+sidebar_position: 2
 slug: /instrumentation-starter-guide
-description: "歡迎探索 WPC 儀器設備 WPC 自行研發的 gStack-RIO 系列採用 Rack 機箱設計，專為分散式、高密度 I/O 應用而生。透過靈活的插槽設計與強大的 LabVIEW 支援，您可以快速建構精密控制與量測系統。 1 配置 I/O 模組卡片 gStack-RIO 機箱提供 8 個插槽..."
-keywords: [儀器設備入門指南, 儀器與控制, 訊號量測, 自動化測試, 控制模組, WPC控制]
+description: "歡迎探索 WPC 高密度量測&控制設備 WPC 自行研發的 gStack-RIO 系列採用 Rack 機箱設計，專為分散式、高密度 I/O 應用而生。透過靈活的插槽設計與強大的 LabVIEW 支援，您可以快速建構精密控制與量測系統。 1 配置 I/O 模組卡片 gStack-RIO 機箱提供 8 個插槽..."
+keywords: [高密度量測&控制設備入門指南, 高密度量測&控制設備, 訊號量測, 自動化測試, 控制模組, WPC控制]
 ---
 import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
 import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
-  <h1>歡迎探索 WPC 儀器設備</h1>
+  <h1>歡迎探索 WPC 高密度量測&控制設備</h1>
   <p>WPC 自行研發的 gStack-RIO 系列採用 Rack 機箱設計，專為分散式、高密度 I/O 應用而生。透過靈活的插槽設計與強大的 LabVIEW 支援，您可以快速建構精密控制與量測系統。</p>
 </div>
 
@@ -35,18 +35,18 @@ import Link from '@docusaurus/Link';
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
       <h3>開發與佈署 (LabVIEW)</h3>
-      <p>下載 WPC 驅動程式，透過 LabVIEW 或 LabVIEW Real-time 進行高效開發與邏輯控制。</p>
+      <p>下載 WPC 驅動程式，透過 LabVIEW 進行高效開發與邏輯控制。</p>
     </div>
   </div>
 </div>
 
 ---
 
-## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的儀器設備
+## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> 選擇您的設備
 
 <div className="gs-card-grid">
   <Link to="./Instrumentation/intro" className="theme-doc-card gs-card">
-    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO 系列</h2>
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO 控制器</h2>
     <p>**分散式、高密度 I/O 解決方案**</p>
     <p>機箱式設計，支援 1 個控制器與 8 個功能模組，提供靈活的抽換式卡片介面與穩定的工業級控制環境。</p>
   </Link>

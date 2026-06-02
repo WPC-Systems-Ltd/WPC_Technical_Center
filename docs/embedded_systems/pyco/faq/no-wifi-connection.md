@@ -21,11 +21,11 @@ PYCO WIFI 系列設計為**高度獨立運作**的設備。即使螢幕顯示 `N
 3.  **如何清除訊息：**
     - 如果您希望移除此訊息，您可以透過程式碼將開發板連接到 Wi-Fi 網路，或者選擇**關閉螢幕顯示**或在您的應用程式中**修改顯示內容**。
 
-    :::tip 範例程式
-    👉 [查看範例程式碼: 如何設定 Wi-Fi 資訊 (How to Set Wifi Info)](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/set_wifi_info.html)
+:::tip 範例程式
+👉 [查看範例程式碼: 如何設定 Wi-Fi 資訊 (How to Set Wifi Info)](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/set_wifi_info.html)
 
-    👉 [查看範例程式碼: 如何更改 IP (How to Change IP)](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/change_ip.html)
-    :::
+👉 [查看範例程式碼: 如何更改 IP (How to Change IP)](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/change_ip.html)
+:::
 
 **總結：**
 

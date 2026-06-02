@@ -1,17 +1,17 @@
 ---
-title: 馬達驅動入門指南
-sidebar_label: 馬達驅動入門指南
+title: 運動控制入門指南
+sidebar_label: 運動控制入門指南
 sidebar_position: 1
 slug: /motion-starter-guide
 displayed_sidebar: motionSidebar
-description: "歡迎來到 WPC 馬達驅動方案 我們提供步進馬達、伺服馬達驅動器與多軸運動控制軸卡，涵蓋從單軸驅動到四軸同步控制的完整解決方案。只需一台電腦與一條網路線，即可快速啟動您的馬達控制專案。 1 選擇適合的驅動器 根據馬達類型選擇：步進馬達請選 EDriveST，伺服馬達請選 EDriveSRV，多..."
-keywords: [馬達驅動入門指南, 馬達驅動, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
+description: "歡迎來到 WPC 運動控制方案 我們提供步進馬達、伺服馬達驅動器與多軸運動控制軸卡，涵蓋從單軸驅動到四軸同步控制的完整解決方案。只需一台電腦與一條網路線，即可快速啟動您的馬達控制專案。 1 選擇適合的驅動器 根據馬達類型選擇：步進馬達請選 EDriveST，伺服馬達請選 EDriveSRV，多..."
+keywords: [運動控制入門指南, 運動控制, 馬達控制, 伺服驅動, 步進馬達, WPC馬達]
 ---
-import { Rocket, Cpu, FileCode, HelpCircle, Zap, Settings, Network, Usb, Settings2, Search, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
+import { Rocket, Cpu, FileCode, Zap, Settings, Network, Usb, Settings2, Search, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
-  <h1>歡迎來到 WPC 馬達驅動方案</h1>
+  <h1>歡迎來到 WPC 運動控制方案</h1>
   <p>我們提供步進馬達、伺服馬達驅動器與多軸運動控制軸卡，涵蓋從單軸驅動到四軸同步控制的完整解決方案。只需一台電腦與一條網路線，即可快速啟動您的馬達控制專案。</p>
 </div>
 
@@ -21,28 +21,28 @@ import Link from '@docusaurus/Link';
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>選擇適合的驅動器</h3>
+      <h3>選擇適合的方案</h3>
       <p>根據馬達類型選擇：步進馬達請選 EDriveST，伺服馬達請選 EDriveSRV，多軸控制請選 Emotion。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
-      <h3>硬體接線配置</h3>
+      <h3>硬體接線</h3>
       <p>依照腳位說明完成馬達、編碼器及極限開關的接線，並確認電源供應符合規格。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
-      <h3>安裝 WPC Device Manager</h3>
+      <h3>工具程式安裝 (WPC Device Manager)</h3>
       <p>透過我們的官方硬體管理工具，快速掃描設備並確認連線狀態與韌體版本。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
-      <h3>安裝驅動程式</h3>
+      <h3>驅動程式安裝</h3>
       <p>選擇熟悉的程式語言（Python、C# 或 LabVIEW），下載 WPC Device Driver 並開始開發。</p>
     </div>
   </div>

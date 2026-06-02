@@ -1,16 +1,16 @@
 ---
-title: 嵌入式系統入門指南
+title: 嵌入式控制器入門指南
 sidebar_label: 嵌入式入門指南
 sidebar_position: 1
 slug: /embedded-starter-guide
-description: "歡迎探索 WPC 嵌入式系統 我們提供 GECO 與 PYCO 兩大嵌入式平台，專為工業控制、物聯網整合及邊緣運算設計。無論您是硬體工程師還是軟體開發者，都能找到最適合的解決方案。 1 選擇核心控制板 根據您的需求選擇 GECO (圖形嵌入式控制器) 或 PYCO (低功耗嵌入式工業控制器)。..."
+description: "歡迎探索 WPC 嵌入式控制器 我們提供 GECO 與 PYCO 兩大嵌入式平台，專為工業控制、物聯網整合及邊緣運算設計。無論您是硬體工程師還是軟體開發者，都能找到最適合的解決方案。 1 選擇核心控制板 根據您的需求選擇 GECO (圖形嵌入式控制器) 或 PYCO (低功耗嵌入式工業控制器)。..."
 keywords: [嵌入式系統入門指南, WPC, 技術文件, 規格說明]
 ---
 import Link from '@docusaurus/Link';
 import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
 
 <div className="gs-hero glow-effect">
-  <h1>歡迎探索 WPC 嵌入式系統</h1>
+  <h1>歡迎探索 WPC 嵌入式控制器</h1>
   <p>我們提供 GECO 與 PYCO 兩大嵌入式平台，專為工業控制、物聯網整合及邊緣運算設計。無論您是硬體工程師還是軟體開發者，都能找到最適合的解決方案。</p>
 </div>
 
@@ -20,28 +20,28 @@ import { Rocket, Cpu, Code, HelpCircle, Layers, Wifi } from 'lucide-react';
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>選擇核心控制板</h3>
+      <h3>選擇嵌入式控制器</h3>
       <p>根據您的需求選擇 GECO (圖形嵌入式控制器) 或 PYCO (低功耗嵌入式工業控制器)。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
-      <h3>硬體擴充與接線</h3>
+      <h3>模組選配及接線</h3>
       <p>搭配對應的擴充模組 (如 DI, DO, AI, AO, Motion) 並完成實體接線配置。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
-      <h3>安裝軟體與開發環境</h3>
+      <h3>安裝工具軟體、驅動程式或開發環境</h3>
       <p>GECO 系列可藉由 LabVIEW 建立圖形化開發環境；PYCO 則提供免配置的 WPC Stand-Alone Python Editor，讓您隨開即用。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
-      <h3>運行您的第一個範例</h3>
+      <h3> 從範例程式開始</h3>
       <p>開啟官方範例庫 (例如 PYCO 的 `AI_on_demand_once.py`)，直接在編輯器中點擊執行，快速讀取系統資訊或感測器數據。</p>
     </div>
   </div>

@@ -20,38 +20,40 @@ import Link from '@docusaurus/Link';
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>安裝驅動程式</h3>
-      <p>我們提供原生的 API 支援。請至技術支援中心下載專屬的 [LabVIEW](../driver/wpc-drone-driver/intro.md) 或 [Python](../driver/intro.md)，以加速您的客製化開發。</p>
+      <h3>基本操作 : 觀看教學影片</h3>
+      <p>為了您的操作安全，請務必觀看我們提供的 [遙控器操作教學影片](./remote-control-guide.md) 以及 [電池充電教學影片](./battery-charge.md)。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
-      <h3>觀看教學影片</h3>
-      <p>為了您的操作安全，請務必觀看我們提供的 [遙控器操作教學影片](./remote-control-guide.md) 以及 [電池充電教學影片](./battery-charge.md)。</p>
+      <h3>基本操作 : 標準飛行操作程序</h3>
+      <p>在進行實際飛行前，請務必詳閱 [標準飛行操作程序](./takeoff-guide.md)，以確保飛行安全。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
-      <h3>硬體確認與架構解析</h3>
-      <p>若您的專案需要結合 AI 邊緣運算或客製化感測器，請在掛載設備前先詳閱 [WPC Drone User Guide](./appendix.md) 中的附錄說明，這能幫您釐清系統架構。</p>
+      <h3>基本操作 : 實際試飛與操作</h3>
+      <p>在安全的空曠場地帶上護具，進行首次起飛解鎖與基礎懸停測試。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
-      <h3>標準飛行操作程序</h3>
-      <p>在進行實際飛行前，請務必詳閱 [標準飛行操作程序](./takeoff-guide.md)，以確保飛行安全。</p>
+      <h3>進階控制 : 硬體確認與架構解析</h3>
+      <p>若您的專案需要結合 AI 邊緣運算或客製化感測器，請在掛載設備前先詳閱 [WPC Drone User Guide](./appendix.md) 中的附錄說明，這能幫您釐清系統架構。</p>
     </div>
   </div>
+  
   <div className="gs-timeline-item">
-    <div className="gs-timeline-icon">5</div>
+  <div className="gs-timeline-icon">5</div>
     <div className="gs-timeline-content">
-      <h3>實際試飛與操作</h3>
-      <p>在安全的空曠場地帶上護具，進行首次起飛解鎖與基礎懸停測試。</p>
+      <h3>進階控制 : 安裝驅動程式</h3>
+      <p>我們提供原生的 API 支援。請至技術支援中心下載專屬的 [LabVIEW](../driver/wpc-drone-driver/intro.md) 或 [Python](../driver/intro.md)，以加速您的客製化開發。</p>
     </div>
   </div>
+  
 </div>
 
 ---

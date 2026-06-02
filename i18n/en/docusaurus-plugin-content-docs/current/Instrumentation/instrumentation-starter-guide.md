@@ -1,12 +1,13 @@
 ---
 title: Instrumentation Starter Guide
 sidebar_label: Starter Guide
-sidebar_position: 1
+sidebar_position: 2
 slug: /instrumentation-starter-guide
 description: "Welcome to Explore WPC Instrumentation WPC's self-developed gStack-RIO series adopts a Rack chassis design, specifically for distributed, high-density I/O ap..."
 keywords: [Instrumentation Starter Guide, instrumentation, control systems, automated testing, WPC control]
 ---
 import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, Network, Layout, Briefcase } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
   <h1>Welcome to Explore WPC Instrumentation</h1>
@@ -19,33 +20,19 @@ import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>Choose gStack-RIO Controller and Chassis</h3>
-      <p>Select the appropriate gStack-RIO controller based on your channel count and application scenario (PC Remote Control or Stand-alone operation).</p>
-    </div>
-  </div>
-  <div className="gs-timeline-item">
-    <div className="gs-timeline-icon">2</div>
-    <div className="gs-timeline-content">
       <h3>Configure I/O Module Cards</h3>
       <p>The gStack-RIO chassis provides 8 slots, allowing you to freely mix and match analog (AI/AO), digital (DI/DO), relay, serial communication (RS232/485), or CAN bus modules as needed.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
-    <div className="gs-timeline-icon">3</div>
-    <div className="gs-timeline-content">
-      <h3>Hardware Wiring and Power Configuration</h3>
-      <p>Connect the 24VDC power supply and Ethernet cable. gStack-RIO features a front-panel swappable design, facilitating physical wiring and subsequent maintenance.</p>
-    </div>
-  </div>
-  <div className="gs-timeline-item">
-    <div className="gs-timeline-icon">4</div>
+    <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
       <h3>Install gStack-RIO Manager</h3>
       <p>Use the official management tool for chassis scanning, module configuration, and test panel verification.</p>
     </div>
   </div>
   <div className="gs-timeline-item">
-    <div className="gs-timeline-icon">5</div>
+    <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
       <h3>Development and Deployment (LabVIEW)</h3>
       <p>Download the WPC driver and perform efficient development and logic control through LabVIEW or LabVIEW Real-time.</p>
@@ -58,20 +45,20 @@ import { Rocket, Cpu, FileCode, HelpCircle, Layers, Wifi, Settings2, Search, Zap
 ## <Cpu size={28} style={{verticalAlign: 'text-bottom', marginRight: '8px', color: 'var(--brand-electric-blue)'}} /> Choose Your Instrumentation Equipment
 
 <div className="gs-card-grid">
-  <a href="/docs/Instrumentation/intro" className="theme-doc-card gs-card">
-    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO Series</h2>
+  <Link to="./Instrumentation/intro" className="theme-doc-card gs-card">
+    <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layers size={24} color="var(--brand-electric-blue)"/> gStack-RIO Controller</h2>
     <p>**Distributed, High-Density I/O Solution**</p>
     <p>Chassis design supporting 1 controller and 8 functional modules, providing a flexible swappable card interface and a stable industrial-grade control environment.</p>
-  </a>
-  <a href="/docs/Instrumentation/modules" className="theme-doc-card gs-card">
+  </Link>
+  <Link to="./Instrumentation/modules" className="theme-doc-card gs-card">
     <h2 style={{display: 'flex', alignItems: 'center', gap: '8px'}}><Layout size={24} color="var(--brand-electric-blue)"/> I/O Module Cards</h2>
     <p>**Diverse Functional Expansion Options**</p>
     <p>Covers voltage/current acquisition, analog output, digital I/O, relay switching, and various industrial communication protocols (CAN FD, RS232/485/422).</p>
-  </a>
+  </Link>
 </div>
 
 :::tip[Need more advice?]
-If you are unsure which module best fits your application, please refer to the **[Product Introduction](/docs/Instrumentation/intro)** to learn about detailed chassis architecture and controller configurations.
+If you are unsure which module best fits your application, please refer to the **[Product Introduction](./intro.md)** to learn about detailed chassis architecture and controller configurations.
 :::
 
 ---
@@ -112,7 +99,7 @@ If you are unsure which module best fits your application, please refer to the *
 </div>
 
 :::note[Download and Installation]
-Please go to the **[gStack-RIO Manager Introduction and Installation](/docs/software/gstack-rio-manager/intro)** page to download the management software and confirm the necessary LabVIEW Run-time and NI VISA driver environment.
+Please go to the **[gStack-RIO Manager Introduction and Installation](../software/gstack-rio-manager/intro.md)** page to download the management software and confirm the necessary LabVIEW Run-time and NI VISA driver environment.
 :::
 
 ---
@@ -123,4 +110,4 @@ gStack-RIO is deeply integrated with the LabVIEW environment, allowing engineers
 
 | Development Environment | Feature Summary | Detailed Tutorial Link |
 | :---------------------- | :-------------- | :--------------------- |
-| **LabVIEW** | Provides rich VIs and demo examples, supporting PC Remote control mode. | [LabVIEW Getting Started](/docs/driver/gstack-rio-driver/intro) |
+| **LabVIEW** | Provides rich VIs and demo examples, supporting PC Remote control mode. | [LabVIEW Getting Started](../driver/gstack-rio-driver/intro.md) |

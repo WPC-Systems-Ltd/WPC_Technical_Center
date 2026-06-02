@@ -409,7 +409,7 @@ export default function Sitemap(): React.JSX.Element {
     return (
         <Layout
             title={translate({ message: '網站地圖 (Sitemap)', id: 'sitemap.page.title' })}
-            description={translate({ message: 'WPC Technical Center 網站地圖與資源導覽', id: 'sitemap.page.description' })}
+            description={translate({ message: '技術支援中心網站地圖與資源導覽', id: 'sitemap.page.description' })}
         >
             <main className={styles.sitemapPage}>
                 {/* Hero */}
@@ -420,7 +420,7 @@ export default function Sitemap(): React.JSX.Element {
                             <Translate id="sitemap.hero.title">網站地圖</Translate>
                         </h1>
                         <p className={styles.heroDesc}>
-                            <Translate id="sitemap.hero.subtitle">快速瀏覽 WPC Technical Center 的所有資源</Translate>
+                            <Translate id="sitemap.hero.subtitle">快速瀏覽技術支援中心的所有資源</Translate>
                         </p>
                     </div>
                 </section>

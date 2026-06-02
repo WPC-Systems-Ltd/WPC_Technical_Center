@@ -105,7 +105,7 @@
   },
   "sidebar.tutorialSidebar.category.ethan-products": {
     "message": "Product Models",
-    "description": "The label for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
+    "description": "The label for category '以型號分類' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Ethan 產品型號": {
     "message": "Product Models",
@@ -121,7 +121,7 @@
   },
   "sidebar.tutorialSidebar.category.usbdaq-products": {
     "message": "Product Models",
-    "description": "The label for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
+    "description": "The label for category '以型號分類' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.USB 產品型號": {
     "message": "Product Models",
@@ -253,10 +253,154 @@
   },
   "sidebar.tutorialSidebar.category.ethan-products.link.generated-index.description": {
     "message": "Covers 10 models: AI (16/24-bit), AO (Waveform Output), DI/O, Relay, Thermocouple, Potentiometer, meeting diverse industrial needs.",
-    "description": "The generated-index page description for category 'Ethan 產品型號' in sidebar 'tutorialSidebar'"
+    "description": "The generated-index page description for category '以型號分類' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.usbdaq-products.link.generated-index.description": {
     "message": "Covers 7 models: Digital I/O (TTL/24V Isolated), Analog I/O (16-bit), Temperature Measurement (TC/RTD), CAN Communication.",
-    "description": "The generated-index page description for category 'USB 產品型號' in sidebar 'tutorialSidebar'"
+    "description": "The generated-index page description for category '以型號分類' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.電壓": {
+    "message": "Voltage",
+    "description": "The label for category '電壓' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.電壓.link.generated-index.description": {
+    "message": "Voltage measurement and signal conditioner module product documentation.",
+    "description": "The generated-index page description for category '電壓' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.電流": {
+    "message": "Current",
+    "description": "The label for category '電流' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.電流.link.generated-index.description": {
+    "message": "Minute current source and current sensing module product documentation.",
+    "description": "The generated-index page description for category '電流' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.荷重": {
+    "message": "Force",
+    "description": "The label for category '荷重' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.荷重.link.generated-index.description": {
+    "message": "Load Cell amplifier module product documentation.",
+    "description": "The generated-index page description for category '荷重' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.應變": {
+    "message": "Strain",
+    "description": "The label for category '應變' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.應變.link.generated-index.description": {
+    "message": "Strain Gauge amplifier module product documentation.",
+    "description": "The generated-index page description for category '應變' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.位移": {
+    "message": "Displacement",
+    "description": "The label for category '位移' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.位移.link.generated-index.description": {
+    "message": "Linear Variable Differential Transformer (LVDT) displacement sensor signal conditioner product documentation.",
+    "description": "The link description for category '位移' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.加速度": {
+    "message": "Acceleration",
+    "description": "The label for category '加速度' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.加速度.link.generated-index.description": {
+    "message": "Vibration and acceleration measurement module product documentation.",
+    "description": "The link description for category '加速度' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.光感測": {
+    "message": "Optical",
+    "description": "The label for category '光感測' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.光感測.link.generated-index.description": {
+    "message": "Photodiode amplifier and optical detection module product documentation.",
+    "description": "The link description for category '光感測' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.溫度": {
+    "message": "Temperature",
+    "description": "The label for category '溫度' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.溫度.link.generated-index.description": {
+    "message": "Temperature measurement and signal conditioner module product documentation.",
+    "description": "The link description for category '溫度' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.隔離": {
+    "message": "Isolated",
+    "description": "The label for category '隔離' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.signalConditionSidebar.category.隔離.link.generated-index.description": {
+    "message": "Isolated power module product documentation.",
+    "description": "The link description for category '隔離' in sidebar 'signalConditionSidebar'"
+  },
+  "sidebar.instrumentationSidebar.category.模組介紹": {
+    "message": "Module Introduction",
+    "description": "The label for category '模組介紹' in sidebar 'instrumentationSidebar'"
+  },
+  "sidebar.instrumentationSidebar.category.模組介紹.link.generated-index.description": {
+    "message": "Detailed introduction to gStack-RIO modules.",
+    "description": "The generated-index page description for category '模組介紹' in sidebar 'instrumentationSidebar'"
+  },
+  "sidebar.softwareSidebar.category.gStack-RIO Manager": {
+    "message": "gStack-RIO Manager",
+    "description": "The label for category 'gStack-RIO Manager' in sidebar 'softwareSidebar'"
+  },
+  "sidebar.softwareSidebar.category.gStack-RIO Manager.link.generated-index.description": {
+    "message": "gStack-RIO Manager 操作手冊與功能說明",
+    "description": "The generated-index page description for category 'gStack-RIO Manager' in sidebar 'softwareSidebar'"
+  },
+  "sidebar.driverSidebar.category.WPC Device Driver": {
+    "message": "WPC Device Driver",
+    "description": "The label for category 'WPC Device Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.WPC Device Driver.link.generated-index.description": {
+    "message": "WPC Device Driver 驅動程式文件",
+    "description": "The generated-index page description for category 'WPC Device Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.GECO Driver": {
+    "message": "GECO Driver",
+    "description": "The label for category 'GECO Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.GECO Driver.link.generated-index.description": {
+    "message": "GECO Driver 驅動程式文件",
+    "description": "The generated-index page description for category 'GECO Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.gStack-RIO Driver": {
+    "message": "gStack-RIO Driver",
+    "description": "The label for category 'gStack-RIO Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.gStack-RIO Driver.link.generated-index.description": {
+    "message": "gStack-RIO Driver 驅動程式文件",
+    "description": "The generated-index page description for category 'gStack-RIO Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.WPC Drone Driver": {
+    "message": "WPC Drone Driver",
+    "description": "The label for category 'WPC Drone Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.driverSidebar.category.WPC Drone Driver.link.generated-index.description": {
+    "message": "WPC Drone 驅動程式文件",
+    "description": "The generated-index page description for category 'WPC Drone Driver' in sidebar 'driverSidebar'"
+  },
+  "sidebar.motionSidebar.category.EDriveST": {
+    "message": "EDriveST",
+    "description": "The label for category 'EDriveST' in sidebar 'motionSidebar'"
+  },
+  "sidebar.motionSidebar.category.EDriveST.link.generated-index.description": {
+    "message": "EDriveST 步進馬達驅動器產品文件",
+    "description": "The generated-index page description for category 'EDriveST' in sidebar 'motionSidebar'"
+  },
+  "sidebar.motionSidebar.category.EDriveSRV": {
+    "message": "EDriveSRV",
+    "description": "The label for category 'EDriveSRV' in sidebar 'motionSidebar'"
+  },
+  "sidebar.motionSidebar.category.EDriveSRV.link.generated-index.description": {
+    "message": "EDriveSRV 伺服馬達驅動器產品文件",
+    "description": "The generated-index page description for category 'EDriveSRV' in sidebar 'motionSidebar'"
+  },
+  "sidebar.motionSidebar.category.EMotion": {
+    "message": "EMotion",
+    "description": "The label for category 'EMotion' in sidebar 'motionSidebar'"
+  },
+  "sidebar.motionSidebar.category.EMotion.link.generated-index.description": {
+    "message": "Emotion 四軸運動控制軸卡產品文件",
+    "description": "The generated-index page description for category 'EMotion' in sidebar 'motionSidebar'"
   }
 }

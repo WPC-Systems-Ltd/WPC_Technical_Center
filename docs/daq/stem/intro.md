@@ -1,6 +1,7 @@
 ---
+title: 產品介紹
+sidebar_label: 產品介紹
 sidebar_position: 1
-sidebar_label: '產品介紹'
 description: "STEM 是一款支援 10/100 乙太網路介面，具備 4 個插槽的遠端控制器。透過 STEM 的 4 個插槽 (C1 ~ C4)，使用者可以選擇不同類型的模組，進行功能的擴充。 常見的模組功能包含以下： 4 軸運動控制模組 24ch-AI & 8ch-AO 模組 24ch DO 模組 24c..."
 keywords: [資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統, 訊號擷取]
 ---

@@ -4,7 +4,8 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.SearchBar.label": {
-    "message": "Search"
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -428,6 +429,9 @@
     "message": "No results found.",
     "description": "message shown if no results are found"
   },
+  "homepage.title.hero": {
+    "message": "WPC Technical Center"
+  },
   "homepage.title": {
     "message": "Home"
   },
@@ -481,6 +485,21 @@
   },
   "homepage.bento.signal-conditioner.links.intro": {
     "message": "Get Started"
+  },
+  "homepage.bento.signal-conditioner.links.voltage": {
+    "message": "Voltage"
+  },
+  "homepage.bento.signal-conditioner.links.current": {
+    "message": "Current"
+  },
+  "homepage.bento.signal-conditioner.links.force": {
+    "message": "Force"
+  },
+  "homepage.bento.signal-conditioner.links.strain": {
+    "message": "Strain"
+  },
+  "homepage.bento.signal-conditioner.links.displacement": {
+    "message": "Displacement"
   },
   "homepage.bento.software.title": {
     "message": "Software Tools"
@@ -766,5 +785,213 @@
   },
   "sitemap.cta.button": {
     "message": "Contact Technical Support"
+  },
+  "sitemap.category.drone.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.drone.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.ethan.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.ethan.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.usb.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.usb.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.wifi.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.wifi.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.wifi.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.stem.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.stem.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.stem.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.motion.edrivest.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.edrivest.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.edrivest.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.edrivest.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.edrivest.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.motion.edrivsrv.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.edrivsrv.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.edrivsrv.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.edrivsrv.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.edrivsrv.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.motion.emotion.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.emotion.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.emotion.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.emotion.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.emotion.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.instrumentation.description": {
+    "message": "分散式、高密度 I/O 解決方案"
+  },
+  "sitemap.category.instrumentation.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.instrumentation.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.instrumentation.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.instrumentation.modules": {
+    "message": "模組介紹"
+  },
+  "sitemap.category.instrumentation.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.instrumentation.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.instrumentation.appearance": {
+    "message": "硬體外觀"
+  },
+  "sitemap.category.instrumentation.controller": {
+    "message": "控制器規格"
+  },
+  "sitemap.category.geco.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.geco.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.pyco.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.pyco.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.pyco.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.signal-conditioner.description": {
+    "message": "訊號調節器"
+  },
+  "sitemap.category.signal-conditioner.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.signal-conditioner.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.signal-conditioner.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.signal-conditioner.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.software.link.gstack_rio_intro": {
+    "message": "快速入門"
+  },
+  "sitemap.category.software.link.gstack_rio_interface": {
+    "message": "介面說明"
+  },
+  "sitemap.category.software.link.gstack_rio_func": {
+    "message": "常用功能"
+  },
+  "sitemap.category.driver.description": {
+    "message": "驅動程式的規格、技術文件與教學。"
+  },
+  "sitemap.category.driver.links.intro": {
+    "message": "驅動程式總覽"
+  },
+  "theme.NotFound.description": {
+    "message": "我們找不到您想要尋找的頁面。它可能已被移除或網址有誤。"
+  },
+  "theme.NotFound.homeLink": {
+    "message": "返回首頁"
+  },
+  "theme.NotFound.sitemapLink": {
+    "message": "瀏覽網站地圖"
+  },
+  "theme.NotFound.helpTitle": {
+    "message": "需要協助嗎？"
+  },
+  "theme.NotFound.help1": {
+    "message": "您可以嘗試使用網頁右上角的"
+  },
+  "theme.NotFound.help2": {
+    "message": "搜尋功能"
+  },
+  "theme.NotFound.help3": {
+    "message": "來尋找相關資訊。"
+  },
+  "theme.NotFound.contact": {
+    "message": "如果這是一個失效的連結，或是您有任何問題，請聯絡"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No documents were found",
+    "description": "The paragraph for empty search result"
   }
 }

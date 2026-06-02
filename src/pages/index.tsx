@@ -14,11 +14,13 @@ function HomepageHeader() {
       <div className="container">
         <div className={styles.heroContent}>
           <h1 className={clsx('hero__title', styles.heroTitle)}>
-            <span className={styles.gradientText}>WPC Technical Center</span>
+            <span className={styles.gradientText}>
+              <Translate id="homepage.title.hero">技術支援中心</Translate>
+            </span>
           </h1>
           <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
             <Translate id="homepage.tagline">
-              WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件。
+              技術支援中心提供硬體及相關軟體的完整開發與技術文件。
             </Translate>
           </p>
         </div>
@@ -33,7 +35,7 @@ export default function Home(): React.JSX.Element {
     <Layout
       title={translate({ message: '首頁', id: 'homepage.title' })}
       description={translate({
-        message: 'WPC Technical Center 提供硬體及相關軟體的完整開發與技術文件。',
+        message: '技術支援中心提供硬體及相關軟體的完整開發與技術文件。',
         id: 'homepage.description'
       })}>
       {/* Abstract 3D/Tech Background Element */}

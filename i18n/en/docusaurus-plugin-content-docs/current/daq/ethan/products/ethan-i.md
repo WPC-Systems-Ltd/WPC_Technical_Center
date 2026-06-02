@@ -20,14 +20,14 @@ Ethan-I is specifically designed for **4-20mA industrial current loops**, provid
 2. 10/100 Base-T Ethernet interface
 3. Current Input: 8-channel multiplexed switching & 24-bit resolution
 4. Maximum update rate: 1.2kHz (Single channel)
-5. Input range: Â±20mA
+5. Input range: ±20mA
 6. Supports [Python](https://wpc-systems-ltd.github.io/WPC_Python_driver_release/), [C#](https://wpc-systems-ltd.github.io/WPC_CSharp_driver_release/), and [LabVIEW](/docs/driver/wpc-device-driver/intro/)
 
 ### Pin Definition
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-I Pinout" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src={require('@site/static/img/daq/ethan-daq/EthanIA_pinout.webp').default} alt="Ethan-I Pinout" width="60%" /></div>
 
 ### Ethan-I Detailed Specifications (Current Input)
 
