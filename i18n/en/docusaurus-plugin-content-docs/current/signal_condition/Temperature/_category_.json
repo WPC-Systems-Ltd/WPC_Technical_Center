@@ -1,0 +1,7 @@
+{
+    "label": "Temperature",
+    "link": {
+        "type": "generated-index",
+        "description": "Temperature measurement and signal conditioner module product documentation."
+    }
+}

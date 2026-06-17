@@ -1,16 +1,16 @@
 ---
-title: 資料擷取入門指南
-sidebar_label: 資料擷取入門指南
+title: 資料擷取(DAQ)入門指南
+sidebar_label: 資料擷取(DAQ)入門指南
 sidebar_position: 1
 slug: /daq-starter-guide
-description: "歡迎探索 WPC 資料擷取 我們提供資料擷取方案，只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。 :::tip[名詞定義] DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它想像成電腦的「五官」，負責把真實世界的物理量（例如溫度、壓力、電..."
-keywords: [資料擷取入門指南, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
+description: "歡迎探索 WPC 資料擷取(DAQ) 我們提供資料擷取方案，只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。 :::tip[名詞定義] DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它想像成電腦的「五官」，負責把真實世界的物理量（例如溫度、壓力、電..."
+keywords: [資料擷取(DAQ)入門指南, 資料擷取, DAQ卡, 量測硬體, WPC DAQ, 資料擷取系統]
 ---
 import { Rocket, Cpu, FileCode, HelpCircle, Network, Usb, Wifi, Settings2, Search, Zap, RefreshCw, Wrench, ChevronsRight } from 'lucide-react';
 import Link from '@docusaurus/Link';
 
 <div className="gs-hero glow-effect">
-  <h1>歡迎探索 WPC 資料擷取</h1>
+  <h1>歡迎探索 WPC 資料擷取(DAQ)方案</h1>
   <p>我們提供資料擷取方案，只要選定適合您的硬體設備與熟悉的程式語言，就能快速啟動您的精密控制專案。</p>
 </div>
 
@@ -24,28 +24,28 @@ DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它�
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">1</div>
     <div className="gs-timeline-content">
-      <h3>選擇硬體設備</h3>
+      <h3>選擇適合的方案</h3>
       <p>根據您的需求[（長距離傳輸、攜帶便利性、無線傳輸、多通道）](#choose-hardware)選擇合適的資料擷取裝置。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">2</div>
     <div className="gs-timeline-content">
-      <h3>硬體接線配置</h3>
+      <h3>硬體接線</h3>
       <p>根據您的硬體設備，完成實體接線配置。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">3</div>
     <div className="gs-timeline-content">
-      <h3>安​裝 WPC Device Manager</h3>
-      <p>透過我們的官方硬體管理工具，快速掃描設備並確認連線狀態與韌體版本。</p>
+      <h3>工具程式安裝 (WPC Device Manager)</h3>
+      <p>透過 WPC 的硬體管理工具，快速掃描設備並確認連線狀態與韌體版本。</p>
     </div>
   </div>
   <div className="gs-timeline-item">
     <div className="gs-timeline-icon">4</div>
     <div className="gs-timeline-content">
-      <h3>安裝驅動程式</h3>
+      <h3>驅動程式安裝</h3>
       <p>選擇熟悉的程式語言（Python、C# 或 LabVIEW），下載 WPC Device Driver 並開始開發。</p>
     </div>
   </div>
@@ -79,7 +79,7 @@ DAQ 全名是 Data Acquisition，也就是「資料擷取」。你可以把它�
 </div>
 
 :::tip[除此之外還有什麼？]
-除了資料擷取系列，我們還提供 **[訊號調節器](../signal_condition/signal_condition-starter-guide.mdx)**。
+除了資料擷取系列，我們還提供 **[訊號調節器](../signal_condition/signal_condition-starter-guide.md)**。
 :::
 
 ---

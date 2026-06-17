@@ -1,0 +1,8 @@
+{
+    "label": "位移",
+    "position": 6,
+    "link": {
+        "type": "generated-index",
+        "description": "線性差動變壓器 (LVDT) 位移感測器信號調節器產品文件"
+    }
+}

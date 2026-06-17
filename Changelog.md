@@ -1,6 +1,21 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.23 Date: 2026/06/18, Developer: Hok
+---------------------------------------------------
+### Changed
+- Added 24ch AI / 8ch AO (Single-ended) and 24ch AI / 8ch AO (Differential) module pages.
+
+v0.0.22 Date: 2026/05/26, Developer: Hok
+---------------------------------------------------
+### Changed
+- Fixed an issue where inline code in titles was invisible in light mode.
+- Google Analytics (gtag) introduced a defensive fallback mechanism to prevent execution-stage crashes during local development and ad blocking.
+- Fixed an alignment issue between the borders of example programs and comments.
+- Fixed product description titles for STEM & DAQ.
+- Fixed the Signal Condition Getting Started Guide (improved product card descriptions in both Chinese and English, provided translations, and optimized Lucide icons).
+- Changed the names of Signal Condition sidebar subdirectories and related links in the homepage's BentoGrid to Chinese and adjusted their order to align with card order. Also, completed the i18n translation configuration for the "Module Introduction" section of the English homepage, left sidebar, and Instrumentation sidebar.
+
 v0.0.21 Date: 2026/05/22, Developer: Hok
 ---------------------------------------------------
 ### Changed

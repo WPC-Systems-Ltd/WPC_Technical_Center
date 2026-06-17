@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-sidebar_label: '24ch AI / 8ch AO'
-description: 24ch AI / 8ch AO 模組規格與腳位定義
+sidebar_label: '24ch AI / 8ch AO (Single-ended)'
+description: 24ch AI / 8ch AO (Single-ended) 模組規格與腳位定義
 keywords: [WPC, 技術文件, 規格說明]
 ---
-# 24ch AI / 8ch AO 模組
+# 24ch AI / 8ch AO (Single-ended) 模組
 
 本模組提供 24 通道類比輸入與 8 通道類比輸出功能，適用於多通道訊號擷取與控制應用。
 

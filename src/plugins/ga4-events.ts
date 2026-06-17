@@ -134,11 +134,21 @@ export default (function () {
     return null;
   }
 
+  // 預防 Adblocker 攔截或本地開發環境導致 window.gtag 消失，以防止 @docusaurus/plugin-google-gtag 報錯
+  if (typeof window.gtag !== 'function') {
+    window.gtag = function (...args: any[]) {
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('[GA4] Google Analytics is blocked or disabled in this environment. Event suppressed:', args);
+      }
+    };
+  }
+
   // 初始化搜尋追蹤
   setupSearchTracking();
 
   // 註冊捲動監聽（使用 passive 以提升效能）
   window.addEventListener('scroll', handleScroll, { passive: true });
+
 
   return {
     onRouteDidUpdate({ location, previousLocation }) {

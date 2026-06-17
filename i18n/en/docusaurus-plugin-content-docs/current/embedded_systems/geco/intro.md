@@ -12,10 +12,6 @@ keywords: [WPC, technical documentation, specifications]
 
 Centered around **NI Single-Board RIO (sbRIO)**, GECO integrates FPGA and Real-Time (RT) processors, supporting graphical programming with LabVIEW. This hardware-software integration allows engineers to rapidly develop high-reliability, high-determinism control systems without the complexity of traditional HDL or C-level embedded development.
 
-<div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_controller_compose.webp').default} alt="GECO Series" width="60%" />
-</div>
-
 ## Core Features
 
 ### High Determinism and Performance
@@ -38,7 +34,7 @@ The GECO ecosystem consists of three main components:
 3. **GECO Modules**: Modular units for specific signal processing or control functions.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/embedded-system/geco/geco_controller_compose.webp" alt="GECO Architecture" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_controller_compose.webp').default} alt="GECO Series" width="60%" />
 </div>
 
 ---

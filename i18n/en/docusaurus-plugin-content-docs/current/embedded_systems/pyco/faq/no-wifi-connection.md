@@ -21,11 +21,11 @@ The PYCO WIFI series is designed as a **highly independent** device. Even if the
 3.  **How to clear the message:**
     - If you wish to remove this message, you can connect the development board to a Wi-Fi network via code, or choose to **turn off the screen display** or **modify the display content** within your application.
 
-    :::tip Example Programs
-    👉 [View sample code: How to Set Wifi Info](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/set_wifi_info.html)
+:::tip Example Programs
+👉 [View sample code: How to Set Wifi Info](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/set_wifi_info.html)
 
-    👉 [View sample code: How to Change IP](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/change_ip.html)
-    :::
+👉 [View sample code: How to Change IP](https://wpc-systems-ltd.github.io/WPC_Stand-alone_Python_release/examples/PYCO_WIFI_MINI_AO/System/change_ip.html)
+:::
 
 **Summary:**
 

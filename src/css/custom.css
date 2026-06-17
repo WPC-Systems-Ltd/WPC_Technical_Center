@@ -405,6 +405,21 @@ article header h1 {
     line-height: 1.2;
 }
 
+/* 修正標題中的 inline code 在漸層文字效果下變透明、無法顯示的問題 */
+.markdown h1 code,
+.markdown h2 code,
+.markdown h3 code,
+.markdown h4 code,
+.markdown h5 code,
+.markdown h6 code,
+article header h1 code {
+    -webkit-text-fill-color: var(--ifm-font-color-base) !important;
+    color: var(--ifm-font-color-base) !important;
+    background-clip: border-box !important;
+    -webkit-background-clip: border-box !important;
+}
+
+
 .markdown h2 {
     font-size: 2rem;
     border-bottom: none;
