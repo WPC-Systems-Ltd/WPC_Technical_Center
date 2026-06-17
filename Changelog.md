@@ -1,6 +1,11 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.23 Date: 2026/06/18, Developer: Hok
+---------------------------------------------------
+### Changed
+- Added 24ch AI / 8ch AO (Single-ended) and 24ch AI / 8ch AO (Differential) module pages.
+
 v0.0.22 Date: 2026/05/26, Developer: Hok
 ---------------------------------------------------
 ### Changed

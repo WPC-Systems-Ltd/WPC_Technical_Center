@@ -70,6 +70,7 @@ const cards: CardData[] = [
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.embedded.links.intro' }), href: '/docs/embedded-starter-guide', icon: <Microchip size={16} /> },
             { label: 'GECO', href: '/docs/embedded_systems/geco/intro', icon: <Microchip size={16} /> },
+            { label: translate({ message: 'GECO 支援模組', id: 'homepage.bento.embedded.links.modules' }), href: '/docs/embedded_systems/geco/modules', icon: <Microchip size={16} /> },
             { label: 'PYCO', href: '/docs/embedded_systems/pyco/intro', icon: <Microchip size={16} /> },
             { label: translate({ message: '常見問題', id: 'homepage.bento.embedded.links.faq' }), href: '/docs/embedded-starter-guide#faq', icon: <Microchip size={16} /> },
         ],

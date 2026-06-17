@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-sidebar_label: '24ch AI / 8ch AO (Single-ended)'
-description: Specifications and pinout definitions for the 24ch AI / 8ch AO (Single-ended) module
+sidebar_label: '24ch AI / 8ch AO (Differential)'
+description: Specifications and pinout definitions for the 24ch AI / 8ch AO (Differential) module
 keywords: [WPC, technical documentation, specifications]
 ---
-# 24ch AI / 8ch AO (Single-ended) Module
+# 24ch AI / 8ch AO (Differential) Module
 
 This module provides 24-channel analog input and 8-channel analog output functionality, suitable for multi-channel signal acquisition and control applications.
 
