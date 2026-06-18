@@ -10,7 +10,7 @@ Ethan-I 專為 **4-20mA 工業電流迴路**設計，提供 **8 通道 24-bit �
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanI.webp" alt="Ethan-I 外觀" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanI.webp" alt="Ethan-I 外觀" width="60%" /></div>
 
 ### 主要特色
 
@@ -27,7 +27,7 @@ Ethan-I 專為 **4-20mA 工業電流迴路**設計，提供 **8 通道 24-bit �
 
 ---
 
-<div style={{textAlign: 'center'}}><img src="/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-I 腳位圖" width="60%" /></div>
+<div style={{textAlign: 'center'}}><img src="/WPC_Technical_Center/img/daq/ethan-daq/EthanIA_pinout.webp" alt="Ethan-I 腳位圖" width="60%" /></div>
 
 ### Ethan-I 詳細規格 (電流輸入)
 

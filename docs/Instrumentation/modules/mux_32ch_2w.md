@@ -31,9 +31,9 @@ cPCI 32ch-2W MUX 是一張 1-to-32 通道的兩線式（2-wire）多工切換器
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX.webp" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_32ch-2W_MUX.webp" alt="cPCI 32ch-2W MUX Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_32ch-2W_MUX_Pinout.webp" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_32ch-2W_MUX_Pinout.webp" alt="cPCI 32ch-2W MUX Pinout" width="60%" />
 </div>

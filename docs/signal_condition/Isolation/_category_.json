@@ -4,5 +4,6 @@
     "link": {
         "type": "generated-index",
         "description": "隔離模組產品文件"
-    }
+    },
+    "slug": "isolated"
 }

@@ -4,5 +4,6 @@
     "link": {
         "type": "generated-index",
         "description": "加速度模組產品文件"
-    }
+    },
+    "slug": "acceleration"
 }

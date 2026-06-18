@@ -477,6 +477,9 @@
   "homepage.bento.embedded.links.intro": {
     "message": "Get Started"
   },
+  "homepage.bento.embedded.links.modules": {
+    "message": "GECO Supported Modules"
+  },
   "homepage.bento.signal-conditioner.title": {
     "message": "Signal Conditioners"
   },
@@ -539,6 +542,21 @@
   },
   "homepage.bento.software.links.faq": {
     "message": "FAQ"
+  },
+  "homepage.bento.embedded.links.geco": {
+    "message": "GECO Controller"
+  },
+  "homepage.bento.signal-conditioner.links.acceleration": {
+    "message": "Acceleration"
+  },
+  "homepage.bento.signal-conditioner.links.optical": {
+    "message": "Optical"
+  },
+  "homepage.bento.signal-conditioner.links.temperature": {
+    "message": "Temperature"
+  },
+  "homepage.bento.signal-conditioner.links.isolated": {
+    "message": "Isolated"
   },
   "sitemap.category.drone.title": {
     "message": "Drone"

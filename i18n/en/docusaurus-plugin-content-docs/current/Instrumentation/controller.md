@@ -15,7 +15,7 @@ The gStack-RIO controller uses a high-performance embedded processor, providing 
 The figure below shows the physical panel configuration and the location of each connection interface of the gStack-RIO controller.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p7_00.png" alt="Controller Interface" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/Controller_Interface.webp" alt="Controller Interface" width="60%" />
 </div>
 
 1. Protective earth (PE): Protective grounding terminal.
@@ -40,8 +40,7 @@ To ensure the safety and stable operation of the equipment, please strictly abid
 The gStack-RIO controller core is equipped with an NI sbRIO-9607 embedded single-board computer, featuring a high-performance processor and programmable FPGA, suitable for real-time control and monitoring applications.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p8_00.png" alt="Controller Specs" width="60%" />
-</div>
+  </div>
 
 Detailed specifications are as follows:
 *   Processor: 667MHz Dual core CPU
@@ -62,5 +61,5 @@ The underlying system of gStack-RIO will automatically load a pre-compiled FPGA 
 :::
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p8_00.png" alt="Software Architecture" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/Software_Architecture.webp" alt="Software Architecture" width="60%" />
 </div>

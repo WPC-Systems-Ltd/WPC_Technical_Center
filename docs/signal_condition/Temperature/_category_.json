@@ -4,5 +4,6 @@
     "link": {
         "type": "generated-index",
         "description": "溫度量測與訊號調節模組產品文件"
-    }
+    },
+    "slug": "temperature"
 }

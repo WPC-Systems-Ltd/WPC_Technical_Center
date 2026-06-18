@@ -1,6 +1,12 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.24 Date: 2026/06/18, Developer: Hok
+---------------------------------------------------
+### Changed
+- Update 24ch AI / 8ch AO (Differential) module page.
+- Update Signal Conditioner BentoGrid and sidebar i18n.
+
 v0.0.23 Date: 2026/06/18, Developer: Hok
 ---------------------------------------------------
 ### Changed
