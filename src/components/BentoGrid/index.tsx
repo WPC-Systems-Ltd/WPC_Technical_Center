@@ -44,8 +44,8 @@ const cards: CardData[] = [
         ],
     },
     {
-        title: translate({ message: '馬達驅動', id: 'homepage.bento.motion.title' }),
-        description: translate({ message: 'WPC 馬達驅動的規格、技術文件與教學。', id: 'homepage.bento.motion.description' }),
+        title: translate({ message: '運動控制', id: 'homepage.bento.motion.title' }),
+        description: translate({ message: 'WPC 運動控制的規格、技術文件與教學。', id: 'homepage.bento.motion.description' }),
         icon: <Cpu size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.motion.links.intro' }), href: '/docs/motion-starter-guide', icon: <Cpu size={16} /> },
@@ -55,8 +55,8 @@ const cards: CardData[] = [
         ],
     },
     {
-        title: translate({ message: '儀器與控制', id: 'homepage.bento.instrumentation.title' }),
-        description: translate({ message: 'WPC 儀器與控制的規格、技術文件與教學。', id: 'homepage.bento.instrumentation.description' }),
+        title: translate({ message: '高密度量測與控制', id: 'homepage.bento.instrumentation.title' }),
+        description: translate({ message: 'WPC 高密度量測與控制的規格、技術文件與教學。', id: 'homepage.bento.instrumentation.description' }),
         icon: <Server size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.instrumentation.links.intro' }), href: '/docs/instrumentation-starter-guide', icon: <Server size={16} /> },
@@ -64,7 +64,7 @@ const cards: CardData[] = [
         ],
     },
     {
-        title: translate({ message: '嵌入式系統', id: 'homepage.bento.embedded.title' }),
+        title: translate({ message: '嵌入式控制器', id: 'homepage.bento.embedded.title' }),
         description: translate({ message: '嵌入式控制平台的規格、技術文件與教學。', id: 'homepage.bento.embedded.description' }),
         icon: <Microchip size={20} />,
         links: [
@@ -81,15 +81,15 @@ const cards: CardData[] = [
         icon: <Signal size={20} />,
         links: [
             { label: translate({ message: '入門指南', id: 'homepage.bento.signal-conditioner.links.intro' }), href: '/docs/signal-conditioner-starter-guide', icon: <Signal size={16} /> },
-            { label: translate({ message: '電壓', id: 'homepage.bento.signal-conditioner.links.voltage' }), href: '/docs/category/voltage', icon: <Signal size={16} /> },
-            { label: translate({ message: '電流', id: 'homepage.bento.signal-conditioner.links.current' }), href: '/docs/category/current', icon: <Signal size={16} /> },
-            { label: translate({ message: '荷重', id: 'homepage.bento.signal-conditioner.links.force' }), href: '/docs/category/force', icon: <Signal size={16} /> },
-            { label: translate({ message: '應變', id: 'homepage.bento.signal-conditioner.links.strain' }), href: '/docs/category/strain', icon: <Signal size={16} /> },
-            { label: translate({ message: '位移', id: 'homepage.bento.signal-conditioner.links.displacement' }), href: '/docs/category/displacement', icon: <Signal size={16} /> },
-            { label: translate({ message: '加速度', id: 'homepage.bento.signal-conditioner.links.acceleration' }), href: '/docs/category/acceleration', icon: <Signal size={16} /> },
-            { label: translate({ message: '光感測', id: 'homepage.bento.signal-conditioner.links.optical' }), href: '/docs/category/optical', icon: <Signal size={16} /> },
-            { label: translate({ message: '溫度', id: 'homepage.bento.signal-conditioner.links.temperature' }), href: '/docs/category/temperature', icon: <Signal size={16} /> },
-            { label: translate({ message: '隔離', id: 'homepage.bento.signal-conditioner.links.isolated' }), href: '/docs/category/isolation', icon: <Signal size={16} /> },
+            { label: translate({ message: '電壓', id: 'homepage.bento.signal-conditioner.links.voltage' }), href: '/docs/voltage', icon: <Signal size={16} /> },
+            { label: translate({ message: '電流', id: 'homepage.bento.signal-conditioner.links.current' }), href: '/docs/current', icon: <Signal size={16} /> },
+            { label: translate({ message: '荷重', id: 'homepage.bento.signal-conditioner.links.force' }), href: '/docs/force', icon: <Signal size={16} /> },
+            { label: translate({ message: '應變', id: 'homepage.bento.signal-conditioner.links.strain' }), href: '/docs/strain', icon: <Signal size={16} /> },
+            { label: translate({ message: '位移', id: 'homepage.bento.signal-conditioner.links.displacement' }), href: '/docs/displacement', icon: <Signal size={16} /> },
+            { label: translate({ message: '加速度', id: 'homepage.bento.signal-conditioner.links.acceleration' }), href: '/docs/acceleration', icon: <Signal size={16} /> },
+            { label: translate({ message: '光感測', id: 'homepage.bento.signal-conditioner.links.optical' }), href: '/docs/optical', icon: <Signal size={16} /> },
+            { label: translate({ message: '溫度', id: 'homepage.bento.signal-conditioner.links.temperature' }), href: '/docs/temperature', icon: <Signal size={16} /> },
+            { label: translate({ message: '隔離', id: 'homepage.bento.signal-conditioner.links.isolated' }), href: '/docs/isolated', icon: <Signal size={16} /> },
         ]
     },
     {

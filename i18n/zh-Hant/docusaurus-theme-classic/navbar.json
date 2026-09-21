@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "技術支援中心",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "WPC Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.首頁": {
+    "message": "首頁",
+    "description": "Navbar item with label 首頁"
+  },
+  "item.label.無人機": {
+    "message": "無人機",
+    "description": "Navbar item with label 無人機"
+  },
+  "item.label.DAQ": {
+    "message": "DAQ",
+    "description": "Navbar item with label DAQ"
+  },
+  "item.label.運動控制": {
+    "message": "運動控制",
+    "description": "Navbar item with label 運動控制"
+  },
+  "item.label.高密度量測&控制": {
+    "message": "高密度量測&控制",
+    "description": "Navbar item with label 高密度量測&控制"
+  },
+  "item.label.嵌入式控制器": {
+    "message": "嵌入式控制器",
+    "description": "Navbar item with label 嵌入式控制器"
+  },
+  "item.label.訊號調節器": {
+    "message": "訊號調節器",
+    "description": "Navbar item with label 訊號調節器"
+  },
+  "item.label.軟體工具": {
+    "message": "軟體工具",
+    "description": "Navbar item with label 軟體工具"
+  },
+  "item.label.驅動程式": {
+    "message": "驅動程式",
+    "description": "Navbar item with label 驅動程式"
+  }
+}
