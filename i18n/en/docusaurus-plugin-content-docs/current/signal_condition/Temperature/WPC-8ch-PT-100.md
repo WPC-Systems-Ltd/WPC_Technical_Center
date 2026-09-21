@@ -11,7 +11,7 @@ keywords: [8-Channel PT-100/1000 Signal Conditioner Module, WPC-8ch-PT-100, WPC-
 ## Product Introduction
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/signal-condition/8ch_PT-100.webp" alt="8-Channel PT-100/1000 Signal Conditioner Module" width="60%" />
+  <img src="/WPC_Technical_Center/img/signal-condition/8ch-PT100.webp" alt="8-Channel PT-100/1000 Signal Conditioner Module" width="60%" />
 </div>
 
 ---

@@ -25,9 +25,9 @@ The cPCI 8ch-LPCS is an 8-channel programmable current source module card.
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 8ch-LPCS Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/image_p10_00.webp" alt="cPCI 8ch-LPCS Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p18_00.png" alt="cPCI 8ch-LPCS Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_8ch-LPCS_Pinout.webp" alt="cPCI 8ch-LPCS Pinout" width="60%" />
 </div>

@@ -7,6 +7,10 @@
     "message": "Drone",
     "description": "Navbar item with label 無人機"
   },
+  "item.label.無人機零組件": {
+    "message": "Drone Parts",
+    "description": "Navbar item with label 無人機零組件"
+  },
   "item.label.DAQ": {
     "message": "DAQ",
     "description": "Navbar item with label DAQ"

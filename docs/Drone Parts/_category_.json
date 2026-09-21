@@ -1,0 +1,9 @@
+﻿{
+    "label": "無人機零組件",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "WPC 無人機零組件使用手冊",
+        "slug": "drone-parts"
+    }
+}

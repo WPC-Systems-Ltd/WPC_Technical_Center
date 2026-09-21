@@ -25,11 +25,11 @@ The cPCI 2ch-CAN FD is a 2-channel CAN FD (Controller Area Network Flexible Data
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/image_p10_00.webp" alt="cPCI 2ch-CAN FD Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p26_00.png" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_2ch-CAN_FD_Pinout.webp" alt="cPCI 2ch-CAN FD Pinout" width="60%" />
 </div>
 
 :::note

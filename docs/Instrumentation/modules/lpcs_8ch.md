@@ -25,9 +25,9 @@ cPCI 8ch-LPCS 是一張具備 8 通道的可程式電流源模組卡片。
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_8ch_LPCS.webp" alt="cPCI 8ch-LPCS Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_8ch_LPCS.webp" alt="cPCI 8ch-LPCS Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/cPCI_8ch-LPCS_Pinout.webp" alt="cPCI 8ch-LPCS Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_8ch-LPCS_Pinout.webp" alt="cPCI 8ch-LPCS Pinout" width="60%" />
 </div>

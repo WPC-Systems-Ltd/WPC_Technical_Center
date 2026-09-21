@@ -25,11 +25,11 @@ The cPCI 32ch-DO is a 24V industrial isolated digital I/O card with 32 output ch
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p10_00.webp" alt="cPCI 32ch-DO Appearance" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/image_p10_00.webp" alt="cPCI 32ch-DO Appearance" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/instrumentation/image_p24_00.png" alt="cPCI 32ch-DO Pinout" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/cPCI_32ch-DO_Pinout.webp" alt="cPCI 32ch-DO Pinout" width="60%" />
 </div>
 
 :::caution

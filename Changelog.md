@@ -1,6 +1,21 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.25 Date: 2026/09/21, Developer: Hok
+---------------------------------------------------
+### Added
+- Added "Drone Parts" (無人機零組件) category to the top navbar and sidebar navigation.
+- Added "Flight Controller" (飛行控制器) documentation with complete hardware specifications, pin definition, and wiring overview tables.
+- Added bilingual documentation support (Traditional Chinese under `docs/` and English under `i18n/en/`).
+- Added static image assets under `static/img/drone-parts/` with relative path resolution.
+
+v0.0.24 Date: 2026/06/22, Developer: Hok
+---------------------------------------------------
+### Changed
+- Update "網站導覽" to "sitemap" in footer.
+- Update "Supported Modules" to "GECO Supported Modules" for GECO categories in sidebars and homepage grid.Update 24ch AI / 8ch AO (Differential) module page.
+- Update Signal Conditioner BentoGrid and sidebar i18n.
+
 v0.0.23 Date: 2026/06/18, Developer: Hok
 ---------------------------------------------------
 ### Changed

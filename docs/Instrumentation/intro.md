@@ -26,5 +26,5 @@ gStack-RIO 機箱配置如下：
 控制方法可選擇使用 Ethernet 遠端遙控（PC Remote），或者透過 LabVIEW Real-time 開發獨立運行的應用程式（Stand-alone）。這種設計不僅提供了靈活性，還能有效支持各種分散式、高密度 I/O 應用需求。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p4_00.webp" alt="gStack-RIO Top View" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/image_p4_00.webp" alt="gStack-RIO Top View" width="60%" />
 </div>

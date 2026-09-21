@@ -26,5 +26,5 @@ The gStack-RIO chassis configuration is as follows:
 Control methods can be selected using Ethernet remote control (PC Remote), or through LabVIEW Real-time development of stand-alone applications. This design not only provides flexibility but also effectively supports various distributed, high-density I/O application requirements.
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/instrumentation/image_p4_00.webp" alt="gStack-RIO Top View" width="60%" />
+  <img src="/WPC_Technical_Center/img/Instrumentation/image_p4_00.webp" alt="gStack-RIO Top View" width="60%" />
 </div>

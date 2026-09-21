@@ -16,7 +16,7 @@ This module provides 24-channel analog input and 8-channel analog output functio
 | :--------------------- | :----------------------------- |
 | **Connector**          | IDC 50P Connector              |
 | **Channels**           | 24 ch (Simultaneous sampling) |
-| **Resolution**         | 16 bit (Single-ended)          |
+| **Resolution**         | 16 bit (Differential)          |
 | **Input Range**        | -10 ~ 10 V                     |
 | **Max Sampling Rate**  | 50 kHz                         |
 | **Isolation**          | Channel to ground isolation    |

@@ -1,0 +1,887 @@
+{
+  "homepage.title.hero": {
+    "message": "技術支援中心"
+  },
+  "homepage.tagline": {
+    "message": "技術支援中心提供硬體及相關軟體的完整開發與技術文件。"
+  },
+  "homepage.title": {
+    "message": "首頁"
+  },
+  "homepage.description": {
+    "message": "技術支援中心提供硬體及相關軟體的完整開發與技術文件。"
+  },
+  "sitemap.category.drone.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.drone.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.drone.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.drone.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.drone.link.takeoff": {
+    "message": "起飛教學"
+  },
+  "sitemap.category.drone.link.remote": {
+    "message": "遙控器操作教學"
+  },
+  "sitemap.category.drone.link.battery": {
+    "message": "電池充電教學"
+  },
+  "sitemap.category.drone.link.appendix": {
+    "message": "附錄"
+  },
+  "sitemap.category.drone.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.drone.link.spec_table": {
+    "message": "規格總表"
+  },
+  "sitemap.category.drone.link.faq": {
+    "message": "常見問題"
+  },
+  "sitemap.category.ethan.description": {
+    "message": "乙太網路資料擷取"
+  },
+  "sitemap.category.ethan.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.ethan.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.ethan.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.ethan.link.models": {
+    "message": "型號介紹"
+  },
+  "sitemap.category.ethan.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.ethan.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.ethan.link.led": {
+    "message": "基本操作(外觀及 LED 狀態)"
+  },
+  "sitemap.category.ethan.link.spec_table": {
+    "message": "規格總覽"
+  },
+  "sitemap.category.usb.description": {
+    "message": "USB 資料擷取"
+  },
+  "sitemap.category.usb.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.usb.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.usb.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.usb.link.models": {
+    "message": "型號介紹"
+  },
+  "sitemap.category.usb.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.usb.link.sampling": {
+    "message": "取樣率"
+  },
+  "sitemap.category.usb.link.comp": {
+    "message": "相容性"
+  },
+  "sitemap.category.usb.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.usb.link.layout": {
+    "message": "產品尺寸圖"
+  },
+  "sitemap.category.usb.link.spec_table": {
+    "message": "規格總覽"
+  },
+  "sitemap.category.wifi.description": {
+    "message": "無線資料擷取"
+  },
+  "sitemap.category.wifi.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.wifi.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.wifi.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.wifi.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.wifi.link.setup_ap": {
+    "message": "網路連線設定 (AP Mode)"
+  },
+  "sitemap.category.wifi.link.setup_wdm": {
+    "message": "變更 Wi-Fi 設定 (使用 WDM)"
+  },
+  "sitemap.category.wifi.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.wifi.link.led": {
+    "message": "基本操作(外觀及 LED 狀態)"
+  },
+  "sitemap.category.stem.description": {
+    "message": "4 插槽模組化乙太網路控制器"
+  },
+  "sitemap.category.stem.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.stem.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.stem.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.stem.link.modules": {
+    "message": "模組介紹"
+  },
+  "sitemap.category.stem.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.stem.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.stem.link.layout": {
+    "message": "硬體外觀"
+  },
+  "sitemap.category.motion.description": {
+    "message": "四軸運動控制軸卡"
+  },
+  "sitemap.category.motion.edrivest.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.edrivest.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.edrivest.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.edrivest.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.edrivest.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.motion.edrivsrv.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.edrivsrv.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.edrivsrv.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.edrivsrv.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.edrivsrv.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.motion.emotion.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.motion.emotion.link.quickstart": {
+    "message": "入門指南"
+  },
+  "sitemap.category.motion.emotion.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.motion.emotion.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.motion.emotion.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.instrumentation.description": {
+    "message": "分散式、高密度 I/O 解決方案"
+  },
+  "sitemap.category.instrumentation.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.instrumentation.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.instrumentation.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.instrumentation.modules": {
+    "message": "模組介紹"
+  },
+  "sitemap.category.instrumentation.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.instrumentation.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.instrumentation.appearance": {
+    "message": "硬體外觀"
+  },
+  "sitemap.category.instrumentation.controller": {
+    "message": "控制器規格"
+  },
+  "sitemap.category.geco.description": {
+    "message": "圖形化工業控制器"
+  },
+  "sitemap.category.geco.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.geco.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.geco.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.geco.link.modules": {
+    "message": "模組介紹"
+  },
+  "sitemap.category.geco.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.geco.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.geco.link.controller": {
+    "message": "控制器規格"
+  },
+  "sitemap.category.geco.link.breakout": {
+    "message": "RMC Breakout 規格"
+  },
+  "sitemap.category.pyco.description": {
+    "message": "獨立運作的嵌入式控制器"
+  },
+  "sitemap.category.pyco.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.pyco.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.pyco.link.intro": {
+    "message": "產品介紹"
+  },
+  "sitemap.category.pyco.link.models": {
+    "message": "型號介紹"
+  },
+  "sitemap.category.pyco.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.pyco.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.pyco.link.faq": {
+    "message": "常見問題"
+  },
+  "sitemap.category.signal-conditioner.description": {
+    "message": "訊號調節器"
+  },
+  "sitemap.category.signal-conditioner.section.quickstart": {
+    "message": "快速開始"
+  },
+  "sitemap.category.signal-conditioner.links.intro": {
+    "message": "入門指南"
+  },
+  "sitemap.category.signal-conditioner.section.guide": {
+    "message": "教學與指南"
+  },
+  "sitemap.category.signal-conditioner.section.spec": {
+    "message": "規格與支援"
+  },
+  "sitemap.category.software.description": {
+    "message": "搭配 WPC 硬體使用的軟體工具與管理平台。"
+  },
+  "sitemap.category.software.link.wdm_intro": {
+    "message": "快速入門"
+  },
+  "sitemap.category.software.link.wdm_main": {
+    "message": "主畫面"
+  },
+  "sitemap.category.software.link.wdm_func": {
+    "message": "常用功能"
+  },
+  "sitemap.category.software.link.wdm_eth": {
+    "message": "Ethernet 裝置"
+  },
+  "sitemap.category.software.link.wdm_usb": {
+    "message": "USB 裝置"
+  },
+  "sitemap.category.software.link.wdm_wifi": {
+    "message": "WIFI 裝置"
+  },
+  "sitemap.category.software.link.wdm_panels": {
+    "message": "測試面板"
+  },
+  "sitemap.category.software.link.wdm_faq": {
+    "message": "常見問題 (FAQ)"
+  },
+  "sitemap.category.software.link.gm_intro": {
+    "message": "快速入門"
+  },
+  "sitemap.category.software.link.gm_interface": {
+    "message": "介面說明"
+  },
+  "sitemap.category.software.link.gm_func": {
+    "message": "常用功能"
+  },
+  "sitemap.category.software.link.gstack_rio_intro": {
+    "message": "快速入門"
+  },
+  "sitemap.category.software.link.gstack_rio_interface": {
+    "message": "介面說明"
+  },
+  "sitemap.category.software.link.gstack_rio_func": {
+    "message": "常用功能"
+  },
+  "sitemap.category.software.link.sa_intro": {
+    "message": "快速入門"
+  },
+  "sitemap.category.software.link.sa_interface": {
+    "message": "介面說明"
+  },
+  "sitemap.category.software.link.sa_func": {
+    "message": "常用功能"
+  },
+  "sitemap.category.driver.description": {
+    "message": "驅動程式的規格、技術文件與教學。"
+  },
+  "sitemap.category.driver.links.intro": {
+    "message": "驅動程式總覽"
+  },
+  "sitemap.page.title": {
+    "message": "網站地圖 (Sitemap)"
+  },
+  "sitemap.page.description": {
+    "message": "技術支援中心網站地圖與資源導覽"
+  },
+  "sitemap.hero.title": {
+    "message": "網站地圖"
+  },
+  "sitemap.hero.subtitle": {
+    "message": "快速瀏覽技術支援中心的所有資源"
+  },
+  "sitemap.cta.title": {
+    "message": "還是不確定從哪裡開始？"
+  },
+  "sitemap.cta.subtitle": {
+    "message": "我們的技術團隊隨時準備為您提供協助。"
+  },
+  "sitemap.cta.button": {
+    "message": "聯繫技術支援"
+  },
+  "homepage.bento.drone.title": {
+    "message": "無人機"
+  },
+  "homepage.bento.drone.description": {
+    "message": "WPC 無人機產品的規格、技術文件、教學與常見問題。"
+  },
+  "homepage.bento.drone.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.drone.links.spec": {
+    "message": "完整規格"
+  },
+  "homepage.bento.drone.links.takeoff": {
+    "message": "起飛指南"
+  },
+  "homepage.bento.drone.links.faq": {
+    "message": "常見問題"
+  },
+  "homepage.bento.daq.title": {
+    "message": "資料擷取"
+  },
+  "homepage.bento.daq.description": {
+    "message": "WPC 資料擷取產品的規格、技術文件與教學。"
+  },
+  "homepage.bento.daq.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.daq.links.faq": {
+    "message": "常見問題"
+  },
+  "homepage.bento.motion.title": {
+    "message": "運動控制"
+  },
+  "homepage.bento.motion.description": {
+    "message": "WPC 運動控制的規格、技術文件與教學。"
+  },
+  "homepage.bento.motion.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.instrumentation.title": {
+    "message": "高密度量測與控制"
+  },
+  "homepage.bento.instrumentation.description": {
+    "message": "WPC 高密度量測與控制的規格、技術文件與教學。"
+  },
+  "homepage.bento.instrumentation.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.embedded.title": {
+    "message": "嵌入式控制器"
+  },
+  "homepage.bento.embedded.description": {
+    "message": "嵌入式控制平台的規格、技術文件與教學。"
+  },
+  "homepage.bento.embedded.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.embedded.links.geco": {
+    "message": "GECO 控制器"
+  },
+  "homepage.bento.embedded.links.modules": {
+    "message": "GECO 支援模組"
+  },
+  "homepage.bento.embedded.links.faq": {
+    "message": "常見問題"
+  },
+  "homepage.bento.signal-conditioner.title": {
+    "message": "訊號調節器"
+  },
+  "homepage.bento.signal-conditioner.description": {
+    "message": "訊號調節器的規格、技術文件與教學。"
+  },
+  "homepage.bento.signal-conditioner.links.intro": {
+    "message": "入門指南"
+  },
+  "homepage.bento.signal-conditioner.links.voltage": {
+    "message": "電壓"
+  },
+  "homepage.bento.signal-conditioner.links.current": {
+    "message": "電流"
+  },
+  "homepage.bento.signal-conditioner.links.force": {
+    "message": "荷重"
+  },
+  "homepage.bento.signal-conditioner.links.strain": {
+    "message": "應變"
+  },
+  "homepage.bento.signal-conditioner.links.displacement": {
+    "message": "位移"
+  },
+  "homepage.bento.signal-conditioner.links.acceleration": {
+    "message": "加速度"
+  },
+  "homepage.bento.signal-conditioner.links.optical": {
+    "message": "光感測"
+  },
+  "homepage.bento.signal-conditioner.links.temperature": {
+    "message": "溫度"
+  },
+  "homepage.bento.signal-conditioner.links.isolated": {
+    "message": "隔離"
+  },
+  "homepage.bento.software.title": {
+    "message": "軟體工具"
+  },
+  "homepage.bento.software.description": {
+    "message": "搭配 WPC 硬體使用的軟體工具與管理平台。"
+  },
+  "homepage.bento.software.links.faq": {
+    "message": "常見問題"
+  },
+  "homepage.bento.driver.title": {
+    "message": "驅動程式"
+  },
+  "homepage.bento.driver.description": {
+    "message": "WPC 產品的驅動程式。"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 個項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到頁面",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.description": {
+    "message": "我們找不到您想要尋找的頁面。它可能已被移除或網址有誤。"
+  },
+  "theme.NotFound.p1": {
+    "message": "我們沒有您要找的頁面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "請聯絡原始連結來源網站的所有者，並通知他們連結已毀損。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NotFound.homeLink": {
+    "message": "返回首頁"
+  },
+  "theme.NotFound.sitemapLink": {
+    "message": "瀏覽網站地圖"
+  },
+  "theme.NotFound.helpTitle": {
+    "message": "需要協助嗎？"
+  },
+  "theme.NotFound.help1": {
+    "message": "您可以嘗試使用網頁右上角的"
+  },
+  "theme.NotFound.help2": {
+    "message": "搜尋功能"
+  },
+  "theme.NotFound.help3": {
+    "message": "來尋找相關資訊。"
+  },
+  "theme.NotFound.contact": {
+    "message": "如果這是一個失效的連結，或是您有任何問題，請聯絡"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "此頁已當機。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到頂部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "部落格文章列表分頁導覽",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "較新的文章",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "較舊的文章",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "歷史文章",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "歷史文章",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "部落格文章分頁導覽",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "較新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "較舊一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "檢視所有標籤",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "淺色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "深色模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切換淺色/深色模式（當前為{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "頁面路徑",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 個項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件選項卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一頁",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一頁",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文件帶有標籤",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版尚未發行的文件。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版的文件，現已不再積極維護。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文件請參閱 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "編輯此頁",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接連結",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "於 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最後{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "選擇版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "標籤：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "關閉",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危險",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "資訊",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "備註",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近部落格文章導覽",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展開側邊欄分類 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "收起側邊欄分類 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主導航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "選擇語言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本頁導覽",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "閱讀更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "閱讀 {title} 全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "閱讀時間約 {readingTime} 分鐘",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "複製",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "複製成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "複製程式碼至剪貼簿",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切換自動換行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主頁面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起側邊欄",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起側邊欄",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文件側邊欄",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "關閉導覽列",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主選單",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切換導覽列",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展開側邊欄",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展開側邊欄",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No documents were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇文章",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有標籤「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者列表",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "檢視所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "此作者尚未撰寫任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出頁",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此頁面未列出。搜索引擎不會對其索引，只有擁有直接連結的用戶才能訪問。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿頁",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此頁面為草稿，僅在開發環境中可見，不會包含於正式版本中。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重試",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳至主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "標籤",
+    "description": "The title of the tag list page"
+  }
+}

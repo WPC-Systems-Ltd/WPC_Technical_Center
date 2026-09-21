@@ -16,7 +16,7 @@ keywords: [WPC, 技術文件, 規格說明]
 | :------------- | :----------------------------- |
 | **連接器**     | IDC 50P Connector              |
 | **通道數**     | 24 ch (同步取樣)               |
-| **解析度**     | 16 bit (單端輸入 Single-ended) |
+| **解析度**     | 16 bit (差分輸入 Differential) |
 | **輸入範圍**   | -10 ~ 10 V                     |
 | **最大取樣率** | 50 kHz                         |
 | **隔離**       | Channel to ground isolation    |
