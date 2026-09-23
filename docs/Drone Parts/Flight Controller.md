@@ -8,7 +8,9 @@ slug: /drone-parts/flight-controller
 
 本飛行控制器是一款基於 Pixhawk Autopilot v6X 標準所開發的頂尖通用控制器（飛控）。核心採用 STM32H753 雙精度浮點運算 FMU 處理器，並搭配 STM32F103 I/O 協同處理器，兩者具備獨立的匯流排架構與電源供應系統。系統內建多組 IMU，包含 6 軸慣性感測器、氣壓與溫度感測器，以及地磁感測器，專為確保高度飛行安全性與豐富擴充能力而設計。透過整合 10/100M 乙太網路實體層（PHY），飛控能與任務電腦（機載電腦/隨同電腦）、高階測繪相機及其他 UxV 載荷設備進行高速直接通訊，滿足先進無人載具系統的嚴苛需求。
 
-![飛行控制器外觀預覽](../../static/img/drone-parts/outlook.png)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="flight-controller" width="60%" />
+</div>
 
 ---
 
@@ -37,7 +39,9 @@ slug: /drone-parts/flight-controller
 
 ### 腳位定義
 
-![腳位定義](../../static/img/drone-parts/pin_definition.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="60%" />
+</div>
 
 ---
 
@@ -45,7 +49,10 @@ slug: /drone-parts/flight-controller
 
 下圖展示本飛行控制器與各周邊設備的連接配置。
 
-![配線總覽](../../static/img/drone-parts/wiring.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/wiring.jpg').default} alt="wiring" width="60%" />
+</div>
+
 
 | 介面名稱 | 功能與連接說明 |
 | :--- | :--- |
@@ -115,7 +122,9 @@ slug: /drone-parts/flight-controller
 
 ### 機身安裝方向
 
-![機身安裝方向](../../static/img/drone-parts/orientation.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/orientation.jpg').default} alt="orientation" width="60%" />
+</div>
 
 :::tip 安裝方向注意事項
 若因機架內部空間限制，飛控無法依預設的箭頭朝前方向安裝，使用者必須於地面控制站軟體（GCS）中重新設定飛控實際安裝的旋轉姿態角度。
@@ -153,30 +162,40 @@ slug: /drone-parts/flight-controller
 * 安裝模組時，應盡可能遠離大電流電源線路與馬達，並確保模組的方向箭頭指向機頭前方。
 * 若使用 DroneCAN / UAVCAN GNSS 模組，可直接連接至 **CAN1** 或 **CAN2** 匯流排。
 
-![GPS 模組連接](../../static/img/drone-parts/gps.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/gps.jpg').default} alt="gps" width="60%" />
+</div>
 
 #### 數傳電台與無線電控制系統
 * **數傳電台（Telemetry）：** 將機載數傳端連接至 **TELEM1**、**TELEM2** 或 **TELEM3** 埠，以建立與地面控制站（GCS）的雙向資料傳輸。
 * **RC 接收機：** DSM 或 SBUS 接收機請連接至 **DSM/SBUS** 介面；若使用 PPM 接收機，請連接至 **PPM** 介面。
 
-![數傳電台連接](../../static/img/drone-parts/radio.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/radio.jpg').default} alt="radio" width="60%" />
+</div>
 
 #### 電源模組（PMU）
 * 本飛控支援 CAN PMU 電源模組（支援 3S 至 14S 鋰電池）。包裝內未隨附 PMU，請搭配符合規範之 CAN PMU 模組使用，並將模組之 6-pin 接頭插入飛控的 **Power C1** 或 **Power C2** 介面。
 * 執行 ArduPilot 韌體時，DroneCAN PMU 具備隨插即用特性，無須額外設定；執行 PX4 時，請依 PX4 DroneCAN PMU 規範進行參數配置。
 * 本飛控亦支援類比與 I2C 電源模組，請由 **Power 1** 與 **Power 2** 連接埠輸入。
 
-![電源模組連接](../../static/img/drone-parts/power.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/power.jpg').default} alt="power" width="60%" />
+</div>
 
 #### MicroSD 記憶卡
 * 飛行前請務必將 MicroSD 記憶卡插入卡槽。高頻率飛行日誌記錄與 IMU 數據分析皆須仰賴 MicroSD 卡進行儲存。
 
-![MicroSD 卡槽](../../static/img/drone-parts/sdcard.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/sdcard.jpg').default} alt="sdcard" width="60%" />
+</div>
 
 #### 馬達與伺服舵機接線
 * 請依據所屬機架構型的馬達順序，依序將電子調速器（ESC）訊號線與伺服舵機連接至 **M1–M8** 與 **A1–A8** 接腳。
 
-![馬達與伺服舵機接線](../../static/img/drone-parts/motor.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/motor.jpg').default} alt="motor" width="60%" />
+</div>
 
 #### 伺服舵機排針供電說明
 :::caution 伺服舵機排針需外部供電

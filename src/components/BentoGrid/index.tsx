@@ -28,6 +28,7 @@ const cards: CardData[] = [
             { label: translate({ message: '完整規格', id: 'homepage.bento.drone.links.spec' }), href: '/docs/Drone/specification', icon: <Rocket size={16} /> },
             { label: translate({ message: '起飛指南', id: 'homepage.bento.drone.links.takeoff' }), href: '/docs/Drone/takeoff-guide', icon: <Rocket size={16} /> },
             { label: translate({ message: '常見問題', id: 'homepage.bento.drone.links.faq' }), href: '/docs/drone-faq', icon: <Rocket size={16} /> },
+            { label: translate({ message: '無人機零組件', id: 'homepage.bento.drone.links.drone-parts' }), href: '/docs/drone-parts', icon: <Rocket size={16} /> },
         ],
     },
     {

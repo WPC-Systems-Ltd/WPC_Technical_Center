@@ -8,7 +8,9 @@ slug: /drone-parts/flight-controller
 
 The flight controller is a state-of-the-art universal flight controller developed based on the Pixhawk Autopilot v6X standard. It adopts an STM32H753 double-precision floating-point FMU processor and an STM32F103 I/O coprocessor with independent buses and power supplies. Equipped with multiple IMUs featuring 6-axis inertial sensors, barometric pressure/temperature sensors, and a geomagnetic sensor, it is engineered for high reliability, flight safety, and extensive expansion capabilities. With an integrated 10/100M Ethernet Physical Layer (PHY), the flight controller can communicate directly with mission computers (companion computers), high-resolution mapping cameras, and other UxV payload systems at high speeds.
 
-![Flight Controller Outlook](../../../../../static/img/drone-parts/outlook.png)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="outlook" width="60%" />
+</div>
 
 ---
 
@@ -37,7 +39,9 @@ The flight controller is a state-of-the-art universal flight controller develope
 
 ### Pin Definition
 
-![Pin Definition](../../../../../static/img/drone-parts/pin_definition.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="60%" />
+</div>
 
 ---
 
@@ -45,7 +49,9 @@ The flight controller is a state-of-the-art universal flight controller develope
 
 The diagram below illustrates the flight controller and its peripheral connections.
 
-![Wiring Overview](../../../../../static/img/drone-parts/wiring.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/wiring.jpg').default} alt="wiring" width="60%" />
+</div>
 
 | Interface | Function / Description |
 | :--- | :--- |
@@ -115,7 +121,9 @@ For complete flight software documentation and flight modes, refer to:
 
 ### Vehicle Orientation
 
-![Vehicle Orientation](../../../../../static/img/drone-parts/orientation.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/orientation.jpg').default} alt="orientation" width="60%" />
+</div>
 
 :::tip Note on Mounting Orientation
 If the flight controller cannot be mounted in the default forward-facing orientation due to airframe layout, configure the flight controller orientation parameters in the ground control software (GCS) accordingly.
@@ -153,30 +161,40 @@ Loading firmware through **Mission Planner** is recommended:
 * Ensure the module is mounted away from high-current power lines and motors, with the arrow pointing toward the vehicle front.
 * DroneCAN / UAVCAN GNSS modules can be connected to the **CAN1** or **CAN2** bus.
 
-![GPS Connection](../../../../../static/img/drone-parts/gps.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/gps.jpg').default} alt="gps" width="60%" />
+</div>
 
 #### Radio Control & Telemetry System
 * **Telemetry:** Connect the air telemetry transceiver to **TELEM1**, **TELEM2**, or **TELEM3** to establish ground control station (GCS) communication.
 * **RC Receiver:** Connect DSM/SBUS satellite receivers to the **DSM/SBUS** interface. If using a PPM receiver, connect it to the **PPM** interface.
 
-![Radio Connection](../../../../../static/img/drone-parts/radio.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/radio.jpg').default} alt="radio" width="60%" />
+</div>
 
 #### Power Module (PMU)
 * Connect a compatible CAN PMU module (supporting 3S–14S LiPo batteries) to **Power C1** or **Power C2** via the 6-pin connector.
 * Under ArduPilot, the DroneCAN PMU is plug-and-play. Under PX4, configure the DroneCAN PMU driver as required.
 * Analog and I2C power modules are also supported via the **Power 1** and **Power 2** ports.
 
-![Power Connection](../../../../../static/img/drone-parts/power.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/power.jpg').default} alt="power" width="60%" />
+</div>
 
 #### MicroSD Card
 * Insert a MicroSD card into the slot before flight. High-rate flight logs and IMU analysis data require storage on the MicroSD card.
 
-![MicroSD Card](../../../../../static/img/drone-parts/sdcard.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/sdcard.jpg').default} alt="sdcard" width="60%" />
+</div>
 
 #### Motor & Servo Connections
 * Connect ESCs and servos to the **M1–M8** and **A1–A8** headers according to the motor sequence specified for your airframe configuration.
 
-![Motor and Servo Connections](../../../../../static/img/drone-parts/motor.jpg)
+<div style={{textAlign: 'center'}}>
+  <img src={require('@site/static/img/drone-parts/motor.jpg').default} alt="motor" width="60%" />
+</div>
 
 #### Servo Rail Power Supply
 :::caution External Power Required for Servos

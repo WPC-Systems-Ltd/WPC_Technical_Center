@@ -53,6 +53,13 @@ const categories: SitemapCategory[] = [
                     { label: translate({ message: '常見問題', id: 'sitemap.category.drone.link.faq' }), href: '/docs/drone-faq', icon: <HelpCircle size={16} /> },
                 ],
             },
+            {
+                heading: translate({ message: '零組件', id: 'sitemap.category.drone.section.parts' }),
+                links: [
+                    { label: translate({ message: '無人機零組件', id: 'sitemap.category.drone.link.drone_parts' }), href: '/docs/drone-parts', icon: <Cpu size={16} /> },
+                    { label: translate({ message: '飛行控制器', id: 'sitemap.category.drone.link.flight_controller' }), href: '/docs/drone-parts/flight-controller', icon: <Cpu size={16} /> },
+                ],
+            },
         ],
     },
     {

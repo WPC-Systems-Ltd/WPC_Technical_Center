@@ -534,6 +534,9 @@
   "homepage.bento.drone.links.faq": {
     "message": "FAQ"
   },
+  "homepage.bento.drone.links.drone-parts": {
+    "message": "Drone Parts"
+  },
   "homepage.bento.daq.links.faq": {
     "message": "FAQ"
   },
@@ -593,6 +596,15 @@
   },
   "sitemap.category.drone.link.faq": {
     "message": "FAQ"
+  },
+  "sitemap.category.drone.section.parts": {
+    "message": "Components"
+  },
+  "sitemap.category.drone.link.drone_parts": {
+    "message": "Drone Parts"
+  },
+  "sitemap.category.drone.link.flight_controller": {
+    "message": "Flight Controller"
   },
   "sitemap.category.ethan.description": {
     "message": "High-speed Ethernet data acquisition system, supporting remote monitoring and high bandwidth transmission."
