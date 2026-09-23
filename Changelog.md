@@ -7,6 +7,8 @@ v0.0.26 Date: 2026/09/24, Developer: Hok
 - Added "Drone Parts" (無人機零組件) link to BentoGrid drone section on homepage.
 - Added "Drone Parts" (無人機零組件) and "Flight Controller" (飛行控制器) links to Sitemap page.
 - Added i18n translation keys for Drone Parts across BentoGrid and Sitemap (`zh-Hant` and `en`).
+- Increased the image width for Flight Controller in `flight-controller.mdx` (from 40% to 50%).
+- Enhanced image contrast and reduced compression for all images in the `drone-parts` section for better visual clarity.
 
 ### Changed
 - Replaced image assets for "Flight Controller" (飛行控制器) with properly formatted Docusaurus require imports according to image-path-skill guidelines.

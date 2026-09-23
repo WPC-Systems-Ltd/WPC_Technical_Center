@@ -9,7 +9,7 @@ slug: /drone-parts/flight-controller
 本飛行控制器是一款基於 Pixhawk Autopilot v6X 標準所開發的頂尖通用控制器（飛控）。核心採用 STM32H753 雙精度浮點運算 FMU 處理器，並搭配 STM32F103 I/O 協同處理器，兩者具備獨立的匯流排架構與電源供應系統。系統內建多組 IMU，包含 6 軸慣性感測器、氣壓與溫度感測器，以及地磁感測器，專為確保高度飛行安全性與豐富擴充能力而設計。透過整合 10/100M 乙太網路實體層（PHY），飛控能與任務電腦（機載電腦/隨同電腦）、高階測繪相機及其他 UxV 載荷設備進行高速直接通訊，滿足先進無人載具系統的嚴苛需求。
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="flight-controller" width="60%" />
+  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="flight-controller" width="40%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ slug: /drone-parts/flight-controller
 ### 腳位定義
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="60%" />
+  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="80%" />
 </div>
 
 ---

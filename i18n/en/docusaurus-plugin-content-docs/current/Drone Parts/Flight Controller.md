@@ -9,7 +9,7 @@ slug: /drone-parts/flight-controller
 The flight controller is a state-of-the-art universal flight controller developed based on the Pixhawk Autopilot v6X standard. It adopts an STM32H753 double-precision floating-point FMU processor and an STM32F103 I/O coprocessor with independent buses and power supplies. Equipped with multiple IMUs featuring 6-axis inertial sensors, barometric pressure/temperature sensors, and a geomagnetic sensor, it is engineered for high reliability, flight safety, and extensive expansion capabilities. With an integrated 10/100M Ethernet Physical Layer (PHY), the flight controller can communicate directly with mission computers (companion computers), high-resolution mapping cameras, and other UxV payload systems at high speeds.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="outlook" width="60%" />
+  <img src={require('@site/static/img/drone-parts/outlook.png').default} alt="flight-controller" width="40%" />
 </div>
 
 ---
@@ -40,7 +40,7 @@ The flight controller is a state-of-the-art universal flight controller develope
 ### Pin Definition
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="60%" />
+  <img src={require('@site/static/img/drone-parts/pin_definition.jpg').default} alt="pin-definition" width="80%" />
 </div>
 
 ---
