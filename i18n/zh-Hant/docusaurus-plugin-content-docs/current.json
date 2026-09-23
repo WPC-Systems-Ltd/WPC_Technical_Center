@@ -231,6 +231,14 @@
     "message": "WPC Drone 常見問題與排除指南",
     "description": "The generated-index page description for category '常見問題' in sidebar 'droneSidebar'"
   },
+  "sidebar.dronePartsSidebar.category.無人機零組件": {
+    "message": "無人機零組件",
+    "description": "The label for category '無人機零組件' in sidebar 'dronePartsSidebar'"
+  },
+  "sidebar.dronePartsSidebar.category.無人機零組件.link.generated-index.description": {
+    "message": "WPC 無人機零組件使用手冊",
+    "description": "The generated-index page description for category '無人機零組件' in sidebar 'dronePartsSidebar'"
+  },
   "sidebar.driverSidebar.category.WPC Device Driver": {
     "message": "WPC Device Driver",
     "description": "The label for category 'WPC Device Driver' in sidebar 'driverSidebar'"

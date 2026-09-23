@@ -15,6 +15,14 @@
     "message": "FAQ",
     "description": "The label for category '常見問題' in sidebar 'droneSidebar'"
   },
+  "sidebar.dronePartsSidebar.category.無人機零組件": {
+    "message": "Drone Parts",
+    "description": "The label for category '無人機零組件' in sidebar 'dronePartsSidebar'"
+  },
+  "sidebar.dronePartsSidebar.category.無人機零組件.link.generated-index.description": {
+    "message": "WPC Drone Parts Manual",
+    "description": "The generated-index page description for category '無人機零組件' in sidebar 'dronePartsSidebar'"
+  },
   "sidebar.tutorialSidebar.category.usb_daq_manual_category": {
     "message": "USB-DAQ User Manual",
     "description": "The label for category USB-DAQ User Manual in sidebar tutorialSidebar"

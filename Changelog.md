@@ -1,6 +1,16 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.26 Date: 2026/09/24, Developer: Hok
+---------------------------------------------------
+### Added
+- Added "Drone Parts" (無人機零組件) link to BentoGrid drone section on homepage.
+- Added "Drone Parts" (無人機零組件) and "Flight Controller" (飛行控制器) links to Sitemap page.
+- Added i18n translation keys for Drone Parts across BentoGrid and Sitemap (`zh-Hant` and `en`).
+
+### Changed
+- Replaced image assets for "Flight Controller" (飛行控制器) with properly formatted Docusaurus require imports according to image-path-skill guidelines.
+
 v0.0.25 Date: 2026/09/21, Developer: Hok
 ---------------------------------------------------
 ### Added

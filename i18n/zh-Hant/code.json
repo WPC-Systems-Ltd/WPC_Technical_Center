@@ -44,6 +44,15 @@
   "sitemap.category.drone.link.faq": {
     "message": "常見問題"
   },
+  "sitemap.category.drone.section.parts": {
+    "message": "零組件"
+  },
+  "sitemap.category.drone.link.drone_parts": {
+    "message": "無人機零組件"
+  },
+  "sitemap.category.drone.link.flight_controller": {
+    "message": "飛行控制器"
+  },
   "sitemap.category.ethan.description": {
     "message": "乙太網路資料擷取"
   },
@@ -394,6 +403,9 @@
   },
   "homepage.bento.drone.links.faq": {
     "message": "常見問題"
+  },
+  "homepage.bento.drone.links.drone-parts": {
+    "message": "無人機零組件"
   },
   "homepage.bento.daq.title": {
     "message": "資料擷取"
