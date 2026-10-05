@@ -20,7 +20,7 @@ slug: /drone-parts/flight-controller
 
 | 項目 | 規格與描述 |
 | :--- | :--- |
-| **FMU 處理器** | STM32H753（Arm® Cortex®-M7，480 MHz） |
+| **FMU 處理器** | STM32H753IIK（Arm® Cortex®-M7，480 MHz） |
 | **IO 處理器** | STM32F103（Arm® Cortex®-M3，72 MHz） |
 | **記憶體** | 2 MB 快閃記憶體（Flash）、1 MB RAM |
 | **感測器** | • Bosch BMI088 IMU 感測器（具減震隔離）<br />• TDK InvenSense ICM-42688-P IMU 感測器 ×2（其中 1 組具減震隔離）<br />• TDK ICP-20100 氣壓與溫度感測器 ×2（其中 1 組具減震隔離）<br />• PNI RM3100 地磁感測器（具減震隔離） |
@@ -65,7 +65,7 @@ slug: /drone-parts/flight-controller
 | **UART4** | 提供使用者客製化通訊擴充使用。 |
 | **TELEM1 / 2 / 3** | 連接數傳電台（Telemetry）或 MAVLink 設備。 |
 | **MicroSD CARD** | 插入 MicroSD 記憶卡以儲存飛行日誌與任務數據。 |
-| **A1–A8** | 可自訂為 PWM 或 GPIO。支援雙向 DShot（Bdshot），可用於連接相機快門/熱靴、伺服舵機等。 |
+| **A1–A8** | 可自訂為 PWM 或 GPIO。其中 A1–A6 支援 DShot 與雙向 DShot（Bi-Directional DShot），可用於連接相機快門/熱靴、伺服舵機等。 |
 | **M1–M8** | 來自 IO 協同處理器的 PWM 輸出，主要連接電子調速器（ESC）與伺服舵機。 |
 | **USB** | 連接電腦以進行通用控制器通訊（例如韌體燒錄、參數調校）。 |
 | **CAN1 / CAN2** | 連接 DroneCAN / UAVCAN 外部設備。 |
@@ -80,16 +80,17 @@ slug: /drone-parts/flight-controller
 
 ### 序列埠對應
 
-| 序列埠 | 系統裝置路徑 | 預設分配功能 |
-| :--- | :--- | :--- |
-| **USART1** | `/dev/ttyS0` | GPS |
-| **USART2** | `/dev/ttyS1` | TELEM3 |
-| **USART3** | `/dev/ttyS2` | 偵錯主控台（Debug Console） |
-| **UART4** | `/dev/ttyS3` | UART4（使用者自訂） |
-| **UART5** | `/dev/ttyS4` | TELEM2 |
-| **USART6** | `/dev/ttyS5` | PX4IO / RC |
-| **UART7** | `/dev/ttyS6` | TELEM1 |
-| **UART8** | `/dev/ttyS7` | GPS2 |
+| 序列埠標示 | ArduPilot 參數 | PX4 系統裝置路徑 | 預設分配功能 | 硬體規格特性 |
+| :--- | :--- | :--- | :--- | :--- |
+| **USART1** | `SERIAL3` | `/dev/ttyS0` | GPS1 | 支援 DMA |
+| **USART2** | `SERIAL5` | `/dev/ttyS1` | TELEM3 | 支援 CTS / RTS、DMA |
+| **USART3** | `SERIAL7` | `/dev/ttyS2` | 偵錯主控台 / FMU Debug | 無 DMA |
+| **UART4** | `SERIAL6` | `/dev/ttyS3` | UART4（使用者自訂） | 無 DMA |
+| **UART5** | `SERIAL2` | `/dev/ttyS4` | TELEM2 | 支援 CTS / RTS、DMA |
+| **USART6** | （無） | `/dev/ttyS5` | PX4IO / RC |  |
+| **UART7** | `SERIAL1` | `/dev/ttyS6` | TELEM1 | 支援 CTS / RTS、DMA |
+| **UART8** | `SERIAL4` | `/dev/ttyS7` | GPS2 | 支援 DMA |
+| **USB** | `SERIAL8` | `/dev/ttyACM0` | OTG2（USB） | 支援 DMA |
 
 ---
 
@@ -160,6 +161,7 @@ slug: /drone-parts/flight-controller
 * 將 GPS/RTK 模組連接至 **GPS & SAFETY** 或 **GPS2** 連接埠。
 * 主要 GPS 模組通常整合了 GPS 接收機、電子羅盤、安全開關、蜂鳴器與 RGB LED 狀態指示燈。
 * 安裝模組時，應盡可能遠離大電流電源線路與馬達，並確保模組的方向箭頭指向機頭前方。
+* 本飛控內部雖已內建 RM3100 地磁感測器，但因機身內部容易受到大電流動力線路干擾，建議於導航設定中優先以 GPS / 羅盤複合模組上的外部羅盤（透過 I2C 或 DroneCAN 連接）作為主要磁力羅盤。
 * 若使用 DroneCAN / UAVCAN GNSS 模組，可直接連接至 **CAN1** 或 **CAN2** 匯流排。
 
 <div style={{textAlign: 'center'}}>
@@ -168,7 +170,8 @@ slug: /drone-parts/flight-controller
 
 #### 數傳電台與無線電控制系統
 * **數傳電台（Telemetry）：** 將機載數傳端連接至 **TELEM1**、**TELEM2** 或 **TELEM3** 埠，以建立與地面控制站（GCS）的雙向資料傳輸。
-* **RC 接收機：** DSM 或 SBUS 接收機請連接至 **DSM/SBUS** 介面；若使用 PPM 接收機，請連接至 **PPM** 介面。
+* **單向 RC 接收機：** 支援 PPM、DSM、SBUS 等單向協定。DSM 或 SBUS 接收機請連接至 **DSM/SBUS** 介面（分別提供專用的 3.3 V 與 5 V 供電端子）；若使用 PPM 接收機，請連接至 **PPM** 介面。
+* **雙向 RC 協定（Bi-directional RC）：** 若使用 CRSF（Crossfire / ELRS）或 FPort 等需回傳雙向遙控遙測訊號之協定，請連接至具備 DMA 功能的任一通用 UART 連接埠之 TX 腳位，並於自動駕駛儀韌體中將該序列埠協定參數設定為 `SERIALx_PROTOCOL = 23`。
 
 <div style={{textAlign: 'center'}}>
   <img src={require('@site/static/img/drone-parts/radio.jpg').default} alt="radio" width="60%" />
@@ -176,8 +179,15 @@ slug: /drone-parts/flight-controller
 
 #### 電源模組（PMU）
 * 本飛控支援 CAN PMU 電源模組（支援 3S 至 14S 鋰電池）。包裝內未隨附 PMU，請搭配符合規範之 CAN PMU 模組使用，並將模組之 6-pin 接頭插入飛控的 **Power C1** 或 **Power C2** 介面。
-* 執行 ArduPilot 韌體時，DroneCAN PMU 具備隨插即用特性，無須額外設定；執行 PX4 時，請依 PX4 DroneCAN PMU 規範進行參數配置。
 * 本飛控亦支援類比與 I2C 電源模組，請由 **Power 1** 與 **Power 2** 連接埠輸入。
+* **ArduPilot DroneCAN 電池監控預設參數：**
+  若搭配 DroneCAN PMU 使用，ArduPilot 預設參數如下：
+  * `BATT_MONITOR = 8`（啟用 DroneCAN 電池監控）
+  * `CAN_P1_DRIVER = 1`
+  * `CAN_P2_DRIVER = 1`
+  * `CAN_D1_PROTOCOL = 1`
+  * `CAN_D2_PROTOCOL = 1`
+* 執行 PX4 時，請依 PX4 DroneCAN PMU 規範進行參數配置。
 
 <div style={{textAlign: 'center'}}>
   <img src={require('@site/static/img/drone-parts/power.jpg').default} alt="power" width="60%" />
@@ -197,6 +207,34 @@ slug: /drone-parts/flight-controller
   <img src={require('@site/static/img/drone-parts/motor.jpg').default} alt="motor" width="60%" />
 </div>
 
+#### PWM 輸出與定時器分組
+本飛控共提供 16 組 PWM 輸出，包含 M1–M8（IO 主 PWM）與 A1–A8（FMU PWM）：
+* 全部 16 組輸出皆支援標準 PWM 格式。
+* **DShot 支援限制**：僅 FMU PWM 之 **A1–A6** 支援 DShot 與雙向 DShot（Bi-Directional DShot）；A7 與 A8 僅支援標準 PWM。
+* **FMU 定時器分組（Timer Groups）**：A1–A8 依內部硬體定時器分為三組：
+  * **第一組（Group 1）**：A1、A2、A3、A4
+  * **第二組（Group 2）**：A5、A6
+  * **第三組（Group 3）**：A7、A8
+
+:::note 定時器分組限制
+同一定時器分組內的輸出通道必須設定為相同的訊號協定（例如同一組必須全為 DShot 或全為 PWM）與相同的更新頻率。
+:::
+
+#### GPIO 腳位對應
+全部 8 組 IO（M1–M8）與 8 組 FMU PWM（A1–A8）輸出皆可於自動駕駛儀中設定為 GPIO 功能（例如用於繼電器 Relay、外部按鍵 Button、馬達轉速計 RPM 等）。當伺服輸出功能設為 GPIO 時，對應的 Pin 腳位代號如下：
+
+| 介面標示 | GPIO Pin 編號 | 介面標示 | GPIO Pin 編號 |
+| :--- | :--- | :--- | :--- |
+| **M1** | 101 | **A1** | 50 |
+| **M2** | 102 | **A2** | 51 |
+| **M3** | 103 | **A3** | 52 |
+| **M4** | 104 | **A4** | 53 |
+| **M5** | 105 | **A5** | 54 |
+| **M6** | 106 | **A6** | 55 |
+| **M7** | 107 | **A7** | 56 |
+| **M8** | 108 | **A8** | 57 |
+| **FMU_CAP1** | 58 | **NFC_GPIO** | 60 |
+
 #### 伺服舵機排針供電說明
 :::caution 伺服舵機排針需外部供電
 本飛控內部電源穩壓器不對伺服舵機排針軌（M1–M8 與 A1–A8 之 `+` 電源腳位）供電。若欲驅動伺服舵機，必須額外連接外部 BEC（穩壓器）或專用電源至伺服排針的正負極端子進行供電。
@@ -208,7 +246,6 @@ slug: /drone-parts/flight-controller
 
 * **ArduPilot 官方資源：**
   * [首飛設定教學指南](https://ardupilot.org/copter/docs/flying-arducopter.html)
-  * [ArduPilot 飛控硬體參考頁面](https://ardupilot.org/copter/docs/common-acctongodwit-ga1.html)
 * **PX4 Autopilot 官方資源：**
   * [PX4 基本概念入門](https://docs.px4.io/main/en/getting_started/px4_basic_concepts)
   * [多旋翼組裝指引](https://docs.px4.io/main/en/frames_multicopter/)

@@ -20,7 +20,7 @@ The flight controller is a state-of-the-art universal flight controller develope
 
 | Item | Specification / Description |
 | :--- | :--- |
-| **FMU Processor** | STM32H753 (Arm® Cortex®-M7, 480 MHz) |
+| **FMU Processor** | STM32H753IIK (Arm® Cortex®-M7, 480 MHz) |
 | **IO Processor** | STM32F103 (Arm® Cortex®-M3, 72 MHz) |
 | **Memory** | 2 MB Flash memory, 1 MB RAM |
 | **Sensors** | • Bosch BMI088 IMU sensor (vibration isolated)<br />• TDK InvenSense ICM-42688-P IMU sensor ×2 (one vibration isolated)<br />• TDK ICP-20100 barometric pressure and temperature sensor ×2 (one vibration isolated)<br />• PNI RM3100 geomagnetic sensor (vibration isolated) |
@@ -64,7 +64,7 @@ The diagram below illustrates the flight controller and its peripheral connectio
 | **UART4** | Available for user customization. |
 | **TELEM1 / 2 / 3** | Connect to telemetry transceivers or MAVLink companion devices. |
 | **MicroSD CARD** | Insert a MicroSD card for flight logging and mission data storage. |
-| **A1–A8** | Configurable PWM / GPIO. Supports bidirectional DShot (Bdshot); connects camera shutter, hot shoe, servos, etc. |
+| **A1–A8** | Configurable PWM / GPIO. Outputs A1–A6 support DShot and bidirectional DShot (Bdshot); connects camera shutter, hot shoe, servos, etc. |
 | **M1–M8** | PWM outputs from the IO coprocessor. Connect to ESCs and servos. |
 | **USB** | Connect to a computer for universal controller communication (e.g., parameter tuning, firmware flashing). |
 | **CAN1 / CAN2** | Connect to DroneCAN / UAVCAN devices. |
@@ -79,16 +79,17 @@ The diagram below illustrates the flight controller and its peripheral connectio
 
 ### Serial Port Mapping
 
-| UART Port | Device Path | Default Assigned Function |
-| :--- | :--- | :--- |
-| **USART1** | `/dev/ttyS0` | GPS |
-| **USART2** | `/dev/ttyS1` | TELEM3 |
-| **USART3** | `/dev/ttyS2` | Debug Console |
-| **UART4** | `/dev/ttyS3` | UART4 |
-| **UART5** | `/dev/ttyS4` | TELEM2 |
-| **USART6** | `/dev/ttyS5` | PX4IO / RC |
-| **UART7** | `/dev/ttyS6` | TELEM1 |
-| **UART8** | `/dev/ttyS7` | GPS2 |
+| Port Name | ArduPilot Parameter | PX4 Device Path | Default Assigned Function | Hardware Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **USART1** | `SERIAL3` | `/dev/ttyS0` | GPS1 | DMA supported |
+| **USART2** | `SERIAL5` | `/dev/ttyS1` | TELEM3 | CTS / RTS, DMA supported |
+| **USART3** | `SERIAL7` | `/dev/ttyS2` | Debug Console / FMU Debug | No DMA |
+| **UART4** | `SERIAL6` | `/dev/ttyS3` | UART4 | No DMA |
+| **UART5** | `SERIAL2` | `/dev/ttyS4` | TELEM2 | CTS / RTS, DMA supported |
+| **USART6** | (N/A) | `/dev/ttyS5` | PX4IO / RC |  |
+| **UART7** | `SERIAL1` | `/dev/ttyS6` | TELEM1 | CTS / RTS, DMA supported |
+| **UART8** | `SERIAL4` | `/dev/ttyS7` | GPS2 | DMA supported |
+| **USB** | `SERIAL8` | `/dev/ttyACM0` | OTG2 (USB) | DMA supported |
 
 ---
 
@@ -159,6 +160,7 @@ Loading firmware through **Mission Planner** is recommended:
 * Connect your GPS/RTK module to the **GPS & SAFETY** or **GPS2** port.
 * The primary GPS module typically includes an internal compass, safety switch, buzzer, and RGB LED indicator.
 * Ensure the module is mounted away from high-current power lines and motors, with the arrow pointing toward the vehicle front.
+* Although the flight controller features an integrated RM3100 geomagnetic sensor, internal high-current power distribution can cause electromagnetic interference. It is recommended to use the external compass on the GPS module (connected via I2C or DroneCAN) as the primary navigation compass.
 * DroneCAN / UAVCAN GNSS modules can be connected to the **CAN1** or **CAN2** bus.
 
 <div style={{textAlign: 'center'}}>
@@ -167,7 +169,8 @@ Loading firmware through **Mission Planner** is recommended:
 
 #### Radio Control & Telemetry System
 * **Telemetry:** Connect the air telemetry transceiver to **TELEM1**, **TELEM2**, or **TELEM3** to establish ground control station (GCS) communication.
-* **RC Receiver:** Connect DSM/SBUS satellite receivers to the **DSM/SBUS** interface. If using a PPM receiver, connect it to the **PPM** interface.
+* **Unidirectional RC Receivers:** Supported protocols include PPM, DSM, and SBUS. Connect DSM or SBUS receivers to the **DSM/SBUS** interface (dedicated 3.3 V and 5 V power pins are provided respectively). If using a PPM receiver, connect it to the **PPM** interface.
+* **Bi-directional RC Protocols:** If using bidirectional telemetry protocols such as CRSF (Crossfire / ELRS) or FPort, connect to the TX pin of any DMA-capable UART port and set the parameter `SERIALx_PROTOCOL = 23` in the autopilot firmware.
 
 <div style={{textAlign: 'center'}}>
   <img src={require('@site/static/img/drone-parts/radio.jpg').default} alt="radio" width="60%" />
@@ -175,8 +178,15 @@ Loading firmware through **Mission Planner** is recommended:
 
 #### Power Module (PMU)
 * Connect a compatible CAN PMU module (supporting 3S–14S LiPo batteries) to **Power C1** or **Power C2** via the 6-pin connector.
-* Under ArduPilot, the DroneCAN PMU is plug-and-play. Under PX4, configure the DroneCAN PMU driver as required.
 * Analog and I2C power modules are also supported via the **Power 1** and **Power 2** ports.
+* **ArduPilot DroneCAN Battery Monitor Parameters:**
+  When using a DroneCAN PMU, the default ArduPilot parameter settings are:
+  * `BATT_MONITOR = 8` (DroneCAN battery monitor)
+  * `CAN_P1_DRIVER = 1`
+  * `CAN_P2_DRIVER = 1`
+  * `CAN_D1_PROTOCOL = 1`
+  * `CAN_D2_PROTOCOL = 1`
+* Under PX4, configure the DroneCAN PMU driver as required.
 
 <div style={{textAlign: 'center'}}>
   <img src={require('@site/static/img/drone-parts/power.jpg').default} alt="power" width="60%" />
@@ -196,6 +206,34 @@ Loading firmware through **Mission Planner** is recommended:
   <img src={require('@site/static/img/drone-parts/motor.jpg').default} alt="motor" width="60%" />
 </div>
 
+#### PWM Output & Timer Groups
+The flight controller provides 16 PWM outputs in total, including M1–M8 (IO Main PWM) and A1–A8 (FMU PWM):
+* All 16 outputs support standard PWM signals.
+* **DShot Support Limitations**: Only FMU PWM **A1–A6** support DShot and bidirectional DShot (Bi-Directional DShot). A7 and A8 support standard PWM only.
+* **FMU Timer Groups**: A1–A8 are organized into three hardware timer groups:
+  * **Group 1**: A1, A2, A3, A4
+  * **Group 2**: A5, A6
+  * **Group 3**: A7, A8
+
+:::note Timer Group Restriction
+Outputs within the same timer group must share the same output protocol (e.g., all DShot or all PWM) and the same refresh frequency.
+:::
+
+#### GPIO Pin Mapping
+All 8 IO outputs (M1–M8) and 8 FMU PWM outputs (A1–A8) can be configured as GPIOs in the autopilot (e.g., for relays, buttons, or RPM sensors). When configuring servo outputs as GPIO, use the following pin numbers:
+
+| Interface | GPIO Pin # | Interface | GPIO Pin # |
+| :--- | :--- | :--- | :--- |
+| **M1** | 101 | **A1** | 50 |
+| **M2** | 102 | **A2** | 51 |
+| **M3** | 103 | **A3** | 52 |
+| **M4** | 104 | **A4** | 53 |
+| **M5** | 105 | **A5** | 54 |
+| **M6** | 106 | **A6** | 55 |
+| **M7** | 107 | **A7** | 56 |
+| **M8** | 108 | **A8** | 57 |
+| **FMU_CAP1** | 58 | **NFC_GPIO** | 60 |
+
 #### Servo Rail Power Supply
 :::caution External Power Required for Servos
 The flight controller internal regulator does not supply power to the servo rail (`+` pins on M1–M8 and A1–A8). An external BEC or dedicated power supply must be connected to the positive and negative rails of the servo headers to power any servos.
@@ -207,7 +245,6 @@ The flight controller internal regulator does not supply power to the servo rail
 
 * **ArduPilot Documentation:**
   * [First Time Setup Guide](https://ardupilot.org/copter/docs/flying-arducopter.html)
-  * [ArduPilot Flight Controller Hardware Page](https://ardupilot.org/copter/docs/common-acctongodwit-ga1.html)
 * **PX4 Autopilot Documentation:**
   * [PX4 Basic Concepts](https://docs.px4.io/main/en/getting_started/px4_basic_concepts)
   * [PX4 Multicopter Assembly](https://docs.px4.io/main/en/frames_multicopter/)

@@ -1,6 +1,21 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.27 Date: 2026/10/05, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated "Flight Controller" (飛行控制器) documentation:
+  - Specified FMU processor exact model as STM32H753IIK.
+  - Clarified DShot and Bi-Directional DShot support scope (supported on A1–A6; A7–A8 support standard PWM only).
+  - Expanded serial port mapping table with ArduPilot parameter mappings, PX4 device paths, and DMA/CTS/RTS hardware characteristics.
+  - Added navigation recommendation regarding external compass priority over internal RM3100 to avoid high-current interference.
+  - Added wiring and parameter setup guidelines for bidirectional RC receiver protocols (CRSF / ELRS, FPort via `SERIALx_PROTOCOL = 23`).
+  - Added default ArduPilot DroneCAN battery monitor parameters for CAN PMU configuration.
+  - Added "PWM Output & Timer Groups" section detailing hardware timer groupings (Groups 1–3) and protocol consistency constraints.
+  - Added "GPIO Pin Mapping" reference table for all 16 IO/FMU servo outputs (M1–M8, A1–A8, FMU_CAP1, NFC_GPIO).
+  - Synchronized all updates across Traditional Chinese and English documentation (`docs/` and `i18n/`).
+
+
 v0.0.26 Date: 2026/09/24, Developer: Hok
 ---------------------------------------------------
 ### Added
