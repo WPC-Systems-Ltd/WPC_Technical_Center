@@ -11,7 +11,7 @@ keywords: [產品介紹, WPC無人機, 飛控電腦, 無人機教學, MIT無人�
 採用自研高效飛控演算法，反應時間快達 2.5 ms，具備卓越的抗風性能，即使在 7 級陣風下仍能維持穩定飛行。透過高速姿態與航向參考系統（AHRS），整體控制更快速、抗震性佳，確保飛行任務的高穩定性與高可靠度。
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/drone/drone.webp" alt="drone" width="60%" />
+  <img src={require('@site/static/img/drone/drone.webp').default} alt="drone" width="60%" />
 </div>
 
 ## 核心技術特色
@@ -43,3 +43,10 @@ WPC Systems 不僅提供硬體平台，更致力於成為您最強大的技術�
 - **擁有詳細的操作手冊與技術文件**
     - 提供完整且架構清晰的繁體中文操作手冊與開發文件。
     - 包含從開箱、飛行操作到 API 開發的完整範例代碼，大幅降低學習門檻。
+
+## WPC Drone 無 GPS 懸停
+
+<div style={{textAlign: 'center'}}>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/P-1ZA8LPxlk" title="WPC Drone 無 GPS 懸停" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+

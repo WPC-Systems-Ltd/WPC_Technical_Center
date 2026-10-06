@@ -1,6 +1,16 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.28 Date: 2026/10/06, Developer: Hok
+---------------------------------------------------
+### Added
+- Added demonstration video section to the bottom of the Drone Introduction page:
+  - Traditional Chinese (`docs/Drone/intro.md`): "WPC Drone 無 GPS 懸停"
+  - English (`i18n/en/docusaurus-plugin-content-docs/current/Drone/intro.md`): "WPC Drone hovering without GPS"
+
+### Changed
+- Standardized image require syntax in `docs/Drone/intro.md` to adhere to Docusaurus image path guidelines.
+
 v0.0.27 Date: 2026/10/05, Developer: Hok
 ---------------------------------------------------
 ### Changed

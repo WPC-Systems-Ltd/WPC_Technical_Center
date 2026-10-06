@@ -43,3 +43,10 @@ WPC Systems provides more than just a hardware platform; we are committed to bei
 - **Detailed Operation Manuals and Technical Documentation**
     - Complete and clearly structured Traditional Chinese operation manuals and development documents.
     - Includes full example codes from unboxing and flight operation to API development, significantly lowering the learning curve.
+
+## WPC Drone hovering without GPS
+
+<div style={{textAlign: 'center'}}>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/P-1ZA8LPxlk" title="WPC Drone hovering without GPS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
