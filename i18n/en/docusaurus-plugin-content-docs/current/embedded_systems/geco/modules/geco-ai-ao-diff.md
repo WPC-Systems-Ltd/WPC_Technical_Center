@@ -33,9 +33,9 @@ This module provides 24-channel analog input and 8-channel analog output functio
 ## 2. Appearance and Pinout
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO.webp').default} alt="24ch AIO Module" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO_Gen3.webp').default} alt="24ch AIO Module" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO_pinout.webp').default} alt="24ch AIO Pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO_Gen3_pinout.webp').default} alt="24ch AIO Pinout" width="60%" />
 </div>
