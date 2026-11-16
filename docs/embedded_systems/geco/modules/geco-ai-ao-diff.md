@@ -33,9 +33,9 @@ keywords: [WPC, 技術文件, 規格說明]
 ## 2. 外觀與腳位圖
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_AIO.webp" alt="geco_module_24ch_AIO" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO_Gen3.webp').default} alt="geco_module_24ch_AIO" width="60%" />
 </div>
 
 <div style={{textAlign: 'center'}}>
-  <img src="/WPC_Technical_Center/img/embedded-system/geco/geco_module_24ch_AIO_pinout.webp" alt="geco_module_24ch_AIO_pinout" width="60%" />
+  <img src={require('@site/static/img/embedded-system/geco/geco_module_24ch_AIO_Gen3_pinout.webp').default} alt="geco_module_24ch_AIO_pinout" width="60%" />
 </div>

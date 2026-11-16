@@ -1,6 +1,13 @@
 WPC Technical Center Changelog
 ==================================
 
+v0.0.29 Date: 2026/11/16, Developer: Hok
+---------------------------------------------------
+### Changed
+- Updated GECO 24ch AI / 8ch AO (Differential) module documentation with Gen3 hardware images:
+  - Replaced module appearance and pinout images with high-resolution Gen3 assets (`geco_module_24ch_AIO_Gen3.webp` and `geco_module_24ch_AIO_Gen3_pinout.webp`).
+  - Standardized image imports using JSX dynamic `require` syntax across Traditional Chinese (`docs/embedded_systems/geco/modules/geco-ai-ao-diff.md`) and English (`i18n/en/docusaurus-plugin-content-docs/current/embedded_systems/geco/modules/geco-ai-ao-diff.md`) documentation in accordance with Docusaurus image path guidelines.
+
 v0.0.28 Date: 2026/10/06, Developer: Hok
 ---------------------------------------------------
 ### Added
